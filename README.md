@@ -213,15 +213,31 @@ Update `progress_tracker.md` weekly:
 
 ## ✅ First Steps Checklist
 
-- [x] Read this README completely
-- [x] Open `fnb-domain/START_HERE.md`
-- [x] Read `fnb-domain/fb_business_processes.md` (at least skim)
-- [ ] Choose your primary path (Spreadsheet or Traditional)
-- [ ] Open that path's `START_HERE.md`
-- [ ] Read `setup_guide.md` and install necessary software
+**Initial Orientation** (Day 1):
+- [ ] Read this README completely
+- [ ] Understand the 4 learning paths (F&B → Spreadsheet → Traditional → Web Dev)
+- [ ] Read `setup_guide.md` for environment setup
 - [ ] Skim `ai-guided-learning_guide.md` to understand AI assistance
-- [ ] Complete Module 1.1 of your chosen curriculum
-- [ ] Build your first tiny project!
+
+**Start Path 1: F&B Domain** (Week 1-6):
+- [ ] Open `fnb-domain/start_here.md` 
+- [ ] Read `fnb-domain/fb_mastery_curriculum.md` (understand the 5-phase structure)
+- [ ] **Phase 1**: Read Indonesia F&B guide + visit 3 real F&B businesses
+- [ ] **Phase 2**: Map data flows, interview F&B worker
+- [ ] **Phase 3**: Practice calculations, build spreadsheet models
+- [ ] **Phase 4**: Compare regional guides, identify patterns
+- [ ] **Phase 5**: Complete capstone BI project (dashboard/tool/planner)
+
+**Continue to Path 2: Spreadsheet or Traditional BI** (After completing F&B):
+- [ ] Choose your BI path (Spreadsheet recommended for beginners)
+- [ ] Open that path's `start_here.md`
+- [ ] Begin Module 1.1 of chosen curriculum
+- [ ] Apply F&B domain knowledge to build relevant dashboards
+
+**Advanced** (Optional):
+- [ ] Complete Traditional BI path (if started with Spreadsheet)
+- [ ] Learn Web Development path (build custom BI web apps)
+- [ ] Build portfolio of F&B BI projects across all paths
 
 ---
 
