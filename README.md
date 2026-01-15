@@ -9,10 +9,11 @@ Follow this progression for optimal learning:
 **1. F&B Domain** → **2. Spreadsheet BI** → **3. Traditional BI** → **4. Web Development**
 
 ### Path 1: F&B Business Domain (`fnb-domain/`)
-**START HERE** - Understand Food & Beverage operations before building BI solutions.
-- Learn F&B business processes, workflows, and data touchpoints
-- Understand industry-specific KPIs and challenges
-- Essential foundation for building relevant dashboards
+**START HERE** - Master Food & Beverage operations with comprehensive guides.
+- **🇮🇩 Indonesia F&B 101**: Complete guide (1,953 lines) covering traditional to modern F&B
+- **🌍 24 Regional Guides**: USA (7), Japan (4), Korea (4), Europe (4), SEA (5)
+- **📚 Mastery Curriculum**: Structured 5-phase learning path (40-60 hours)
+- Essential foundation for building relevant, contextualized BI solutions
 
 ### Path 2: Spreadsheet BI (`spreadsheet-path/`)
 Learn BI using Excel & Google Sheets - accessible, powerful, and practical.
@@ -38,29 +39,40 @@ Build custom web applications for BI dashboards.
 
 ```
 /home/adeandza/Desktop/anything-goes/
-├── fnb-domain/                   # 1️⃣ F&B business knowledge (START HERE)
-│   ├── fb_business_processes.md  # Complete F&B operations guide
-│   ├── datasets/                 # Sample F&B data
-│   └── START_HERE.md             # Quick start for this path
+├── fnb-domain/                           # 1️⃣ F&B business knowledge (START HERE)
+│   ├── fb_business_processes_indonesia.md # 🇮🇩 Complete Indonesia F&B guide (1,953 lines!)
+│   ├── fb_mastery_curriculum.md          # 📚 5-phase curriculum (40-60 hours)
+│   ├── start_here.md                     # Quick start guide
+│   ├── resources/
+│   │   └── regional_guides/              # 24 regional F&B guides (15k+ lines!)
+│   │       ├── USA: NYC, LA, SF, Chicago, New Orleans, Miami, Austin
+│   │       ├── Japan: National, Tokyo, Osaka, Kyoto
+│   │       ├── South Korea: National, Seoul, Busan, Jeju
+│   │       ├── Europe: France, Italy, Spain, UK
+│   │       └── SEA: Thailand, Singapore, Malaysia, Vietnam, Philippines
+│   ├── archive/                          # Archived broad overview guides
+│   ├── datasets/                         # Sample F&B data for practice
+│   ├── projects/                         # Your F&B BI projects
+│   └── notes/                            # Industry research notes
 │
-├── spreadsheet-path/             # 2️⃣ Spreadsheet BI curriculum
-│   ├── spreadsheet_bi_curriculum.md  # Full curriculum
-│   ├── resources/                # Formula references, templates
-│   └── START_HERE.md             # Quick start guide
+├── spreadsheet-path/                     # 2️⃣ Spreadsheet BI curriculum
+│   ├── spreadsheet_bi_curriculum.md      # Full curriculum
+│   ├── resources/                        # Formula references, templates
+│   └── start_here.md                     # Quick start guide
 │
-├── traditional-path/             # 3️⃣ Traditional BI (SQL, Python, BI tools)
-│   ├── bi_curriculum.md          # Full curriculum
-│   └── START_HERE.md             # Quick start guide
+├── traditional-path/                     # 3️⃣ Traditional BI (SQL, Python, BI tools)
+│   ├── bi_curriculum.md                  # Full curriculum
+│   └── start_here.md                     # Quick start guide
 │
-├── webdev-path/                  # 4️⃣ Web development for custom BI apps
-│   ├── WEB_DEV_CURRICULUM.md     # Full curriculum
-│   ├── projects/                 # Practice projects
-│   └── README.md                 # Path overview
+├── webdev-path/                          # 4️⃣ Web development for custom BI apps
+│   ├── webdev_curriculum.md              # Full curriculum
+│   ├── projects/                         # Practice projects
+│   └── start_here.md                     # Path overview
 │
-├── ai-guided-learning_guide.md   # 🤖 AI learning strategies (1,264 lines!)
-├── progress_tracker.md           # Track your learning journey
-├── setup_guide.md                # Installation and setup instructions
-└── README.md                     # This file
+├── ai-guided-learning_guide.md           # 🤖 AI learning strategies (1,264 lines!)
+├── progress_tracker.md                   # Track your learning journey
+├── setup_guide.md                        # Installation and setup instructions
+└── README.md                             # This file
 ```
 
 ---
@@ -71,8 +83,9 @@ Build custom web applications for BI dashboards.
 
 1. **Start with F&B Domain Knowledge**
    ```bash
-   Open: fnb-domain/START_HERE.md
-   Read: fnb-domain/fb_business_processes.md
+   Open: fnb-domain/start_here.md
+   Then: fnb-domain/fb_business_processes_indonesia.md (Indonesia F&B 101)
+   Curriculum: fnb-domain/fb_mastery_curriculum.md (structured 5-phase path)
    ```
 
 2. **Choose Your BI Path**
@@ -202,7 +215,7 @@ Update `progress_tracker.md` weekly:
 
 - [x] Read this README completely
 - [x] Open `fnb-domain/START_HERE.md`
-- [ ] Read `fnb-domain/fb_business_processes.md` (at least skim)
+- [x] Read `fnb-domain/fb_business_processes.md` (at least skim)
 - [ ] Choose your primary path (Spreadsheet or Traditional)
 - [ ] Open that path's `START_HERE.md`
 - [ ] Read `setup_guide.md` and install necessary software

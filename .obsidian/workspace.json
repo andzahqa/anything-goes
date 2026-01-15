@@ -186,8 +186,11 @@
   },
   "active": "64cbd4e4c12d16e6",
   "lastOpenFiles": [
-    "fnb-domain/fb_business_processes.md",
+    "fnb-domain/fb_mastery_curriculum.md.bak",
+    "fnb-domain/fb_mastery_curriculum.md",
+    "fnb-domain/mastery_curriculum.md",
     "fnb-domain/archive/fb_business_processes.md",
+    "fnb-domain/fb_business_processes.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_vietnam.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_usa_sf.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_usa_nyc.md",
@@ -209,9 +212,6 @@
     "fnb-domain/resources/regional_guides/fb_business_processes_japan_tokyo.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_japan_osaka.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_japan.md",
-    "fnb-domain/resources/regional_guides/fb_business_processes_japan_kyoto.md",
-    "fnb-domain/resources/regional_guides/fb_business_processes_italy.md",
-    "fnb-domain/resources/regional_guides/fb_business_processes_france.md",
     "fnb-domain/resources/regional_guides",
     "fnb-domain/archive",
     "webdev-path/datasets"
