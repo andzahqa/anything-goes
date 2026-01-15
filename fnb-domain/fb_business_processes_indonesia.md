@@ -22,12 +22,16 @@
    - Warung, Warteg, Nasi Padang, Kaki Lima, Angkringan
 3. [Modern & International Models](#modern--international-fb-models-in-indonesia)
    - QSR Chains, Coffee Shops, Food Courts, Fine Dining, Bakeries, Bubble Tea, Cloud Kitchens
-4. [Operations & Workflows](#operations--workflows)
-5. [Halal Requirements](#halal-requirements)
-6. [Regional Variations](#regional-variations)
-7. [Technology & Payments](#technology--payments)
-8. [Financial Metrics](#financial-metrics)
-9. [Challenges & BI Solutions](#challenges--bi-solutions)
+4. [FOH & BOH Operations](#front-of-house-foh--back-of-house-boh-operations)
+5. [Supply Chain & Inventory](#supply-chain--inventory-management)
+6. [Customer Journey & Experience](#customer-journey--experience)
+7. [Staff Management](#staff-management-indonesian-labor-market)
+8. [Technology Systems](#technology-systems-indonesian-fb)
+9. [Halal Requirements](#halal-requirements)
+10. [Regional Variations](#regional-variations)
+11. [Payments & Digital Platforms](#technology--payments)
+12. [Financial Metrics](#financial-metrics)
+13. [Challenges & BI Solutions](#challenges--bi-solutions)
 
 ---
 
@@ -424,6 +428,545 @@ For ~100-150 customers
 - Credit (settle weekly/monthly)
 - Reserved fresh items
 - WhatsApp pre-orders
+
+---
+
+## Front of House (FOH) & Back of House (BOH) Operations
+
+### Indonesian FOH Roles & Workflows
+
+**Warung/Traditional FOH** (Minimal, family-run):
+```
+Roles:
+1. Owner - Takes orders, serves, cashier (everything!)
+2. Owner's wife/husband - Cooking + serving
+3. Helper (if busy) - Rp 2.5M-3.5M/month
+   - Wash dishes
+   - Serve water
+   - Clear tables
+
+Service Flow (Warung):
+1. Customer enters, sits anywhere
+2. Owner comes with menu (or customer knows already!)
+3. Order placed verbally
+4. Owner writes on paper scrap (not POS!)
+5. Owner shouts order to kitchen (wife/husband)
+6. 
+
+Food served 5-10 min later
+7. Customer asks for bill (verbal total!)
+8. Cash payment (rarely digital for cheap warungs)
+9. Customer leaves, owner clears table
+
+Data Generated: Mental notes! (no system)
+```
+
+**Modern Restaurant FOH** (KFC, Solaria, etc.):
+```
+Roles:
+1. Cashier (Kasir) - Rp 3.5M-4.5M/month
+   - Take orders at counter
+   - POS system
+   - Upsell (combo, drinks)
+   - Process payment
+
+2. Server (Waitress/Waiter) - Rp 3M-4M/month
+   - Table service
+   - Deliver food
+   - Clear tables
+   - Handle complaints
+
+3. Floor Manager - Rp 5M-7M/month
+   - Supervise staff
+   - Handle escalations
+   - Monitor service quality
+
+Service Flow (Mall Restaurant):
+1. Greeter seats customer (if table service)
+2. Server greets, gives menu
+3. Order taken (written on order pad or tablet)
+4. Order sent to kitchen (POS or kitchen display)
+5. Food prepared (15-25 min)
+6. Server delivers food
+7. Check-back during meal
+8. Bill requested, processed
+9. Payment (cash, GoPay, OVO, credit card)
+10. Table cleared, reset
+
+Data Generated:
+- Server sales performance
+- Table turnover time
+- Payment method split
+- Upsell success rate
+```
+
+---
+
+### Indonesian BOH (Back of House) Workflows
+
+**Warung Kitchen** (Simple, Manual):
+```
+Equipment:
+- 2-4 burner gas stove
+- Wok (wajan)
+- Rice cooker (huge!)
+- Display case (warm food)
+- Refrigerator (small)
+- Prep tables
+
+Workflow:
+4am: Buy ingredients at pasar
+6am: Prep vegetables, meat
+7am: Cook first batch (nasi goreng, soto)
+9am: Display food in case (warm holding)
+11am: Lunch rush cooking (replenish)
+2pm: Slow period, prep for dinner
+5pm: Dinner service
+8pm: Clean kitchen, store leftovers
+
+Staff: Owner + spouse (2 people total!)
+```
+
+**Modern Restaurant Kitchen**:
+```
+Stations:
+1. Prep Station (Station Persiapan)
+   - Dice vegetables
+   - Marinate meat
+   - Prep sauces
+
+2. Hot Line (Station Masak)
+   - Wok station (Chinese, Indonesian)
+   - Grill station (Japanese, Western)
+   - Fryer station (fried chicken, gorengan)
+
+3. Pantry/Cold (Station Dingin)
+   - Salads
+   - Desserts
+   - Drinks
+
+4. Expo (Expedite)
+   - Quality check
+   - Plate presentation
+   - Coordinate delivery to FOH
+
+Kitchen Staff:
+- Head Chef (Kepala Koki): Rp 7M-12M/month
+- Line Cooks (Juru Masak): Rp 4M-6M/month each
+- Prep Cook (Per siapan): Rp 3.5M-5M/month
+- Dishwasher (Cuci Piring): Rp 3M-3.8M/month
+
+Workflow:
+- Morning prep (7am-11am)
+- Lunch service (11am-2pm) - rush!
+- Afternoon prep/rest (2pm-5pm)
+- Dinner service (5pm-9pm)
+- Cleanup (9pm-10pm)
+```
+
+---
+
+## Supply Chain & Inventory Management
+
+### Indonesian Supply Chain Models
+
+**Traditional Warung**:
+```
+Daily Sourcing (Pasar Tradisional):
+
+Morning routine:
+1. Wake 4am
+2. Go to pasar 4:30am
+3. Shop 5am-6:30am
+4. Return with ingredients
+5. Cook same day (ultra-fresh!)
+
+Advantages:
+- Freshest ingredients daily
+- No inventory waste (cook what you buy)
+- Cash flow simple (buy today, sell today)
+- Flexibility (adjust menu based on price/availability)
+
+Disadvantages:
+- No bulk discounts
+- Price volatility (pasar prices change daily!)
+- Labor intensive (daily market trips)
+- Weather dependent (rain = higher prices)
+
+Inventory: Minimal!
+- Rice: 3-4 days supply (25kg sack)
+- Oil, salt, spices: Weekly purchase
+- Fresh food: Zero inventory (daily purchase)
+```
+
+**Modern Chain Restaurant**:
+```
+Centralized Sourcing:
+
+Supply Chain:
+1. Central Warehouse (Jakarta, Surabaya)
+2. Bulk purchasing from suppliers
+3. Daily/weekly delivery to outlets
+4. Standardized portions
+
+Example (Solaria):
+- Supplier contracts (chicken, vegetables)
+- Predictable pricing (less volatility)
+- Quality control at warehouse
+- Distribution trucks to 150+ outlets
+
+Inventory Management:
+- 3-7 days stock on-site
+- PAR levels (minimum inventory)
+- Automated reorder (POS integrated)
+- FIFO (First In First Out)
+
+Cost Savings:
+- Bulk discount: 15-25% vs pasar
+- Labor savings: No daily market trips
+- Waste reduction: Better forecasting
+- Standardization: Consistent quality
+
+Trade-off:
+- Less fresh (2-5 days old vs same-day)
+- Acceptable for chain (customers expect consistency, not ultra-fresh)
+```
+
+---
+
+### Inventory Challenges (Indonesia-Specific)
+
+**1. Pasar Price Volatility**:
+```
+Example - Chicken prices:
+Mon: Rp 36,000/kg
+Tue: Rp 42,000/kg (+17%!)
+Wed: Rp 38,000/kg
+
+Why:
+- Weather (rain = supply chain disruption)
+- Religion (Friday prayer day, less supply)
+- Seasonality (Ramadan = spike)
+
+Warung Response:
+- Adjust menu prices daily (flexible!)
+- OR: Accept lower margin
+- OR: Substitute (use tempe instead of chicken)
+
+Chain Response:
+- Supplier contracts (lock in price)
+- Absorb volatility (stable menu prices)
+```
+
+**2. Ramadan Inventory Surge**:
+```
+Normal Month: Rp 350k ingredients/day
+Ramadan: Rp 550k ingredients/day (+57%!)
+
+Buka Puasa Rush (6pm):
+- Need 2× normal stock
+- Risk: If under-order = sold out (lost revenue!)
+- Risk: If over-order = waste (food can't hold overnight)
+
+Smart Planning:
+- Historical data (last year's Ramadan)
+- Daily adjustments (Day 1 sold out? Order more Day 2)
+```
+
+---
+
+## Customer Journey & Experience
+
+### Indonesian Customer Expectations (By Segment)
+
+**Warung Customers**:
+```
+Expectations:
+- Fast service (5-10 min meal)
+- Cheap prices (Rp 15k-25k)
+- Generous portions
+- Sambal availability!
+- Friendly owner (personal touch)
+
+Experience:
+1. Walk in (no reservation)
+2. Sit anywhere
+3. Order familiar dishes (nasi goreng, soto)
+4. Food arrives quickly
+5. Eat, pay, leave
+6. Total time: 20-30 minutes
+
+Loyalty Drivers:
+- Taste consistency
+- Owner remembers you
+- Convenient location (near work/home)
+- Price stability
+```
+
+**Mall Restaurant Customers**:
+```
+Expectations:
+- AC (cool escape from heat!)
+- Clean (no flies!)
+- Modern ambiance
+- Instagrammable (photo-worthy)
+- Payment options (GoPay, OVO)
+
+Experience:
+1. Enter mall (social outing)
+2. Browse food court (30+ options)
+3. Choose restaurant
+4. Order at counter or table
+5. Food arrives 15-25 min
+6. Eat leisurely (mall = hangout spot)
+7. Maybe shop after
+8. Total time: 60-90 minutes
+
+Loyalty Drivers:
+- Brand recognition
+- Consistent quality
+- Promotions (GoFood discounts)
+- Ambiance (good for dates, family)
+```
+
+---
+
+### Customer Service (Indonesian Context)
+
+**Service Expectations**:
+```
+Formal vs Casual:
+
+Warung: Very casual
+- No "Selamat datang" (welcome) needed
+- Owner talks while serving (personal!)
+- Okay to share tables if crowded
+- Very forgiving (mistakes forgiven easily)
+
+Fine Dining: Formal (Western-style)
+- "Selamat malam, silakan duduk" (greeting)
+- Napkin on lap
+- Server attentive but not intrusive
+- Complaints handled immediately
+
+Cultural Notes:
+- Indonesians avoid confrontation
+- Won't complain directly (just won't return!)
+- Good service = quiet, efficient, respectful
+- Over-friendly can be seen as pushy (vs USA where it's encouraged)
+```
+
+---
+
+## Staff Management (Indonesian Labor Market)
+
+### Hiring & Training
+
+**Labor Market Reality**:
+```
+Challenges:
+- High turnover (30-40% annually!)
+- Young workforce (18-25 years, first job)
+- Limited formal training (learn on job)
+- Low English proficiency (outside Jakarta)
+
+Typical Background:
+- High school graduate (SMA)
+- Village to city migration (cari kerja = find work)
+- Lives in kost (boarding house, Rp 800k-1.5M/month)
+- Sends money home to family (remittances)
+
+Warung Hiring:
+- Family first! (nephew, cousin)
+- Word of mouth (neighbor's daughter)
+- No formal interview
+- Trial period (1-2 weeks, see if fits)
+- Pay: Rp 2.5M-3.5M + meals
+
+Modern Restaurant Hiring:
+- Job posting (online, walk-in)
+- Interview (basic)
+- Training period (1-2 weeks)
+- Uniform provided
+- Pay: Rp 3.5M-5M + BPJS (health insurance)
+```
+
+---
+
+### Labor Costs & Regulations
+
+**Minimum Wage** (UMR - Upah Minimum Regional):
+```
+Jakarta (2026): Rp 5,067,381/month
+Surabaya: Rp 4,783,000/month
+Bandung: Rp 3,925,000/month
+Yogyakarta: Rp 2,153,970/month (cheapest!)
+
+Actual F&B Wages:
+- Entry-level: Rp 3M-4M (below UMR often!)
+- Mid-level: Rp 4.5M-6M
+- Manager: Rp 7M-12M
+- Chef: Rp 8M-15M
+
+Reality:
+- Many warungs pay below minimum (informal economy)
+- Chains comply (avoid legal trouble)
+- Trade-off: Lower wage but free meals worth Rp 600k-900k/month!
+```
+
+**BPJS (National Health Insurance)**:
+```
+Mandatory: Employers must provide
+Cost: ~4% of salary (employer share)
+
+Example:
+Employee: Rp 4M salary
+BPJS: Rp 160k/month (employer)
+Total cost: Rp 4.16M
+
+Warung Reality:
+- Often don't provide (informal)
+- Employee must buy own (Rp 42k-100k/month individual)
+
+Chain Compliance:
+- Must provide or face fines
+- Adds 4-5% to labor costs
+```
+
+---
+
+### Staff Retention Challenges
+
+**High Turnover (30-40% annually)**:
+```
+Why Staff Leave:
+1. Better pay elsewhere (+Rp 500k = reason to switch!)
+2. Marriage (women often stop working)
+3. Return to village (family obligations)
+4. Better opportunities (office job > F&B)
+5. Burnout (long hours, weekend work)
+
+Retention Tactics:
+- Meal benefits (huge savings for workers)
+- Bonus system (Ramadan bonus = 1 month salary)
+- Fair scheduling (predictable hours)
+- Promotion path (server → shift leader → manager)
+- Family atmosphere (staff = keluarga)
+
+Cost of Turnover:
+- Recruiting: Rp 500k-1M
+- Training: 2 weeks lost productivity
+- Mistakes during learning: Rp 1M-2M revenue impact
+- Total: Rp 3M-5M per replacement!
+```
+
+---
+
+## Technology Systems (Indonesian F&B)
+
+### Point of Sale (POS) Systems
+
+**Warung - No Tech**:
+```
+System: Paper + Memory!
+- Orders: Written on scrap paper
+- Inventory: Mental tracking
+- Payment: Cash only, manual count
+- Reports: Owner's notebook
+
+Cost: Rp 0 (just paper!)
+
+Works because:
+- Simple menu (10-15 items)
+- Owner knows regular customers
+- Low complexity
+- Cash-based
+```
+
+**Modern - POS Adoption**:
+```
+Common POS: 
+- Moka POS (local): Rp 3M-8M setup + Rp 300k-500k/month
+- iReap: Rp 2M-5M
+- Pawoon: Rp 1.5M
+
+Features:
+- Order taking (tablet for servers)
+- Kitchen display (monitor in kitchen)
+- Inventory tracking
+- Sales reports
+- Payment integration (GoPay, OVO, EDC)
+- Cloud-based (access anywhere)
+
+Benefits:
+- Faster service (no manual writing)
+- Fewer errors (kitchen sees order clearly)
+- Reports automated (daily, weekly, monthly)
+- Multi-outlet tracking (chain restaurants)
+
+ROI Example:
+Cost: Rp 5M setup + Rp 400k/month
+Savings:
+- Cashier error reduction: Rp 300k/month
+- Inventory waste reduction: Rp 1M/month
+- Faster service = 5% more covers: Rp 2M/month
+Total: Rp 3.3M/month savings
+
+Payback: 1.5 months!
+```
+
+---
+
+### Delivery Platform Integration
+
+**GoFood/GrabFood Integration**:
+```
+How it Works:
+1. Customer orders on app
+2. Order sent to restaurant tablet
+3. Restaurant confirms (2 min response time!)
+4. Kitchen prepares
+5. Driver picks up
+6. Delivery to customer
+
+Restaurant Tablet:
+- Provided by GoFood/Grab (free!)
+- Buzzes when order comes
+- Must confirm quickly (or auto-reject)
+
+Integration with POS:
+- Advanced: Tablet → POS automatic
+- Basic: Manual entry (staff types into POS)
+
+Commission: 20-25% of order
+Payment: Weekly transfer to bank
+```
+
+---
+
+### Kitchen Display Systems (KDS)
+
+**Modern Chain Restaurants**:
+```
+Setup:
+- Monitor in kitchen shows orders
+- Color-coded by time (red = overdue!)
+- Bump when complete
+
+Benefits:
+- No lost paper orders
+- Order priority clear
+- Timing visible (rush orders red!)
+- Efficiency +15-20%
+
+Cost:
+- Screen: Rp 3M-5M
+- Software: Included in POS
+
+Warung Reality:
+- Too expensive for Rp 60M/month revenue
+- Owner shouts orders (works fine!)
+```
 
 ---
 
