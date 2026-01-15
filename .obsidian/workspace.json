@@ -186,6 +186,8 @@
   },
   "active": "64cbd4e4c12d16e6",
   "lastOpenFiles": [
+    "fnb-domain/fb_business_processes.md",
+    "fnb-domain/archive/fb_business_processes.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_vietnam.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_usa_sf.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_usa_nyc.md",
@@ -211,8 +213,6 @@
     "fnb-domain/resources/regional_guides/fb_business_processes_italy.md",
     "fnb-domain/resources/regional_guides/fb_business_processes_france.md",
     "fnb-domain/resources/regional_guides",
-    "fnb-domain/resources/fb_business_processes_usa_sf.md",
-    "fnb-domain/resources/fb_business_processes_usa_nyc.md",
     "fnb-domain/archive",
     "webdev-path/datasets"
   ]
