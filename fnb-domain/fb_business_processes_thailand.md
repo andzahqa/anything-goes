@@ -837,6 +837,214 @@ Track: Daily in cash book
 
 ---
 
+## Regional Differences in Thai F&B
+
+### Bangkok vs Provincial Operations
+
+**Bangkok Characteristics**:
+
+**Pricing**:
+- Street food: ฿50-80 per dish
+- Casual dining: ฿150-400
+- Fine dining: ฿800-3,000+
+- Higher overhead: Rent, utilities, labor
+
+**Operating Style**:
+- **Fast-paced**: High turnover expectation
+- **Digital-savvy**: PromptPay 70%+, delivery apps dominant
+- **Competition**: Saturated, need differentiation
+- **Professional**: More likely to use POS, accounting software
+- **Labor**: Hire from other provinces, higher wages (฿18,000-25,000/month)
+- **Customer base**: Mixed Thai + expats + tourists
+
+**Technology Adoption**:
+- POS systems: 50-60% adoption
+- Delivery integration: 70%+ casual dining
+- Social media marketing: Essential
+- Online reservations: Common for sit-down
+
+---
+
+**Provincial Cities** (Chiang Mai, Phuket, Pattaya):
+
+**Pricing**:
+- Street food: ฿40-60 per dish (20-30% lower)
+- Casual dining: ฿100-250
+- Fine dining: ฿500-1,500
+- Lower overhead: Cheaper rent
+
+**Operating Style**:
+- **Slower pace**: More relaxed service
+- **Cash still king**: PromptPay 40-50% only
+- **Relationship-driven**: Know your regulars personally
+- **Family operations**: Multi-generational common
+- **Local labor**: Family members, lower wages (฿12,000-18,000)
+- **Customer base**: 80%+ local residents
+
+**Technology Adoption**:
+- POS systems: 20-30% adoption
+- Delivery: Emerging, not dominant yet
+- Social media: Facebook groups more than Instagram
+- Cash book: Traditional ledger still common
+
+---
+
+**Rural/Countryside**:
+
+**Pricing**:
+- Street food: ฿30-40 per dish (Bangkok: ฿50-80)
+- Simple meals: ฿25-35
+- Ultra-local: May barter/trade with neighbors
+
+**Operating Style**:
+- **Community-focused**: Serve neighbors, relatives
+- **Minimal cash**: Often credit, settle monthly
+- **Ingredient sourcing**: Own gardens, local farms direct
+- **No permits**: Informal, village-level
+- **Seasonal**: Farming calendar affects operations
+- **Part-time**: Many operate only certain days
+
+**Technology**:
+- Almost no POS
+- Cash only (PromptPay <10%)
+- No delivery apps
+- Word of mouth marketing only
+
+---
+
+### Regional Comparison Table
+
+| Aspect | Bangkok | Provincial Cities | Rural |
+|--------|---------|------------------|-------|
+| **Street Food Price** | ฿50-80 | ฿40-60 | ฿30-40 |
+| **Rent (Cart Pitch)** | ฿2,000-5,000 | ฿1,000-2,500 | ฿0-500 |
+| **PromptPay Adoption** | 70%+ | 40-50% | <10% |
+| **POS Usage** | 50-60% | 20-30% | <5% |
+| **Delivery Apps** | 70%+ | 30-40% | Rare |
+| **Competition** | Extreme | Moderate | Low |
+| **Tourist %** | 30-40% | Varies 10-60% | <5% |
+| **Labor Cost** | ฿18-25k | ฿12-18k | ฿10-15k |
+| **Operating Hours** | 10am-12am | 11am-10pm | Flexible |
+
+---
+
+## Tourist vs Local F&B Markets
+
+### Tourist-Focused Operations
+
+**High Tourist Areas**: Silom, Sukhumvit, Siam, Khao San Road, Islands
+
+**Characteristics**:
+- **Higher prices**: 50-100% markup over local areas
+  - Pad Thai: ฿80-120 (vs ฿50 local areas)
+  - Tom Yum: ฿150-250 (vs ฿80-120 local)
+- **English menus**: Picture menus, English descriptions
+- **Milder flavors**: Less spicy to suit international palates
+- **Tourist portions**: Often larger than Thai standard
+- **Payment**: Multiple currencies, credit cards, PromptPay
+- **Staff**: English-speaking required
+- **Hours**: Longer (8am-1am often)
+- **Marketing**: TripAdvisor, Google Reviews, walking traffic
+
+**Revenue Patterns**:
+```
+Peak Season (Nov-Feb):
+- Daily revenue: ฿15,000-40,000
+- Tourist %: 70-90% of customers
+- Pricing: Premium
+
+Low Season (May-Oct):
+- Daily revenue: ฿6,000-15,000 (60% drop)
+- Rely on local residents
+- May offer promotions
+```
+
+**Operational Challenges**:
+- **Language barrier**: Communication issues
+- **Quality inconsistency**: High staff turnover
+- **Review pressure**: Online rating critical
+- **Seasonal volatility**: Huge revenue swings
+- **Authenticity vs preference**: Balance Thai flavors with tourist taste
+
+---
+
+### Local-Focused Operations
+
+**Local Neighborhoods**: Lad Prao, Ramkhamhaeng, On Nut, Bangna
+
+**Characteristics**:
+- **Authentic pricing**: ฿40-60 street food standard
+- **Thai menu only**: Or basic English
+- **Proper spice levels**: Full Thai heat
+- **Standard portions**: Smaller, Thai-sized
+- **Cash + PromptPay only**: No credit cards usually
+- **Thai-speaking only**: No English requirement
+- **Peak hours**: Match Thai schedule (7-9pm dinner)
+- **Marketing**: Word of mouth, local LINE groups
+
+**Revenue Patterns**:
+```
+Year-Round Stability:
+- Daily revenue: ฿4,000-8,000 (consistent)
+- Regular customers: 60-80% are repeat
+- Minimal seasonal variation
+```
+
+**Operational Advantages**:
+- **Stable revenue**: Less seasonal fluctuation
+- **Lower complaints**: Customers know what to expect
+- **Community support**: Local loyalty strong
+- **Lower rent**: Non-tourist areas cheaper
+- **Authentic menu**: No need to adjust flavors
+
+---
+
+### Hybrid Markets (Growing Trend)
+
+**Examples**: Ari, Thonglor, Ekkamai (Hipster neighborhoods)
+
+**Characteristics**:
+- **Mix demographic**: 60% Thai, 40% expat/tourist
+- **Mid-range pricing**: ฿80-200 (between local and tourist)
+- **Bilingual**: Thai + English
+- **Instagram-worthy**: Presentation matters
+- **Authentic + fusion**: Traditional with modern twists
+- **Digital-first**: Strong social media presence
+- **Delivery-heavy**: 40-50% revenue from apps
+
+**Success Formula**:
+```
+Local Authenticity + Modern Presentation + Social Media Savvy
+= Appeals to both Thai millennials AND tourists
+```
+
+---
+
+### BI Implications for Tourist vs Local
+
+**For Tourist Areas**:
+- Track seasonality (high vs low)
+- Monitor online reviews as KPI
+- Language preference data
+- Currency mix analysis
+- Spice level adjustments tracking
+
+**For Local Areas**:
+- Regular customer retention rate
+- Neighborhood event impact
+- Word-of-mouth source tracking
+- PromptPay adoption among locals
+- Community engagement metrics
+
+**For Hybrid**:
+- Demographic mix tracking
+- Thai vs English order %
+- Delivery vs dine-in split
+- Social media ROI
+- Product mix (authentic vs fusion) performance
+
+---
+
 ## BI Dashboard Ideas for Thai F&B
 
 ### 1. Street Vendor Daily Optimizer
@@ -884,6 +1092,32 @@ Track: Daily in cash book
 - Food cost % variance
 - Delivery vs dine-in by location
 - Customer rating correlation
+
+---
+
+### 5. Tourist vs Local Revenue Optimizer ✨ NEW
+**For**: Restaurants in mixed or tourist areas
+
+**KPIs**:
+- Customer demographic mix (Thai vs tourist %)
+- Seasonal revenue forecast
+- High season vs low season comparison
+- Online review score correlation with revenue
+- Pricing sensitivity by customer type
+- Language preference tracking (Thai vs English orders)
+
+---
+
+### 6. Regional Benchmarking Dashboard ✨ NEW
+**For**: Multi-location chains across regions
+
+**KPIs**:
+- Bangkok vs provincial performance
+- Same-concept different-region comparison
+- Labor cost % by region
+- Technology adoption rates
+- Customer preferences by region
+- Optimal menu pricing by location
 
 ---
 
