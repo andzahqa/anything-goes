@@ -200,7 +200,7 @@ Update `progress_tracker.md` weekly:
 
 ## ✅ First Steps Checklist
 
-- [ ] Read this README completely
+- [x] Read this README completely
 - [ ] Open `fnb-domain/START_HERE.md`
 - [ ] Read `fnb-domain/fb_business_processes.md` (at least skim)
 - [ ] Choose your primary path (Spreadsheet or Traditional)
