@@ -8,15 +8,38 @@
 
 ## 🎯 Official Learning Path Progress
 
-### Path 1: F&B Domain Knowledge (Foundation)
-**Start Before Other Paths** - Essential business context for all BI work
+### Path 1: F&B Domain Knowledge (6 weeks)
+**Start Here First** - Essential business context for all BI work
 
-- [ ] Read F&B Business Processes guide (initial skim)
-- [ ] Understand all 6 F&B business models
-- [ ] Can explain FOH and BOH workflows
-- [ ] Know all major F&B KPIs and calculations
-- [ ] Completed at least one F&B dataset analysis
-- [ ] (Optional) Interviewed or shadowed someone in F&B
+**Phase 1: Foundation (Week 1)** - 10-12 hours
+- [ ] Read complete Indonesia F&B guide (1,953 lines)
+- [ ] Visit 3 different F&B types (warung, mall restaurant, coffee shop)
+- [ ] Create observation logs for each visit
+- [ ] List 10 BI dashboard ideas from observations
+
+**Phase 2: Operations Deep Dive (Week 2)** - 10-12 hours
+- [ ] Map data flows for 3 business models
+- [ ] Interview F&B worker/owner
+- [ ] Document 5 pain points discovered
+- [ ] List 5 BI solutions for pain points
+
+**Phase 3: Financial Mastery (Week 3-4)** - 12-15 hours
+- [ ] Create F&B metrics cheat sheet
+- [ ] Complete 5+ calculation exercises
+- [ ] Build 2+ Excel/Sheets financial models
+- [ ] Analyze real restaurant menu (menu engineering)
+
+**Phase 4: Regional Comparison (Week 5)** - 8-10 hours
+- [ ] Compare 3 regional guides (from resources/)
+- [ ] Create comparison matrix (10+ metrics)
+- [ ] Identify 10 universal patterns
+- [ ] Identify 10 regional patterns (Indonesia-specific)
+
+**Phase 5: BI Application (Week 6)** - 8-10 hours
+- [ ] Choose capstone project (dashboard/tool/planner)
+- [ ] Build complete BI solution
+- [ ] Document business context & insights
+- [ ] Create project in fnb-domain/projects/
 
 **Status**: _________ (Not Started | In Progress | Completed)
 
