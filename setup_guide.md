@@ -1,45 +1,50 @@
 # Complete BI Learning Environment Setup Guide
-## For All Three Learning Paths
+## For the Official Learning Path
 
 > [!IMPORTANT]
-> This guide will set up everything you need to start your BI learning journey across all three paths:
-> 1. **F&B Domain Knowledge** - Understanding the business
-> 2. **Spreadsheet BI Path** - Excel & Google Sheets mastery
-> 3. **Traditional BI Path** - SQL, Python, and BI tools
+> This guide will set up everything you need for the **Official Learning Path**:
 >
-> You can set up all three simultaneously, or pick just the path(s) you want to start with.
+> **1. F&B Domain Knowledge** → **2. Spreadsheet BI** → **3. Traditional BI** → **4. Web Development**
+>
+> **Start with F&B domain knowledge** to understand the business before building BI solutions.
+> Then choose Spreadsheet BI (recommended for beginners) or Traditional BI (SQL/Python).
+> Web Development is optional for building custom BI web apps.
+>
+> You can set up all paths simultaneously, or focus on one at a time.
 
 ---
 
 ## 📁 Directory Structure
 
-Your learning workspace has been organized as follows:
+Your learning workspace is organized as follows:
 
 ```
-/home/adeandza/Desktop/anything-goes-v1/bi-learning/
+/home/adeandza/Desktop/anything-goes/
 │
-├── spreadsheet-path/          # Excel & Google Sheets track
-│   ├── datasets/              # Practice data files (CSV, Excel)
-│   ├── projects/              # Your dashboards and projects
-│   ├── notes/                 # Learning notes and formulas
-│   └── resources/             # Templates, references
+├── fnb-domain/                  # 1️⃣ F&B Domain (START HERE)
+│   ├── fb_business_processes.md # Complete operations guide
+│   ├── datasets/                # F&B sample data
+│   └── START_HERE.md            # Quick start
 │
-├── traditional-path/          # SQL, Python, BI tools track
-│   ├── datasets/              # Database files, CSVs
-│   ├── projects/              # Python scripts, SQL queries, dashboards
-│   ├── notes/                 # Code snippets, concepts
-│   └── resources/             # Database schemas, docs
+├── spreadsheet-path/            # 2️⃣ Spreadsheet BI (Recommended first)
+│   ├── spreadsheet_bi_curriculum.md  # Full curriculum
+│   ├── resources/               # Formula references
+│   └── START_HERE.md            # Quick start
 │
-├── fb-domain/                 # F&B business knowledge
-│   ├── datasets/              # F&B specific sample data
-│   ├── projects/              # Business analysis projects
-│   ├── notes/                 # Industry research notes
-│   └── resources/             # F&B guides, benchmarks
+├── traditional-path/            # 3️⃣ Traditional BI (SQL, Python)
+│   ├── bi_curriculum.md         # Full curriculum
+│   ├── datasets/                # Practice data
+│   ├── projects/                # Your work
+│   └── START_HERE.md            # Quick start
 │
-└── shared/                    # Resources used across paths
-    ├── curricula/             # Your curriculum documents
-    ├── progress/              # Progress tracking
-    └── datasets/              # Common practice datasets
+├── webdev-path/                 # 4️⃣ Web Development (Optional)
+│   ├── WEB_DEV_CURRICULUM.md    # Full curriculum
+│   ├── projects/                # Practice projects
+│   └── README.md                # Path overview
+│
+├── ai-guided-learning_guide.md  # 🤖 AI assistance strategies
+├── progress_tracker.md          # Track your journey
+└──setup_guide.md                # This file
 
 ```
 

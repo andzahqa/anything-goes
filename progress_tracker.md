@@ -2,13 +2,29 @@
 
 **Start Date**: _____________  
 **Target Completion**: _____________  
-**Primary Path**: [ ] Spreadsheet BI  [ ] Traditional BI  [ ] Both
+**Learning Path**: Official Progression (F&B → Spreadsheet → Traditional → WebDev)
 
 ---
 
-## Overall Progress
+## 🎯 Official Learning Path Progress
 
-### Spreadsheet BI Path (4-6 months)
+### Path 1: F&B Domain Knowledge (Foundation)
+**Start Before Other Paths** - Essential business context for all BI work
+
+- [ ] Read F&B Business Processes guide (initial skim)
+- [ ] Understand all 6 F&B business models
+- [ ] Can explain FOH and BOH workflows
+- [ ] Know all major F&B KPIs and calculations
+- [ ] Completed at least one F&B dataset analysis
+- [ ] (Optional) Interviewed or shadowed someone in F&B
+
+**Status**: _________ (Not Started | In Progress | Completed)
+
+---
+
+### Path 2: Spreadsheet BI (4-6 months)
+**Recommended First Path** - Build professional BI with Excel/Google Sheets
+
 - [ ] Phase 1: Foundations (Weeks 1-3)
 - [ ] Phase 2: Excel Power Tools (Weeks 4-7)
 - [ ] Phase 3: Google Sheets Advanced (Weeks 8-10)
@@ -16,7 +32,13 @@
 - [ ] Phase 5: F&B Analytics (Weeks 14-17)
 - [ ] Phase 6: Capstone Project (Weeks 18-20)
 
-### Traditional BI Path (6-9 months)
+**Status**: _________ (Not Started | In Progress | Completed)
+
+---
+
+### Path 3: Traditional BI (6-9 months)
+**Advanced Path** - SQL, Python, and enterprise BI tools
+
 - [ ] Phase 1: Foundations (Weeks 1-3)
 - [ ] Phase 2: Data Analysis Deep Dive (Weeks 4-7)
 - [ ] Phase 3: Visualization & Design (Weeks 8-11)
@@ -24,20 +46,29 @@
 - [ ] Phase 5: F&B Specialization (Weeks 16-20)
 - [ ] Phase 6: Capstone Project (Weeks 21-24)
 
-### F&B Domain Knowledge
-- [ ] Completed initial read of F&B Business Processes
-- [ ] Understand all 6 business models
-- [ ] Can explain FOH and BOH workflows
-- [ ] Know all major F&B KPIs and how to calculate them
-- [ ] Interviewed or shadowed someone in F&B
+**Status**: _________ (Not Started | In Progress | Completed)
 
 ---
 
-## Weekly Learning Log
+### Path 4: Web Development (Optional)
+**Build Custom BI Apps** - Create your own dashboards from scratch
+
+- [ ] HTML/CSS/JS Foundations
+- [ ] Backend Development
+- [ ] Database Integration
+- [ ] Custom BI Dashboard Project
+
+**Status**: _________ (Not Started | In Progress | Completed)
+
+---
+
+## 📅 Weekly Learning Log
 
 ### Week of: _____________
 
 **Hours Studied**: _____  
+**Current Path/Phase**: _____________________
+
 **Focus Areas**:
 - 
 - 
@@ -69,11 +100,18 @@
 
 ---
 
-## Skills Self-Assessment
+## 🎓 Skills Self-Assessment
 
 *Rate yourself 1-5 (1=beginner, 5=expert). Update monthly.*
 
 **Date**: ___________
+
+### F&B Domain Knowledge
+- [ ] Understand F&B operations: ___/5
+- [ ] Know key F&B metrics: ___/5
+- [ ] Can calculate food cost %, prime cost, etc.: ___/5
+- [ ] Understand menu engineering: ___/5
+- [ ] Know common F&B pain points: ___/5
 
 ### Spreadsheet Skills
 - [ ] Basic formulas (SUM, AVERAGE, IF, etc.): ___/5
@@ -102,21 +140,21 @@
 - [ ] Data storytelling: ___/5
 - [ ] BI tool proficiency (specify tool): ___/5
 
-### F&B Domain Knowledge
-- [ ] Understand F&B operations: ___/5
-- [ ] Know key F&B metrics: ___/5
-- [ ] Can calculate food cost %, prime cost, etc.: ___/5
-- [ ] Understand menu engineering: ___/5
-- [ ] Know common F&B pain points: ___/5
+### Web Development (if pursuing)
+- [ ] HTML/CSS: ___/5
+- [ ] JavaScript: ___/5
+- [ ] Backend development: ___/5
+- [ ] Database integration: ___/5
 
 ---
 
-## Project Portfolio
+## 💼 Project Portfolio
 
 ### Project 1: ___________________
 **Date**: ___________  
-**Type**: [ ] Spreadsheet  [ ] Python  [ ] SQL  [ ] Dashboard  
+**Path**: [ ] F&B Analysis  [ ] Spreadsheet  [ ] Python  [ ] SQL  [ ] Dashboard  [ ] Web App  
 **Description**: 
+
 
 
 **Skills Applied**:
@@ -124,6 +162,7 @@
 - 
 
 **What I Learned**:
+
 
 
 **Link/Location**: 
@@ -132,8 +171,9 @@
 
 ### Project 2: ___________________
 **Date**: ___________  
-**Type**: [ ] Spreadsheet  [ ] Python  [ ] SQL  [ ] Dashboard  
+**Path**: [ ] F&B Analysis  [ ] Spreadsheet  [ ] Python  [ ] SQL  [ ] Dashboard  [ ] Web App  
 **Description**: 
+
 
 
 **Skills Applied**:
@@ -143,11 +183,12 @@
 **What I Learned**:
 
 
+
 **Link/Location**: 
 
 ---
 
-## Goals & Milestones
+## 🎯 Goals & Milestones
 
 ### 3-Month Goals
 - [ ] 
@@ -159,16 +200,22 @@
 - [ ] 
 - [ ] 
 
-### Ultimate Goal
-Build a beautifully working, easy-to-use, and engaging business intelligence & analytics dashboard for the everyman.
+### 12-Month Vision
+- [ ] 
+- [ ] 
+- [ ] 
 
-**Specific vision**:
+### Ultimate Goal
+> Build a beautifully working, easy-to-use, and engaging business intelligence & analytics dashboard for the everyman.
+
+**My Specific Vision**:
+
 
 
 
 ---
 
-## Resources I Found Helpful
+## 📚 Resources I Found Helpful
 
 **Tutorials/Courses**:
 - 
@@ -190,9 +237,13 @@ Build a beautifully working, easy-to-use, and engaging business intelligence & a
 - 
 - 
 
+**AI Tools Used**:
+- ChatGPT / Claude / Gemini for: _________________
+- Other: _________________
+
 ---
 
-## Notes & Insights
+## 💡 Notes & Insights
 
 **Key Learnings**:
 
@@ -210,6 +261,39 @@ Build a beautifully working, easy-to-use, and engaging business intelligence & a
 
 
 
+**AI-Aided Learning Wins**:
+(Successful uses of AI for learning, generating data, debugging, etc.)
+
+
+
+---
+
+## 📊 Monthly Review
+
+**Month**: _____________
+
+**Completed This Month**:
+- 
+- 
+- 
+
+**Biggest Challenge**:
+
+
+
+**Biggest Win**:
+
+
+
+**Skills Improved Most**:
+
+
+
+**Next Month Priority**:
+
+
+
 ---
 
 *Keep this updated weekly for best results!*
+*Remember: Consistency > Intensity. Small progress every day adds up!* 🚀
