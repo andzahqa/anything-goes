@@ -186,6 +186,13 @@
   },
   "active": "64cbd4e4c12d16e6",
   "lastOpenFiles": [
+    "fnb-domain/resources/fb_business_processes_south_korea.md",
+    "fnb-domain/resources/fb_business_processes_japan.md",
+    "fnb-domain/resources/fb_business_processes_philippines.md",
+    "fnb-domain/resources/fb_business_processes_vietnam.md",
+    "fnb-domain/resources/fb_business_processes_malaysia.md",
+    "fnb-domain/resources/fb_business_processes_singapore.md",
+    "fnb-domain/resources/fb_business_processes_thailand.md",
     "fnb-domain/fb_business_processes_uk.md",
     "fnb-domain/fb_business_processes_spain.md",
     "fnb-domain/fb_business_processes_italy.md",
@@ -206,13 +213,6 @@
     "fnb-domain/fb_business_processes_south_korea_seoul.md",
     "fnb-domain/fb_business_processes_south_korea.md",
     "fnb-domain/fb_business_processes_japan_kyoto.md",
-    "fnb-domain/fb_business_processes_japan_osaka.md",
-    "fnb-domain/fb_business_processes_japan_tokyo.md",
-    "fnb-domain/fb_business_processes_japan.md",
-    "fnb-domain/fb_business_processes_indonesia.md",
-    "fnb-domain/fb_business_processes_philippines.md",
-    "fnb-domain/fb_business_processes_vietnam.md",
-    "fnb-domain/fb_business_processes_malaysia.md",
     "webdev-path/datasets"
   ]
 }
