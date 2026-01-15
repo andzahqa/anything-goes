@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "fnb-domain/fb_business_processes_western.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "fb_business_processes_western"
             }
           }
         ]
@@ -186,6 +186,14 @@
   },
   "active": "64cbd4e4c12d16e6",
   "lastOpenFiles": [
+    "fnb-domain/fb_business_processes_malaysia.md",
+    "fnb-domain/fb_business_processes_singapore.md",
+    "fnb-domain/fb_business_processes_singapore_malaysia.md",
+    "fnb-domain/fb_business_processes_thailand.md",
+    "README.md",
+    "fnb-domain/fb_business_processes.md",
+    "fnb-domain/fb_business_processes_western.md",
+    "fnb-domain/fb_business_processes_sea.md",
     "traditional-path/start_here.md",
     "spreadsheet-path/start_here.md",
     "fnb-domain/start_here.md",
@@ -201,7 +209,6 @@
     "UNDERSTANDING_AI_INTEGRATION.md",
     "AI_ASSISTANCE_MAP.md",
     "AI_QUICK_REF.md",
-    "AI_LEARNING_GUIDE.md",
-    "README.md"
+    "AI_LEARNING_GUIDE.md"
   ]
 }
