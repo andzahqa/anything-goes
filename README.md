@@ -110,6 +110,13 @@ Build custom web applications for BI dashboards.
 # Navigate to your workspace
 cd ~/Desktop/anything-goes
 
+# For F&B Domain Path (Weeks 1-6):
+cd fnb-domain
+# - Read guides in Obsidian/Markdown viewer
+# - Document observations in notes/
+# - Build financial models in projects/
+# - Track progress in ../progress_tracker.md
+
 # For Spreadsheet Path:
 # - Open Google Sheets in browser
 # - Or launch Excel
@@ -129,33 +136,47 @@ cd webdev-path/projects
 
 ## 📊 Recommended Timeline
 
-### Beginner Path (Spreadsheet-First)
+### Beginner Path (F&B → Spreadsheet BI)
 
-**Weeks 1-2**: F&B Domain Knowledge ✅
-- Understand restaurant operations
-- Learn industry KPIs
-- Study sample datasets
+**Weeks 1-6: F&B Domain Mastery** (Path 1) ✅
+- **Phase 1** (Week 1): Read Indonesia guide + observe 3 F&B businesses
+- **Phase 2** (Week 2): Map data flows, interview F&B worker
+- **Phase 3** (Week 3-4): Practice calculations, build financial models
+- **Phase 4** (Week 5): Compare regional guides, identify patterns
+- **Phase 5** (Week 6): Complete capstone BI project (dashboard/tool)
 
-**Weeks 3-6**: Spreadsheet Foundations ✅
+**Weeks 7-10**: Spreadsheet Foundations (Path 2) ✅
 - Excel/Google Sheets basics
 - Formulas, pivot tables, charts
 - Build first simple dashboard
 
-**Weeks 7-12**: Advanced Spreadsheet BI ✅
+**Weeks 11-16**: Advanced Spreadsheet BI ✅
 - Power Query, Power Pivot (Excel)
 - QUERY(), Apps Script (Google Sheets)
 - Professional dashboard design
 
-**Weeks 13-20**: F&B Analytics & Projects ✅
-- F&B-specific dashboards
-- Menu engineering, forecasting
-- **Capstone Project**: Full BI dashboard
+**Weeks 17-24**: F&B Analytics & Portfolio ✅
+- Apply F&B knowledge to build specialized dashboards
+- Menu engineering, revenue forecasting, Ramadan planning
+- **Portfolio Project**: 3-5 complete F&B BI solutions
 
 **Optional**: Continue to Traditional BI or Web Dev
 
-### Advanced Path (Traditional BI)
+### Advanced Path (F&B → Traditional BI)
 
-Follow same timeline but with SQL, Python, and BI tools instead of spreadsheets.
+**Weeks 1-6**: F&B Domain Mastery (same as above)
+
+**Weeks 7-16**: Traditional BI Foundations
+- SQL for data querying (3 weeks)
+- Python for data analysis (4 weeks)
+- BI tools (Power BI, Tableau) (3 weeks)
+
+**Weeks 17-24**: F&B Analytics with Traditional Tools
+- Build F&B dashboards using Power BI/Tableau
+- SQL queries for F&B metrics
+- Python for advanced F&B analytics (forecasting, optimization)
+
+**Optional**: Add Web Development for custom F&B web apps
 
 ---
 
