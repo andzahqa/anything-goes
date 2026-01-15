@@ -347,7 +347,111 @@ Profit: ₫48M-91M ($2,000-3,800)
 
 ---
 
-### 6. Modern Restaurant / Chains
+### 6. Night Markets (Chợ Đêm)
+
+**What is it**: Evening/night food markets, tourist + local mix
+
+**Famous Night Markets**:
+- **Ben Thanh Night Market** (HCMC) - Tourist-focused
+- **Phu Quoc Night Market** - Seafood heaven
+- **Da Lat Night Market** - Central highlands
+- **Hoi An Night Market** - Ancient town charm
+
+**Characteristics**:
+```
+Operating Hours: 6pm-12am (peak 7-10pm)
+Setup: Temporary stalls, tents
+Mix: 50-100 vendors in one area
+Seating: Shared tables, plastic stools
+Pricing: 20-40% higher than day street food (tourist premium)
+```
+
+**Vendor Types**:
+
+**Food Stalls**:
+- Grilled seafood (mực nướng, nghêu hấp)
+- Bánh tráng nướng (Vietnamese pizza)
+- Ốc (snails, various preparations)
+- Fresh fruit smoothies
+- Corn on the cob, sweet potato
+
+**Economics** (Night Market Vendor):
+```
+Daily Setup:
+- Stall rental: ₫100k-300k/night
+- Setup time: 4-5pm
+- Operating: 6pm-12am
+- Breakdown: 12-1am
+
+Revenue:
+Average Customer: ₫80k-150k
+Daily Customers: 40-80
+Daily Revenue: ₫3.2M-12M
+
+Costs:
+- Stall rent: ₫150k-300k
+- Ingredients: 38%
+- Labor (helper): ₫200k/night
+- Transport: ₫100k
+- Misc: ₫100k
+
+Profit Margin: 40-50%
+Monthly (25 nights): ₫40M-150M ($1,665-6,250)
+```
+
+**Tourist vs Local Markets**:
+
+**Tourist Night Markets** (Ben Thanh, Hoi An):
+```
+Pricing: +40% premium
+- Grilled seafood: ₫150k-300k (vs ₫80k-150k local)
+- Smoothies: ₫40k-60k (vs ₫25k-35k local)
+
+Why Higher:
+- Location premium
+- Tourist willingness to pay
+- English menus, photos
+- "Experience" factor
+
+Customer Mix: 70% tourist, 30% local
+Payment: Cash + card (some vendors)
+```
+
+**Local Night Markets**:
+```
+Pricing: Standard street food rates
+- Grilled corn: ₫15k-20k
+- Snails: ₫30k-50k
+- Fruit: ₫25k-40k
+
+Customer Mix: 90% local, 10% budget travelers
+Payment: Cash only (mostly)
+Atmosphere: More authentic, less polished
+```
+
+**Seasonality**:
+```
+High Season (Nov-Feb):
+- Cool weather, tourists
+- Revenue +30-50%
+- Longer hours (til 1-2am)
+
+Low Season (May-Aug):
+- Hot, rainy
+- Revenue baseline
+- May close earlier (10-11pm)
+```
+
+**Success Factors**:
+- **Location**: Near tourist attractions or residential areas
+- **Specialization**: Known for ONE signature item
+- **Presentation**: Visual appeal (grilling seafood attracts)
+- **Samples**: Offering taste tests
+- **English**: Basic phrases help with tourists
+
+---
+
+### 7. Modern Restaurant / Chains
 
 **Growing Segment**:
 - **International chains**: McDonald's, KFC, Lotteria, Jollibee
