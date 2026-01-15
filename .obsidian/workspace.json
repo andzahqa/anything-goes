@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fnb-domain/fb_business_processes_western.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fb_business_processes_western"
+              "title": "README"
             }
           }
         ]
@@ -186,6 +186,13 @@
   },
   "active": "64cbd4e4c12d16e6",
   "lastOpenFiles": [
+    "fnb-domain/fb_business_processes_spain.md",
+    "fnb-domain/fb_business_processes_italy.md",
+    "fnb-domain/fb_business_processes_france.md",
+    "fnb-domain/fb_business_processes_western.md",
+    "fnb-domain/archive/fb_business_processes_sea.md",
+    "fnb-domain/archive/fb_business_processes_western.md",
+    "fnb-domain/archive",
     "fnb-domain/fb_business_processes_usa_austin.md",
     "fnb-domain/fb_business_processes_usa_miami.md",
     "fnb-domain/fb_business_processes_usa_new_orleans.md",
@@ -206,12 +213,6 @@
     "fnb-domain/fb_business_processes_vietnam.md",
     "fnb-domain/fb_business_processes_malaysia.md",
     "fnb-domain/fb_business_processes_singapore.md",
-    "fnb-domain/fb_business_processes_singapore_malaysia.md",
-    "fnb-domain/fb_business_processes_thailand.md",
-    "README.md",
-    "fnb-domain/fb_business_processes.md",
-    "fnb-domain/fb_business_processes_western.md",
-    "fnb-domain/fb_business_processes_sea.md",
     "webdev-path/datasets"
   ]
 }
