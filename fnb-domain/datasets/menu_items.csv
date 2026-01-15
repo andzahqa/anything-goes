@@ -1,0 +1,36 @@
+product_id,product_name,category,subcategory,cost,price,active
+1,Classic Burger,Entree,Burgers,3.50,12.99,1
+2,Deluxe Cheeseburger,Entree,Burgers,4.25,14.99,1
+3,Bacon BBQ Burger,Entree,Burgers,4.75,15.99,1
+4,Veggie Burger,Entree,Burgers,3.25,11.99,1
+5,Margherita Pizza,Entree,Pizza,4.00,16.99,1
+6,Pepperoni Pizza,Entree,Pizza,4.50,18.99,1
+7,Supreme Pizza,Entree,Pizza,5.25,21.99,1
+8,Caesar Salad,Appetizer,Salads,2.50,8.99,1
+9,Greek Salad,Appetizer,Salads,2.75,9.99,1
+10,House Salad,Appetizer,Salads,2.00,7.99,1
+11,Garlic Bread,Appetizer,Sides,1.25,4.99,1
+12,Mozzarella Sticks,Appetizer,Sides,2.00,7.99,1
+13,Buffalo Wings,Appetizer,Wings,3.50,11.99,1
+14,BBQ Wings,Appetizer,Wings,3.50,11.99,1
+15,Spaghetti Carbonara,Entree,Pasta,3.75,14.99,1
+16,Fettuccine Alfredo,Entree,Pasta,3.50,13.99,1
+17,Penne Arrabbiata,Entree,Pasta,3.25,12.99,1
+18,Grilled Salmon,Entree,Seafood,7.50,24.99,1
+19,Fish and Chips,Entree,Seafood,5.00,16.99,1
+20,Shrimp Scampi,Entree,Seafood,6.75,22.99,1
+21,Chocolate Lava Cake,Dessert,Cakes,2.00,7.99,1
+22,Cheesecake,Dessert,Cakes,2.25,8.99,1
+23,Tiramisu,Dessert,Italian,2.50,8.99,1
+24,Ice Cream Sundae,Dessert,Ice Cream,1.50,5.99,1
+25,Soft Drink,Beverage,Soft Drinks,0.25,2.99,1
+26,Iced Tea,Beverage,Soft Drinks,0.30,2.99,1
+27,Lemonade,Beverage,Soft Drinks,0.40,3.49,1
+28,Coffee,Beverage,Hot Drinks,0.50,3.99,1
+29,Cappuccino,Beverage,Hot Drinks,0.75,4.99,1
+30,Beer (Domestic),Beverage,Alcohol,2.00,5.99,1
+31,Beer (Craft),Beverage,Alcohol,3.00,7.99,1
+32,Red Wine (Glass),Beverage,Alcohol,3.50,9.99,1
+33,White Wine (Glass),Beverage,Alcohol,3.50,9.99,1
+34,Margarita,Beverage,Alcohol,4.00,12.99,1
+35,Mojito,Beverage,Alcohol,4.00,12.99,1

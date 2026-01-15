@@ -1,0 +1,6 @@
+{
+    "window.autoDetectColorScheme": true,
+    "workbench.layoutControl.enabled": true,
+    "workbench.navigationControl.enabled": true,
+    "workbench.editor.editorActionsLocation": "default"
+}
