@@ -1,161 +1,223 @@
-# README - BI Learning Environment
+# BI Learning Environment
 
-Welcome to your complete BI learning workspace!
+Welcome to your comprehensive Business Intelligence learning journey!
 
-## What's Here?
+## 🎯 Official Learning Path
 
-This directory contains everything you need to master Business Intelligence and build amazing F&B dashboards.
+Follow this progression for optimal learning:
 
-### 📁 Directory Structure
+**1. F&B Domain** → **2. Spreadsheet BI** → **3. Traditional BI** → **4. Web Development**
+
+### Path 1: F&B Business Domain (`fnb-domain/`)
+**START HERE** - Understand Food & Beverage operations before building BI solutions.
+- Learn F&B business processes, workflows, and data touchpoints
+- Understand industry-specific KPIs and challenges
+- Essential foundation for building relevant dashboards
+
+### Path 2: Spreadsheet BI (`spreadsheet-path/`)
+Learn BI using Excel & Google Sheets - accessible, powerful, and practical.
+- Build professional dashboards with spreadsheets
+- Master formulas, pivot tables, Power Query, and DAX
+- Perfect for the "everyman" - no coding required
+
+### Path 3: Traditional BI (`traditional-path/`)
+Advance to SQL, Python, and professional BI tools.
+- Database queries and data manipulation
+- Python for data analysis
+- Enterprise BI tools (Power BI, Tableau, etc.)
+
+### Path 4: Web Development (`webdev-path/`)
+Build custom web applications for BI dashboards.
+- Create your own BI web apps from scratch
+- Full control over design and functionality
+- Modern web technologies (HTML, CSS, JavaScript)
+
+---
+
+## 📁 Directory Structure
 
 ```
-/home/adeandza/Desktop/anything-goes-v1/
-├── spreadsheet-path/       # Excel & Google Sheets learning
-│   ├── datasets/           # Put your CSV and Excel files here
-│   ├── projects/           # Save your dashboards here
-│   ├── notes/             # Your learning notes
-│   └── resources/         # Templates and references
+/home/adeandza/Desktop/anything-goes/
+├── fnb-domain/                   # 1️⃣ F&B business knowledge (START HERE)
+│   ├── fb_business_processes.md  # Complete F&B operations guide
+│   ├── datasets/                 # Sample F&B data
+│   └── START_HERE.md             # Quick start for this path
 │
-├── traditional-path/       # SQL, Python, BI tools learning
-│   ├── datasets/           # Database files and CSVs
-│   ├── projects/           # Python scripts, SQL queries
-│   ├── notes/             # Code snippets and concepts
-│   ├── resources/         # Schemas and documentation
-│   └── bi-env/            # Python virtual environment
+├── spreadsheet-path/             # 2️⃣ Spreadsheet BI curriculum
+│   ├── spreadsheet_bi_curriculum.md  # Full curriculum
+│   ├── resources/                # Formula references, templates
+│   └── START_HERE.md             # Quick start guide
 │
-├── fb-domain/             # F&B business knowledge
-│   ├── datasets/          # F&B specific sample data
-│   ├── projects/          # Business analysis projects
-│   ├── notes/            # Industry research notes
-│   └── resources/        # F&B guides and benchmarks
+├── traditional-path/             # 3️⃣ Traditional BI (SQL, Python, BI tools)
+│   ├── bi_curriculum.md          # Full curriculum
+│   └── START_HERE.md             # Quick start guide
 │
-├── progress_tracker.md    # Track your learning journey
-└── README.md             # This file!
+├── webdev-path/                  # 4️⃣ Web development for custom BI apps
+│   ├── WEB_DEV_CURRICULUM.md     # Full curriculum
+│   ├── projects/                 # Practice projects
+│   └── README.md                 # Path overview
+│
+├── ai-guided-learning_guide.md   # 🤖 AI learning strategies (1,264 lines!)
+├── progress_tracker.md           # Track your learning journey
+├── setup_guide.md                # Installation and setup instructions
+└── README.md                     # This file
 ```
 
-### 📚 Your Curricula
-
-Located in: `/home/adeandza/.gemini/antigravity/brain/ce21457e-c776-4272-a525-7b0a86a42657/`
-
-1. **setup_guide.md** - START HERE! Complete setup instructions
-2. **spreadsheet_bi_curriculum.md** - Excel/Sheets path (4-6 months)
-3. **bi_curriculum.md** - SQL/Python/BI tools path (6-9 months)
-4. **fb_business_processes.md** - F&B domain knowledge
-5. **task.md** - Current learning task tracking
+---
 
 ## 🚀 Quick Start
 
 ### First Time Setup
 
-1. **Read Setup Guide**:
+1. **Start with F&B Domain Knowledge**
    ```bash
-   # Open with your preferred text editor
-   xdg-open ~/.gemini/antigravity/brain/ce21457e-c776-4272-a525-7b0a86a42657/setup_guide.md
+   Open: fnb-domain/START_HERE.md
+   Read: fnb-domain/fb_business_processes.md
    ```
 
-2. **Install Software** (choose your path):
-   - **Spreadsheet BI**: Just open Google Sheets (no install needed!)
-   - **Traditional BI**: Install Python, SQL (see setup guide)
+2. **Choose Your BI Path**
+   - **Recommended**: Start with Spreadsheet BI (easier, no coding)
+   - **Alternative**: Jump to Traditional BI (if you know Python/SQL)
 
-3. **Download Practice Data**:
-   - Check Kaggle, data.world (links in setup guide)
-   - Or ask me to generate sample F&B data for you
+3. **Read Setup Guide**
+   ```bash
+   Open: setup_guide.md
+   Follow installation instructions for your chosen path
+   ```
 
-4. **Start Learning**:
-   - Pick a curriculum to follow
-   - Complete Module 1.1
-   - Track progress in `progress_tracker.md`
+4. **Use AI for Learning**
+   ```bash
+   Open: ai-guided-learning_guide.md
+   Learn how to leverage AI to accelerate your learning
+   ```
 
 ### Daily Workflow
 
 ```bash
 # Navigate to your workspace
-cd ~/Desktop/anything-goes-v1/bi-learning
+cd ~/Desktop/anything-goes
 
 # For Spreadsheet Path:
 # - Open Google Sheets in browser
-# - Or open Excel files in spreadsheet-path/projects/
+# - Or launch Excel
 
 # For Traditional Path:
-# - Activate Python environment:
 cd traditional-path
-source bi-env/bin/activate
+# - Set up Python environment (see setup_guide.md)
+# - Launch Jupyter Notebook or SQL client
 
-# - Start Jupyter:
-jupyter notebook
-
-# - Or open SQLite:
-sqlite3 datasets/yourdb.db
+# For Web Dev Path:
+cd webdev-path/projects
+# - Open project files in VS Code
+# - Launch local server
 ```
 
-## 📊 Recommended Learning Path
+---
 
-**Week 1-2**: F&B Domain Basics
-- Read F&B Business Processes guide
-- Understand the industry you're building for
-- Find a restaurant dataset
+## 📊 Recommended Timeline
 
-**Week 3-4**: Spreadsheet Foundations
-- Google Sheets or Excel basics
-- Formulas and pivot tables
-- First simple dashboard
+### Beginner Path (Spreadsheet-First)
 
-**Week 5-8**: Spreadsheet Power Features
-- Power Query (Excel) or QUERY() (Sheets)
-- Advanced formulas
-- Dashboard design principles
+**Weeks 1-2**: F&B Domain Knowledge ✅
+- Understand restaurant operations
+- Learn industry KPIs
+- Study sample datasets
 
-**Week 9-20**: F&B Analytics & Projects
-- F&B specific metrics and KPIs
-- Build multiple dashboards
-- Capstone project
+**Weeks 3-6**: Spreadsheet Foundations ✅
+- Excel/Google Sheets basics
+- Formulas, pivot tables, charts
+- Build first simple dashboard
+
+**Weeks 7-12**: Advanced Spreadsheet BI ✅
+- Power Query, Power Pivot (Excel)
+- QUERY(), Apps Script (Google Sheets)
+- Professional dashboard design
+
+**Weeks 13-20**: F&B Analytics & Projects ✅
+- F&B-specific dashboards
+- Menu engineering, forecasting
+- **Capstone Project**: Full BI dashboard
+
+**Optional**: Continue to Traditional BI or Web Dev
+
+### Advanced Path (Traditional BI)
+
+Follow same timeline but with SQL, Python, and BI tools instead of spreadsheets.
+
+---
 
 ## 🎯 Your Goal
 
-> Build a beautifully working, easy-to-use, and engaging business intelligence & analytics dashboard for the everyman.
+> **Build a beautifully working, easy-to-use, and engaging business intelligence & analytics dashboard for the everyman.**
 
-Never lose sight of this! Every skill you learn serves this goal.
+Every skill you learn serves this goal!
+
+---
+
+## 🤖 AI-Aided Learning
+
+This curriculum is designed for AI-assisted learning:
+
+- **Embedded AI markers** in all curricula showing where AI can help
+- **Comprehensive AI guide** with 1,264 lines of strategies and examples
+- **Prompts ready to copy** - just paste into ChatGPT/Claude/Gemini
+
+**Key AI uses**:
+- Generate practice data instantly
+- Explain concepts multiple ways
+- Debug errors quickly
+- Review your work
+- Create practice problems
+
+See `ai-guided-learning_guide.md` for full details!
+
+---
 
 ## 📈 Track Your Progress
 
 Update `progress_tracker.md` weekly:
 - What you learned
 - Projects completed
-- Skills improving
-- Questions to research
+- Skills mastered
+- Goals for next week
+
+---
 
 ## 🆘 Need Help?
 
 **Stuck on something?**
-1. Check the setup guide
-2. Review the curriculum section
-3. Google the specific question
-4. Ask on Reddit (r/excel, r/googlesheets, r/BusinessIntelligence)
-5. Let me know - I can help!
+1. Check the relevant curriculum's resources section
+2. Use AI assistance (see AI guide)
+3. Search online (Stack Overflow, Reddit)
+4. Revisit foundational concepts
 
-**Resources**:
-- All curriculum docs have resource sections
-- Bookmark helpful websites as you find them
-- Join online communities
+**Useful Communities**:
+- r/excel, r/googlesheets (Spreadsheet path)
+- r/BusinessIntelligence, r/tableau, r/PowerBI
+- r/datascience, r/learnpython
 
-## ✅ Next Steps
+---
 
-1. [ ] Read setup_guide.md completely
-2. [ ] Install/access at least one spreadsheet tool
-3. [ ] Download one practice dataset
-4. [ ] Complete your first tutorial/lesson
-5. [ ] Build one tiny project (even if it's simple!)
+## ✅ First Steps Checklist
+
+- [ ] Read this README completely
+- [ ] Open `fnb-domain/START_HERE.md`
+- [ ] Read `fnb-domain/fb_business_processes.md` (at least skim)
+- [ ] Choose your primary path (Spreadsheet or Traditional)
+- [ ] Open that path's `START_HERE.md`
+- [ ] Read `setup_guide.md` and install necessary software
+- [ ] Skim `ai-guided-learning_guide.md` to understand AI assistance
+- [ ] Complete Module 1.1 of your chosen curriculum
+- [ ] Build your first tiny project!
 
 ---
 
 **You've got this!** 🚀
 
-The journey to BI mastery is long, but you're already ahead by setting up properly.
+The journey to BI mastery takes time, but you're already ahead by being organized.
 
-Start small, stay consistent, and keep building.
-
-Good luck!
+Start small. Stay consistent. Keep building.
 
 ---
 
-*Created: January 2026*
+*Last Updated: January 2026*
