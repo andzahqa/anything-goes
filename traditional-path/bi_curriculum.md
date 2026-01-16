@@ -61,6 +61,30 @@ graph LR
 - Read: "The Data Warehouse Toolkit" by Kimball (Chapters 1-2)
 - Watch: Introduction to Business Intelligence (YouTube/Coursera)
 
+#### Common Pitfalls
+
+❌ **BI Understanding Mistakes**:
+- Confusing BI with just reporting (BI is broader)
+- Thinking BI is only for big companies
+- Not understanding stakeholder needs first
+- Building solutions looking for problems
+
+❌ **Getting Started Errors**:
+- Jumping into tools before understanding concepts
+- Skipping the "why" to focus on "how"
+- Not learning business domain first
+- Expecting immediate mastery
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Explain what BI is and why it matters
+- [ ] Describe the BI value chain
+- [ ] Differentiate between descriptive, diagnostic, predictive analytics
+- [ ] Identify stakeholder needs
+- [ ] Define business questions that BI can answer
+- [ ] Understand the "everyman" user perspective
+
 ---
 
 ### Module 1.2: Spreadsheet Mastery - Excel/Google Sheets
@@ -105,6 +129,36 @@ graph LR
 - Chandoo.org for dashboard inspiration
 - Practice datasets from Kaggle
 
+#### Common Pitfalls
+
+❌ **Spreadsheet Mistakes**:
+- Not using tables (makes formulas and pivots harder)
+- Merging cells (breaks sorting and filtering)
+- Storing calculations instead of formulas (not reproducible)
+- Inconsistent data entry (mixed formats, typos)
+
+❌ **Formula Errors**:
+- Using relative references when absolute is needed
+- VLOOKUP looking left (use INDEX/MATCH instead)
+- Not handling #N/A and #DIV/0! errors
+- Nested IFs too complex (use IFS or lookup tables)
+
+❌ **Data Quality**:
+- Dates stored as text
+- Numbers with leading zeros or spaces
+- Mixed units in same column (kg and lbs)
+- Duplicate headers or blank rows
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Create complex formulas using lookup and logical functions
+- [ ] Build and customize pivot tables
+- [ ] Apply data validation and conditional formatting
+- [ ] Clean messy data efficiently
+- [ ] Use named ranges for better readability
+- [ ] Create simple dashboards with charts and slicers
+
 ---
 
 ### Module 1.3: Data Thinking & Business Metrics
@@ -139,8 +193,33 @@ graph LR
   - What actions might result from insights
 
 **Resources**:
-- Read: "Lean Analytics" by Croll & Yoskovitz
-- Refer to industry KPI libraries online
+- "Lean Analytics" by Alistair Croll
+- Industry-specific KPI guides
+- F&B Business Processes guide (for F&B context)
+
+#### Common Pitfalls
+
+❌ **Metric Mistakes**:
+- Tracking too many metrics (analysis paralysis)
+- Using vanity metrics (look good but not actionable)
+- Not understanding what "good" looks like
+- Comparing apples to oranges (different contexts)
+
+❌ **Analytical Thinking Errors**:
+- Jumping to conclusions without data
+- Ignoring context (seasonality, market changes)
+- Not asking "so what?" about findings
+- Correlation vs causation confusion
+
+#### Assessment Checklist
+
+Before moving to Phase 2, you should be able to:
+- [ ] Think analytically about business problems
+- [ ] Define meaningful KPIs for different industries
+- [ ] Understand common business metrics
+- [ ] Identify what makes a good metric (actionable, accessible, auditable)
+- [ ] Apply analytical mindset to real scenarios
+- [ ] Translate business questions into data questions
 
 ---
 
@@ -241,8 +320,33 @@ Before moving forward, you should be able to:
 **Tools**: Excel Power Query, Google Sheets, introduction to SQL concepts
 
 **Resources**:
-- Data Cleaning tutorials (Kaggle Learn)
-- Real-world messy datasets for practice
+- "Tidy Data" paper by Hadley Wickham
+- OpenRefine tutorials
+- Data cleaning checklists online
+
+#### Common Pitfalls
+
+❌ **Cleaning Mistakes**:
+- Not documenting cleaning steps (can't reproduce)
+- Modifying original data (always keep raw copy)
+- Over-cleaning (removing valid outliers)
+- Not validating cleaning results
+
+❌ **Quality Issues**:
+- Assuming data is clean (always verify)
+- Not handling missing data appropriately
+- Auto-filling without understanding why data is missing
+- Ignoring data types (numbers as text, etc.)
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Identify common data quality issues
+- [ ] Clean messy data systematically
+- [ ] Handle missing data appropriately
+- [ ] Standardize formats and values
+- [ ] Validate cleaning results
+- [ ] Document cleaning processes for reproducibility
 
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "What are the best practices for handling missing values in sales data?"
@@ -296,9 +400,41 @@ Before moving forward, you should be able to:
 - Online SQL playgrounds
 
 **Resources**:
-- SQLBolt (interactive tutorials)
-- Mode Analytics SQL Tutorial
-- LeetCode SQL problems
+- SQLZoo (interactive SQL tutorial)
+- Mode Analytics SQL tutorial
+- PostgreSQL documentation
+- W3Schools SQL reference
+
+#### Common Pitfalls
+
+❌ **SQL Mistakes**:
+- Not using WHERE to filter (slow queries on large datasets)
+- Forgetting JOIN conditions (Cartesian product)
+- Using SELECT * (select only needed columns)
+- Not understanding NULL behavior (NULL != 0)
+
+❌ **Query Errors**:
+- Aggregating without GROUP BY properly
+- Mixing aggregate and non-aggregate columns
+- Not ordering results (ORDER BY) when needed
+- Complex nested queries when CTEs would be clearer
+
+❌ **Performance Issues**:
+- No indexes on join columns
+- Not limiting results during development
+- Running expensive queries on production
+- Not using EXPLAIN to understand query plans
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Write SELECT, WHERE, ORDER BY queries
+- [ ] Perform JOINs (INNER, LEFT, RIGHT, FULL)
+- [ ] Use aggregate functions with GROUP BY
+- [ ] Write subqueries and CTEs
+- [ ] Filter aggregated data with HAVING
+- [ ] Understand query performance basics
+- [ ] Debug common SQL errors
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain JOIN types (INNER, LEFT, RIGHT, FULL) with restaurant order/customer example"
@@ -356,8 +492,40 @@ Before moving forward, you should be able to:
 
 **Resources**:
 - Python for Data Analysis by Wes McKinney
-- DataCamp/Codecademy Python courses
-- Kaggle Python tutorials
+- Kaggle Learn Python course
+- pandas documentation
+- Real Python tutorials
+
+#### Common Pitfalls
+
+❌ **Python Beginner Mistakes**:
+- Not using virtual environments (dependency conflicts)
+- Modifying data in place unintentionally
+- Not handling exceptions (code crashes)
+- Inefficient loops when vectorized operations exist
+
+❌ **pandas Errors**:
+- Chained assignment warnings (SettingWithCopyWarning)
+- Not resetting index after operations
+- Memory issues with large datasets (not using chunks)
+- Mixing loc/iloc incorrectly
+
+❌ **Data Analysis Issues**:
+- Not exploring data first (jumping to analysis)
+- Ignoring data types (numeric as object)
+- Not validating assumptions
+- Over-complicating when SQL would be simpler
+
+#### Assessment Checklist
+
+Before moving to Phase 3, you should be able to:
+- [ ] Write basic Python scripts for data analysis
+- [ ] Use pandas for data manipulation
+- [ ] Read/write data from various formats
+- [ ] Clean and transform data with Python
+- [ ] Perform basic statistical analysis
+- [ ] Create simple visualizations with matplotlib/seaborn
+- [ ] Debug common Python errors
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Write Python code to: 1) Load restaurant_sales.csv, 2) Convert date to datetime, 3) Calculate daily total sales, 4) Plot trend. Use pandas and matplotlib"
