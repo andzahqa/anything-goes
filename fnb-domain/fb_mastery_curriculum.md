@@ -112,7 +112,7 @@ Duration: [How long you observed]
 ⚡ **AI Generate**: Ask AI to generate a detailed observation framework template for each F&B type
 🤖 **AI Review**: Share your observation logs with AI for completeness and insight quality feedback
 
-#### Resources
+**Resources**:
 
 - **Documentation**:
   - Indonesia F&B Guide (`fb_business_processes_indonesia.md`)
@@ -259,7 +259,7 @@ Pain Points:
 - **Transcription**: Otter.ai / Voice Recorder (Interview capture)
 - **Notes**: Notion / Obsidian (Structured observation logs)
 
-#### Resources
+**Resources**:
 
 - **Templates**:
   - Data Flow Diagram Template
@@ -413,7 +413,7 @@ Analyze:
 - **Reporting**: POS Reports (Toast, Square, Moka exports)
 - **Analysis**: Menu Engineering Matrix Template (Stars/Dogs quadrant)
 
-#### Resources
+**Resources**:
 
 - **Books**:
   - "Restaurant Success by the Numbers" by Roger Fields
@@ -534,7 +534,7 @@ Before moving to Phase 4, you should be able to:
 - **Visualization**: Chart.js / Recharts (for coding practice) or Excel Charts
 - **Market Research**: Google Trends (Regional Interest), Statista (Industry Benchmarks)
 
-#### Resources
+**Resources**:
 
 - **Books**:
   - "Setting the Table" by Danny Meyer
@@ -589,7 +589,7 @@ Before moving to Phase 5, you should be able to:
 - Presentation summarizing findings
 - Action plan for F&B business improvement
 
-#### Resources
+**Resources**:
 
 - "Restaurant Financial Basics" by Raymond Goodman
 - QuickBooks for Restaurants guide
@@ -730,7 +730,7 @@ reflection.md - What you learned, what was hard, what you'd improve
 - **BI Platforms**: Power BI / Tableau / Apache Superset (Optional)
 - **Data Generation**: Mockaroo / Python Faker (Synthetic Datasets)
 
-#### Resources
+**Resources**:
 
 - **Design**:
   - Canva / Figma
