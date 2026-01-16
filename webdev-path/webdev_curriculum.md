@@ -1760,33 +1760,42 @@ Add advanced capabilities:
 - Scheduled email reports
 - Advanced filtering and drill-downs
 
-⚡ **AI Generate**: "Generate sample data transformation logic for BI aggregations"
-🔍 **AI Explain**: "Explain ETL process with Node.js implementation examples"
-💡 **Ask AI**: "What libraries should I use for PDF generation and Excel export in Node.js?"
+**Tools**:
+- Node.js Worker Threads
+- BullMQ (Background Jobs)
+- Puppeteer (PDF Generation)
+- ExcelJS (Excel Export)
+- Apache Arrow (Data Processing)
 
 #### Resources
 
-- Node.js Worker Threads documentation for parallel processing
-- Bull Queue library for background jobs
-- Apache Arrow for fast data processing
-- jsPDF and Puppeteer documentation for PDF generation
-- ExcelJS and xlsx library guides for Excel files
-- D3.js advanced tutorials and examples
-- Data processing and ETL best practices
+- **ETL & Data Processing**:
+  - Node.js Worker Threads docs
+  - Bull Queue documentation
+  - Apache Arrow for JS
+- **Export Libraries**:
+  - Puppeteer & jsPDF
+  - ExcelJS Documentation
+  - Nodemailer
+- **Advanced Viz**:
+  - D3.js Advanced Tutorials
 
-#### Resources
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Generate sample data transformation logic for BI aggregations"
+> - **🔍 AI Explain**: "Explain ETL process with Node.js implementation examples"
+> - **💡 Ask AI**: "What libraries should I use for PDF generation and Excel export in Node.js?"
 
-**ETL & Data Processing**:
-- Node.js Worker Threads for parallel processing
-- Bull Queue for background jobs
-- Apache Arrow for fast data processing
+#### Common Pitfalls
 
-**Export Libraries**:
-- jsPDF or Puppeteer for PDF generation
-- ExcelJS or xlsx for Excel files
-- Nodemailer for email delivery
+❌ **ETL Mistakes**:
+- Processing heavy data on main thread (blocks event loop)
+- No error handling in background jobs
+- Memory leaks in large data processing
+- Not streaming large file exports
 
-**Time**: 3 weeks
+❌ **Architecture**:
+- Tight coupling between ingestion and processing
+- Missing scaling strategy for workers
 
 #### Assessment Checklist
 
