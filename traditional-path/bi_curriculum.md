@@ -238,34 +238,27 @@ Before moving forward, you should be able to:
 
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "What metrics matter most for a small restaurant owner? Explain each one"
-> - **⚡ AI Generate**: "Create sample F&B transaction data (100 rows) for practicing metric calculations"
+> - **⚡ AI Generate**: "Create examples of 5 interactive dashboard features for F&B analytics"
+> - **🤖 AI Review**: "Review my dashboard design. Does it follow best practices?"
 
 #### Resources
 
-- "Lean Analytics" by Alistair Croll
-- Industry-specific KPI guides
-- F&B Business Processes guide (for F&B context)
-- "Measure What Matters" by John Doerr (for OKRs and KPIs)
-- Harvard Business Review articles on analytics and metrics
-- Online courses on business analysis and KPI definition (e.g., LinkedIn Learning)
+- Advanced dashboard design tutorials and courses
+- Dynamic named ranges Excel documentation
+- Dashboard interactivity best practices guides
+- BI tool-specific advanced features documentation
+- Performance optimization techniques for dashboards
+- Real-world dashboard case studies
 
 #### Common Pitfalls
 
-❌ **Metric Mistakes**:
-- Tracking too many metrics (analysis paralysis)
-- Using vanity metrics (look good but not actionable)
-- Not understanding what "good" looks like
-- Comparing apples to oranges (different contexts)
-- Not clearly defining the metric's calculation
-- Focusing on outputs instead of outcomes
-
-❌ **Analytical Thinking Errors**:
-- Jumping to conclusions without data
-- Ignoring context (seasonality, market changes)
-- Not asking "so what?" about findings
-- Correlation vs causation confusion
-- Confirmation bias (seeking data that supports pre-existing beliefs)
-- Failing to consider alternative explanations for observed trends
+❌ **Advanced Dashboard Mistakes**:
+- Overcomplicating with too many interactive features
+- Performance issues from inefficient calculations
+- Confusing UX with unclear navigation
+- Not testing with actual users before deployment
+- Missing mobile responsiveness
+- Over-reliance on complex parameters confusing end users
 
 #### Assessment Checklist
 
@@ -813,7 +806,7 @@ Before moving forward, you should be able to:
   - Grid systems for alignment
   - Grouping related metrics
   - Effective use of space
-- **Interactivity Design**:
+  - Interactivity Design:
   - When to use filters
   - Drill-down patterns
   - Tooltips and details
@@ -848,26 +841,18 @@ Before moving forward, you should be able to:
 
 > **🤖 AI Assistance**:
 > - **🤖 AI Review**: Share wireframe/mockup: "Review this dashboard layout for an F&B operator. Is the hierarchy clear?"
-> - **💡 Ask AI**: "What are the best practices for designing mobile-responsive dashboards?"
-> - **⚡ AI Generate**: "Generate 3 dashboard wireframe layout ideas for restaurant operations"
+> - **💡 Ask AI**: "What data sources are critical for F&B BI that operators often overlook?"
+> - **⚡ AI Generate**: "Create a data source inventory template for an F&B business"
 
 #### Common Pitfalls
 
-❌ **Design Mistakes**:
-- Too many metrics (information overload, cognitive strain)
-- Poor visual hierarchy (everything looks equal importance, no clear focal point)
-- Not mobile-responsive (poor user experience on smaller screens)
-- Ignoring user workflows and decision-making processes
-- Lack of context for metrics (e.g., no comparisons, targets, or trends)
-- Over-reliance on complex charts when simple ones suffice
-
-❌ **Layout Issues**:
-- Poor use of whitespace (cluttered appearance)
-- Inconsistent spacing and alignment (unprofessional look)
-- Important data buried below the fold (requires scrolling to see key insights)
-- No clear entry point for eyes (users don't know where to start)
-- Inconsistent navigation or lack thereof
-- Mixing too many different chart types on one screen
+❌ **F&B Industry Understanding Mistakes**:
+- Not understanding operational workflows and stakeholder needs
+- Ignoring service model differences (QSR vs fine dining vs fast casual)
+- Missing critical F&B data sources (waste, labor scheduling, reservations)
+- Not accounting for perishability and food cost volatility
+- Treating all revenue streams the same (dine-in vs delivery vs catering)
+- Ignoring local market factors and regulatory considerations
 
 #### Assessment Checklist
 
@@ -1814,13 +1799,6 @@ Before moving forward, you should be able to:
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain market basket analysis for restaurants - how to find which items sell together"  
-> - **⚡ AI Generate**: "Create Python code for simple sales forecasting using moving average"
-> - **💡 Ask AI**: "What factors should I consider when forecasting restaurant sales (seasonality, weather, events)?"
-
-#### Resources
-
-- Insufficient historical data
-- Ignoring seasonal patterns
 - Not validating models
 - Over-complicated approaches
 
