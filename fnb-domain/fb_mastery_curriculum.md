@@ -17,10 +17,13 @@
 ## Learning Philosophy
 
 **Not Just Theory**:
-- Read → this Observe → Apply
+- Read → Observe → Apply
 - Every concept backed by real numbers
 - Indonesian context (applicable to SEA markets)
 - Practical BI opportunities highlighted
+
+**AI-Assisted Learning**:
+> Throughout this curriculum, you'll see AI learning markers (💡 Ask AI, ⚡ AI Generate, 🔍 AI Explain, 🤖 AI Debug, 🤖 AI Review). See `../ai-guided-learning_guide.md` for detailed strategies on leveraging AI to accelerate your learning.
 
 ---
 
@@ -33,6 +36,8 @@
    - Start to finish (1,953 lines, comprehensive!)
    - Take notes on unfamiliar concepts
    - Highlight sections you don't understand yet
+   
+   🔍 **AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"
 
 **Reading Strategy**:
 ```
@@ -62,6 +67,8 @@ Day 4 (2 hours): Business Management
    - Warung (local, cheap)
    - Mall restaurant (modern)
    - Coffee shop (Kopi Kenangan or Starbucks)
+   
+   💡 **Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
 
 2. **Observe & Document**:
    - Service flow (greeting → order → food → payment)
@@ -241,6 +248,8 @@ Why: Combined food + labor = baseline profitability
 **📊 Practice Calculation** (4-5 hours):
 **Using Real/Simulated Data**:
 
+⚡ **AI Generate**: Ask AI to create 5 more realistic F&B scenarios with varying business models (cloud kitchen, fine dining, etc.)
+
 **Exercise 1: Warung Economics Calculation**
 ```
 Given:
@@ -263,6 +272,8 @@ Analyze:
 - What if lose 10% customers?
 - What if delivery (25% commission) = 30% of orders?
 ```
+
+🤖 **AI Debug**: If your calculations don't match expected ranges, paste your work to AI for verification
 
 **Exercise 2: Modern Restaurant Analysis**
 ```
@@ -291,6 +302,9 @@ Analyze:
 - [ ] Restaurant break-even analyzer
 - [ ] Menu item profitability matrix
 - [ ] Ramadan revenue planner (40-60% spike)
+
+⚡ **AI Generate**: Ask AI to generate realistic sample data for each model
+🤖 **AI Review**: Share your spreadsheet formulas with AI for optimization suggestions
 
 **🎯 Real Menu Analysis** (3-4 hours):
 **Collect Real Data**:
@@ -449,6 +463,9 @@ dashboard/ - Exported dashboard/screenshots
 analysis.md - Insights discovered, recommendations
 reflection.md - What you learned, what was hard, what you'd improve
 ```
+
+⚡ **AI Generate**: Ask AI to create realistic F&B transaction data (500-1000 rows) for your chosen business model
+🤖 **AI Review**: Share your complete project for feedback on dashboard design, insights quality, and business recommendations
 
 **✅ Phase 5 Completion Checklist**:
 - [ ] Completed capstone project
