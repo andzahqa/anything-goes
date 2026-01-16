@@ -489,7 +489,7 @@ Before moving to Phase 4, you should be able to:
 | Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
 ```
 
-⚡ **AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
+
 
 **🔍 Pattern Exercise** (3-4 hours):
 **Identify Universal vs Regional**:
@@ -516,23 +516,30 @@ Before moving to Phase 4, you should be able to:
 - Universal patterns = benchmark against
 - Regional patterns = must customize for
 
-💡 **Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
-⚡ **AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
-🤖 **AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable? What am I missing?"
+
+
+**Tools**:
+- Google Sheets (Comparison Matrix)
+- Chart.js (Visualization)
+- Google Trends (Regional Interest)
 
 #### Resources
 
-- "Setting the Table" by Danny Meyer (hospitality philosophy)
-- "Kitchen Confidential" by Anthony Bourdain (industry insights)
-- National Restaurant Association resources and reports
-- ServSafe food safety certification materials
-- Restaurant industry publications (Restaurant Business, Nation's Restaurant News)
-- Local F&B regulations and health department guidelines
-- Culinary institute resources and online courses
-- **Data**: Kaggle F&B datasets for practice
-- **Analysis**: Google Sheets QUERY function tutorials
-- **Visualization**: Chart.js or Google Charts documentation
-- **Case Studies**: Restaurant analytics blog posts
+- **Books**:
+  - "Setting the Table" by Danny Meyer
+  - "Kitchen Confidential" by Anthony Bourdain
+- **Data**:
+  - Kaggle F&B Datasets
+  - Regional F&B Reports
+- **Learning**:
+  - Google Sheets QUERY Tutorials
+  - Restaurant Analytics Case Studies
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
+> - **💡 Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
+> - **⚡ AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
+> - **🤖 AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable?"
 
 #### Common Pitfalls
 
@@ -648,7 +655,7 @@ Build:
 Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
 ```
 
-🔍 **AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
+
 
 **Option B: Menu Engineering Tool**
 ```
@@ -666,7 +673,7 @@ Build calculator that:
 Tools: Google Sheets with formulas + conditional formatting
 ```
 
-⚡ **AI Generate**: "Generate spreadsheet formulas for menu engineering calculator (food cost %, margin, categorization)"
+
 
 **Option C: Ramadan Revenue Planner (Indonesia-specific)**
 ```
@@ -684,7 +691,7 @@ Build planner that:
 Tools: Excel/Sheets with scenario modeling
 ```
 
-💡 **Ask AI**: "How should I forecast Ramadan impact on different F&B business models (warung vs chain)?"
+
 
 **📝 Documentation**:
 Create `fnb-domain/projects/capstone_[project_name]/`:
@@ -696,16 +703,31 @@ analysis.md - Insights discovered, recommendations
 reflection.md - What you learned, what was hard, what you'd improve
 ```
 
-⚡ **AI Generate**: "Generate comprehensive sample F&B data for capstone project: transactions, menu, inventory, staff"
-🤖 **AI Review**: "Review my F&B BI dashboard design. Does it answer the key business questions? What's missing?"
-💡 **Ask AI**: "What are must-have vs nice-to-have features for an F&B dashboard for small restaurant owners?"
+
+
+**Tools**:
+- Canva / Figma (Mockups)
+- Excel / Google Sheets (Prototyping)
+- Power BI / Tableau (Optional)
 
 #### Resources
 
-- **Design**: Canva or Figma for mockups
-- **Data**: Use your own generated or real anonymized data
-- **Inspiration**: Toast, Square, Upserve dashboard screenshots
-- **Presentation**: Google Slides or PowerPoint
+- **Design**:
+  - Canva / Figma
+  - Dashboard Inspiration Galleries
+- **Data**:
+  - Generated Datasets
+  - Anonymized Real Data
+- **Presentation**:
+  - Google Slides Templates
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
+> - **⚡ AI Generate**: "Generate spreadsheet formulas for menu engineering calculator"
+> - **💡 Ask AI**: "How should I forecast Ramadan impact on different F&B business models?"
+> - **⚡ AI Generate**: "Generate comprehensive sample F&B data for capstone project"
+> - **🤖 AI Review**: "Review my F&B BI dashboard design. Does it answer key business questions?"
+> - **💡 Ask AI**: "What are must-have vs nice-to-have features for MVP?"
 
 #### Common Pitfalls
 

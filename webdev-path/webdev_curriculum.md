@@ -1171,7 +1171,6 @@ Before moving forward, you should be able to:
 - [ ] Use middleware effectively
 - [ ] Debug Node.js applications
 
-
 #### Common Pitfalls
 
 ❌ **Auth Mistakes**:
@@ -1192,6 +1191,10 @@ Before moving forward, you should be able to:
 - Allowing common passwords ("password123")
 
 🤖 **AI Debug**: "Bcrypt hash comparison always returns false. Code: [code]"
+💡 **Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
+⚡ **AI Generate**: "Generate Express middleware for JWT authentication and role-based access"
+🔍 **AI Explain**: "Explain OAuth 2.0 flow with diagram for web app"
+🤖 **AI Debug**: "Getting CORS errors with JWT auth. Frontend React, backend Express. Code: [code]"
 
 #### Resources
 
@@ -1293,7 +1296,9 @@ Add comprehensive security:
 4. **Collaborative Editing**: Multiple users editing same data
 5. **Connection Management**: Handle disconnect/reconnect gracefully
 
-
+💡 **Ask AI**: "WebSockets vs Server-Sent Events vs Long Polling - which for BI dashboards?"
+⚡ **AI Generate**: "Create Socket.io event structure for real-time analytics dashboard"
+🔍 **AI Explain**: "Explain how WebSocket connection works with diagram"
 
 #### Common Pitfalls
 
@@ -1308,7 +1313,7 @@ Add comprehensive security:
 - Sending entire datasets instead of incremental updates
 - Not throttling rapid updates
 
-
+🤖 **AI Debug**: "Socket.io client keeps disconnecting. Console shows: [error]"
 
 #### Resources
 
@@ -1316,8 +1321,6 @@ Add comprehensive security:
 - Socket.io Client/Server
 - Postman (WebSocket Testing)
 - Chrome Network Tab (WS Inspection)
-
-#### Resources
 
 - **Documentation**:
   - Socket.io Docs
@@ -1411,7 +1414,6 @@ Add live features:
 3. **API Tests**: Test all REST endpoints with Supertest
 4. **Integration Tests**: Test React components with API calls
 5. **E2E Tests**: Test complete user journey (signup → dashboard → logout)
-
 
 🤖 **AI Debug**: "React Testing Library test failing. Error: 'Unable to find element'. Code: [code]"
 
