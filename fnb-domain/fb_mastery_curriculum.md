@@ -103,6 +103,11 @@ Duration: [How long you observed]
 3. [What BI dashboard would be useful?]
 ```
 
+**Tools**:
+- **Observation**: Smartphone Camera (Menu/Layout photos), Pocket Notebook (Discreet logging)
+- **Research**: Google Maps (Find high-traffic spots), PergiKuliner / Zomato (Competitor reviews)
+- **Knowledge Base**: Notion / Obsidian (Digital second brain), ChatGPT (Concept tutor)
+
 **Resources**:
 
 - **Documentation**:
@@ -388,8 +393,6 @@ Analyze:
 - [ ] Restaurant break-even analyzer
 - [ ] Menu item profitability matrix
 - [ ] Ramadan revenue planner (40-60% spike)
-
-
 
 **Tools**:
 - **Documentation**: Camera (Menu prices, layout), Voice Recorder (Staff interviews - with permission)
