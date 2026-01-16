@@ -672,9 +672,9 @@ Before moving to Phase 3, you should be able to:
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Write Python code to: 1) Load restaurant_sales.csv, 2) Convert date to datetime, 3) Calculate daily total sales, 4) Plot trend. Use pandas and matplotlib"
 > - **🤖 AI Debug**: "This pandas code throws KeyError: [paste code]. Why?"
-> - **🔍 AI Explain**: "Explain star schema vs snowflake schema with an F&B restaurant example"
-> - **⚡ AI Generate**: "Design a data model for a restaurant: what tables are needed, relationships, sample ERD"
-> - **💡 Ask AI**: "What's the difference between fact and dimension tables? Give F&B examples"
+> - **💡 Ask AI**: "Show me 5 common pandas operations for analyzing sales data" or "What's the difference between fact and dimension tables? Give F&B examples"
+> - **⚡ AI Generate**: "Write pandas code to group by category and calculate sum, mean, and count" or "Design a data model for a restaurant: what tables are needed, relationships, sample ERD"
+> - **🔍 AI Explain**: "Explain pandas DataFrames in simple terms with restaurant data example" or "Explain star schema vs snowflake schema with an F&B restaurant example"
 
 #### Resources
 
@@ -845,7 +845,7 @@ Before moving forward, you should be able to:
   - Grid systems for alignment
   - Grouping related metrics
   - Effective use of space
-  - Interactivity Design:
+- **Interactivity Design**:
   - When to use filters
   - Drill-down patterns
   - Tooltips and details
@@ -880,10 +880,26 @@ Before moving forward, you should be able to:
 
 > **🤖 AI Assistance**:
 > - **🤖 AI Review**: Share wireframe/mockup: "Review this dashboard layout for an F&B operator. Is the hierarchy clear?"
-> - **💡 Ask AI**: "What data sources are critical for F&B BI that operators often overlook?"
-> - **⚡ AI Generate**: "Create a data source inventory template for an F&B business"
+> - **💡 Ask AI**: "What data sources are critical for F&B BI that operators often overlook?" or "What are the best practices for designing mobile-responsive dashboards?"
+> - **⚡ AI Generate**: "Create a data source inventory template for an F&B business" or "Generate 3 dashboard wireframe layout ideas for restaurant operations"
 
 #### Common Pitfalls
+
+❌ **Design Mistakes**:
+- Too many metrics (information overload, cognitive strain)
+- Poor visual hierarchy (everything looks equal importance, no clear focal point)
+- Not mobile-responsive (poor user experience on smaller screens)
+- Ignoring user workflows and decision-making processes
+- Lack of context for metrics (e.g., no comparisons, targets, or trends)
+- Over-reliance on complex charts when simple ones suffice
+
+❌ **Layout Issues**:
+- Poor use of whitespace (cluttered appearance)
+- Inconsistent spacing and alignment (unprofessional look)
+- Important data buried below the fold (requires scrolling to see key insights)
+- No clear entry point for eyes (users don't know where to start)
+- Inconsistent navigation or lack thereof
+- Mixing too many different chart types on one screen
 
 ❌ **F&B Industry Understanding Mistakes**:
 - Not understanding operational workflows and stakeholder needs
@@ -977,6 +993,10 @@ Before moving forward, you should be able to:
 - Udemy/Coursera courses specific to your chosen BI tool
 - Tool-specific blogs and forums (e.g., Tableau Zen Masters, Power BI Community)
 - Data visualization challenges (e.g., Makeover Monday, Workout Wednesday)
+- Tableau Public gallery
+- Power BI community
+- Official tool documentation
+- YouTube tutorials for your chosen tool
 
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "Compare Tableau vs Power BI vs Data Studio for small business BI needs"
@@ -1056,7 +1076,7 @@ Before moving to Phase 4, you should be able to:
   - Include recommendations
   - Practice presenting to someone
 
-**Resources**:
+#### Resources
 - "Storytelling with Data" by Cole Nussbaumer Knaflic (essential reading)
 - "The Visual Display of Quantitative Information" by Edward Tufte (classic)
 - "Good Charts" by Scott Berinato (Harvard Business Review Press)
@@ -1066,6 +1086,10 @@ Before moving to Phase 4, you should be able to:
 - "Show Me the Numbers" by Stephen Few (practical guide to quantitative information)
 - TED talks about data (for inspiration on compelling presentations)
 - Data journalism examples (The Pudding, FiveThirtyEight - for narrative structure)
+
+> **🤖 AI Assistance**:
+> - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?"
+> - **💡 Ask AI**: "How do I present negative findings (declining sales) in a constructive way?"
 
 #### Common Pitfalls
 
@@ -1089,10 +1113,6 @@ Before moving forward, you should be able to:
 - [ ] Present to different audience types (technical vs executive)
 - [ ] Handle questions and objections confidently
 - [ ] Use storytelling techniques to make data memorable
-
-> **🤖 AI Assistance**:
-> - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?"
-> - **💡 Ask AI**: "How do I present negative findings (declining sales) in a constructive way?"
 
 ---
 

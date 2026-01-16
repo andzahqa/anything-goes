@@ -71,6 +71,14 @@ graph LR
 > - **💡 Ask AI**: "Give me 5 real-world examples of how BI helps F&B businesses"
 > - **🔍 AI Explain**: Have AI explain KPIs with F&B-specific examples: "Explain what KPIs are and give 5 examples for restaurants"
 
+#### Resources
+
+- "Business Intelligence For Dummies" by Swain, Alexander, and Alexander
+- Investopedia: Business Intelligence, Data Analytics definitions
+- Harvard Business Review articles on data-driven decision making
+- Online courses on BI fundamentals (e.g., Coursera, edX)
+- Industry reports on BI trends in hospitality
+
 ---
 
 ### Module 1.2: Spreadsheet Mastery Fundamentals
@@ -152,6 +160,15 @@ graph LR
 > - **⚡ AI Generate**: "Create practice data: Products table (id, name, price) and Sales table (product_id, quantity) for VLOOKUP practice"
 > - **🔍 AI Explain**: "Explain pivot tables like I'm 10, then show me an F&B example"
 > - **⚡ AI Generate**: "Give me 20 beginner-level VLOOKUP practice problems"
+
+#### Resources
+
+- Excel/Google Sheets official documentation
+- Chandoo.org spreadsheet tutorials
+- ExcelJet formulas and shortcuts guide
+- freeCodeCamp spreadsheet courses
+- YouTube: ExcelIsFun and Learn Google Sheets channels
+- Practice datasets: Kaggle spreadsheet exercises
 
 #### Common Pitfalls
 
