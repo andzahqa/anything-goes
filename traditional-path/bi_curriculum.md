@@ -236,7 +236,12 @@ Before moving forward, you should be able to:
   - What questions each answers
   - What actions might result from insights
 
-**Resources**:
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What metrics matter most for a small restaurant owner? Explain each one"
+> - **⚡ AI Generate**: "Create sample F&B transaction data (100 rows) for practicing metric calculations"
+
+#### Resources
+
 - "Lean Analytics" by Alistair Croll
 - Industry-specific KPI guides
 - F&B Business Processes guide (for F&B context)
