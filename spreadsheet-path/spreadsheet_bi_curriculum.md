@@ -210,12 +210,25 @@ Before moving to Phase 2, you should be able to:
 - Using vanity metrics (revenue without costs)
 - Not benchmarking against industry standards
 - Calculating percentages wrong (base amount errors)
+- Focusing on lagging indicators without considering leading indicators
+- Not defining KPIs clearly or consistently across the organization
 
 ❌ **Business Understanding**:
 - Not understanding the "why" behind metrics
 - Ignoring context (seasonality, events)
 - Comparing incomparable businesses (fine dining vs QSR)
 - Not validating with actual F&B operators
+- Lack of domain knowledge leading to irrelevant analysis
+- Failing to connect data insights to operational changes
+
+❌ **Data Thinking Errors**:
+- Not asking "why" multiple times (5 whys technique)
+- Accepting data at face value without validation
+- Missing the context behind numbers
+- Confusing correlation with causation immediately
+- Not considering alternative explanations for trends
+- Ignoring qualitative insights from stakeholders
+- Presenting data without a clear recommendation or call to action
 
 #### Resources
 
@@ -223,16 +236,22 @@ Before moving to Phase 2, you should be able to:
 - **Industry**: National Restaurant Association benchmarks
 - **Tools**: KPI dashboard templates
 - **Books**: "Restaurant Financial Basics" by Raymond S. Schmidgall
+- **"The Goal" by Eliyahu M. Goldratt**: A novel illustrating critical thinking in business.
+- **F&B Industry Publications**: Restaurant Business Online, Nation's Restaurant News.
+- **Local F&B Associations**: Often provide regional benchmarks and best practices.
 
 #### Assessment Checklist
 
 Before moving to Phase 2, you should be able to:
-- [ ] Define and calculate 10+ F&B KPIs
-- [ ] Explain why each metric matters for decision-making
-- [ ] Identify good vs bad metric values
-- [ ] Build a KPI calculator in spreadsheets
-- [ ] Ask the right analytical questions for F&B businesses
-- [ ] Understand stakeholder needs (owner vs manager vs staff)
+- [ ] Define and calculate 10+ F&B KPIs (e.g., food cost %, labor cost %, prime cost %, RevPASH, average check, table turnover)
+- [ ] Explain why each metric matters for decision-making in an F&B context
+- [ ] Identify good vs bad metric values and typical industry benchmarks
+- [ ] Build a functional KPI calculator in spreadsheets with clear inputs and outputs
+- [ ] Ask the right analytical questions for F&B businesses to uncover insights
+- [ ] Understand stakeholder needs (owner vs manager vs staff) and tailor insights accordingly
+- [ ] Translate business questions into data analysis problems
+- [ ] Critically evaluate data for potential biases or limitations
+- [ ] Formulate actionable recommendations based on F&B KPIs
 
 ---
 
@@ -649,55 +668,55 @@ Before moving forward, you should be able to:
 
 **Google Sheets Exclusive Functions**:
 
-1. **QUERY()** - SQL-like querying in Sheets!
-   ```
-   =QUERY(A1:E100, "SELECT A, SUM(E) WHERE B='Food' GROUP BY A ORDER BY SUM(E) DESC", 1)
-   ```
-   - SELECT, WHERE, GROUP BY, ORDER BY, LIMIT
-   - Pivot-like aggregation without pivot tables
-   - Dynamic data analysis
+1.  **QUERY()** - SQL-like querying in Sheets!
+    ```
+    =QUERY(A1:E100, "SELECT A, SUM(E) WHERE B='Food' GROUP BY A ORDER BY SUM(E) DESC", 1)
+    ```
+    - SELECT, WHERE, GROUP BY, ORDER BY, LIMIT
+    - Pivot-like aggregation without pivot tables
+    - Dynamic data analysis
 
-2. **ARRAYFORMULA()** - Apply formula to entire column
-   ```
-   =ARRAYFORMULA(IF(A2:A="",,A2:A*B2:B))
-   ```
-   - No more dragging formulas down
-   - Automatic expansion
-   - Faster calculation
+2.  **ARRAYFORMULA()** - Apply formula to entire column
+    ```
+    =ARRAYFORMULA(IF(A2:A="",,A2:A*B2:B))
+    ```
+    - No more dragging formulas down
+    - Automatic expansion
+    - Faster calculation
 
-3. **FILTER()** - Dynamic filtering
-   ```
-   =FILTER(A2:E100, B2:B100="Food", E2:E100>100)
-   ```
-   - Multiple conditions
-   - Returns array of matching rows
-   - Refreshes automatically
+3.  **FILTER()** - Dynamic filtering
+    ```
+    =FILTER(A2:E100, B2:B100="Food", E2:E100>100)
+    ```
+    - Multiple conditions
+    - Returns array of matching rows
+    - Refreshes automatically
 
-4. **UNIQUE()** - Extract unique values
-   ```
-   =UNIQUE(A2:A100)
-   ```
-   - Automatic deduplication
-   - Great for creating filter lists
+4.  **UNIQUE()** - Extract unique values
+    ```
+    =UNIQUE(A2:A100)
+    ```
+    - Automatic deduplication
+    - Great for creating filter lists
 
-5. **SORT()** and **SORTN()**
-   ```
-   =SORT(A2:E100, 5, FALSE)  // Sort by column 5, descending
-   =SORTN(A2:E100, 10, 0, 5, FALSE)  // Top 10 by column 5
-   ```
+5.  **SORT()** and **SORTN()**
+    ```
+    =SORT(A2:E100, 5, FALSE)  // Sort by column 5, descending
+    =SORTN(A2:E100, 10, 0, 5, FALSE)  // Top 10 by column 5
+    ```
 
-6. **IMPORTRANGE()** - Pull data from other Sheets
-   ```
-   =IMPORTRANGE("spreadsheet_url", "Sheet1!A1:E100")
-   ```
-   - Centralize data from multiple files
-   - Auto-updates when source changes
+6.  **IMPORTRANGE()** - Pull data from other Sheets
+    ```
+    =IMPORTRANGE("spreadsheet_url", "Sheet1!A1:E100")
+    ```
+    - Centralize data from multiple files
+    - Auto-updates when source changes
 
-7. **IMPORTDATA()**, **IMPORTHTML()**, **IMPORTXML()**, **IMPORTFEED()**
-   - Pull data from web sources
-   - CSV URLs, HTML tables, XML, RSS
+7.  **IMPORTDATA()**, **IMPORTHTML()**, **IMPORTXML()**, **IMPORTFEED()**
+    - Pull data from web sources
+    - CSV URLs, HTML tables, XML, RSS
 
-8. **GOOGLETRANSLATE()**, **GOOGLEFINANCE()** - Google service integrations
+8.  **GOOGLETRANSLATE()**, **GOOGLEFINANCE()** - Google service integrations
 
 **Combining Functions** (The Magic):
 ```
@@ -759,11 +778,11 @@ function sendWeeklyReport() {
 - Power Tools (enhanced data manipulation)
 
 **Hands-on Projects**:
-1. Build a sales analysis using `QUERY()` - no pivot tables!
-2. Create a dynamic dropdown filter using `UNIQUE()` and `FILTER()`
-3. Import data from a CSV URL with `IMPORTDATA()`
-4. Write a simple Apps Script to auto-timestamp entries
-5. Create a Google Form that feeds into your analysis sheet
+1.  Build a sales analysis using `QUERY()` - no pivot tables!
+2.  Create a dynamic dropdown filter using `UNIQUE()` and `FILTER()`
+3.  Import data from a CSV URL with `IMPORTDATA()`
+4.  Write a simple Apps Script to auto-timestamp entries
+5.  Create a Google Form that feeds into your analysis sheet
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain Google Sheets QUERY function syntax with examples"
