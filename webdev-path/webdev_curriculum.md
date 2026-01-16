@@ -421,8 +421,6 @@ Enhance your dashboard to:
 5. **Todo App**: Full CRUD operations with filtering
 6. **Theme Switcher**: Use Context API for app-wide theme
 
-
-
 #### Common Pitfalls
 
 ❌ **State Mistakes**:
@@ -440,8 +438,6 @@ Enhance your dashboard to:
 - Creating functions inside JSX (causes re-renders)
 - Not memoizing expensive calculations
 - Passing inline objects/arrays as props
-
-
 
 #### Resources
 
@@ -464,10 +460,19 @@ Enhance your dashboard to:
   - r/reactjs
 
 > **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create a React functional component for a ProductCard with props for name, price, image"
-> - **🔍 AI Explain**: "Explain React Virtual DOM and why it makes rendering fast"
-> - **💡 Ask AI**: "What is the useEffect dependency array and when should I use it?"
-> - **🤖 AI Debug**: "React component is re-rendering infinitely. Check useEffect usage: [code]"
+> - **⚡ AI Generate**: "Create a React functional component for a ProductCard with props for name, price, image" or "Create React component structure for analytics dashboard"
+> - **🔍 AI Explain**: "Explain React Virtual DOM and why it makes rendering fast" or "Explain React reconciliation and virtual DOM with examples"
+> - **💡 Ask AI**: "What is the useEffect dependency array and when should I use it?" or "When should I use useMemo vs useCallback vs React.memo?"
+> - **🤖 AI Debug**: "React component is re-rendering infinitely. Check useEffect usage: [code]" or "My useEffect runs infinitely. Dependencies: [data]. Code: [code]"
+
+- React official documentation (comprehensive and well-structured)
+- "React - The Complete Guide" by Maximilian Schwarzmüller (Udemy)
+- React.dev interactive tutorials
+- Kent C. Dodds' blog and courses (advanced React patterns)
+- Frontend Masters React courses
+- React Router official docs
+- Vite documentation (modern build tool)
+- React Docs (new beta): https://react.dev
 - React DevTools Chrome extension
 
 **Courses**:
@@ -1267,9 +1272,7 @@ Add comprehensive security:
 4. **Collaborative Editing**: Multiple users editing same data
 5. **Connection Management**: Handle disconnect/reconnect gracefully
 
-💡 **Ask AI**: "WebSockets vs Server-Sent Events vs Long Polling - which for BI dashboards?"
-⚡ **AI Generate**: "Create Socket.io event structure for real-time analytics dashboard"
-🔍 **AI Explain**: "Explain how WebSocket connection works with diagram"
+
 
 #### Common Pitfalls
 
@@ -1284,14 +1287,33 @@ Add comprehensive security:
 - Sending entire datasets instead of incremental updates
 - Not throttling rapid updates
 
-🤖 **AI Debug**: "Socket.io client keeps disconnecting. Console shows: [error]"
+
 
 #### Resources
 
-**Documentation**:
-- Socket.io Docs: https://socket.io/docs/
-- MDN WebSockets Guide
-- EventSource API (MDN)
+**Tools**:
+- Socket.io Client/Server
+- Postman (WebSocket Testing)
+- Chrome Network Tab (WS Inspection)
+
+#### Resources
+
+- **Documentation**:
+  - Socket.io Docs
+  - MDN WebSockets
+  - EventSource API (MDN)
+- **Tutorials**:
+  - Real-time Web Apps Course
+  - Socket.io Official Tutorial
+- **Patterns**:
+  - WebSocket Protocol Deep-dive
+  - Real-time Architecture Patterns
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "WebSockets vs Server-Sent Events vs Long Polling - which for BI dashboards?"
+> - **⚡ AI Generate**: "Create Socket.io event structure for real-time analytics dashboard"
+> - **🔍 AI Explain**: "Explain how WebSocket connection works with diagram"
+> - **🤖 AI Debug**: "Socket.io client keeps disconnecting. Console shows: [error]"
 
 **Learning**:
 - Socket.io tutorials (official)
@@ -1505,9 +1527,7 @@ Add comprehensive tests:
 4. **Lighthouse Audit**: Achieve 90+ score on all metrics
 5. **Redis Caching**: Add caching layer to API endpoints
 
-💡 **Ask AI**: "What's the best caching strategy for BI dashboard with hourly data updates?"
-⚡ **AI Generate**: "Create webpack config for optimal code splitting"
-🔍 **AI Explain**: "Explain critical rendering path and how to optimize it"
+
 
 #### Common Pitfalls
 
@@ -1527,15 +1547,34 @@ Add comprehensive tests:
 - Not using appropriate formats
 - Loading all images on page load
 
-🤖 **AI Debug**: "Lighthouse shows LCP of 4s. How to improve?"
+
 
 #### Resources
 
 **Tools**:
-- Lighthouse (built into Chrome DevTools)
+- Lighthouse (Chrome DevTools)
 - Webpack Bundle Analyzer
-- Web Vitals extension
-- GTmetrix, PageSpeed Insights
+- React Profiler
+- GTmetrix / PageSpeed Insights
+
+#### Resources
+
+- **Documentation**:
+  - Web.dev Performance Guides
+  - React Performance Docs
+  - Redis Documentation
+- **Tools**:
+  - Web Vitals Extension
+  - PurgeCSS
+- **Learning**:
+  - "High Performance Browser Networking"
+  - Frontend Masters Performance Course
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What's the best caching strategy for BI dashboard with hourly data updates?"
+> - **⚡ AI Generate**: "Create webpack config for optimal code splitting"
+> - **🔍 AI Explain**: "Explain critical rendering path and how to optimize it"
+> - **🤖 AI Debug**: "Lighthouse shows LCP of 4s. How to improve?"
 
 **Documentation**:
 - Web.dev Performance guides
@@ -1642,10 +1681,7 @@ Optimize your entire app:
 4. **Environment Config**: Set up dev, staging, production environments
 5. **Domain Setup**: Configure custom domain with SSL
 
-💡 **Ask AI**: "Compare Vercel vs Netlify vs Railway - which for BI dashboard?"
-⚡ **AI Generate**: "Create GitHub Actions workflow for: test → build → deploy to Vercel"
-🔍 **AI Explain**: "Explain blue-green deployment and canary releases"
-🤖 **AI Debug**: "Deployment succeeds but app shows blank page. Build logs: [logs]"
+
 
 #### Common Pitfalls
 
@@ -1666,15 +1702,36 @@ Optimize your entire app:
 - Secrets exposed in logs
 - No rollback strategy
 
-🤖 **AI Debug**: "GitHub Actions failing. Error: 'ENOENT: package.json not found'"
+
 
 #### Resources
 
-**Platforms**:
-- Vercel Docs: https://vercel.com/docs
-- Railway Docs: https://docs.railway.app
-- Render Guides: https://render.com/docs
-- Netlify Docs: https://docs.netlify.com
+**Tools**:
+- GitHub Actions (CI/CD)
+- Vercel CLI / Netlify CLI
+- Docker
+- Railway / Render / DigitalOcean
+
+#### Resources
+
+- **Platforms**:
+  - Vercel Docs
+  - Railway Docs
+  - Render Guides
+  - Netlify Docs
+- **CI/CD**:
+  - GitHub Actions Documentation
+  - GitLab CI/CD
+  - CircleCI Tutorials
+- **Learning**:
+  - "DevOps for Developers"
+  - Deployment Guides (Fireship)
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Compare Vercel vs Netlify vs Railway - which for BI dashboard?"
+> - **⚡ AI Generate**: "Create GitHub Actions workflow for: test → build → deploy to Vercel"
+> - **🔍 AI Explain**: "Explain blue-green deployment and canary releases"
+> - **🤖 AI Debug**: "GitHub Actions failing. Error: 'ENOENT: package.json not found'"
 
 **CI/CD**:
 - GitHub Actions Docs
@@ -1777,9 +1834,7 @@ Deploy your complete app:
 4. **Documentation**: Write comprehensive API docs with Swagger
 5. **Backup System**: Setup automated daily database backups
 
-💡 **Ask AI**: "Sentry vs LogRocket vs Datadog - which for BI SaaS monitoring?"
-⚡ **AI Generate**: "Create health check endpoint that monitors database, API, and external services"
-🔍 **AI Explain**: "Explain difference between logging, monitoring, and observability"
+
 
 #### Common Pitfalls
 
@@ -1800,15 +1855,34 @@ Deploy your complete app:
 - Infrequent backups
 - Backups in same location as production
 
-🤖 **AI Debug**: "Sentry not capturing errors in production. Config: [config]"
+
 
 #### Resources
 
 **Tools**:
-- Sentry: https://sentry.io
-- Google Analytics 4
-- Swagger UI for API docs
-- Better Uptime or UptimeRobot
+- Sentry (Error Tracking)
+- Google Analytics 4 / Mixpanel
+- UptimeRobot
+- Swagger UI (Documentation)
+
+#### Resources
+
+- **Documentation**:
+  - Sentry Docs
+  - GA4 Setup Guide
+  - OpenAPI Specification
+- **Learning**:
+  - "Observability Engineering"
+  - Production-Ready Microservices
+  - DevOps Best Practices
+- **Monitoring**:
+  - Datadog / New Relic (Advanced)
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Sentry vs LogRocket vs Datadog - which for BI SaaS monitoring?"
+> - **⚡ AI Generate**: "Create health check endpoint that monitors database, API, and external services"
+> - **🔍 AI Explain**: "Explain difference between logging, monitoring, and observability"
+> - **🤖 AI Debug**: "Sentry not capturing errors in production. Config: [config]"
 
 **Documentation**:
 - Sentry documentation
