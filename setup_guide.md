@@ -21,38 +21,81 @@ Your learning workspace is organized as follows:
 ```
 /home/adeandza/Desktop/anything-goes/
 │
-├── fnb-domain/                  # 1️⃣ F&B Domain (START HERE)
-│   ├── fb_business_processes.md # Complete operations guide
-│   ├── datasets/                # F&B sample data
-│   └── START_HERE.md            # Quick start
+├── fnb-domain/                           # 1️⃣ F&B Domain (START HERE)
+│   ├── fb_business_processes_indonesia.md # 🇮🇩 Complete Indonesia F&B guide (1,953 lines)
+│   ├── fb_mastery_curriculum.md          # 📚 6-week curriculum (5 phases)
+│   ├── start_here.md                     # Quick start
+│   ├── resources/
+│   │   └── regional_guides/              # 24 regional F&B guides
+│   ├── archive/                          # Archived broad guides
+│   ├── datasets/                         # F&B sample data
+│   ├── projects/                         # Your F&B BI projects
+│   └── notes/                            # Industry research
 │
-├── spreadsheet-path/            # 2️⃣ Spreadsheet BI (Recommended first)
-│   ├── spreadsheet_bi_curriculum.md  # Full curriculum
-│   ├── resources/               # Formula references
-│   └── START_HERE.md            # Quick start
+├── spreadsheet-path/                     # 2️⃣ Spreadsheet BI
+│   ├── spreadsheet_bi_curriculum.md      # Full curriculum
+│   ├── resources/                        # Formula references
+│   └── start_here.md                     # Quick start
 │
-├── traditional-path/            # 3️⃣ Traditional BI (SQL, Python)
-│   ├── bi_curriculum.md         # Full curriculum
-│   ├── datasets/                # Practice data
-│   ├── projects/                # Your work
-│   └── START_HERE.md            # Quick start
+├── traditional-path/                     # 3️⃣ Traditional BI (SQL, Python)
+│   ├── bi_curriculum.md                  # Full curriculum
+│   ├── datasets/                         # Practice data
+│   ├── projects/                         # Your work
+│   └── start_here.md                     # Quick start
 │
-├── webdev-path/                 # 4️⃣ Web Development (Optional)
-│   ├── WEB_DEV_CURRICULUM.md    # Full curriculum
-│   ├── projects/                # Practice projects
-│   └── README.md                # Path overview
+├── webdev-path/                          # 4️⃣ Web Development (Optional)
+│   ├── webdev_curriculum.md              # Full curriculum
+│   ├── projects/                         # Practice projects
+│   └── start_here.md                     # Path overview
 │
-├── ai-guided-learning_guide.md  # 🤖 AI assistance strategies
-├── progress_tracker.md          # Track your journey
-└──setup_guide.md                # This file
+├── ai-guided-learning_guide.md           # 🤖 AI assistance strategies (1,264 lines)
+├── progress_tracker.md                   # Track your journey
+└── setup_guide.md                        # This file
 
 ```
 
 ---
 
-## 🛠️ Software Installation Guide
+## 🍽️ Path 0: F&B Domain Knowledge (No Software Needed!)
 
-### Path 1: Spreadsheet BI (Recommended to Start)
+**Before any BI tools, master the business domain.**
+
+### What You Need:
+
+1. **Markdown Reader** (choose one):
+   - **Obsidian** (Recommended): https://obsidian.md
+     - Beautiful markdown viewer
+     - Graph view for connected notes
+     - Free for personal use
+   - **VS Code with markdown preview**: Already installed if you have VS Code
+   - **Any text editor**: Default text editor works fine
+
+2. **Spreadsheet for Phase 3 exercises** (financial calculations):
+   - Google Sheets (free, online)
+   - Excel (if you have it)
+   - See Spreadsheet BI setup below for details
+
+3. **Notebook & Pen** (seriously!):
+   - For observation logs when visiting F&B businesses
+   - Sketching data flows
+   - Quick notes during interviews
+
+### Setup Steps:
+
+```bash
+# Navigate to F&B domain
+cd ~/Desktop/anything-goes/fnb-domain
+
+# Read the curriculum first
+open fb_mastery_curriculum.md
+
+# Then start with the Indonesia guide
+open fb_business_processes_indonesia.md
+```
+
+**That's it!** F&B domain is primarily reading, observing, and thinking. The real-world observation (visiting restaurants) is the most important "tool."
+
+
 
 #### Option A: Google Sheets (Free, Cloud-Based)
 **✅ No installation needed!**
@@ -98,12 +141,15 @@ Your learning workspace is organized as follows:
    - Compatible with Excel files
    - Lacks Power Pivot/Query/DAX
 
-**Paid Options**:
+## 🛠️ Software Installation Guide
+
+### Path 1: Spreadsheet BI (After F&B Domain)
 1. **Microsoft 365 Personal** (~$70/year):
    - Full Excel with all Power tools
    - OneDrive cloud storage
    - **Best for serious learning**
 
+**Paid Options**:
 2. **One-time Purchase** (Excel 2021):
    - ~$160 one-time
    - No Power Query/Pivot on Mac version!
