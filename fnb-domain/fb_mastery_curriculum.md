@@ -331,15 +331,10 @@ Why: Combined food + labor = baseline profitability
 [Continue for all metrics from guide...]
 ```
 
-
-
 **📊 Practice Calculation** (4-5 hours):
 **Using Real/Simulated Data**:
 [Continue for all metrics from guide...]
 ```
-
-
-
 
 **Exercise 1: Warung Economics Calculation**
 ```
@@ -363,8 +358,6 @@ Analyze:
 - What if lose 10% customers?
 - What if delivery (25% commission) = 30% of orders?
 ```
-
-
 
 **Exercise 2: Modern Restaurant Analysis**
 ```
@@ -426,10 +419,6 @@ Analyze:
 > - **⚡ AI Generate**: "Generate sample menu data (20 items) with popularity and profit margin for menu engineering practice"
 > - **💡 Ask AI**: "What are typical food cost % targets for different F&B types?"
 
-
-
-
-
 **Common Pitfalls**:
 
 ❌ **Metric Mistakes**:
@@ -485,9 +474,6 @@ Before moving to Phase 4, you should be able to:
 | Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
 ```
 
-
-
-
 **🔍 Pattern Exercise** (3-4 hours):
 **Identify Universal vs Regional**:
 
@@ -514,8 +500,6 @@ Before moving to Phase 4, you should be able to:
 - Regional patterns = must customize for
 
 - Regional patterns = must customize for
-
-
 
 **Tools**:
 - **Analysis**: Google Sheets (Comparison Matrix)
@@ -648,7 +632,6 @@ Build:
 Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
 ```
 
-
 4. Financial Overview
    - Monthly P&L
    - Prime cost tracking
@@ -656,8 +639,6 @@ Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
 
 Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
 ```
-
-
 
 **Option B: Menu Engineering Tool**
 ```
@@ -675,8 +656,6 @@ Build calculator that:
 Tools: Google Sheets with formulas + conditional formatting
 ```
 
-
-
 **Option C: Ramadan Revenue Planner (Indonesia-specific)**
 ```
 Build planner that:
@@ -693,10 +672,8 @@ Build planner that:
 Tools: Excel/Sheets with scenario modeling
 ```
 
-
 reflection.md - What you learned, what was hard, what you'd improve
 ```
-
 
 **📝 Documentation**:
 Create `fnb-domain/projects/capstone_[project_name]/`:
@@ -707,8 +684,6 @@ dashboard/ - Exported dashboard/screenshots
 analysis.md - Insights discovered, recommendations
 reflection.md - What you learned, what was hard, what you'd improve
 ```
-
-
 
 **Tools**:
 - **Design**: Canva / Figma (UI Mockups & Wireframes)
