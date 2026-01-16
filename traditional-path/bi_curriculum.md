@@ -1150,16 +1150,42 @@ Before moving forward, you should be able to:
 3. Create benchmarks and alerts (what's good vs. concerning)
 4. Build a "KPI Dashboard" in your BI tool
 
-**Resources**:
-- Restaurant Owner's Operating Manual
-- F&B KPI databases and benchmarks
-- Toast, Square, or other POS company resources
-
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "Explain why prime cost % is more important than just food cost % or labor cost % alone"
 > - **💡 Ask AI**: "What are typical target ranges for food cost %, labor cost %, and prime cost % by restaurant type?"
 > - **⚡ AI Generate**: "Create formula templates for calculating all major F&B KPIs (food cost %, RevPASH, table turnover, etc.)"
 > - **💡 Ask AI**: "Explain menu engineering matrix - how to classify items as Stars, Plow Horses, Puzzles, and Dogs"
+
+#### Resources
+
+- Restaurant Owner's Operating Manual
+- F&B KPI databases and benchmarks
+- Toast, Square, or other POS company resources
+- National Restaurant Association benchmarks
+
+#### Common Pitfalls
+
+❌ **Calculation Mistakes**:
+- Not including all costs in prime cost
+- Wrong revenue base for percentages
+- Ignoring waste and spoilage
+- Not separating tips properly
+
+❌ **Benchmarking Errors**:
+- Comparing different F&B types
+- Ignoring regional variations
+- Using outdated benchmarks
+- Not accounting for business model differences
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Calculate all major F&B KPIs accurately
+- [ ] Interpret metric values correctly
+- [ ] Apply menu engineering concepts
+- [ ] Know industry benchmarks by type
+- [ ] Build comprehensive F&B KPI dashboards
+- [ ] Explain metrics to operators
 
 ---
 
