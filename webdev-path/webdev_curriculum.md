@@ -1815,6 +1815,16 @@ Add advanced capabilities:
 
 #### Resources
 
+- Node.js Worker Threads documentation for parallel processing
+- Bull Queue library for background jobs
+- Apache Arrow for fast data processing
+- jsPDF and Puppeteer documentation for PDF generation
+- ExcelJS and xlsx library guides for Excel files
+- D3.js advanced tutorials and examples
+- Data processing and ETL best practices
+
+#### Resources
+
 **ETL & Data Processing**:
 - Node.js Worker Threads for parallel processing
 - Bull Queue for background jobs
