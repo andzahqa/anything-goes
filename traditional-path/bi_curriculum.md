@@ -156,38 +156,51 @@ Before moving forward, you should be able to:
 
 **Resources**:
 - ExcelJet tutorials
-- Chandoo.org for dashboard inspiration
-- Practice datasets from Kaggle
+- ExcelJet (comprehensive Excel formulas reference)
+- Chandoo.org (Excel tutorials, templates, and practice files)
+- Google Sheets function reference documentation
+- "Excel Formulas and Functions For Dummies" by Ken Bluttman
+- YouTube: ExcelIsFun channel for video tutorials
+- Practice datasets: Kaggle datasets for spreadsheet practice
 
 #### Common Pitfalls
 
 ❌ **Spreadsheet Mistakes**:
-- Not using tables (makes formulas and pivots harder)
-- Merging cells (breaks sorting and filtering)
-- Storing calculations instead of formulas (not reproducible)
-- Inconsistent data entry (mixed formats, typos)
+- Not using Excel Tables (makes formulas harder and data less structured)
+- Hardcoding values instead of using cell references or named ranges
+- Mixing raw data and presentation/dashboard in the same sheet
+- Not documenting assumptions, formulas, and data sources
+- Saving everything in one monolithic file
+- Not using version control or consistent naming conventions
 
 ❌ **Formula Errors**:
-- Using relative references when absolute is needed
-- VLOOKUP looking left (use INDEX/MATCH instead)
-- Not handling #N/A and #DIV/0! errors
-- Nested IFs too complex (use IFS or lookup tables)
+- Not understanding absolute ($A$1) vs relative (A1) references
+- Creating circular references accidentally
+- Not handling errors (#REF!, #VALUE!, #N/A) with IFERROR
+- Overly complex nested formulas that are impossible to debug
+- Not breaking complex calculations into intermediate steps
+- Using volatile functions (NOW, TODAY, OFFSET) excessively
 
-❌ **Data Quality**:
-- Dates stored as text
-- Numbers with leading zeros or spaces
-- Mixed units in same column (kg and lbs)
-- Duplicate headers or blank rows
+❌ **Data Organization**:
+- Empty rows/columns in data tables breaking formulas
+- Merged cells causing copy/paste and formula issues
+- Inconsistent data formatting (dates, numbers, text)
+- Multiple unrelated data tables on the same sheet
+- Not using proper headers or structured data
+- Mixing different grain levels (daily vs monthly) in one table
 
 #### Assessment Checklist
 
 Before moving forward, you should be able to:
-- [ ] Create complex formulas using lookup and logical functions
-- [ ] Build and customize pivot tables
-- [ ] Apply data validation and conditional formatting
-- [ ] Clean messy data efficiently
-- [ ] Use named ranges for better readability
-- [ ] Create simple dashboards with charts and slicers
+- [ ] Use all essential Excel/Sheets functions proficiently (SUM, IF, VLOOKUP, etc.)
+- [ ] Master absolute vs relative cell references
+- [ ] Create and manage pivot tables for data analysis
+- [ ] Clean messy data efficiently (duplicates, blanks, formatting)
+- [ ] Apply conditional formatting for visual insights
+- [ ] Use VLOOKUP, INDEX-MATCH, and XLOOKUP for data merging
+- [ ] Build simple interactive dashboards with dropdowns and filters
+- [ ] Understand when to use spreadsheets vs databases
+- [ ] Organize data using Excel Tables and named ranges
 
 ---
 
@@ -226,6 +239,9 @@ Before moving forward, you should be able to:
 - "Lean Analytics" by Alistair Croll
 - Industry-specific KPI guides
 - F&B Business Processes guide (for F&B context)
+- "Measure What Matters" by John Doerr (for OKRs and KPIs)
+- Harvard Business Review articles on analytics and metrics
+- Online courses on business analysis and KPI definition (e.g., LinkedIn Learning)
 
 #### Common Pitfalls
 
@@ -234,12 +250,16 @@ Before moving forward, you should be able to:
 - Using vanity metrics (look good but not actionable)
 - Not understanding what "good" looks like
 - Comparing apples to oranges (different contexts)
+- Not clearly defining the metric's calculation
+- Focusing on outputs instead of outcomes
 
 ❌ **Analytical Thinking Errors**:
 - Jumping to conclusions without data
 - Ignoring context (seasonality, market changes)
 - Not asking "so what?" about findings
 - Correlation vs causation confusion
+- Confirmation bias (seeking data that supports pre-existing beliefs)
+- Failing to consider alternative explanations for observed trends
 
 #### Assessment Checklist
 
@@ -250,6 +270,9 @@ Before moving to Phase 2, you should be able to:
 - [ ] Identify what makes a good metric (actionable, accessible, auditable)
 - [ ] Apply analytical mindset to real scenarios
 - [ ] Translate business questions into data questions
+- [ ] Distinguish between leading and lagging indicators
+- [ ] Understand the importance of data granularity for different analyses
+- [ ] Articulate the difference between a metric and a KPI
 
 ---
 
