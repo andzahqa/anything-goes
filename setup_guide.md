@@ -14,7 +14,7 @@
 
 ---
 
-## � Table of Contents
+## 📑 Table of Contents
 
 1. [Directory Structure](#-directory-structure)
 2. [Path 0: F&B Domain Knowledge](#️-path-0-fb-domain-knowledge-no-software-needed)
@@ -23,20 +23,24 @@
 3. [Path 1: Spreadsheet BI](#️-path-1-spreadsheet-bi-after-completing-fb-domain)
    - Option A: Google Sheets
    - Option B: Microsoft Excel
-4. [Path 2: Traditional BI Tools](#path-2-traditional-bi-tools)
+4. [Path 2: Traditional BI](#️-path-2-traditional-bi-after-fb-domain)
    - Python Setup
    - SQL Database Setup
    - BI Visualization Tools
    - Which Tools to Start With?
-5. [Practice Datasets](#-practice-datasets)
-6. [Progress Tracking System](#-progress-tracking-system)
-7. [Quick Start Guides](#-quick-start-guides)
-8. [Integrated Learning Workflow](#-integrated-learning-workflow)
-9. [Essential Resources](#-essential-resources-bookmarks)
+5. [Path 3: Web Development](#️-path-3-web-development-optional)
+   - Node.js & npm
+   - Code Editor (VS Code)
+   - Version Control (Git)
+6. [Practice Datasets](#-practice-datasets)
+7. [Progress Tracking System](#-progress-tracking-system)
+8. [Quick Start Guides](#-quick-start-guides)
+9. [Integrated Learning Workflow](#-integrated-learning-workflow)
+10. [Essential Resources](#-essential-resources-bookmarks)
 
 ---
 
-## �📁 Directory Structure
+## 📁 Directory Structure
 
 Your learning workspace is organized as follows:
 
@@ -220,7 +224,7 @@ sudo apt install libreoffice-calc
 
 ---
 
-### Path 2: Traditional BI Tools
+## 🔧 Path 2: Traditional BI (After F&B Domain)
 
 #### 1. Python Setup
 
@@ -464,6 +468,93 @@ docker-compose -f docker-compose-non-dev.yml up
 - ✅ **Metabase** or **Superset** (self-hosted BI)
 
 ---
+
+## 🌐 Path 3: Web Development (Optional)
+
+**Start this path AFTER Path 1 or Path 2, when you want to build custom BI web apps.**
+
+### 1. Node.js & npm
+
+**What is it**: JavaScript runtime for building web applications
+
+**Installation (Linux)**:
+```bash
+# Install Node.js (LTS version)
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Verify installation
+node --version
+npm --version
+```
+
+**Installation (Windows/Mac)**:
+- Download from: https://nodejs.org
+- Run installer (LTS version recommended)
+- Verify: Open terminal → `node --version`
+
+---
+
+### 2. Code Editor (VS Code)
+
+**Installation (Linux)**:
+```bash
+# Download .deb package
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+
+sudo apt update
+sudo apt install code
+
+# Launch
+code
+```
+
+**Installation (Windows/Mac)**:
+- Download from: https://code.visualstudio.com
+- Run installer
+
+**Recommended Extensions**:
+- Live Server (for local development)
+- Prettier (code formatting)
+- ESLint (code quality)
+- HTML CSS Support
+- JavaScript (ES6) code snippets
+
+---
+
+### 3. Version Control (Git)
+
+**Installation (Linux)**:
+```bash
+# Install Git
+sudo apt update
+sudo apt install git
+
+# Configure
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Verify
+git --version
+```
+
+**Installation (Windows/Mac)**:
+- Download from: https://git-scm.com
+- Run installer
+- Configure with same commands above
+
+**GitHub Setup** (optional but recommended):
+1. Create account: https://github.com
+2. Generate SSH key:
+   ```bash
+   ssh-keygen -t ed25519 -C "your.email@example.com"
+   cat ~/.ssh/id_ed25519.pub
+   ```
+3. Add key to GitHub: Settings → SSH and GPG keys
+
+
 
 ## 📊 Practice Datasets
 
@@ -817,19 +908,6 @@ ORDER BY total_sales DESC;
 
 ## 🎯 What's Next?
 
-**Choose Your Starting Point**:
-
-### Option 1: Spreadsheet BI Path (Recommended)
-→ Start with Module 1.2 in [Spreadsheet BI Curriculum](./spreadsheet_bi_curriculum.md)
-→ **First lesson**: Google Sheets basic formulas
-
-### Option 2: Traditional BI Path
-→ Start with Module 1.1 in [Traditional BI Curriculum](./bi_curriculum.md)
-→ **First lesson**: Understanding Data & BI
-
-### Option 3: F&B Domain First
-→ Start with [F&B Business Processes](./fb_business_processes.md)
-→ **First chapter**: F&B Business Overview section
 
 **My Recommendation**: 
 1. Spend 1-2 hours reading F&B domain basics (understand the business)
