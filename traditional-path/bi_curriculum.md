@@ -944,6 +944,16 @@ Before moving forward, you should be able to:
 > - **⚡ AI Generate**: "Write DAX formula to calculate: Prior Year same month sales for comparison"
 > - **🔍 AI Explain**: "Explain the difference between calculated columns and measures in Power BI with examples"
 
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Implement advanced dashboard interactivity
+- [ ] Create drill-down and drill-through functionality
+- [ ] Build dynamic date filters and parameters
+- [ ] Write DAX formulas or calculated fields
+- [ ] Optimize dashboard performance
+- [ ] Design multi-page dashboard navigation
+
 ---
 
 ### Module 4.3: Data Modeling for BI

@@ -1248,10 +1248,20 @@ Add live features:
 
 #### Resources
 
-- D3.js documentation
-- Advanced charting libraries docs
-- Analytics architecture patterns
-- Real-time data processing guides
+- D3.js documentation and examples
+- Advanced charting library docs (Recharts, Victory, etc.)
+- Data processing best practices
+- ETL pipeline guides
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build custom D3.js visualizations
+- [ ] Implement ETL processes
+- [ ] Create advanced analytics features
+- [ ] Generate PDF and Excel exports
+- [ ] Build drag-and-drop dashboard builders
+- [ ] Design enterprise BI capabilities
 
 #### Common Pitfalls
 
