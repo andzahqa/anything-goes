@@ -1029,6 +1029,43 @@ Before moving forward, you should be able to:
 > - **💡 Ask AI**: "I have this data: [describe]. What story could I tell with it?"
 > - **🤖 AI Review**: "Review my data story flow: [describe sequence]. Is it compelling?"
 > - **💡 Ask AI**: "How do I structure a dashboard presentation for non-technical restaurant owners?"
+> - **⚡ AI Generate**: "Create realistic F&B dataset for capstone: 3 months transactions, 50 menu items, 3 locations"
+> - **🤖 AI Review**: "Review my capstone project scope. Is it achievable in 4 weeks and impressive for portfolio?"
+> - **💡 Ask AI**: "What makes a spreadsheet BI dashboard portfolio-worthy vs just functional?"
+> - **🤖 AI Debug**: "My dashboard is slow with 10k rows. Optimization strategies?"
+
+#### Resources
+
+- Capstone project templates
+- F&B dashboard inspiration
+- Portfolio presentation guides
+- Real F&B datasets (Kaggle, industry sites)
+
+#### Common Pitfalls
+
+❌ **Capstone Mistakes**:
+- Scope too large (can't finish)
+- No clear business problem solved
+- Over-engineering for spreadsheets
+- Missing documentation
+
+❌ **Presentation Issues**:
+- Too technical for audience
+- No business impact shown
+- Poor visual design
+- Not demonstrating skills learned
+
+#### Final Assessment
+
+Capstone project complete when you can demonstrate:
+- [ ] Professional-quality spreadsheet BI dashboard
+- [ ] F&B-specific insights and metrics
+- [ ] Clean, maintainable formulas and structure
+- [ ] User-friendly interface for non-technical users
+- [ ] Documentation and user guide
+- [ ] Portfolio-ready presentation
+- [ ] Ability to explain design decisions
+- [ ] Real business value delivered
 
 **Resources**:
 - "Storytelling with Data" by Cole Nussbaumer Knaflic
