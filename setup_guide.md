@@ -226,7 +226,7 @@ sudo apt install libreoffice-calc
 
 ## 🔧 Path 2: Traditional BI (After F&B Domain)
 
-#### 1. Python Setup
+### 1. Python Setup
 
 **Installation (Linux)**:
 ```bash
@@ -286,7 +286,7 @@ jupyter notebook
 
 ---
 
-#### 2. SQL Database Setup
+### 2. SQL Database Setup
 
 **Option A: SQLite (Easiest - File-based, No Server)**
 
@@ -363,7 +363,7 @@ sudo apt install pgadmin4
 
 ---
 
-#### 3. BI Visualization Tools
+### 3. BI Visualization Tools
 
 **Option A: Google Data Studio (Free, Cloud-Based)**
 
@@ -560,7 +560,7 @@ git --version
 
 ### Where to Find F&B Practice Data
 
-#### Option 1: Use Our Provided Sample Datasets
+### Option 1: Use Our Provided Sample Datasets
 
 I'll help you create realistic F&B sample data. Let me know and I'll generate:
 - POS transaction data (sales)
@@ -569,7 +569,7 @@ I'll help you create realistic F&B sample data. Let me know and I'll generate:
 - Employee/labor data
 - Customer data
 
-#### Option 2: Download Public Datasets
+### Option 2: Download Public Datasets
 
 **F&B Specific**:
 1. **Kaggle**:
@@ -597,7 +597,7 @@ I'll help you create realistic F&B sample data. Let me know and I'll generate:
 - Northwind Database (classic sales DB)
 - Adventure Works (Microsoft sample DB)
 
-#### Option 3: Generate Synthetic Data
+### Option 3: Generate Synthetic Data
 
 **Tools for Creating Realistic Data**:
 1. **Mockaroo** (https://mockaroo.com):
