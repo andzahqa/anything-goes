@@ -529,7 +529,14 @@ Before moving forward, you should be able to:
 - Make one fully interactive chart (dropdown changes what's displayed)
 - Design a chart following visualization best practices
 
-**Resources**:
+#### Resources
+
+- Excel charting best practices guides
+- "Good Charts" by Scott Berinato
+- Excel Dashboard School tutorials
+- ColorBrewer for accessible color palettes
+- Data visualization galleries (Tableau Public, Excel dashboards)
+- Chandoo.org advanced charting techniques
 - Jon Peltier's Chart Blog
 - Chandoo.org charting tutorials
 - Peltier Tech Charts for Excel (add-in)
@@ -1273,8 +1280,12 @@ Before moving forward, you should be able to:
 
 #### Resources
 
-- Multi-workbook architecture guides
-- External references documentation
+- Excel dashboard design templates and examples
+- "Information Dashboard Design" by Stephen Few
+- Excel Dynamic Dashboard course materials
+- Dashboard layout pattern libraries
+- User experience (UX) design principles for dashboards
+- Excel Dashboard best practices articles and case studies
 - Google Sheets IMPORTRANGE tutorials
 - Excel linking best practices
 
