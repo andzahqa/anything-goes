@@ -108,7 +108,31 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 - Trying to manipulate DOM before it's loaded
 - Not handling errors in async code
 - Mutating arrays/objects unintentionally
-- Using `==` instead of `===`
+- Using == instead of === (type coercion issues)
+
+🤖 **AI Debug**: If you encounter errors, paste: "I'm getting [error message] when doing [what you're trying to do]. Here's my code: [code]"
+
+#### Resources
+
+**Documentation**:
+- MDN Web Docs: https://developer.mozilla.org (THE reference)
+- HTML Living Standard: https://html.spec.whatwg.org
+- CSS Tricks: https://css-tricks.com (practical guides)
+
+**Interactive Learning**:
+- freeCodeCamp: Responsive Web Design Certification
+- Frontend Mentor: Real-world practice projects
+- Flexbox Froggy: Learn Flexbox through games
+- Grid Garden: Learn CSS Grid through games
+
+**Video Courses**:
+- Traversy Media (YouTube): Web dev crash courses
+- The Net Ninja (YouTube): HTML/CSS/JS series
+- Kevin Powell (YouTube): CSS master
+
+**Books**:
+- "Eloquent JavaScript" by Marijn Haverbeke (free online)
+- "HTML & CSS" by Jon Duckett (beautiful, visual)
 
 #### Assessment Checklist
 
@@ -253,8 +277,6 @@ personal-dashboard/
 4. **Multiple APIs**: Fetch data from 3 different APIs and combine results
 5. **Module System**: Refactor a large JS file into multiple modules
 
-
-
 #### Common Pitfalls
 
 ❌ **Async Mistakes**:
@@ -267,8 +289,6 @@ personal-dashboard/
 - Forgetting error handling for network failures
 - Hardcoding API keys in frontend code (security!)
 - Not handling rate limits
-
-
 
 #### Resources
 
@@ -283,6 +303,9 @@ personal-dashboard/
 - **Documentation**:
   - MDN JavaScript Reference
   - Modern JavaScript Primer
+  - JavaScript.info: Promises, async/await chapters
+  - MDN: Fetch API guide
+  - Public APIs list: https://github.com/public-apis/public-apis
 - **Books**:
   - "You Don't Know JS Yet" (Kyle Simpson)
   - "JavaScript: The Good Parts" (Review vs Modern JS)
@@ -293,9 +316,9 @@ personal-dashboard/
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain closure in JavaScript with a counter example"
-> - **💡 Ask AI**: "What is the difference between synchronous and asynchronous code execution?"
-> - **⚡ AI Generate**: "Create a promise-based function to fetch data and handle errors"
-> - **🤖 AI Debug**: "Debug this async/await function that isn't waiting for the promise: [code]"
+> - **💡 Ask AI**: "What is the difference between synchronous and asynchronous code execution?" or "Explain the difference between Promise.all() and Promise.race() with examples"
+> - **⚡ AI Generate**: "Create a promise-based function to fetch data and handle errors" or "Create async/await practice exercises with increasing difficulty"
+> - **🤖 AI Debug**: "Debug this async/await function that isn't waiting for the promise: [code]" or "My fetch() is not working. Getting CORS error. Here's my code: [code]"
 
 **Practice**:
 - FreeCodeCamp: JavaScript Algorithms and Data Structures
@@ -696,10 +719,32 @@ Expand your analytics viewer with:
 
 #### Resources
 
-**Documentation**:
-- styled-components: https://styled-components.com
-- Tailwind CSS: https://tailwindcss.com
-- WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
+**Tools**:
+- Styled-components / Emotion
+- Tailwind CSS (VS Code Extension)
+- Color Contrast Analyzers
+- Storybook (Component Documentation)
+
+#### Resources
+
+- **Documentation**:
+  - styled-components Docs
+  - Tailwind CSS Docs
+  - WCAG Guidelines
+- **Design Systems**:
+  - Material UI (MUI)
+  - Chakra UI
+  - Ant Design
+- **Tools**:
+  - Coolors (Palette Generator)
+  - ColorBrewer (Accessible Palettes)
+  - Type Scale Calculator
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Generate a color palette for professional BI dashboard (10 colors with hex codes)"
+> - **🔍 AI Explain**: "Explain CSS Grid areas vs Flexbox for dashboard layout"
+> - **💡 Ask AI**: "What are the pros and cons of CSS-in-JS vs Tailwind for large apps?"
+> - **🤖 AI Debug**: "Styled-components theme not updating on toggle. Code: [code]"
 
 **Design Tools**:
 - Coolors (color palette generator)
@@ -730,8 +775,7 @@ Create a comprehensive design system with:
 - Dark/light themes
 - Storybook or similar documentation
 
-⚡ **AI Generate**: "Generate a color palette for professional BI dashboard (10 colors with hex codes)"
-🤖 **AI Review**: Share component code for accessibility and best practices feedback
+
 
 **Time**: 2 weeks
 
@@ -872,16 +916,34 @@ Build a Node.js API with endpoints for:
 - Data aggregation endpoints
 - File upload/download
 
-⚡ **AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
-🤖 **AI Debug**: Paste API errors with request/response details for troubleshooting
-💡 **Ask AI**: "What are REST API best practices for versioning and error responses?"
+
 
 #### Resources
 
-**Documentation**:
-- Node.js Official Docs
-- Express.js Guide
-- MDN: HTTP Methods
+**Tools**:
+- Postman / Thunder Client (API Testing)
+- Nodemon (Dev Server)
+- Node.js Built-in Debugger
+
+#### Resources
+
+- **Documentation**:
+  - Node.js Official Docs
+  - Express.js Guide
+  - MDN HTTP Methods
+- **Patterns**:
+  - Node.js Design Patterns
+  - REST API Best Practices
+- **Courses**:
+  - freeCodeCamp APIs & Microservices
+  - The Net Ninja Node.js Series
+  - Traversy Media REST API
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
+> - **🔍 AI Explain**: "Explain Node.js event loop and why it's good for BI dashboards"
+> - **💡 Ask AI**: "What are REST API best practices for versioning and error responses?"
+> - **🤖 AI Debug**: "My Express route returns 404. Code: [paste]. What's wrong?"
 
 **Courses**:
 - freeCodeCamp: APIs and Microservices
@@ -1034,15 +1096,30 @@ Before moving forward, you should be able to:
 
 #### Resources
 
-- Node.js official documentation
-- Express.js official guide
-- "Node.js Design Patterns" by Mario Casciaro
-- The Net Ninja Node.js tutorial series
-- freeCodeCamp Backend Development certification
-- MDN Server-side web frameworks overview
-- Express.js guide
-- Node.js best practices
-- REST API design principles
+**Tools**:
+- JWT.io (Token Debugger)
+- Bcrypt (Hashing)
+- OAuth Providers (Google, GitHub Dev Consoles)
+
+#### Resources
+
+- **Documentation**:
+  - Node.js Docs
+  - Express.js Guide
+  - Passport.js (Optional)
+- **Security**:
+  - OWASP Top 10
+  - Helmet.js Docs
+  - MDN Security Guidelines
+- **Concepts**:
+  - JWT vs Sessions Breakdown
+  - OAuth 2.0 Simplified
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Generate Express middleware for JWT authentication and role-based access"
+> - **🔍 AI Explain**: "Explain OAuth 2.0 flow with diagram for web app"
+> - **💡 Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
+> - **🤖 AI Debug**: "Getting CORS errors with JWT auth. Frontend React, backend Express. Code: [code]"
 
 #### Common Pitfalls
 
@@ -1067,10 +1144,7 @@ Before moving forward, you should be able to:
 - [ ] Design clean API endpoints
 - [ ] Use middleware effectively
 - [ ] Debug Node.js applications
-💡 **Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
-⚡ **AI Generate**: "Generate Express middleware for JWT authentication and role-based access"
-🔍 **AI Explain**: "Explain OAuth 2.0 flow with diagram for web app"
-🤖 **AI Debug**: "Getting CORS errors with JWT auth. Frontend React, backend Express. Code: [code]"
+
 
 #### Common Pitfalls
 
