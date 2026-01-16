@@ -875,21 +875,31 @@ Integrate PostgreSQL with your API:
 - Data aggregation and reporting
 - Proper indexing for performance
 
-🔍 **AI Explain**: "Explain database normalization with BI analytics schema examples"
-⚡ **AI Generate**: "Create PostgreSQL schema for F&B dashboard with tables: restaurants, menu_items, orders, customers"
-🔍 **AI Explain**: "Explain indexing strategy for analytics queries on large datasets"
-💡 **Ask AI**: "SQL vs NoSQL for BI dashboard - pros/cons?"
+**Tools**:
+- PostgreSQL & MongoDB (Databases)
+- Prisma (ORM)
+- pgAdmin / DBeaver / MongoDB Compass (GUIs)
+- Postman (Testing)
 
 #### Resources
 
-- PostgreSQL official documentation
-- MongoDB University (free courses)
-- Prisma documentation (modern ORM)
-- SQL Tutorial by SQLBolt (interactive)
-- Database design patterns and best practices
-- "Designing Data-Intensive Applications" by Martin Kleppmann
-- SQL query optimization guides
-- Prisma ORM documentation
+- **Documentation**:
+  - PostgreSQL Official Docs
+  - MongoDB Docs
+  - Prisma Documentation
+- **Learning**:
+  - SQLBolt (Interactive SQL)
+  - MongoDB University (Free courses)
+  - "Designing Data-Intensive Applications" (Martin Kleppmann)
+- **Best Practices**:
+  - Database Design Patterns
+  - SQL Performance Tuning Guide
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain database normalization with BI analytics schema examples"
+> - **⚡ AI Generate**: "Create PostgreSQL schema for F&B dashboard with tables: restaurants, menu_items, orders, customers"
+> - **🔍 AI Explain**: "Explain indexing strategy for analytics queries on large datasets"
+> - **💡 Ask AI**: "SQL vs NoSQL for BI dashboard - pros/cons?"
 
 #### Common Pitfalls
 
@@ -915,23 +925,7 @@ Before moving forward, you should be able to:
 - [ ] Handle database migrations
 - [ ] Debug database performance issues
 
-#### Resources
-
-**Documentation**:
-- PostgreSQL Official Docs
-- Prisma Docs (ORM)
-- DB Design patterns
-
-**Learning**:
-- SQLBolt: Interactive SQL tutorial
-- PostgreSQL Tutorial
-- Database Design Course (Udemy)
-
-**Tools**:
-- pgAdmin or DBeaver (database GUI)
-- Prisma Studio for data browsing
-
-**Time**: 2 weeks
+#### Assessment Checklist
 
 ---
 
