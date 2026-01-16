@@ -79,30 +79,79 @@ Build custom web applications for BI dashboards.
 
 ## 🚀 Quick Start
 
-### First Time Setup
+### Your Learning Journey
 
-1. **Start with F&B Domain Knowledge**
+**The Right Way**: Complete each path fully before moving to the next.
+
+**The Wrong Way**: Skipping ahead without mastering foundations.
+
+---
+
+### Path 1: F&B Domain Mastery (Weeks 1-6)
+
+**Start Here - Complete This First!**
+
+1. **Get Oriented** (Day 1)
    ```bash
    Open: fnb-domain/start_here.md
-   Then: fnb-domain/fb_business_processes_indonesia.md (Indonesia F&B 101)
-   Curriculum: fnb-domain/fb_mastery_curriculum.md (structured 5-phase path)
+   Read: fnb-domain/fb_mastery_curriculum.md
+   Understand: 5 phases over 6 weeks
    ```
 
-2. **Choose Your BI Path**
-   - **Recommended**: Start with Spreadsheet BI (easier, no coding)
-   - **Alternative**: Jump to Traditional BI (if you know Python/SQL)
+2. **Follow the Curriculum** (Weeks 1-6)
+   - **Week 1**: Phase 1 - Read Indonesia guide + visit 3 F&B businesses
+   - **Week 2**: Phase 2 - Map data flows, interview worker
+   - **Week 3-4**: Phase 3 - Financial calculations, build models
+   - **Week 5**: Phase 4 - Compare regional guides
+   - **Week 6**: Phase 5 - Complete capstone BI project
 
-3. **Read Setup Guide**
-   ```bash
-   Open: setup_guide.md
-   Follow installation instructions for your chosen path
+3. **Milestone Check**
+   ```
+   Can you explain:
+   - How a warung operates vs KFC operations?
+   - Food cost %, prime cost %, labor cost %?
+   - What data flows exist in each F&B model?
+   - What BI solutions would help specific F&B types?
+   
+   If YES to all → You've mastered F&B domain! ✅
+   If NO to any → Review that phase before continuing
    ```
 
-4. **Use AI for Learning**
-   ```bash
-   Open: ai-guided-learning_guide.md
-   Learn how to leverage AI to accelerate your learning
-   ```
+---
+
+### Path 2: Choose Your BI Path (After F&B)
+
+**ONLY START AFTER completing F&B Domain Mastery**
+
+**Option A: Spreadsheet BI** (Recommended for beginners)
+```bash
+Open: spreadsheet-path/start_here.md
+Follow: spreadsheet_bi_curriculum.md
+Duration: 18 weeks (Weeks 7-24)
+```
+
+**Option B: Traditional BI** (If you have Python/SQL experience)
+```bash
+Open: traditional-path/start_here.md
+Follow: bi_curriculum.md
+Duration: 18 weeks (Weeks 7-24)
+```
+
+---
+
+### Setup & AI Assistance
+
+**Environment Setup**:
+```bash
+Open: setup_guide.md
+Install: Tools needed for your chosen paths
+```
+
+**AI-Aided Learning**:
+```bash
+Open: ai-guided-learning_guide.md
+Learn: How to leverage AI to accelerate learning (1,264 lines!)
+```
 
 ### Daily Workflow
 
@@ -235,8 +284,8 @@ Update `progress_tracker.md` weekly:
 ## ✅ First Steps Checklist
 
 **Initial Orientation** (Day 1):
-- [ ] Read this README completely
-- [ ] Understand the 4 learning paths (F&B → Spreadsheet → Traditional → Web Dev)
+- [x] Read this README completely
+- [x] Understand the 4 learning paths (F&B → Spreadsheet → Traditional → Web Dev)
 - [ ] Read `setup_guide.md` for environment setup
 - [ ] Skim `ai-guided-learning_guide.md` to understand AI assistance
 
