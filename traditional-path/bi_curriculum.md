@@ -74,6 +74,15 @@ graph LR
 - Not understanding stakeholder needs first
 - Building solutions looking for problems
 
+❌ **Getting Started Errors**:
+- Jumping into tools before understanding concepts
+- Skipping the "why" to focus on "how"
+- Article: "What is Business Intelligence?" by Gartner
+- Book: "Business Intelligence Guidebook" by Rick Sherman (Chapters 1-3)
+- Online Course: "Introduction to Data Science" (e.g., Coursera, edX) for foundational concepts
+- Blog: "The BI Survey" for industry trends and tool comparisons
+- Case Study: Analyze a public BI case study (e.g., how a retail chain uses BI)
+
 ❌ **Beginner Mistakes**:
 - Jumping into tools before understanding the business problem
 - Creating dashboards nobody asked for or needs
@@ -147,6 +156,7 @@ Before moving forward, you should be able to:
 **Practice Datasets**:
 - Retail sales data (provided/found online)
 - Restaurant transaction logs (simulated)
+- Kaggle datasets for spreadsheet practice
 
 > - **🔍 AI Explain**: "Explain VLOOKUP step-by-step with a restaurant menu price lookup example"
 > - **💡 Ask AI**: "What's the difference between VLOOKUP and INDEX/MATCH? When should I use each?"
@@ -249,8 +259,30 @@ Before moving forward, you should be able to:
 - BI tool-specific advanced features documentation
 - Performance optimization techniques for dashboards
 - Real-world dashboard case studies
+- "Lean Analytics" by Alistair Croll
+- Industry-specific KPI guides
+- F&B Business Processes guide (for F&B context)
+- "Measure What Matters" by John Doerr (for OKRs and KPIs)
+- Harvard Business Review articles on analytics and metrics
+- Online courses on business analysis and KPI definition (e.g., LinkedIn Learning)
 
 #### Common Pitfalls
+
+❌ **Metric Mistakes**:
+- Tracking too many metrics (analysis paralysis)
+- Using vanity metrics (look good but not actionable)
+- Not understanding what "good" looks like
+- Comparing apples to oranges (different contexts)
+- Not clearly defining the metric's calculation
+- Focusing on outputs instead of outcomes
+
+❌ **Analytical Thinking Errors**:
+- Jumping to conclusions without data
+- Ignoring context (seasonality, market changes)
+- Not asking "so what?" about findings
+- Correlation vs causation confusion
+- Confirmation bias (seeking data that supports pre-existing beliefs)
+- Failing to consider alternative explanations for observed trends
 
 ❌ **Advanced Dashboard Mistakes**:
 - Overcomplicating with too many interactive features
@@ -304,7 +336,14 @@ Before moving to Phase 2, you should be able to:
   
 **Tools**: Excel/Google Sheets, introduction to Google Data Studio
 
-**Resources**:
+#### Resources
+
+- "Statistics for Business and Economics" by Paul Newbold
+- Khan Academy Statistics and Probability course (free)
+- StatQuest YouTube channel (intuitive explanations)
+- "Naked Statistics" by Charles Wheelan (accessible introduction)
+- Excel/Google Sheets statistical functions documentation
+- Online statistics courses (Coursera, edX)
 - "Naked Statistics" by Charles Wheelan (accessible statistics introduction)
 - Khan Academy Statistics and Probability course (free, comprehensive)
 - "Statistics Done Wrong" by Alex Reinhart (common statistical mistakes)
@@ -316,15 +355,6 @@ Before moving to Phase 2, you should be able to:
 > - **🔍 AI Explain**: "Explain standard deviation and why it matters for business analytics with F&B examples"
 > - **💡 Ask AI**: "When should I use median vs mean for restaurant sales analysis?"
 > - **⚡ AI Generate**: "Generate sample restaurant sales data (100 days) with seasonal patterns and outliers"
-
-#### Resources
-
-- "Statistics for Business and Economics" by Paul Newbold
-- Khan Academy Statistics and Probability course (free)
-- StatQuest YouTube channel (intuitive explanations)
-- "Naked Statistics" by Charles Wheelan (accessible introduction)
-- Excel/Google Sheets statistical functions documentation
-- Online statistics courses (Coursera, edX)
 
 #### Common Pitfalls
 
@@ -394,13 +424,18 @@ Before moving forward, you should be able to:
 
 **Tools**: Excel Power Query, Google Sheets, introduction to SQL concepts
 
-**Resources**:
+#### Resources
 - "Data Cleaning" by Ihab Ilyas and Xu Chu
 - OpenRefine tutorials (powerful data cleaning tool)
 - Kaggle's "Data Cleaning Challenge" courses
 - "Tidy Data" paper by Hadley Wickham
 - Excel/Google Sheets data validation documentation
 - Regular expressions (regex) tutorials for text cleaning
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What are the best practices for handling missing values in sales data?"
+> - **🤖 AI Debug**: "My data has inconsistent date formats (MM/DD/YYYY and DD-MM-YY). How do I standardize them?"
+> - **⚡ AI Generate**: "Create a checklist for data quality assessment"
 
 #### Common Pitfalls
 
@@ -434,6 +469,10 @@ Before moving forward, you should be able to:
 - [ ] Apply systematic data cleaning techniques (e.g., imputation, standardization)
 - [ ] Handle various types of missing data (e.g., mean, median, mode, deletion)
 - [ ] Transform data into analysis-ready formats (e.g., wide to long, creating derived fields)
+- [ ] Document cleaning processes for reproducibility and auditability
+- [ ] Validate cleaning results against source data or business rules
+- [ ] Understand the importance of data backups and version control in cleaning
+
 ---
 
 ### Module 2.3: Introduction to SQL & Databases
