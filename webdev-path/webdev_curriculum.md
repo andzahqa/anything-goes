@@ -276,10 +276,30 @@ personal-dashboard/
 
 #### Resources
 
-**Documentation**:
-- JavaScript.info: Promises, async/await chapters
-- MDN: Fetch API guide
-- Public APIs list: https://github.com/public-apis/public-apis
+**Tools**:
+- RunJS (Quick playground)
+- Chrome Snippets
+- Node.js (for running scripts)
+- MDN Web Docs
+
+#### Resources
+
+- **Documentation**:
+  - MDN JavaScript Reference
+  - Modern JavaScript Primer
+- **Books**:
+  - "You Don't Know JS Yet" (Kyle Simpson)
+  - "JavaScript: The Good Parts" (Review vs Modern JS)
+- **Practice**:
+  - Exercism.io (JavaScript Track)
+  - JavaScript30 (Wes Bos)
+  - Codewars (Katas)
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain closure in JavaScript with a counter example"
+> - **💡 Ask AI**: "What is the difference between synchronous and asynchronous code execution?"
+> - **⚡ AI Generate**: "Create a promise-based function to fetch data and handle errors"
+> - **🤖 AI Debug**: "Debug this async/await function that isn't waiting for the promise: [code]"
 
 **Practice**:
 - FreeCodeCamp: JavaScript Algorithms and Data Structures
@@ -408,14 +428,29 @@ Enhance your dashboard to:
 
 #### Resources
 
-- React official documentation (comprehensive and well-structured)
-- "React - The Complete Guide" by Maximilian Schwarzmüller (Udemy)
-- React.dev interactive tutorials
-- Kent C. Dodds' blog and courses (advanced React patterns)
-- Frontend Masters React courses
-- React Router official docs
-- Vite documentation (modern build tool)
-- React Docs (new beta): https://react.dev
+**Tools**:
+- Create React App / Vite
+- React Developer Tools (Chrome Extension)
+- VS Code ES7+ React Snippets
+- CodeSandbox (Online React Playground)
+
+#### Resources
+
+- **Official**:
+  - React Documentation (react.dev)
+  - React Beta Docs (Interactive)
+- **Courses**:
+  - Epic React by Kent C. Dodds
+  - Scrimba React Course (Interactive)
+- **Community**:
+  - Reactiflux Discord
+  - r/reactjs
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a React functional component for a ProductCard with props for name, price, image"
+> - **🔍 AI Explain**: "Explain React Virtual DOM and why it makes rendering fast"
+> - **💡 Ask AI**: "What is the useEffect dependency array and when should I use it?"
+> - **🤖 AI Debug**: "React component is re-rendering infinitely. Check useEffect usage: [code]"
 - React DevTools Chrome extension
 
 **Courses**:
@@ -532,10 +567,29 @@ Build a React app that displays:
 
 #### Resources
 
-**Documentation**:
-- React Router: https://reactrouter.com
-- Zustand: https://docs.pmnd.rs/zustand
-- Redux Toolkit: https://redux-toolkit.js.org
+**Tools**:
+- Redux DevTools
+- React Router DOM
+- Context API (Built-in)
+- Zustand (Alternative state manager)
+
+#### Resources
+
+- **State Management**:
+  - Redux Toolkit Docs
+  - Context API Guide
+  - Zustand Documentation
+- **Routing**:
+  - React Router Docs
+  - Protected Routes Patterns
+- **Patterns**:
+  - Advanced React Patterns
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Context API vs Redux - when to use which for a dashboard app?"
+> - **⚡ AI Generate**: "Create a Redux slice for shopping cart state management"
+> - **🔍 AI Explain**: "Explain prop drilling and how Context API solves it"
+> - **🤖 AI Debug**: "Redux state not updating in component. Check my reducer and dispatch: [code]"
 
 **Learning**:
 - React Router tutorial (official)
