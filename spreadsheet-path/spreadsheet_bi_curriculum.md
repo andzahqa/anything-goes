@@ -1126,6 +1126,36 @@ Before moving forward, you should be able to:
 > - **💡 Ask AI**: "How do I create drill-down functionality in Excel/Google Sheets?"
 > - **🤖 AI Review**: "Review my dashboard for performance issues: [describe setup]"
 
+#### Resources
+
+- Advanced Excel dashboard tutorials
+- Dynamic named ranges guides
+- Performance optimization best practices
+
+#### Common Pitfalls
+
+❌ **Complexity Issues**:
+- Over-complicating with too many features
+- Complex formulas hard to maintain
+- Volatile functions causing slow performance
+- No documentation
+
+❌ **User Experience**:
+- Not testing with real users
+- Missing usage instructions
+- Not mobile-friendly
+- Breaking with data updates
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Create advanced interactive dashboards
+- [ ] Implement dynamic formulas and charts
+- [ ] Optimize dashboard performance
+- [ ] Build mobile-friendly layouts
+- [ ] Test and validate complex dashboards
+- [ ] Document advanced techniques used
+
 ---
 
 ### Module 4.3: Multi-Workbook BI Systems
