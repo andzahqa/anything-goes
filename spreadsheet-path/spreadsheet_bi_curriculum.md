@@ -801,37 +801,6 @@ Before moving forward, you should be able to:
 - [ ] Use Apps Script for automation
 - [ ] Leverage Google Sheets collaborative features
 
-#### Common Pitfalls
-
-❌ **QUERY Function Mistakes**:
-- SQL syntax errors in QUERY string (missing quotes, wrong keywords)
-- Not handling column headers properly (header parameter)
-- Trying to use unsupported SQL features (JOINs don't work in QUERY)
-- Column reference errors (Col1, Col2 vs A, B)
-
-❌ **Apps Script Issues**:
-- Not authorizing script permissions
-- Exceeding quotas (6-minute execution limit, email limits)
-- Not handling errors in scripts (crashes whole workflow)
-- Trigger not set up correctly (script runs but not when expected)
-
-❌ **Performance Problems**:
-- IMPORTRANGE pulling too much data
-- Too many volatile functions (RAND, NOW causing constant recalc)
-- Circular references in formulas
-- Not using ARRAYFORMULA (dragging formulas down = slow)
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
-- [ ] Write complex QUERY formulas with multiple clauses
-- [ ] Use ARRAYFORMULA to apply formulas to ranges
-- [ ] Combine FILTER, SORT, and UNIQUE for dynamic analysis
-- [ ] Import data from other sheets with IMPORTRANGE
-- [ ] Write simple Apps Script functions
-- [ ] Set up automated triggers
-- [ ] Debug formula and script errors efficiently
-
 ---
 
 ### Module 3.2: Google Sheets Dashboard Design
