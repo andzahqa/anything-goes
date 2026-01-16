@@ -321,9 +321,14 @@ Before moving to Phase 2, you should be able to:
 - Create a pivot table on the query result
 - **Simulate daily data update** - see it refresh automatically
 
-**Resources**:
-- Excel Power Query documentation (Microsoft)
-- ExcelIsFun YouTube channel
+#### Resources
+
+- Microsoft Power Query documentation (comprehensive official guide)
+- Ken Puls and Miguel Escobar's "M is for (Data) Monkey" (Power Query M language)
+- ExcelIsFun YouTube channel (Power Query tutorials)
+- Power Query formula reference and examples
+- Data transformation best practices guides
+- ETL concepts for analysts articles channel
 - MyOnlineTrainingHub tutorials
 
 > **🤖 AI Assistance**:
@@ -429,10 +434,14 @@ Before moving forward, you should be able to:
 - Build 10 DAX measures (sales, food cost %, YoY growth, etc.)
 - Create pivot tables using the model
 
-**Resources**:
-- SQLBI.com (DAX patterns)
+#### Resources
+
+- SQLBI.com (DAX patterns and best practices)
 - "The Definitive Guide to DAX" by Marco Russo & Alberto Ferrari
-- PowerPivotPro blog
+- PowerPivotPro blog (practical DAX examples)
+- DAX Formatter tool (for formatting complex formulas)
+- Microsoft DAX function reference
+- DAX Studio (free tool for testing and optimizing DAX)
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain DAX CALCULATE function in simple terms with an F&B example"
