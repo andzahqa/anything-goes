@@ -1048,14 +1048,40 @@ Before moving forward, you should be able to:
 - Map out the complete data flow in a restaurant
 - Identify 20 questions a dashboard should answer
 
-**Resources**:
-- "Restaurant Success by the Numbers" by Roger Fields
-- National Restaurant Association resources
-- F&B industry reports
-
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "What are the key differences in metrics between QSR, fast casual, and fine dining?"
 > - **⚡ AI Generate**: "Create list of 30 questions an F&B dashboard should answer for different stakeholder roles"
+
+#### Resources
+
+- "Restaurant Success by the Numbers" by Roger Fields
+- National Restaurant Association resources
+- F&B Business Processes guide
+- Industry reports and benchmarks
+
+#### Common Pitfalls
+
+❌ **F&B Understanding Mistakes**:
+- Not understanding operational workflows
+- Ignoring stakeholder-specific needs
+- Treating all F&B models the same
+- Missing critical data sources
+
+❌ **Domain Knowledge Gaps**:
+- Not knowing industry benchmarks
+- Ignoring seasonal patterns
+- Misunderstanding margins
+- Not accounting for waste and shrinkage
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Explain different F&B business models
+- [ ] Map complete F&B operational workflows
+- [ ] Identify all F&B data sources
+- [ ] Understand stakeholder-specific dashboard needs
+- [ ] Know industry challenges and metrics
+- [ ] Ask the right questions for F&B analytics
 
 ---
 
