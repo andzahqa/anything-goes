@@ -733,7 +733,7 @@ Create a comprehensive design system with:
 5. **Custom Chart**: Build a unique visualization (e.g., funnel, gauge)
 
 💡 **Ask AI**: "Which chart library should I use for React BI dashboards - Recharts vs D3.js?"
-⚡ **AI Generate**: "Create sample time-series data (1 year, daily) for sales dashboard"
+⚡ **AI Generate**: "Create sample time-series data (1 year, daily) for sales dashboard" or "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
 🔍 **AI Explain**: "Explain when to use Canvas vs SVG for data visualization"
 
 #### Common Pitfalls
