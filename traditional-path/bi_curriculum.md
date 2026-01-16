@@ -1190,23 +1190,35 @@ Before moving forward, you should be able to:
 
 #### Resources
 
-- "Restaurant Success by the Numbers" by Roger Fields
-- National Restaurant Association resources
-- F&B Business Processes guide
-- Industry reports and benchmarks
-
-#### Common Pitfalls
+- F&B Business Processes guide (in this repository)
+- National Restaurant Association industry reports and benchmarks
+- "Restaurant Financial Basics" by Raymond Goodman
+- "Setting the Table" by Danny Meyer (hospitality philosophy)
+- Toast, Square, Upserve restaurant analytics platform case studies
+- Reddit r/restaurateur for real-world operator insights
+- Local market F&B industry associations and chambers of commercells
 
 ❌ **F&B Understanding Mistakes**:
-- Not understanding operational workflows
-- Ignoring stakeholder-specific needs
-- Treating all F&B models the same
-- Missing critical data sources
+- Not understanding kitchen vs front-of-house operations and workflows
+- Ignoring service models (fine dining vs quick service vs fast casual)
+- Not considering different revenue streams (dine-in, takeout, delivery, catering)
+- Missing the impact of perishability and food waste on profitability
+- Not understanding labor regulations and scheduling constraints
+- Ignoring local market factors (demographics, competition, seasonality)
 
-❌ **Domain Knowledge Gaps**:
-- Not knowing industry benchmarks
-- Ignoring seasonal patterns
-- Misunderstanding margins
+❌ **Context Errors**:
+- Applying retail/e-commerce metrics directly to F&B without adaptation
+- Not accounting for F&B-specific costs (COGS 28-35%, labor 25-35%)
+- Ignoring regulations (health codes, alcohol licensing, labor laws)
+- Missing cultural and regional differences in dining habits
+- Not understanding the importance of turn time and table turnover
+- Failing to account for operational hours and day-part variations
+
+❌ **Data Collection Issues**:
+- Not integrating POS, inventory, and labor systems for complete visibility
+- Missing reservation and waitlist data for capacity planning
+- No customer feedback loop or sentiment analysis
+- Inadequate tracking of waste and spoilageg margins
 - Not accounting for waste and shrinkage
 
 #### Assessment Checklist
@@ -1551,23 +1563,36 @@ Before moving to Capstone, you should be able to:
 
 #### Resources
 
-- "The Data Warehouse Toolkit" by Kimball (Chapters 3-5)
-- Star schema design patterns
-- Database normalization guides
+- "The Data Warehouse Toolkit" by Ralph Kimball (the bible of dimensional modeling)
+- Star schema vs snowflake schema guides and comparisons
+- Database normalization tutorials (1NF, 2NF, 3NF)
+- SQL Server/PostgreSQL data modeling best practices
+- ERD (Entity-Relationship Diagram) tools and tutorials
+- Data modeling patterns and anti-patterns articles
 
 #### Common Pitfalls
 
 ❌ **Modeling Mistakes**:
-- Over-normalization (too many tables, slow queries)
-- Under-normalization (data duplication issues)
-- Poor naming conventions
-- Not documenting relationships
+- Not understanding business requirements before modeling
+- Modeling for current state only (not future scalability)
+- Too normalized (slow queries) or too denormalized (data inconsistency)
+- Unclear grain definition (mixing detail levels)
+- Missing or incorrect foreign key relationships
+- Not documenting model assumptions and business rules
 
-❌ **Design Errors**:
-- Missing fact tables or dimension tables
-- Incorrect grain (level of detail)
-- Not handling slowly changing dimensions
-- Circular relationships
+❌ **Schema Design Errors**:
+- Fact tables without proper surrogate keys
+- Dimension tables without slowly changing dimension (SCD) handling
+- Missing date/time dimensions (critical for analytics)
+- Conformed dimensions not actually conformed across data marts
+- Overuse of snowflaking (unnecessary complexity)
+- Poor naming conventions making tables hard to understand
+
+❌ **Performance Issues**:
+- Missing indexes on foreign keys and frequently queried columns
+- Fact tables that are too wide (too many columns)
+- Not partitioning large tables appropriately
+- Materialized views not refreshed properly
 
 #### Assessment Checklist
 
