@@ -207,48 +207,94 @@ personal-dashboard/
 
 ### Module 1.2: JavaScript Deep Dive
 **Goal**: Master JavaScript for complex applications
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **Advanced JavaScript**
-  - Promises and async/await (handling asynchronous operations)
-  - Fetch API and AJAX (making HTTP requests)
-  - Error handling (try/catch, promise rejection)
-  - Modules (import/export, code organization)
-  - Array methods: map, filter, reduce, forEach, find, some, every
-  - Object-oriented programming (classes, inheritance)
-  - Functional programming concepts (pure functions, immutability)
 
-- **Working with APIs**
-  - REST API concepts (GET, POST, PUT, DELETE)
-  - JSON handling (parse, stringify)
-  - Authentication basics (API keys, tokens)
-  - CORS and common issues (cross-origin requests)
-  - Rate limiting and error responses
+**Week 1: Advanced JavaScript**
+- **Asynchronous JavaScript**:
+  - Callbacks and callback hell
+  - Promises: creation, chaining, error handling
+  - async/await syntax
+  - Promise.all(), Promise.race()
+- **Fetch API and AJAX**:
+  - Making HTTP requests (GET, POST, PUT, DELETE)
+  - Handling responses and errors
+  - Request headers and authentication
+- **Error Handling**:
+  - try/catch blocks
+  - Error objects and custom errors
+  - Debugging techniques
+- **ES6 Modules**:
+  - import/export syntax
+  - Default vs named exports
+  - Dynamic imports
 
-🔍 **AI Explain**: "Explain async/await vs Promises with practical examples"
-💡 **Ask AI**: "What are common async/await pitfalls and how to avoid them?"
+**Week 2: Working with APIs**
+- **REST API Concepts**:
+  - HTTP methods and status codes
+  - RESTful endpoint patterns
+  - Request/response structure
+- **JSON**:
+  - JSON.parse() and JSON.stringify()
+  - Working with nested data
+  - Data transformation
+- **Authentication Basics**:
+  - API keys
+  - Bearer tokens
+  - Basic auth headers
+- **CORS**:
+  - What is CORS and why it exists
+  - Common CORS errors
+  - Proxy solutions for development
 
 #### Hands-on Exercises
 
-1. **Promise Practice**: Chain multiple API calls
-2. **Async/Await**: Refactor promise chains to async/await
-3. **Error Handling**: Build robust fetch wrapper with try/catch
-4. **Array Methods**: Transform data using map, filter, reduce
-5. **Module System**: Split code into separate importable modules
+1. **Promises Practice**: Convert callback-based code to Promises
+2. **Async/Await**: Build a weather app that fetches from OpenWeather API
+3. **Error Handling**: Add comprehensive error handling to API calls
+4. **Multiple APIs**: Fetch data from 3 different APIs and combine results
+5. **Module System**: Refactor a large JS file into multiple modules
 
-⚡ **AI Generate**: "Create 5 async/await exercises with error handling"
+💡 **Ask AI**: "Explain the difference between Promise.all() and Promise.race() with examples"
+⚡ **AI Generate**: "Create async/await practice exercises with increasing difficulty"
+
+#### Common Pitfalls
+
+❌ **Async Mistakes**:
+- Forgetting to await promises (returns Promise instead of value)
+- Not handling promise rejections (unhandled errors)
+- Using async/await in loops incorrectly (sequential vs parallel)
+
+❌ **API Mistakes**:
+- Not checking response.ok before parsing JSON
+- Forgetting error handling for network failures
+- Hardcoding API keys in frontend code (security!)
+- Not handling rate limits
+
+🤖 **AI Debug**: "My fetch() is not working. Getting CORS error. Here's my code: [code]"
 
 #### Resources
 
-**JavaScript Deep Dive**:
-- JavaScript.info: Promises, Async/Await section
-- MDN: Async JavaScript guide
-- "You Don't Know JS" by Kyle Simpson
+**Documentation**:
+- JavaScript.info: Promises, async/await chapters
+- MDN: Fetch API guide
+- Public APIs list: https://github.com/public-apis/public-apis
 
-**API Practice**:
-- JSONPlaceholder (fake API for testing)
-- Public APIs list (github.com/public-apis/public-apis)
-- Postman (API testing tool)
+**Practice**:
+- FreeCodeCamp: JavaScript Algorithms and Data Structures
+- Exercism.io: JavaScript track
+- LeetCode: Easy JavaScript problems
+
+#### Assessment Checklist
+
+Before moving to Phase 2, you should be able to:
+- [ ] Explain promises and async/await clearly
+- [ ] Fetch data from APIs with proper error handling
+- [ ] Transform and display JSON data
+- [ ] Handle loading states and errors in UI
+- [ ] Use ES6 modules to organize code
+- [ ] Debug async code effectively
 
 #### 🎯 Project 2: Data Fetcher Dashboard
 Enhance your dashboard to:
@@ -268,53 +314,129 @@ Enhance your dashboard to:
 
 ### Module 2.1: React Fundamentals
 **Goal**: Build dynamic, component-based UIs
+**Duration**: 3 weeks
+
+#### Prerequisites
+- Solid JavaScript knowledge (ES6+)
+- Understanding of async/await
+- DOM manipulation experience
+- npm/node basics
 
 #### Topics to Master
-- **React Core Concepts**
-  - Components: functional vs class (use functional!)
-  - Props: passing data down component tree
-  - State: useState hook for component state
-  - Hooks: useState, useEffect, useContext, useRef, useMemo, useCallback
-  - Event handling: onClick, onChange, onSubmit
-  - Conditional rendering: && operator, ternary, early returns
-  - Lists and keys: mapping arrays to components
-  - Forms: controlled components, validation
 
-- **React Ecosystem**
-  - Create React App / Vite (project scaffolding)
-  - React Developer Tools (debugging)
-  - Component composition patterns (children, render props)
-  - Custom hooks (reusable logic)
-  - Context API (global state without props drilling)
+**Week 1: React Basics**
+- **Components**:
+  - Functional vs class components (focus on functional)
+  - JSX syntax and rules
+  - Component props and prop types
+  - Children prop pattern
+- **State Management**:
+  - useState hook: creation, updates, multiple states
+  - State immutability principles
+  - Lifting state up
+  - State vs props
+- **Event Handling**:
+  - onClick, onChange, onSubmit
+  - Event object in React
+  - Preventing default behavior
+  - Passing arguments to handlers
 
-🔍 **AI Explain**: "Explain React hooks (useState, useEffect) with analytics dashboard examples"
-💡 **Ask AI**: "When should I use useEffect vs useLayoutEffect?"
-🤖 **AI Debug**: "I'm getting 'Hooks can only be called inside function components' error: [paste code]"
+**Week 2: Advanced Hooks & Patterns**
+- **useEffect Hook**:
+  - Side effects and lifecycle
+  - Dependency array explained
+  - Cleanup functions
+  - Common use cases (API calls, subscriptions)
+- **Other Essential Hooks**:
+  - useContext: consuming context
+  - useRef: DOM refs and mutable values
+  - useMemo: performance optimization
+  - useCallback: memoized callbacks
+- **Rendering Patterns**:
+  - Conditional rendering (&&, ternary, if/else)
+  - Lists and keys (why keys matter)
+  - Controlled vs uncontrolled components
+  - Composition vs inheritance
+
+**Week 3: React Ecosystem**
+- **Development Setup**:
+  - Vite vs Create React App (recommend Vite)
+  - React DevTools extension
+  - ESLint and Prettier for React
+- **Advanced Patterns**:
+  - Custom hooks creation
+  - Compound components
+  - Render props (less common now)
+  - Higher-order components (HOCs)
+- **Performance**:
+  - React.memo for component memoization
+  - Virtual DOM concepts
+  - Avoiding unnecessary re-renders
 
 #### Hands-on Exercises
 
-1. **Component Building**: Create 5 reusable components (Button, Card, Input, Modal, Dropdown)
-2. **State Management**: Build a counter with increment, decrement, reset
-3. **useEffect Practice**: Fetch data on component mount, cleanup on unmount
-4. **Forms**: Build controlled form with validation
-5. **Custom Hook**: Create useLocalStorage hook
+1. **Counter App**: Build with multiple counters, reset functionality
+2. **Form Handling**: Create multi-step form with validation
+3. **Data Fetching**: Fetch and display user list from API
+4. **Custom Hook**: Build useLocalStorage hook
+5. **Todo App**: Full CRUD operations with filtering
+6. **Theme Switcher**: Use Context API for app-wide theme
 
-⚡ **AI Generate**: "Create React component boilerplate for a data table with sorting"
+⚡ **AI Generate**: "Create React component structure for analytics dashboard"
+🔍 **AI Explain**: "Explain React reconciliation and virtual DOM with examples"
+💡 **Ask AI**: "When should I use useMemo vs useCallback vs React.memo?"
+
+#### Common Pitfalls
+
+❌ **State Mistakes**:
+- Mutating state directly (always create new objects/arrays)
+- Stale closure in useEffect (missing dependencies)
+- Too many useState calls (consider useReducer)
+- Using array index as key for lists
+
+❌ **useEffect Mistakes**:
+- Missing cleanup functions (memory leaks)
+- Wrong dependencies (infinite loops or stale data)
+- Running effects on every render unnecessarily
+
+❌ **Performance Issues**:
+- Creating functions inside JSX (causes re-renders)
+- Not memoizing expensive calculations
+- Passing inline objects/arrays as props
+
+🤖 **AI Debug**: "My useEffect runs infinitely. Dependencies: [data]. Code: [code]"
 
 #### Resources
 
-**Official Docs**:
-- React.dev (new official docs - start here!)
-- React Patterns (reactpatterns.com)
+**Official**:
+- React Docs (new beta): https://react.dev
+- React DevTools Chrome extension
 
-**Video Courses**:
+**Courses**:
+- freeCodeCamp: Front End Libraries (React section)
 - Scrimba: Learn React for free
-- Jack Herrington (YouTube): React best practices
-- Theo - t3.gg (YouTube): React performance
+- Frontend Masters: Complete Intro to React
 
 **Practice**:
-- Frontend Mentor: React projects
-- React challenges on Codewars
+- React Challenges: https://reactjschallenge.com
+- Build your own [X] in React series
+
+**Reading**:
+- "React - The Complete Guide" by Maximilian Schwarzmüller
+- Kent C. Dodds blog: Epic React patterns
+
+#### Assessment Checklist
+
+Before moving to Module 2.2, you should be able to:
+- [ ] Create functional components with JSX
+- [ ] Manage state with useState
+- [ ] Handle side effects with useEffect
+- [ ] Fetch and display API data
+- [ ] Handle forms and user input
+- [ ] Pass data between components (props, context)
+- [ ] Create custom hooks
+- [ ] Use React DevTools for debugging
+- [ ] Optimize components to prevent unnecessary renders
 
 #### 🎯 Project 3: Simple Analytics Viewer
 Build a React app that displays:
@@ -440,53 +562,19 @@ Build a collection of:
 **Goal**: Build RESTful APIs for your frontend
 
 #### Topics to Master
-
-**Week 1 - Node.js Fundamentals**:
-- Event loop and asynchronous programming (how Node.js works)
-- NPM and package management (installing, updating packages)
-- File system operations (reading, writing files)
-- Environment variables (.env files, process.env)
-- Debugging Node.js applications
+- **Node.js Fundamentals**
+  - Event loop and asynchronous programming
+  - NPM and package management
+  - File system operations
+  - Environment variables
   
-**Week 2-3 - Express.js**:
-- Routing and middleware (request/response flow)
-- Request/response handling (params, query, body)
-- Error handling (try/catch, error middleware)
-- CORS configuration (allowing cross-origin requests)
-- Input validation (express-validator, Joi)
-- RESTful API design principles (resource naming, HTTP methods)
-- Authentication middleware (JWT, sessions)
-- File uploads (multer)
-
-🔍 **AI Explain**: "Explain Express middleware with real examples"
-💡 **Ask AI**: "What are REST API best practices for naming endpoints?"
-🤖 **AI Debug**: "My Express route returns 404: [paste routes code]"
-
-#### Hands-on Exercises
-
-1. **Basic Server**: Create Express server with 5 routes
-2. **Middleware**: Build logging middleware, authentication middleware
-3. **CRUD API**: Build complete CRUD for a resource (users, products)
-4. **Validation**: Add input validation to all routes
-5. **Error Handling**: Centralized error handling middleware
-
-⚡ **AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
-⚡ **AI Generate**: "Create Express middleware for JWT authentication"
-
-#### Resources
-
-**Official**:
-- Express.js documentation
-- Node.js documentation
-
-**Courses**:
-- freeCodeCamp: Backend Development and APIs
-- Traversy Media: Node.js crash course
-
-**Tools**:
-- Postman: API testing
-- Insomnia: Alternative to Postman
-- Thunder Client: VS Code extension
+- **Express.js**
+  - Routing and middleware
+  - Request/response handling
+  - Error handling
+  - CORS configuration
+  - Input validation
+  - RESTful API design principles
 
 #### 🎯 Project 7: Analytics API
 Build a Node.js API with endpoints for:
@@ -498,6 +586,23 @@ Build a Node.js API with endpoints for:
 
 ⚡ **AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
 🤖 **AI Debug**: Paste API errors with request/response details for troubleshooting
+💡 **Ask AI**: "What are REST API best practices for versioning and error responses?"
+
+#### Resources
+
+**Documentation**:
+- Node.js Official Docs
+- Express.js Guide
+- MDN: HTTP Methods
+
+**Courses**:
+- freeCodeCamp: APIs and Microservices
+- The Net Ninja: Node.js Crash Course
+- Traversy Media: RESTful API From Scratch
+
+**Tools**:
+- Postman or Thunder Client for API testing
+- Nodemon for auto-restart during development
 
 **Time**: 3 weeks
 
@@ -508,35 +613,17 @@ Build a Node.js API with endpoints for:
 
 #### Topics to Master
 - **SQL Databases (PostgreSQL)**
-  - Database design and normalization (1NF, 2NF, 3NF)
-  - SQL queries: SELECT, JOIN, GROUP BY, aggregate functions
-  - Indexes and query optimization (when to index)
-  - Transactions and ACID properties (ensuring data consistency)
-  - Using ORMs: Prisma (recommended) or Sequelize
-  - Migrations (database version control)
-  - Connection pooling (performance)
+  - Database design and normalization
+  - SQL queries (SELECT, JOIN, GROUP BY, etc.)
+  - Indexes and query optimization
+  - Transactions and ACID properties
+  - Using ORMs (Prisma or Sequelize)
   
 - **NoSQL Databases (MongoDB)** *(Optional)*
-  - Document-oriented data (JSON-like structure)
-  - Schema design (embedding vs referencing)
-  - Aggregation pipeline ($match, $group, $project)
+  - Document-oriented data
+  - Schema design
+  - Aggregation pipeline
   - When to use SQL vs NoSQL
-
-🔍 **AI Explain**: "Explain database normalization with BI analytics schema examples"
-⚡ **AI Generate**: "Generate PostgreSQL schema for F&B analytics (sales, menu items, customers)"
-🤖 **AI Debug**: "PostgreSQL error: relation does not exist: [paste error]"
-💡 **Ask AI**: "How do I optimize this slow query: [paste SQL]"
-
-#### Resources
-
-**Learning SQL**:
-- SQLBolt: Interactive SQL tutorial
-- PostgreSQL Tutorial
-- Use the Index Luke: SQL performance guide
-
-**ORMs**:
-- Prisma documentation (modern, type-safe)
-- Drizzle ORM (lightweight alternative)
 
 #### 🎯 Project 8: Data Layer Integration
 Integrate PostgreSQL with your API:
@@ -548,6 +635,23 @@ Integrate PostgreSQL with your API:
 
 🔍 **AI Explain**: "Explain database normalization with BI analytics schema examples"
 ⚡ **AI Generate**: "Generate PostgreSQL schema for F&B analytics (sales, menu items, customers)"
+💡 **Ask AI**: "How do I optimize PostgreSQL queries for large datasets (millions of rows)?"
+
+#### Resources
+
+**Documentation**:
+- PostgreSQL Official Docs
+- Prisma Docs (ORM)
+- DB Design patterns
+
+**Learning**:
+- SQLBolt: Interactive SQL tutorial
+- PostgreSQL Tutorial
+- Database Design Course (Udemy)
+
+**Tools**:
+- pgAdmin or DBeaver (database GUI)
+- Prisma Studio for data browsing
 
 **Time**: 2 weeks
 
@@ -756,41 +860,23 @@ Add production features:
 
 #### Topics to Master
 - **Data Processing**
-  - ETL concepts (Extract, Transform, Load)
-  - Data transformation (cleaning, aggregating)
-  - Aggregation and rollups (pre-calculating summaries)
-  - Time-series data handling (efficient storage, querying)
-  - Batch vs real-time processing
+  - ETL concepts
+  - Data transformation
+  - Aggregation and rollups
+  - Time-series data handling
   
 - **Advanced Visualizations**
-  - Pivot tables (draggable fields)
-  - Drill-down capabilities (click to see details)
-  - Custom metrics and KPIs (user-defined calculations)
-  - Cohort analysis (user behavior over time)
-  - Funnel visualization (conversion tracking)
-  - Heatmaps and treemaps
+  - Pivot tables
+  - Drill-down capabilities
+  - Custom metrics and KPIs
+  - Cohort analysis
+  - Funnel visualization
   
 - **Export & Reporting**
-  - PDF generation (jsPDF, Puppeteer for headless browser)
-  - Excel export (xlsx library)
-  - Scheduled reports (cron jobs, background workers)
-  - Email integration (SendGrid, Nodemailer)
-
-🔍 **AI Explain**: "Explain ETL process with Node.js implementation examples"
-⚡ **AI Generate**: "Generate sample data transformation logic for BI aggregations"
-💡 **Ask AI**: "What's the best way to handle large datasets in browser (100k+ rows)?"
-
-#### Resources
-
-**Data Processing**:
-- Apache Arrow (efficient data handling)
-- DuckDB (in-process SQL for analytics)
-- Papa Parse (CSV parsing)
-
-**PDF/Excel**:
-- jsPDF documentation
-- SheetJS (xlsx) documentation
-- Puppeteer for advanced PDF generation
+  - PDF generation (jsPDF, Puppeteer)
+  - Excel export (XLSX)
+  - Scheduled reports
+  - Email integration
 
 #### 🎯 Project 15: Enterprise BI Features
 Add advanced capabilities:
@@ -802,6 +888,19 @@ Add advanced capabilities:
 
 ⚡ **AI Generate**: "Generate sample data transformation logic for BI aggregations"
 🔍 **AI Explain**: "Explain ETL process with Node.js implementation examples"
+💡 **Ask AI**: "What libraries should I use for PDF generation and Excel export in Node.js?"
+
+#### Resources
+
+**ETL & Data Processing**:
+- Node.js Worker Threads for parallel processing
+- Bull Queue for background jobs
+- Apache Arrow for fast data processing
+
+**Export Libraries**:
+- jsPDF or Puppeteer for PDF generation
+- ExcelJS or xlsx for Excel files
+- Nodemailer for email delivery
 
 **Time**: 3 weeks
 
@@ -843,46 +942,195 @@ Build connectors for:
 
 ### Build Your Complete BI Platform
 
-Combine everything you've learned into a production-ready BI & analytics platform:
+**Objective**: Create a production-ready BI & analytics platform specifically for F&B businesses that demonstrates your full-stack capabilities.
 
-#### Core Features
-1. **User Management**
-   - Registration, login, password reset
-   - Role-based access (Admin, Analyst, Viewer)
-   - User profiles and preferences
+**Target User**: Small to medium F&B business owners who need data insights but aren't technical.
 
-2. **Data Sources**
-   - Multiple data source connectors
-   - Data upload and validation
-   - Automated data refresh
-   - Data history and versioning
+#### Core Features (MVP)
+
+1. **Authentication & User Management**
+   - User registration with email verification
+   - Login/logout with JWT tokens
+   - Password reset flow
+   - Role-based access control:
+     - Admin: full access, user management
+     - Analyst: create/edit dashboards
+     - Viewer: view-only access
+   - User profiles with preferences (theme, default dashboard)
+
+2. **Data Management**
+   - **Data Upload**:
+     - CSV/Excel file upload
+     - Data validation and error reporting
+     - Preview before import
+   - **Data Sources**:
+     - Manual upload
+     - API connections (optional: Square, Toast)
+     - Sample datasets for demo
+   - **Data Processing**:
+     - Automated data cleaning
+     - Type detection and conversion
+     - Calculated fields
 
 3. **Dashboard Builder**
-   - Drag-and-drop interface
-   - Multiple visualization types
-   - Custom KPI cards
-   - Responsive layouts
-   - Save and share dashboards
+   - **Visualization Types**:
+     - Line charts (trends over time)
+     - Bar/column charts (comparisons,)
+     - Pie/donut charts (composition)
+     - KPI cards (key metrics with trends)
+     - Tables (detailed data)
+     - Gauges (progress to goal)
+   - **Interactivity**:
+     - Date range selector
+     - Filters (location, category, etc.)
+     - Drill-down to details
+     - Cross-filtering between charts
+   - **Layout**:
+     - Drag-and-drop grid system
+     - Responsive (mobile, tablet, desktop)
+     - Theme customization
+   - **Persistence**:
+     - Save dashboard configurations
+     - Share via link
+     - Export as PDF/image
 
-4. **Reports**
-   - Custom report builder
-   - Scheduled reports
-   - Export to PDF/Excel
-   - Email delivery
+4. **Pre-built F&B Dashboards**
+   - **Executive Dashboard**: Revenue, costs, profit trends
+   - **Sales Dashboard**: Daily sales, top items, sales mix
+   - **Menu Performance**: Menu engineering matrix, item profitability
+   - **Operations Dashboard**: Table turnover, service times, staff efficiency
+   - **Customer Analytics**: Repeat rate, frequency, spending patterns
 
-5. **Analytics**
-   - Real-time data updates
-   - Advanced filtering
-   - Drill-down capabilities
-   - Cohort analysis
-   - Trend analysis
+5. **Reports & Exports**
+   - PDF export (dashboard snapshots)
+   - Excel export (underlying data)
+   - Scheduled email reports (daily/weekly/monthly)
+   - Custom report templates
 
 6. **Administration**
-   - User management
+   - User management (add, edit, deactivate users)
    - Data source management
-   - System settings
-   - Activity logs
-   - Usage analytics
+   - System activity logs
+   - Usage analytics (who's using what)
+
+#### Technical Requirements
+
+**Frontend**:
+- React 18+ with TypeScript (preferred) or JavaScript
+- Recharts or Chart.js for visualizations
+- Styled-components or Tailwind CSS for styling
+- React Router for navigation
+- Zustand or Redux for state management
+- React Query for server state
+
+**Backend**:
+- Node.js with Express
+- PostgreSQL database
+- Prisma ORM (or Sequelize)
+- JWT for authentication
+- Bcrypt for password hashing
+- Node-cron for scheduled tasks
+
+**Deployment**:
+- Frontend: Vercel or Netlify
+- Backend: Railway, Render, or DigitalOcean
+- Database: Supabase or AWS RDS
+- CI/CD: GitHub Actions
+
+**Testing**:
+- Jest for unit tests
+- React Testing Library for component tests
+- Playwright or Cypress for E2E tests
+- Minimum 60% code coverage
+
+#### Detailed Implementation Plan
+
+**Week 1: Foundation & Setup**
+- Day 1-2: Project setup, database schema design
+- Day 3-4: Authentication system (register, login, JWT)
+- Day 5-7: Basic UI layout, navigation, theme system
+
+**Week 2: Data Layer**
+- Day 8-10: CSV upload and parsing
+- Day 11-12: Data validation and cleaning
+- Day 13-14: Database integration, sample data seeding
+
+**Week 3: Dashboard Building**
+- Day 15-16: Chart components (line, bar, pie, KPI cards)
+- Day 17-18: Dashboard layout system (grid, drag-drop)
+- Day 19-20: Filters and interactivity
+- Day 21: Data fetching and state management
+
+**Week 4: Polish & Deployment**
+- Day 22-23: Pre-built F&B dashboards
+- Day 24-25: PDF/Excel export functionality
+- Day 26: Testing (unit, integration, E2E)
+- Day 27: Bug fixes and performance optimization
+- Day 28: Deployment setup (frontend, backend, database)
+
+#### Deliverables
+
+1. **Working Application**:
+   - Deployed and accessible via URL
+   - Demo account with sample F&B data
+   - Mobile-responsive design
+
+2. **Code Repository**:
+   - GitHub repo with clear README
+   - Clean, commented code
+   - .env.example for configuration
+   - Setup instructions
+
+3. **Documentation**:
+   - User guide (how to use the platform)
+   - Developer guide (how to run locally, architecture)
+   - API documentation
+   - Database schema diagram
+
+4. **Demo Materials**:
+   - 5-10 minute demo video
+   - Screenshots/walkthrough
+   - Use case narrative
+   - Future roadmap
+
+#### Success Criteria
+
+- [ ] **Functiona**l: All core features work without errors
+- [ ] **User-friendly**: Non-technical person can navigate easily
+- [ ] **Responsive**: Works on mobile, tablet, desktop
+- [ ] **Fast**: Dashboards load in <2 seconds
+- [ ] **Secure**: Authentication, input validation, no SQL injection
+- [ ] **Tested**: 60%+ code coverage, E2E tests for critical flows
+- [ ] **Deployed**: Live on internet with custom domain
+- [ ] **Documented**: Clear README, setup instructions, architecture docs
+- [ ] **Portfolio-ready**: You'd be proud to show this in an interview
+
+⚡ **AI Generate**: "Create comprehensive sample F&B dataset with all tables for complete BI platform"
+🤖 **AI Review**: "Review my capstone project architecture. What's missing or could be improved?"
+💡 **Ask AI**: "What are the must-have features for MVP vs nice-to-have for v2?"
+💡 **Ask AI**: "How should I structure my database schema for multi-tenant BI platform?"
+
+#### Bonus Features (If Time Permits)
+
+- **Advanced Analytics**:
+  - Predictive forecasting (sales trends)
+  - Anomaly detection (unusual patterns)
+  - Cohort analysis (customer segments)
+
+- **Collaboration**:
+  - Comments on dashboards
+  - @mentions and notifications
+  - Shared notes
+
+- **Data Connectors**:
+  - Google Sheets integration
+  - REST API connector builder
+  - Webhook support
+
+- **Advanced Customization**:
+  - Custom color palettes
+  - Branding (logo, colors)
+  - White-label option
 
 #### Technical Requirements
 - ✅ Modern, beautiful UI with premium design
