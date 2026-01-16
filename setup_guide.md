@@ -14,7 +14,29 @@
 
 ---
 
-## 📁 Directory Structure
+## � Table of Contents
+
+1. [Directory Structure](#-directory-structure)
+2. [Path 0: F&B Domain Knowledge](#️-path-0-fb-domain-knowledge-no-software-needed)
+   - What You Need
+   - Setup Steps
+3. [Path 1: Spreadsheet BI](#️-path-1-spreadsheet-bi-after-completing-fb-domain)
+   - Option A: Google Sheets
+   - Option B: Microsoft Excel
+4. [Path 2: Traditional BI Tools](#path-2-traditional-bi-tools)
+   - Python Setup
+   - SQL Database Setup
+   - BI Visualization Tools
+   - Which Tools to Start With?
+5. [Practice Datasets](#-practice-datasets)
+6. [Progress Tracking System](#-progress-tracking-system)
+7. [Quick Start Guides](#-quick-start-guides)
+8. [Integrated Learning Workflow](#-integrated-learning-workflow)
+9. [Essential Resources](#-essential-resources-bookmarks)
+
+---
+
+## �📁 Directory Structure
 
 Your learning workspace is organized as follows:
 
