@@ -322,7 +322,16 @@ Before moving to Phase 2, you should be able to:
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain standard deviation and why it matters for business analytics with F&B examples"
 > - **💡 Ask AI**: "When should I use median vs mean for restaurant sales analysis?"
-> - **⚡ AI Generate**: "Give me 20 beginner-level VLOOKUP practice problems"
+> - **⚡ AI Generate**: "Generate sample restaurant sales data (100 days) with seasonal patterns and outliers"
+
+#### Resources
+
+- "Statistics for Business and Economics" by Paul Newbold
+- Khan Academy Statistics and Probability course (free)
+- StatQuest YouTube channel (intuitive explanations)
+- "Naked Statistics" by Charles Wheelan (accessible introduction)
+- Excel/Google Sheets statistical functions documentation
+- Online statistics courses (Coursera, edX)
 
 #### Common Pitfalls
 
