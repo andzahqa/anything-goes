@@ -148,14 +148,21 @@ Before moving forward, you should be able to:
 - Retail sales data (provided/found online)
 - Restaurant transaction logs (simulated)
 
-**Resources**:
-- ExcelJet tutorials
-- ExcelJet (comprehensive Excel formulas reference)
-- Chandoo.org (Excel tutorials, templates, and practice files)
-- Google Sheets function reference documentation
-- "Excel Formulas and Functions For Dummies" by Ken Bluttman
+> - **🔍 AI Explain**: "Explain VLOOKUP step-by-step with a restaurant menu price lookup example"
+> - **💡 Ask AI**: "What's the difference between VLOOKUP and INDEX/MATCH? When should I use each?"
+> - **⚡ AI Generate**: "Create practice data: Products table (id, name, price) and Sales table (product_id, quantity) for VLOOKUP practice"
+> - **🔍 AI Explain**: "Explain pivot tables like I'm 10, then show me an F&B example"
+> - **⚡ AI Generate**: "Give me 20 beginner-level VLOOKUP practice problems"
+
+#### Resources
+
+- Excel official documentation (Microsoft Learn)
+- Google Sheets function reference
+- freeCodeCamp spreadsheet tutorials
+- Chandoo.org (Excel tips and tricks)
+- ExcelJet keyboard shortcuts and formulas guide
+- "Excel 2022 Bible" by Michael Alexander
 - YouTube: ExcelIsFun channel for video tutorials
-- Practice datasets: Kaggle datasets for spreadsheet practice
 
 #### Common Pitfalls
 
@@ -1129,6 +1136,263 @@ Before moving forward, you should be able to:
 
 ---
 
+### Module 4.4: Data Modeling
+**Duration**: 1.5 weeks
+
+**Learning Objectives**:
+- Understand different data models (star, snowflake)
+- Design effective data models for BI
+- Identify fact and dimension tables
+- Apply normalization and denormalization principles
+
+**Topics**:
+- **Relational Databases Review**:
+  - Tables, columns, primary/foreign keys
+  - Relationships (one-to-one, one-to-many, many-to-many)
+- **Data Warehousing Concepts**:
+  - OLTP vs. OLAP
+  - Data marts
+- **Dimensional Modeling**:
+  - Star Schema: Fact tables, Dimension tables
+  - Snowflake Schema
+  - Conformed dimensions
+- **Fact Table Types**:
+  - Transactional fact tables
+  - Periodic snapshot fact tables
+  - Accumulating snapshot fact tables
+- **Dimension Table Types**:
+  - Slowly Changing Dimensions (SCD Type 1, 2, 3)
+  - Junk dimensions, role-playing dimensions
+- **Grain**:
+  - Defining the level of detail for fact tables
+- **Data Modeling Best Practices**:
+  - Naming conventions
+  - Documentation (ERDs)
+
+**Hands-on Project**:
+- Design a star schema for a given F&B business scenario
+- Create an Entity-Relationship Diagram (ERD)
+- Identify fact and dimension tables, define their grain
+- Implement a simple data model in a database (e.g., PostgreSQL)
+
+**Tools**: 
+- Your BI tool + potentially Python for modeling
+- Forecasting features in Tableau/Power BI
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain star schema vs snowflake schema with F&B restaurant example"
+> - **⚡ AI Generate**: "Design a data model for restaurant: tables needed, relationships, sample ERD"
+> - **💡 Ask AI**: "What are best practices for naming tables and columns in a data warehouse?"
+
+#### Resources
+
+- "The Data Warehouse Toolkit" by Ralph Kimball (the bible of dimensional modeling)
+- Star schema vs snowflake schema guides and comparisons
+- Database normalization tutorials (1NF, 2NF, 3NF)
+- SQL Server/PostgreSQL data modeling best practices
+- ERD (Entity-Relationship Diagram) tools and tutorials
+- Data modeling patterns and anti-patterns articles
+
+#### Common Pitfalls
+
+❌ **Modeling Mistakes**:
+- Not understanding business requirements before modeling
+- Modeling for current state only (not future scalability)
+- Too normalized (slow queries) or too denormalized (data inconsistency)
+- Unclear grain definition (mixing detail levels)
+- Missing or incorrect foreign key relationships
+- Not documenting model assumptions and business rules
+
+❌ **Schema Design Errors**:
+- Fact tables without proper surrogate keys
+- Dimension tables without slowly changing dimension (SCD) handling
+- Missing date/time dimensions (critical for analytics)
+- Conformed dimensions not actually conformed across data marts
+- Overuse of snowflaking (unnecessary complexity)
+- Poor naming conventions making tables hard to understand
+
+❌ **Performance Issues**:
+- Missing indexes on foreign keys and frequently queried columns
+- Fact tables that are too wide (too many columns)
+- Not partitioning large tables appropriately
+- Materialized views not refreshed properly
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Design star schema data models
+- [ ] Identify fact vs dimension tables
+- [ ] Define appropriate grain for facts
+- [ ] Create ERD diagrams
+- [ ] Understand normalization trade-offs
+- [ ] Apply data modeling best practices
+
+---
+
+### Module 4.5: Dashboard Implementation
+**Duration**: 2 weeks
+
+**Learning Objectives**:
+- Translate design mockups into functional dashboards
+- Implement interactivity and drill-down features
+- Optimize dashboard performance
+- Apply advanced visualization techniques
+
+**Topics**:
+- **Connecting to Data Sources**:
+  - Live connections vs. extracts/imports
+  - Blending multiple data sources
+- **Building Basic Visualizations**:
+  - Review of chart types and best practices
+  - Creating calculated fields and parameters
+- **Dashboard Layout and Design**:
+  - Containers, floating vs. tiled objects
+  - Responsive design for different devices
+- **Interactivity**:
+  - Filters (quick filters, action filters)
+  - Parameters for user control
+  - Drill-down and drill-through actions
+- **Advanced Visualizations**:
+  - Custom charts (e.g., Sankey, Chord diagrams if applicable)
+  - Small multiples, sparklines
+- **Performance Optimization**:
+  - Data source filters, context filters
+  - Efficient calculations
+  - Reducing marks and complexity
+- **Security and Sharing**:
+  - Row-level security
+  - Publishing and embedding dashboards
+
+**Hands-on Project**:
+- Implement a multi-tab F&B dashboard based on a provided design
+- Incorporate at least 5 interactive elements (filters, parameters, actions)
+- Optimize the dashboard for performance
+- Document the implementation choices and challenges
+
+**Tools**:
+- Your chosen BI platform (Tableau, Power BI, Google Data Studio, Metabase)
+- SQL client for data source verification
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Provide a step-by-step guide to create an interactive sales dashboard in Tableau/Power BI"
+> - **💡 Ask AI**: "What are common performance bottlenecks in BI dashboards and how to fix them?"
+> - **🔍 AI Explain**: "Explain the difference between live connection and data extract in Tableau/Power BI"
+
+#### Resources
+
+- Official documentation for your chosen BI tool
+- Online communities and forums (Tableau Public, Power BI Community)
+- "Information Dashboard Design" by Stephen Few (revisit)
+
+#### Common Pitfalls
+
+❌ **Implementation Mistakes**:
+- Poorly organized layouts (cluttered dashboards)
+- Inconsistent design elements (fonts, colors)
+- Lack of clear navigation or user guidance
+- Overuse of interactivity leading to confusion
+- Slow loading dashboards due to inefficient design
+
+❌ **Technical Errors**:
+- Incorrect data connections or joins
+- Errors in calculated fields or aggregations
+- Security misconfigurations
+- Broken drill-down actions
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build interactive dashboards in your chosen BI tool
+- [ ] Connect to various data sources
+- [ ] Create calculated fields and parameters
+- [ ] Implement drill-down and filtering
+- [ ] Optimize dashboard performance
+- [ ] Publish and share dashboards securely
+
+---
+
+### Module 4.6: Testing & Iteration
+**Duration**: 1 week
+
+**Learning Objectives**:
+- Develop a systematic approach to testing dashboards
+- Gather and incorporate user feedback effectively
+- Understand the iterative nature of BI development
+- Document changes and version control
+
+**Topics**:
+- **Importance of Testing**:
+  - Ensuring data accuracy and integrity
+  - Validating calculations and logic
+  - Checking user experience and functionality
+- **Types of Testing**:
+  - **Data Validation**: Comparing dashboard data to source data
+  - **Functional Testing**: Checking filters, drill-downs, actions
+  - **Performance Testing**: Load times, responsiveness
+  - **User Acceptance Testing (UAT)**: End-user feedback
+  - **Regression Testing**: Ensuring new changes don't break old features
+- **Feedback Collection**:
+  - Structured interviews, surveys
+  - Usability testing sessions
+  - A/B testing (for specific elements)
+- **Iteration and Refinement**:
+  - Prioritizing feedback
+  - Agile development principles in BI
+  - Version control for dashboards and data models
+- **Documentation of Changes**:
+  - Change logs
+  - User guides updates
+  - Technical documentation updates
+
+**Hands-on Project**:
+- Conduct a testing cycle for a previously built dashboard
+- Create a test plan and test cases
+- Gather feedback from at least two "mock" users
+- Implement a round of iterations based on feedback
+- Document the testing process and changes made
+
+**Tools**:
+- Spreadsheet for test cases and feedback tracking
+- Version control system (e.g., Git for code, or BI tool's versioning)
+- Communication tools for feedback (e.g., Slack, email)
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a test plan template for a new F&B sales dashboard"
+> - **💡 Ask AI**: "What are best practices for collecting and prioritizing user feedback for a BI dashboard?"
+> - **🔍 AI Explain**: "Explain the concept of User Acceptance Testing (UAT) in the context of BI dashboards"
+
+#### Resources
+
+- Software testing methodologies (e.g., Agile testing)
+- User experience (UX) design principles
+- Version control best practices
+
+#### Common Pitfalls
+
+❌ **Testing Mistakes**:
+- Skipping testing phases (especially UAT)
+- Not validating data against source systems
+- Testing only "happy paths" and ignoring edge cases
+- Not documenting test results or bugs
+
+❌ **Iteration Challenges**:
+- Ignoring or misinterpreting user feedback
+- Making changes without understanding the impact
+- Lack of version control leading to lost work or conflicts
+- Endless iteration without a clear scope or goal
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Create a comprehensive test plan for a dashboard
+- [ ] Perform data validation and functional testing
+- [ ] Collect and analyze user feedback
+- [ ] Prioritize and implement iterative changes
+- [ ] Document testing and iteration processes
+- [ ] Understand the importance of version control
+
+---
+
 ## Phase 5: F&B Operations Management & Analytics Specialization (Weeks 16-20)
 
 ### Module 5.1: F&B Industry Deep Dive
@@ -1513,263 +1777,6 @@ Before moving to Capstone, you should be able to:
 - [ ] Build predictive models
 - [ ] Apply advanced analytics to F&B scenarios
 - [ ] Communicate model insights to non-technical stakeholders
-
----
-
-### Module 4.5: Data Modeling
-**Duration**: 1.5 weeks
-
-**Learning Objectives**:
-- Understand different data models (star, snowflake)
-- Design effective data models for BI
-- Identify fact and dimension tables
-- Apply normalization and denormalization principles
-
-**Topics**:
-- **Relational Databases Review**:
-  - Tables, columns, primary/foreign keys
-  - Relationships (one-to-one, one-to-many, many-to-many)
-- **Data Warehousing Concepts**:
-  - OLTP vs. OLAP
-  - Data marts
-- **Dimensional Modeling**:
-  - Star Schema: Fact tables, Dimension tables
-  - Snowflake Schema
-  - Conformed dimensions
-- **Fact Table Types**:
-  - Transactional fact tables
-  - Periodic snapshot fact tables
-  - Accumulating snapshot fact tables
-- **Dimension Table Types**:
-  - Slowly Changing Dimensions (SCD Type 1, 2, 3)
-  - Junk dimensions, role-playing dimensions
-- **Grain**:
-  - Defining the level of detail for fact tables
-- **Data Modeling Best Practices**:
-  - Naming conventions
-  - Documentation (ERDs)
-
-**Hands-on Project**:
-- Design a star schema for a given F&B business scenario
-- Create an Entity-Relationship Diagram (ERD)
-- Identify fact and dimension tables, define their grain
-- Implement a simple data model in a database (e.g., PostgreSQL)
-
-**Tools**: 
-- Your BI tool + potentially Python for modeling
-- Forecasting features in Tableau/Power BI
-
-> **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain star schema vs snowflake schema with F&B restaurant example"
-> - **⚡ AI Generate**: "Design a data model for restaurant: tables needed, relationships, sample ERD"
-> - **💡 Ask AI**: "What are best practices for naming tables and columns in a data warehouse?"
-
-#### Resources
-
-- "The Data Warehouse Toolkit" by Ralph Kimball (the bible of dimensional modeling)
-- Star schema vs snowflake schema guides and comparisons
-- Database normalization tutorials (1NF, 2NF, 3NF)
-- SQL Server/PostgreSQL data modeling best practices
-- ERD (Entity-Relationship Diagram) tools and tutorials
-- Data modeling patterns and anti-patterns articles
-
-#### Common Pitfalls
-
-❌ **Modeling Mistakes**:
-- Not understanding business requirements before modeling
-- Modeling for current state only (not future scalability)
-- Too normalized (slow queries) or too denormalized (data inconsistency)
-- Unclear grain definition (mixing detail levels)
-- Missing or incorrect foreign key relationships
-- Not documenting model assumptions and business rules
-
-❌ **Schema Design Errors**:
-- Fact tables without proper surrogate keys
-- Dimension tables without slowly changing dimension (SCD) handling
-- Missing date/time dimensions (critical for analytics)
-- Conformed dimensions not actually conformed across data marts
-- Overuse of snowflaking (unnecessary complexity)
-- Poor naming conventions making tables hard to understand
-
-❌ **Performance Issues**:
-- Missing indexes on foreign keys and frequently queried columns
-- Fact tables that are too wide (too many columns)
-- Not partitioning large tables appropriately
-- Materialized views not refreshed properly
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
-- [ ] Design star schema data models
-- [ ] Identify fact vs dimension tables
-- [ ] Define appropriate grain for facts
-- [ ] Create ERD diagrams
-- [ ] Understand normalization trade-offs
-- [ ] Apply data modeling best practices
-
----
-
-### Module 4.3: Dashboard Implementation
-**Duration**: 2 weeks
-
-**Learning Objectives**:
-- Translate design mockups into functional dashboards
-- Implement interactivity and drill-down features
-- Optimize dashboard performance
-- Apply advanced visualization techniques
-
-**Topics**:
-- **Connecting to Data Sources**:
-  - Live connections vs. extracts/imports
-  - Blending multiple data sources
-- **Building Basic Visualizations**:
-  - Review of chart types and best practices
-  - Creating calculated fields and parameters
-- **Dashboard Layout and Design**:
-  - Containers, floating vs. tiled objects
-  - Responsive design for different devices
-- **Interactivity**:
-  - Filters (quick filters, action filters)
-  - Parameters for user control
-  - Drill-down and drill-through actions
-- **Advanced Visualizations**:
-  - Custom charts (e.g., Sankey, Chord diagrams if applicable)
-  - Small multiples, sparklines
-- **Performance Optimization**:
-  - Data source filters, context filters
-  - Efficient calculations
-  - Reducing marks and complexity
-- **Security and Sharing**:
-  - Row-level security
-  - Publishing and embedding dashboards
-
-**Hands-on Project**:
-- Implement a multi-tab F&B dashboard based on a provided design
-- Incorporate at least 5 interactive elements (filters, parameters, actions)
-- Optimize the dashboard for performance
-- Document the implementation choices and challenges
-
-**Tools**:
-- Your chosen BI platform (Tableau, Power BI, Google Data Studio, Metabase)
-- SQL client for data source verification
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Provide a step-by-step guide to create an interactive sales dashboard in Tableau/Power BI"
-> - **💡 Ask AI**: "What are common performance bottlenecks in BI dashboards and how to fix them?"
-> - **🔍 AI Explain**: "Explain the difference between live connection and data extract in Tableau/Power BI"
-
-#### Resources
-
-- Official documentation for your chosen BI tool
-- Online communities and forums (Tableau Public, Power BI Community)
-- "Information Dashboard Design" by Stephen Few (revisit)
-
-#### Common Pitfalls
-
-❌ **Implementation Mistakes**:
-- Poorly organized layouts (cluttered dashboards)
-- Inconsistent design elements (fonts, colors)
-- Lack of clear navigation or user guidance
-- Overuse of interactivity leading to confusion
-- Slow loading dashboards due to inefficient design
-
-❌ **Technical Errors**:
-- Incorrect data connections or joins
-- Errors in calculated fields or aggregations
-- Security misconfigurations
-- Broken drill-down actions
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
-- [ ] Build interactive dashboards in your chosen BI tool
-- [ ] Connect to various data sources
-- [ ] Create calculated fields and parameters
-- [ ] Implement drill-down and filtering
-- [ ] Optimize dashboard performance
-- [ ] Publish and share dashboards securely
-
----
-
-### Module 4.4: Testing & Iteration
-**Duration**: 1 week
-
-**Learning Objectives**:
-- Develop a systematic approach to testing dashboards
-- Gather and incorporate user feedback effectively
-- Understand the iterative nature of BI development
-- Document changes and version control
-
-**Topics**:
-- **Importance of Testing**:
-  - Ensuring data accuracy and integrity
-  - Validating calculations and logic
-  - Checking user experience and functionality
-- **Types of Testing**:
-  - **Data Validation**: Comparing dashboard data to source data
-  - **Functional Testing**: Checking filters, drill-downs, actions
-  - **Performance Testing**: Load times, responsiveness
-  - **User Acceptance Testing (UAT)**: End-user feedback
-  - **Regression Testing**: Ensuring new changes don't break old features
-- **Feedback Collection**:
-  - Structured interviews, surveys
-  - Usability testing sessions
-  - A/B testing (for specific elements)
-- **Iteration and Refinement**:
-  - Prioritizing feedback
-  - Agile development principles in BI
-  - Version control for dashboards and data models
-- **Documentation of Changes**:
-  - Change logs
-  - User guides updates
-  - Technical documentation updates
-
-**Hands-on Project**:
-- Conduct a testing cycle for a previously built dashboard
-- Create a test plan and test cases
-- Gather feedback from at least two "mock" users
-- Implement a round of iterations based on feedback
-- Document the testing process and changes made
-
-**Tools**:
-- Spreadsheet for test cases and feedback tracking
-- Version control system (e.g., Git for code, or BI tool's versioning)
-- Communication tools for feedback (e.g., Slack, email)
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create a test plan template for a new F&B sales dashboard"
-> - **💡 Ask AI**: "What are best practices for collecting and prioritizing user feedback for a BI dashboard?"
-> - **🔍 AI Explain**: "Explain the concept of User Acceptance Testing (UAT) in the context of BI dashboards"
-
-#### Resources
-
-- Software testing methodologies (e.g., Agile testing)
-- User experience (UX) design principles
-- Version control best practices
-
-#### Common Pitfalls
-
-❌ **Testing Mistakes**:
-- Skipping testing phases (especially UAT)
-- Not validating data against source systems
-- Testing only "happy paths" and ignoring edge cases
-- Not documenting test results or bugs
-
-❌ **Iteration Challenges**:
-- Ignoring or misinterpreting user feedback
-- Making changes without understanding the impact
-- Lack of version control leading to lost work or conflicts
-- Endless iteration without a clear scope or goal
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
-- [ ] Create a comprehensive test plan for a dashboard
-- [ ] Perform data validation and functional testing
-- [ ] Collect and analyze user feedback
-- [ ] Prioritize and implement iterative changes
-- [ ] Document testing and iteration processes
-- [ ] Understand the importance of version control
 
 ---
 
