@@ -29,7 +29,7 @@
 
 ## Module 1: Foundation (Week 1) - 10-12 hours
 
-### Goal: Understand the F&B Landscape
+**Goal**: Understand the F&B Landscape
 
 **📚 Reading** (6-8 hours):
 1. **Complete Indonesia F&B Guide** - `fb_business_processes_indonesia.md`
@@ -158,7 +158,7 @@ Before moving to Module 2, you should be able to:
 
 ## Module 2: Deep Dive - Operations (Week 2) - 10-12 hours
 
-### Goal: Understand Daily Workflows & Data Generation
+**Goal**: Understand Daily Workflows & Data Generation
 
 **📚 Reading** (4 hours):
 1. **Re-read with Focus**:
@@ -301,7 +301,7 @@ Before moving to Module 3, you should be able to:
 
 ## Module 3: Financial & Metrics Mastery (Week 3-4) - 12-15 hours
 
-### Goal: Understand the Numbers That Matter
+**Goal**: Understand the Numbers That Matter
 
 **📚 Reading** (3 hours):
 1. **Focus Sections**:
@@ -452,7 +452,7 @@ Before moving to Module 4, you should be able to:
 
 ## Module 4: Regional Comparison & Patterns (Week 5) - 8-10 hours
 
-### Goal: Understand Market Variations & Identify Patterns
+**Goal**: Understand Market Variations & Identify Patterns
 
 **📚 Reading** (5-6 hours):
 1. **Compare Regional Guides** (in `resources/regional_guides/`):
@@ -556,7 +556,7 @@ Before moving to Module 5, you should be able to:
 
 ## Module 5: BI Application & Capstone (Week 6) - 8-10 hours
 
-### Goal: Apply Domain Knowledge to Build BI Solution
+**Goal**: Apply Domain Knowledge to Build BI Solution
 
 **🎯 Capstone Project Options**:
 
