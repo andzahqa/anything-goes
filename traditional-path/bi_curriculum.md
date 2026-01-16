@@ -1306,24 +1306,37 @@ Before moving forward, you should be able to:
 
 #### Resources
 
-- Restaurant Owner's Operating Manual
-- F&B KPI databases and benchmarks
-- Toast, Square, or other POS company resources
-- National Restaurant Association benchmarks
+- "Restaurant Financial Basics" by Raymond Goodman
+- National Restaurant Association benchmarks and industry standards
+- Toast/Square/Upserve analytics platform documentation and case studies
+- "Restaurant Profit and Loss Statements" guides
+- F&B KPI benchmark databases and industry reports
+- ModernRestaurantManagement.com for industry insights
+- Local F&B industry associations for regional benchmarks
 
 #### Common Pitfalls
 
-❌ **Calculation Mistakes**:
-- Not including all costs in prime cost
-- Wrong revenue base for percentages
-- Ignoring waste and spoilage
-- Not separating tips properly
+❌ **Metric Calculation Errors**:
+- Wrong formulas for F&B-specific metrics (e.g., Prime Cost calculation errors)
+- Not including all relevant costs in COGS or labor calculations
+- Missing waste, comps, and discounts in revenue calculations
+- Incorrect revenue recognition (gross vs net of delivery fees)
+- Not handling taxes consistently across metrics
+- Mixing cash vs accrual accounting methods
 
-❌ **Benchmarking Errors**:
-- Comparing different F&B types
-- Ignoring regional variations
-- Using outdated benchmarks
-- Not accounting for business model differences
+❌ **Benchmarking Mistakes**:
+- Comparing incomparable concepts (QSR vs fine dining benchmarks)
+- Not adjusting for location, market, and concept differences
+- Using outdated or irrelevant benchmarks
+- Ignoring that benchmarks are guidelines, not absolute targets
+- Not considering business lifecycle stage (startup vs mature)
+- Missing seasonal adjustment in comparisons
+
+❌ **Context Issues**:
+- Not segmenting metrics by daypart, day of week, or season
+- Ignoring the impact of external factors (weather, events, economy)
+- Missing service channel breakdown (dine-in vs delivery performance)
+- Not tracking cohort behavior and customer lifetime value
 
 #### Assessment Checklist
 
