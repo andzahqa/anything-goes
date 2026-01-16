@@ -690,30 +690,46 @@ Before moving to Phase 3, you should be able to:
 - "Storytelling with Data" by Cole Nussbaumer Knaflic (MUST READ)
 - "The Visual Display of Quantitative Information" by Edward Tufte
 - From Data to Viz (website - chart selection guide)
+- "Good Charts" by Scott Berinato (Harvard Business Review Press)
+- Data Viz Project (catalog of visualization types)
+- ColorBrewer (color palette tool for data visualization)
+- PolicyViz blog and podcast (practical data viz advice)
+- "Show Me the Numbers" by Stephen Few (practical guide to quantitative information)
 
 #### Common Pitfalls
 
-❌ **Visualization Mistakes**:
-- Wrong chart type for the data
-- Too many colors (visual chaos)
-- 3D charts (distort perception)
-- Pie charts with more than 5 categories
+❌ **Chart Selection Mistakes**:
+- Using pie charts for more than 5 categories (hard to compare)
+- 3D charts that distort perception and make comparison difficult
+- Dual-axis charts with incomparable scales (misleading)
+- Using the wrong chart type for the data relationship
+- Overusing donuts, gauges, and other "business" charts
+- Not considering how data will be consumed (print vs digital, size)
 
 ❌ **Design Errors**:
-- Truncated y-axis (misleading)
-- Dual y-axes (confusing comparisons)  
-- No title or labels (unclear context)
-- Poor color accessibility
+- Too many colors causing visual noise and confusion
+- Not starting bar chart y-axis at zero (misleading comparisons)
+- Inconsistent color meanings across visualizations
+- Chart junk and unnecessary decoration (Tufte's critique)
+- Poor contrast and readability (especially for colorblind users)
+- Not labeling axes and data points clearly
+
+❌ **Perception Issues**:
+- Using area/volume when length would be clearer
+- Truncated axes exaggerating small differences
+- Rainbow color scales instead of sequential/diverging
+- Not accounting for color blindness (~8% of men)
+- Animations and transitions that distract rather than clarify
 
 #### Assessment Checklist
 
 Before moving forward, you should be able to:
 - [ ] Choose appropriate chart types for different data scenarios
-- [ ] Apply visual perception principles
-- [ ] Design clear, honest visualizations
-- [ ] Avoid common visualization mistakes
-- [ ] Make charts accessible to all users
-- [ ] Explain data visualization best practices
+- [ ] Apply visual perception principles to design
+- [ ] Design clear, honest, and effective visualizations
+- [ ] Avoid common visualization mistakes and misleading practices
+- [ ] Make charts accessible to all users, including those with color blindness
+- [ ] Explain data visualization best practices and justify design choices
 
 ---
 
@@ -770,41 +786,44 @@ Before moving forward, you should be able to:
 **Resources**:
 - "Information Dashboard Design" by Stephen Few
 - Andy Kriebel's Makeover Monday
+- Dashboard design pattern libraries (e.g., from Tableau, Power BI)
+- Figma/Sketch dashboard templates (for practical application)
+- Nielsen Norman Group (NN/g) articles on dashboard usability
+- Dribbble, Behance (for design inspiration)
 
 > **🤖 AI Assistance**:
 > - **🤖 AI Review**: Share wireframe/mockup: "Review this dashboard layout for an F&B operator. Is the hierarchy clear?"
 > - **💡 Ask AI**: "What are the best practices for designing mobile-responsive dashboards?"
 > - **⚡ AI Generate**: "Generate 3 dashboard wireframe layout ideas for restaurant operations"
 
-#### Resources
-
-- Dashboard design pattern libraries
-- "Information Dashboard Design" by Stephen Few
-- Figma/Sketch dashboard templates
-
 #### Common Pitfalls
 
 ❌ **Design Mistakes**:
-- Too many metrics (information overload)
-- Poor visual hierarchy (everything looks equal importance)
-- Not mobile-responsive
-- Ignoring user workflows
+- Too many metrics (information overload, cognitive strain)
+- Poor visual hierarchy (everything looks equal importance, no clear focal point)
+- Not mobile-responsive (poor user experience on smaller screens)
+- Ignoring user workflows and decision-making processes
+- Lack of context for metrics (e.g., no comparisons, targets, or trends)
+- Over-reliance on complex charts when simple ones suffice
 
 ❌ **Layout Issues**:
-- Poor use of whitespace
-- Inconsistent spacing and alignment
-- Important data buried below fold
-- No clear entry point for eyes
+- Poor use of whitespace (cluttered appearance)
+- Inconsistent spacing and alignment (unprofessional look)
+- Important data buried below the fold (requires scrolling to see key insights)
+- No clear entry point for eyes (users don't know where to start)
+- Inconsistent navigation or lack thereof
+- Mixing too many different chart types on one screen
 
 #### Assessment Checklist
 
 Before moving forward, you should be able to:
-- [ ] Design effective dashboard wireframes
-- [ ] Apply visual hierarchy principles
-- [ ] Create user-centered layouts
-- [ ] Design for different screen sizes
-- [ ] Get and incorporate user feedback
-- [ ] Follow dashboard design best practices
+- [ ] Design effective dashboard wireframes and mockups
+- [ ] Apply visual hierarchy principles to guide user attention
+- [ ] Create user-centered layouts that align with audience needs
+- [ ] Design for different screen sizes and mobile responsiveness
+- [ ] Get and incorporate user feedback into design iterations
+- [ ] Follow dashboard design best practices for clarity and impact
+- [ ] Differentiate between strategic, analytical, and operational dashboards
 
 ---
 
@@ -876,42 +895,41 @@ Before moving forward, you should be able to:
 - Power BI community
 - Official tool documentation
 - YouTube tutorials for your chosen tool
+- Udemy/Coursera courses specific to your chosen BI tool
+- Tool-specific blogs and forums (e.g., Tableau Zen Masters, Power BI Community)
+- Data visualization challenges (e.g., Makeover Monday, Workout Wednesday)
 
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "Compare Tableau vs Power BI vs Data Studio for small business BI needs"
 > - **⚡ AI Generate**: "Create step-by-step tutorial for building first Tableau dashboard"
 > - **🤖 AI Debug**: "My Power BI visual shows wrong totals. Dataset: [describe]. Measure: [DAX]. What's wrong?"
 
-#### Resources
-
-- Tableau Public gallery (inspiration)
-- Power BI community forums
-- Google Data Studio template gallery
-- Tool-specific YouTube channels
-
 #### Common Pitfalls
 
 ❌ **Tool Selection Mistakes**:
-- Choosing based on hype not needs
-- Not considering total cost (licenses, training, maintenance)
-- Lock-in without evaluating alternatives
-- Over-engineering for simple needs
+- Choosing based on hype not needs (e.g., picking a complex tool for simple reporting)
+- Not considering total cost (licenses, training, maintenance, infrastructure)
+- Lock-in without evaluating alternatives and future scalability
+- Over-engineering for simple needs (using a sledgehammer to crack a nut)
+- Ignoring data source compatibility and integration capabilities
 
 ❌ **Learning Curve Issues**:
-- Trying to master everything at once
-- Not following tutorials properly
-- Skipping fundamentals
-- Not practicing with real data
+- Trying to master everything at once (leading to overwhelm)
+- Not following tutorials properly or skipping fundamental concepts
+- Skipping fundamentals like data types, relationships, and aggregation
+- Not practicing with real data and diverse use cases
+- Relying solely on drag-and-drop without understanding underlying logic
 
 #### Assessment Checklist
 
 Before moving to Phase 4, you should be able to:
-- [ ] Build dashboards in at least one BI tool
-- [ ] Connect to data sources
-- [ ] Create visualizations using the tool
-- [ ] Add interactivity (filters, drill-downs)
-- [ ] Share dashboards with stakeholders
-- [ ] Choose appropriate tools for different use cases
+- [ ] Build interactive dashboards in at least one major BI tool (e.g., Tableau, Power BI)
+- [ ] Connect to various data sources (e.g., CSV, Excel, SQL databases) within the tool
+- [ ] Create a variety of visualizations (charts, tables, maps) using the tool's features
+- [ ] Add interactivity such as filters, drill-downs, and parameters
+- [ ] Publish and share dashboards with stakeholders securely
+- [ ] Choose appropriate BI tools for different use cases and organizational needs
+- [ ] Understand basic performance optimization techniques within the chosen tool
 
 ---
 
@@ -960,14 +978,20 @@ Before moving to Phase 4, you should be able to:
   - Practice presenting to someone
 
 **Resources**:
-- "Storytelling with Data" by Cole Nussbaumer Knaflic
-- TED talks about data
-- Data journalism examples (The Pudding, FiveThirtyEight)
+- "Storytelling with Data" by Cole Nussbaumer Knaflic (essential reading)
+- "The Visual Display of Quantitative Information" by Edward Tufte (classic)
+- "Good Charts" by Scott Berinato (Harvard Business Review Press)
+- Data Viz Project (catalog of visualization types)
+- ColorBrewer (color palette tool for data visualization)
+- PolicyViz blog and podcast (practical data viz advice)
+- "Show Me the Numbers" by Stephen Few (practical guide to quantitative information)
+- TED talks about data (for inspiration on compelling presentations)
+- Data journalism examples (The Pudding, FiveThirtyEight - for narrative structure)
 
 #### Common Pitfalls
 
 ❌ **Storytelling Mistakes**:
-- Showing all the data instead of the insight
+- Showing all the data instead of the insight (information overload)
 - No clear narrative arc (beginning, middle, end)
 - Too technical for the audience
 - Burying the lede (key insight not obvious)
