@@ -925,8 +925,6 @@ Before moving forward, you should be able to:
 - [ ] Handle database migrations
 - [ ] Debug database performance issues
 
-#### Assessment Checklist
-
 ---
 
 ### Module 4.3: Authentication & Security
