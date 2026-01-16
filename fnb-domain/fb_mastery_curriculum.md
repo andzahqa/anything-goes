@@ -36,9 +36,6 @@
    - Start to finish (1,953 lines, comprehensive!)
    - Take notes on unfamiliar concepts
    - Highlight sections you don't understand yet
-   
-   
-
 
 **Reading Strategy**:
 ```
@@ -68,9 +65,6 @@ Day 4 (2 hours): Business Management
    - Warung (local, cheap)
    - Mall restaurant (modern)
    - Coffee shop (Kopi Kenangan or Starbucks)
-   
-   
-
 
 2. **Observe & Document**:
    - Service flow (greeting → order → food → payment)
@@ -108,8 +102,6 @@ Duration: [How long you observed]
 2. [What problems did you notice?]
 3. [What BI dashboard would be useful?]
 ```
-
-
 
 **Resources**:
 
@@ -544,8 +536,8 @@ Before moving to Phase 4, you should be able to:
   - Restaurant Analytics Case Studies
 
 > **🤖 AI Assistance**:
-> - **
-> - **
+> - **⚡ AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
+> - **💡 Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
 > - **⚡ AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
 > - **🤖 AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable?"
 
@@ -737,10 +729,10 @@ reflection.md - What you learned, what was hard, what you'd improve
   - Google Slides Templates
 
 > **🤖 AI Assistance**:
-> - **
+> - **🔍 AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
 > - **⚡ AI Generate**: "Generate spreadsheet formulas for menu engineering calculator"
 > - **💡 Ask AI**: "How should I forecast Ramadan impact on different F&B business models?"
-> - **
+> - **⚡ AI Generate**: "Generate comprehensive sample F&B data for capstone project"
 > - **🤖 AI Review**: "Review my F&B BI dashboard design. Does it answer key business questions?"
 > - **💡 Ask AI**: "What are must-have vs nice-to-have features for MVP?"
 
