@@ -1506,14 +1506,6 @@ Before moving forward, you should be able to:
 
 #### Resources
 
-- Time series analysis tutorials
-- Market basket analysis guides
-- Forecasting best practices
-- F&B predictive analytics cases
-
-#### Common Pitfalls
-
-❌ **Forecasting Mistakes**:
 - Insufficient historical data
 - Ignoring seasonal patterns
 - Not validating models
