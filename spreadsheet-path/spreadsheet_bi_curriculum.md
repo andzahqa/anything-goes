@@ -1094,10 +1094,14 @@ Capstone project complete when you can demonstrate:
 - [ ] Ability to explain design decisions
 - [ ] Real business value delivered
 
-**Resources**:
-- "Storytelling with Data" by Cole Nussbaumer Knaflic
+#### Resources
 
-#### Common Pitfalls
+- "Storytelling with Data" by Cole Nussbaumer Knaflic (essential)
+- "Resonate" by Nancy Duarte (presentation structure)
+- Data journalism examples (FiveThirtyEight, The Pudding)
+- TED Talks on effective data communication
+- "Made to Stick" by Chip and Dan Heath (memorable messages)
+- Presentation Zen (design principles)
 
 ❌ **Storytelling Mistakes**:
 - No clear narrative (just showing data)
@@ -1192,8 +1196,12 @@ Before moving forward, you should be able to:
 
 #### Resources
 
-- Advanced Excel dashboard tutorials
-- Dynamic named ranges guides
+- Advanced Excel dashboard tutorials and courses
+- Dynamic named ranges documentation and guides
+- Excel advanced charting techniques
+- Dashboard interactivity best practices
+- Form controls and VBA basics for dashboards
+- Excel dashboard templates for inspiration
 - Performance optimization best practices
 
 #### Common Pitfalls
