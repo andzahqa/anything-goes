@@ -769,14 +769,37 @@ function sendWeeklyReport() {
 > - **🔍 AI Explain**: "Explain Google Sheets QUERY function syntax with examples"
 > - **⚡ AI Generate**: "Write QUERY formula: Get all items where category='Food' and price>10, sorted by price descending"
 > - **🤖 AI Debug**: "My QUERY formula has syntax error: [paste formula]. What's wrong?"
-> - **⚡ AI Generate**: "Write Apps Script function to auto-timestamp when cell B is edited"
-> - **⚡ AI Generate**: "Write Apps Script to send email when daily sales drop below $1000"
-> - **💡 Ask AI**: "Show me 5 powerful combinations of FILTER + SORT + UNIQUE"
 
-**Resources**:
+#### Resources
+
 - Ben Collins (Google Sheets expert) - benlcollins.com
 - Google Sheets function reference
 - Apps Script documentation
+- Google Workspace Learning Center
+
+#### Common Pitfalls
+
+❌ **Google Sheets Mistakes**:
+- IMPORTRANGE permission errors
+- QUERY syntax errors (SQL-like but different)
+- Not optimizing for mobile
+- Over-complicated formulas
+
+❌ **Collaboration Issues**:
+- Too many editors causing conflicts
+- Not using protected ranges
+- Poor permission management
+- Missing version control
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Use QUERY function for data analysis
+- [ ] Implement IMPORTRANGE connections
+- [ ] Create FILTER and array formulas
+- [ ] Set up Google Sheets permissions
+- [ ] Use Apps Script for automation
+- [ ] Leverage Google Sheets collaborative features
 
 #### Common Pitfalls
 
@@ -1295,14 +1318,13 @@ Before moving to Phase 5, you should be able to:
 
 **Additional: Building F&B Calculators in Spreadsheets**
 
-**Project**: Create a comprehensive F&B Metrics Calculator:
+**Hands-on Project**: Create a comprehensive F&B Metrics Calculator:
 - **Input Section**:
   - Sales (food, beverage, by daypart)
   - COGS (food cost, beverage cost)
   - Inventory (beginning, ending)
   - Labor (hours, wages, by role)
-  - Other costs (rent, utilities, etc.)
-  - Covers/seats/hours data
+  - Other costs (rent, utilities, etc.  - Covers/seats/hours data
 - **Calculated Metrics** (auto-update):
   - Food Cost %
   - Beverage Cost %
@@ -1319,6 +1341,37 @@ Before moving to Phase 5, you should be able to:
   - Comparison to budget/targets
 
 **Make it Reusable**: Template that any restaurant can use
+
+#### Resources
+
+- F&B Business Processes guide
+- Restaurant KPI benchmarks
+- National Restaurant Association resources
+- F&B calculator templates
+
+#### Common Pitfalls
+
+❌ **F&B Metrics Mistakes**:
+- Wrong calculation formulas
+- Not including all costs
+- Ignoring industry benchmarks
+- Missing F&B-specific KPIs
+
+❌ **Implementation Issues**:
+- Not accounting for waste
+- Missing delivery/takeout splits
+- No benchmarks for context
+- Calculator not user-friendly
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Understand F&B business operations
+- [ ] Calculate all major F&B KPIs correctly
+- [ ] Apply industry benchmarks
+- [ ] Build F&B metrics calculators
+- [ ] Interpret F&B metrics in context
+- [ ] Design for F&B operator use
 
 ---
 
