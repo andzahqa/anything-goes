@@ -1360,9 +1360,12 @@ Before moving to Phase 5, you should be able to:
 
 #### Resources
 
-- F&B Business Processes guide
-- Restaurant KPI benchmarks
+- F&B Business Processes guide (comprehensive context)
+- Restaurant KPI benchmarks and industry standards
+- F&B dashboard templates (Google Sheets, Excel galleries)
+- Restaurant analytics platform case studies
 - National Restaurant Association resources
+- ModernRestaurantManagement.com for insightstaurant Association resources
 - F&B calculator templates
 
 #### Common Pitfalls
@@ -1490,7 +1493,11 @@ Choose 2-3 dashboards from the gallery and build them completely.
 #### Resources
 
 - F&B dashboard templates (Tableau Public, Google Sheets gallery)
-- Restaurant analytics examples
+- Restaurant analytics platforms examples and case studies
+- F&B-specific BI best practices articles
+- Industry benchmarking reports and white papers
+- Dashboard design for F&B operators guides
+- Real F&B analytics case studiestaurant analytics examples
 - F&B Business Processes guide
 - Dashboard design best practices
 
