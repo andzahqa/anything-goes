@@ -306,8 +306,12 @@ Before moving to Phase 2, you should be able to:
 **Tools**: Excel/Google Sheets, introduction to Google Data Studio
 
 **Resources**:
-- Khan Academy Statistics
-- "Naked Statistics" by Charles Wheelan (book)
+- "Naked Statistics" by Charles Wheelan (accessible statistics introduction)
+- Khan Academy Statistics and Probability course (free, comprehensive)
+- "Statistics Done Wrong" by Alex Reinhart (common statistical mistakes)
+- "How to Lie with Statistics" by Darrell Huff (classic on misuse)
+- Seeing Theory (interactive statistics visualizations)
+- StatQuest YouTube channel (statistics explained simply)
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain standard deviation and why it matters for business analytics with F&B examples"
@@ -316,17 +320,27 @@ Before moving to Phase 2, you should be able to:
 
 #### Common Pitfalls
 
-❌ **Statistical Mistakes**:
-- Using mean when median is more appropriate (with outliers)
-- Not understanding confidence intervals (over-interpreting results)
-- Correlation vs causation confusion
-- Small sample sizes leading to unreliable conclusions
+❌ **Statistical Misunderstandings**:
+- Confusing correlation with causation (classic mistake)
+- Ignoring sample size (small samples = unreliable conclusions)
+- Not understanding statistical significance vs practical significance
+- Cherry-picking data to support preconceived conclusions
+- Misinterpreting p-values and confidence intervals
+- Assuming normal distribution without checking
 
-❌ **Analysis Errors**:
-- Not visualizing data before analyzing (miss patterns)
-- Ignoring data quality issues
-- Over-complicating analysis (simple often better)
-- Not validating results with domain knowledge
+❌ **Data Interpretation Errors**:
+- Not considering confounding variables and external factors
+- Extrapolating beyond the data range (forecasting too far)
+- Ignoring outliers without investigation
+- Comparing incomparable groups (different contexts)
+- Not accounting for seasonality and trends
+- Survivorship bias (only analyzing successful cases)
+
+❌ **Visualization Mistakes**:
+- Misleading y-axis scales (not starting at zero when appropriate)
+- Cherry-picked date ranges to show desired trend
+- Using wrong chart types for the data
+- 3D charts that distort perceptions
 
 #### Assessment Checklist
 
