@@ -203,6 +203,37 @@ Before moving to Phase 2, you should be able to:
 > - **⚡ AI Generate**: "Create formulas for a complete F&B KPI calculator (food cost %, labor cost %, prime cost %, RevPASH)"
 > - **🤖 AI Review**: "I think these are the top 5 KPIs for a restaurant: [list]. Am I missing critical ones?"
 
+#### Common Pitfalls
+
+❌ **KPI Mistakes**:
+- Tracking too many metrics (analysis paralysis)
+- Using vanity metrics (revenue without costs)
+- Not benchmarking against industry standards
+- Calculating percentages wrong (base amount errors)
+
+❌ **Business Understanding**:
+- Not understanding the "why" behind metrics
+- Ignoring context (seasonality, events)
+- Comparing incomparable businesses (fine dining vs QSR)
+- Not validating with actual F&B operators
+
+#### Resources
+
+- **Reading**: F&B Business Processes guide (`fb_business_processes.md`)
+- **Industry**: National Restaurant Association benchmarks
+- **Tools**: KPI dashboard templates
+- **Books**: "Restaurant Financial Basics" by Raymond S. Schmidgall
+
+#### Assessment Checklist
+
+Before moving to Phase 2, you should be able to:
+- [ ] Define and calculate 10+ F&B KPIs
+- [ ] Explain why each metric matters for decision-making
+- [ ] Identify good vs bad metric values
+- [ ] Build a KPI calculator in spreadsheets
+- [ ] Ask the right analytical questions for F&B businesses
+- [ ] Understand stakeholder needs (owner vs manager vs staff)
+
 ---
 
 ## Phase 2: Excel Power Tools (Weeks 4-7)
@@ -475,6 +506,30 @@ Before moving forward, you should be able to:
 - Chandoo.org charting tutorials
 - Peltier Tech Charts for Excel (add-in)
 
+#### Common Pitfalls
+
+❌ **Chart Mistakes**:
+- Using 3D charts (harder to read accurately)
+- Too many colors or data series
+- Wrong chart type for the data (pie chart for trends!)
+- Missing or unclear labels
+
+❌ **Design Errors**:
+- Chartjunk (unnecessary decorations)
+- Poor color choices (not accessible)
+- Inconsistent formatting across charts
+- Not removing default gridlines and borders
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Create 5+ different chart types effectively
+- [ ] Choose the right chart for different data scenarios
+- [ ] Apply professional styling and formatting
+- [ ] Make charts interactive with form controls
+- [ ] Remove chartjunk and follow best practices
+- [ ] Use conditional formatting creatively for visualization
+
 ---
 
 ### Module 2.4: Excel Dashboard Design & Build
@@ -546,6 +601,30 @@ Before moving forward, you should be able to:
 - Chandoo.org Excel Dashboards course
 - Dashboard design templates (search "Excel dashboard templates")
 - "Dashboarding and Reporting with Power Pivot and Excel" by Kasper de Jonge
+
+#### Common Pitfalls
+
+❌ **Dashboard Design Mistakes**:
+- Cramming too much information (cognitive overload)
+- Inconsistent formatting across components
+- No clear visual hierarchy
+- Not testing with actual users
+
+❌ **Technical Issues**:
+- Broken links when moving files
+- Slow performance (too many volatile formulas)
+- Not protecting the dashboard structure
+- Refresh button not obvious to users
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Design professional dashboard layouts
+- [ ] Create interactive elements (slicers, form controls)
+- [ ] Build KPI cards with conditional formatting
+- [ ] Set up one-click data refresh
+- [ ] Protect dashboards from accidental changes
+- [ ] Follow dashboard design best practices
 
 ---
 
@@ -783,6 +862,30 @@ Before moving forward, you should be able to:
 - Ben Collins dashboard tutorials
 - Template Gallery in Google Sheets
 
+#### Common Pitfalls
+
+❌ **Google Sheets Specific**:
+- Not optimizing for mobile (stakeholders view on phone)
+- IMPORTRANGE pulling too much data (slow)
+- Over-complicated formulas (hard to maintain)
+- Not setting proper sharing permissions
+
+❌ **Collaboration Issues**:
+- Too many editors (accidental changes)
+- No version history usage
+- Not using protected ranges
+- Unclear ownership/maintenance
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build Google Sheets dashboards with QUERY and FILTER
+- [ ] Create interactive dropdowns linked to formulas
+- [ ] Set up proper sharing and permissions
+- [ ] Design mobile-friendly layouts
+- [ ] Use filter views for different user types
+- [ ] Test dashboard performance with large datasets
+
 ---
 
 ### Module 3.3: Spreadsheet Integration & Automation
@@ -867,6 +970,30 @@ function dailyRefresh() {
 - Zapier University
 - Power Automate documentation
 
+#### Common Pitfalls
+
+❌ **Automation Mistakes**:
+- Over-engineering (complex solution for simple problem)
+- Not handling errors gracefully (scripts crash)
+- Hardcoding values (not flexible)
+- No monitoring/logging (can't debug when fails)
+
+❌ **Integration Issues**:
+- API rate limits exceeded
+- Authentication problems
+- Data format mismatches
+- No fallback when automation fails
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Set up automated data imports
+- [ ] Write basic Apps Script functions
+- [ ] Create scheduled triggers
+- [ ] Connect spreadsheets with IMPORTRANGE
+- [ ] Design multi-user workflows
+- [ ] Implement basic error handling in automation
+
 ---
 
 ## Phase 4: Dashboard Mastery (Weeks 11-13)
@@ -905,6 +1032,30 @@ function dailyRefresh() {
 
 **Resources**:
 - "Storytelling with Data" by Cole Nussbaumer Knaflic
+
+#### Common Pitfalls
+
+❌ **Storytelling Mistakes**:
+- No clear narrative (just showing data)
+- Too much detail (drowning in numbers)
+- Burying the insight (not obvious)
+- Technical jargon for non-technical audience
+
+❌ **Presentation Errors**:
+- Reading directly from the dashboard
+- Not tailoring to audience
+- No call to action
+- Defensive when questioned
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Craft compelling data narratives
+- [ ] Design multi-sheet story flows
+- [ ] Present insights effectively
+- [ ] Tailor message to different audiences
+- [ ] Handle questions and objections
+- [ ] Make data memorable with storytelling techniques
 
 ---
 

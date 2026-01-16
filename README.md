@@ -286,7 +286,7 @@ Update `progress_tracker.md` weekly:
 **Initial Orientation** (Day 1):
 - [x] Read this README completely
 - [x] Understand the 4 learning paths (F&B → Spreadsheet → Traditional → Web Dev)
-- [ ] Read `setup_guide.md` for environment setup
+- [x] Read `setup_guide.md` for environment setup
 - [ ] Skim `ai-guided-learning_guide.md` to understand AI assistance
 
 **Start Path 1: F&B Domain** (Week 1-6):
