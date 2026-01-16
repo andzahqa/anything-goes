@@ -17,39 +17,189 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 **Goal**: Understand how the web works and build your first pages
 
 #### Topics to Master
-- **HTML5 Essentials**
-  - Semantic HTML elements
-  - Forms and input validation
-  - Accessibility basics (ARIA, semantic structure)
-  - Document structure and metadata
-  
-- **CSS3 Fundamentals**
-  - Box model and layout (Flexbox, Grid)
-  - Responsive design and media queries
-  - CSS variables and modern features
-  - Animations and transitions
-  - Typography and color theory
-  
-- **JavaScript Basics**
-  - Variables, data types, and operators
-  - Functions and scope
-  - Arrays and objects
-  - DOM manipulation
-  - Event handling
-  - ES6+ features (arrow functions, destructuring, spread/rest)
-  
+
+**Week 1: HTML5 Essentials**
+- Semantic HTML elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`)
+- Forms and input validation (required, pattern, custom validation)
+- Accessibility basics (ARIA roles, labels, screen reader support)
+- Document structure and metadata (meta tags, Open Graph, structured data)
+
+**Week 2: CSS3 Fundamentals**
+- Box model and layout:
+  - Flexbox: justify-content, align-items, flex-direction, flex-wrap
+  - Grid: grid-template-columns, gap, grid areas
+- Responsive design: mobile-first approach, breakpoints, media queries
+- CSS variables (custom properties) for theming
+- Animations and transitions (hover effects, loading states)
+- Typography and color theory (font pairing, color palettes)
+
+**Week 3-4: JavaScript Basics**
+- Variables (let, const, var - when to use each)
+- Data types (string, number, boolean, array, object, null, undefined)
+- Functions (declaration, expression, arrow functions)
+- Scope (global, function, block scope)
+- Arrays: map, filter, reduce, forEach, find, some, every
+- Objects: properties, methods, destructuring, spread operator
+- DOM manipulation: querySelector, createElement, appendChild, addEventListener
+- Event handling: click, submit, input, change events
+- ES6+ features: template literals, destructuring, spread/rest, arrow functions
+
 🔍 **AI Explain**: For any JavaScript confusion, ask: "Explain [concept] with web dev examples and code snippets"
+💡 **Ask AI**: "What's the difference between map() and forEach()? When should I use each?"
+
+#### Hands-on Exercises
+
+**HTML Practice** (Day 1-2):
+1. Build a semantic HTML page structure for a blog
+2. Create an accessible contact form with validation
+3. Add proper meta tags for SEO and social sharing
+
+**CSS Practice** (Day 3-5):
+1. Layout a 3-column responsive grid using Flexbox
+2. Build a navigation menu that collapses on mobile
+3. Create smooth hover animations for buttons and cards
+4. Design a dark/light theme using CSS variables
+
+**JavaScript Practice** (Day 6-10):
+1. Array manipulation: Filter, map, and sort an array of products
+2. DOM exercises: Create a todo list (add, remove, mark complete)
+3. Event handling: Build an interactive calculator
+4. API practice: Fetch data from JSONPlaceholder and display it
+5. Build a simple image gallery with prev/next navigation
+
+⚡ **AI Generate**: "Create 10 JavaScript array manipulation exercises with solutions"
+
+#### Common Pitfalls
+
+❌ **HTML Mistakes**:
+- Using `<div>` for everything instead of semantic elements
+- Forgetting alt text on images (accessibility!)
+- Not closing tags properly
+- Missing form labels
+
+❌ **CSS Mistakes**:
+- Not using mobile-first responsive design
+- Over-specific selectors (avoid deep nesting)
+- Forgetting box-sizing: border-box
+- Not testing on different browsers
+
+❌ **JavaScript Mistakes**:
+- Trying to manipulate DOM before it's loaded (use DOMContentLoaded)
+- Not handling errors in async code
+- Mutating arrays/objects unintentionally
+- Using == instead of === (type coercion issues)
+
+🤖 **AI Debug**: If you encounter errors, paste: "I'm getting [error message] when doing [what you're trying to do]. Here's my code: [code]"
+
+#### Resources
+
+**Documentation**:
+- MDN Web Docs: https://developer.mozilla.org (THE reference)
+- HTML Living Standard: https://html.spec.whatwg.org
+- CSS Tricks: https://css-tricks.com (practical guides)
+
+**Interactive Learning**:
+- freeCodeCamp: Responsive Web Design Certification
+- Frontend Mentor: Real-world practice projects
+- Flexbox Froggy: Learn Flexbox through games
+- Grid Garden: Learn CSS Grid through games
+
+**Video Courses**:
+- Traversy Media (YouTube): Web dev crash courses
+- The Net Ninja (YouTube): HTML/CSS/JS series
+- Kevin Powell (YouTube): CSS master
+
+**Books**:
+- "Eloquent JavaScript" by Marijn Haverbeke (free online)
+- "HTML & CSS" by Jon Duckett (beautiful, visual)
+
+#### Assessment Checklist
+
+Before moving to Module 1.2, you should be able to:
+- [ ] Write semantic HTML for any webpage structure
+- [ ] Create responsive layouts using Flexbox and Grid
+- [ ] Style elements with modern CSS (variables, animations)
+- [ ] Manipulate the DOM with JavaScript
+- [ ] Handle user events (click, submit, etc.)
+- [ ] Use array methods (map, filter, reduce) confidently
+- [ ] Fetch data from an API and display it
+- [ ] Debug common HTML/CSS/JS errors
 
 #### 🎯 Project 1: Personal Dashboard
-Build a simple personal dashboard with:
-- Responsive grid layout
-- Interactive cards showing mock data (weather, tasks, calendar)
-- Smooth animations and hover effects
-- Dark/light mode toggle
-- Clean, modern design
+
+**Goal**: Build a responsive personal dashboard to consolidate everything you've learned.
+
+**Requirements**:
+
+**Core Features**:
+- Responsive 3-column grid layout (mobile: 1 column, tablet: 2, desktop: 3)
+- 6+ interactive cards showing:
+  - Current date/time (updates every second)
+  - Weather (use mock data for now)
+  - Daily tasks list (add/remove)
+  - Recent activity feed
+  - Quick stats (numbers with icons)
+  - Calendar view (current month)
+- Smooth animations: hover effects, card reveals, transitions
+- Dark/light mode toggle (persists in localStorage)
+- Clean, modern design with consistent spacing
+
+**Technical Requirements**:
+- Semantic HTML5 structure
+- CSS: Flexbox or Grid, no frameworks
+- Vanilla JavaScript (no libraries yet)
+- Responsive: works on mobile, tablet, desktop
+- Accessible: keyboard navigation, screen reader friendly
+
+**File Structure**:
+```
+personal-dashboard/
+├── index.html
+├── styles/
+│   ├── main.css
+│   ├── themes.css (dark/light variables)
+│   └── responsive.css
+├── scripts/
+│   ├── app.js
+│   ├── themeToggle.js
+│   └── tasks.js
+└── assets/
+    └── icons/
+```
+
+**Implementation Steps**:
+
+**Week 1: HTML & CSS**
+1. Day 1-2: Create HTML structure with semantic elements
+2. Day 3-4: Build grid layout and card styling
+3. Day 5-6: Add responsive breakpoints
+4. Day 7: Implement dark/light theme with CSS variables
+
+**Week 2: JavaScript & Polish**
+5. Day 8-9: Add time/date updates and theme toggle
+6. Day 10-11: Build task list functionality (add, remove, check)
+7. Day 12-13: Add smooth animations and transitions
+8. Day 14: Testing, refinement, code cleanup
+
+**Success Criteria**:
+- [ ] Works perfectly on mobile, tablet, and desktop
+- [ ] Theme toggle switches colors and persists on reload
+- [ ] Tasks can be added, removed, and marked complete
+- [ ] Time updates every second
+- [ ] All interactions have smooth animations
+- [ ] Code is clean, commented, and organized
+- [ ] No console errors
+- [ ] Passes HTML/CSS validators
 
 ⚡ **AI Generate**: Ask AI to create starter HTML/CSS structure for dashboard layout
 🤖 **AI Review**: Share your completed project for feedback on code quality and best practices
+💡 **Ask AI**: "What are best practices for organizing CSS for a multi-page project?"
+
+**Bonus Challenges**:
+- Add local weather data using OpenWeather API
+- Implement drag-and-drop for task reordering
+- Add task categories with color coding
+- Create a settings panel for customization
 
 **Time**: 2 weeks
 
@@ -60,19 +210,45 @@ Build a simple personal dashboard with:
 
 #### Topics to Master
 - **Advanced JavaScript**
-  - Promises and async/await
-  - Fetch API and AJAX
-  - Error handling
-  - Modules (import/export)
-  - Array methods (map, filter, reduce, forEach)
-  - Object-oriented programming
-  - Functional programming concepts
+  - Promises and async/await (handling asynchronous operations)
+  - Fetch API and AJAX (making HTTP requests)
+  - Error handling (try/catch, promise rejection)
+  - Modules (import/export, code organization)
+  - Array methods: map, filter, reduce, forEach, find, some, every
+  - Object-oriented programming (classes, inheritance)
+  - Functional programming concepts (pure functions, immutability)
 
 - **Working with APIs**
-  - REST API concepts
-  - JSON handling
-  - Authentication basics
-  - CORS and common issues
+  - REST API concepts (GET, POST, PUT, DELETE)
+  - JSON handling (parse, stringify)
+  - Authentication basics (API keys, tokens)
+  - CORS and common issues (cross-origin requests)
+  - Rate limiting and error responses
+
+🔍 **AI Explain**: "Explain async/await vs Promises with practical examples"
+💡 **Ask AI**: "What are common async/await pitfalls and how to avoid them?"
+
+#### Hands-on Exercises
+
+1. **Promise Practice**: Chain multiple API calls
+2. **Async/Await**: Refactor promise chains to async/await
+3. **Error Handling**: Build robust fetch wrapper with try/catch
+4. **Array Methods**: Transform data using map, filter, reduce
+5. **Module System**: Split code into separate importable modules
+
+⚡ **AI Generate**: "Create 5 async/await exercises with error handling"
+
+#### Resources
+
+**JavaScript Deep Dive**:
+- JavaScript.info: Promises, Async/Await section
+- MDN: Async JavaScript guide
+- "You Don't Know JS" by Kyle Simpson
+
+**API Practice**:
+- JSONPlaceholder (fake API for testing)
+- Public APIs list (github.com/public-apis/public-apis)
+- Postman (API testing tool)
 
 #### 🎯 Project 2: Data Fetcher Dashboard
 Enhance your dashboard to:
@@ -95,20 +271,50 @@ Enhance your dashboard to:
 
 #### Topics to Master
 - **React Core Concepts**
-  - Components (functional vs class)
-  - Props and state
-  - Hooks (useState, useEffect, useContext, useRef, useMemo, useCallback)
-  - Event handling in React
-  - Conditional rendering
-  - Lists and keys
-  - Forms and controlled components
+  - Components: functional vs class (use functional!)
+  - Props: passing data down component tree
+  - State: useState hook for component state
+  - Hooks: useState, useEffect, useContext, useRef, useMemo, useCallback
+  - Event handling: onClick, onChange, onSubmit
+  - Conditional rendering: && operator, ternary, early returns
+  - Lists and keys: mapping arrays to components
+  - Forms: controlled components, validation
 
 - **React Ecosystem**
-  - Create React App / Vite
-  - React Developer Tools
-  - Component composition patterns
-  - Custom hooks
-  - Context API for state management
+  - Create React App / Vite (project scaffolding)
+  - React Developer Tools (debugging)
+  - Component composition patterns (children, render props)
+  - Custom hooks (reusable logic)
+  - Context API (global state without props drilling)
+
+🔍 **AI Explain**: "Explain React hooks (useState, useEffect) with analytics dashboard examples"
+💡 **Ask AI**: "When should I use useEffect vs useLayoutEffect?"
+🤖 **AI Debug**: "I'm getting 'Hooks can only be called inside function components' error: [paste code]"
+
+#### Hands-on Exercises
+
+1. **Component Building**: Create 5 reusable components (Button, Card, Input, Modal, Dropdown)
+2. **State Management**: Build a counter with increment, decrement, reset
+3. **useEffect Practice**: Fetch data on component mount, cleanup on unmount
+4. **Forms**: Build controlled form with validation
+5. **Custom Hook**: Create useLocalStorage hook
+
+⚡ **AI Generate**: "Create React component boilerplate for a data table with sorting"
+
+#### Resources
+
+**Official Docs**:
+- React.dev (new official docs - start here!)
+- React Patterns (reactpatterns.com)
+
+**Video Courses**:
+- Scrimba: Learn React for free
+- Jack Herrington (YouTube): React best practices
+- Theo - t3.gg (YouTube): React performance
+
+**Practice**:
+- Frontend Mentor: React projects
+- React challenges on Codewars
 
 #### 🎯 Project 3: Simple Analytics Viewer
 Build a React app that displays:
@@ -234,19 +440,53 @@ Build a collection of:
 **Goal**: Build RESTful APIs for your frontend
 
 #### Topics to Master
-- **Node.js Fundamentals**
-  - Event loop and asynchronous programming
-  - NPM and package management
-  - File system operations
-  - Environment variables
+
+**Week 1 - Node.js Fundamentals**:
+- Event loop and asynchronous programming (how Node.js works)
+- NPM and package management (installing, updating packages)
+- File system operations (reading, writing files)
+- Environment variables (.env files, process.env)
+- Debugging Node.js applications
   
-- **Express.js**
-  - Routing and middleware
-  - Request/response handling
-  - Error handling
-  - CORS configuration
-  - Input validation
-  - RESTful API design principles
+**Week 2-3 - Express.js**:
+- Routing and middleware (request/response flow)
+- Request/response handling (params, query, body)
+- Error handling (try/catch, error middleware)
+- CORS configuration (allowing cross-origin requests)
+- Input validation (express-validator, Joi)
+- RESTful API design principles (resource naming, HTTP methods)
+- Authentication middleware (JWT, sessions)
+- File uploads (multer)
+
+🔍 **AI Explain**: "Explain Express middleware with real examples"
+💡 **Ask AI**: "What are REST API best practices for naming endpoints?"
+🤖 **AI Debug**: "My Express route returns 404: [paste routes code]"
+
+#### Hands-on Exercises
+
+1. **Basic Server**: Create Express server with 5 routes
+2. **Middleware**: Build logging middleware, authentication middleware
+3. **CRUD API**: Build complete CRUD for a resource (users, products)
+4. **Validation**: Add input validation to all routes
+5. **Error Handling**: Centralized error handling middleware
+
+⚡ **AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
+⚡ **AI Generate**: "Create Express middleware for JWT authentication"
+
+#### Resources
+
+**Official**:
+- Express.js documentation
+- Node.js documentation
+
+**Courses**:
+- freeCodeCamp: Backend Development and APIs
+- Traversy Media: Node.js crash course
+
+**Tools**:
+- Postman: API testing
+- Insomnia: Alternative to Postman
+- Thunder Client: VS Code extension
 
 #### 🎯 Project 7: Analytics API
 Build a Node.js API with endpoints for:
@@ -268,17 +508,35 @@ Build a Node.js API with endpoints for:
 
 #### Topics to Master
 - **SQL Databases (PostgreSQL)**
-  - Database design and normalization
-  - SQL queries (SELECT, JOIN, GROUP BY, etc.)
-  - Indexes and query optimization
-  - Transactions and ACID properties
-  - Using ORMs (Prisma or Sequelize)
+  - Database design and normalization (1NF, 2NF, 3NF)
+  - SQL queries: SELECT, JOIN, GROUP BY, aggregate functions
+  - Indexes and query optimization (when to index)
+  - Transactions and ACID properties (ensuring data consistency)
+  - Using ORMs: Prisma (recommended) or Sequelize
+  - Migrations (database version control)
+  - Connection pooling (performance)
   
 - **NoSQL Databases (MongoDB)** *(Optional)*
-  - Document-oriented data
-  - Schema design
-  - Aggregation pipeline
+  - Document-oriented data (JSON-like structure)
+  - Schema design (embedding vs referencing)
+  - Aggregation pipeline ($match, $group, $project)
   - When to use SQL vs NoSQL
+
+🔍 **AI Explain**: "Explain database normalization with BI analytics schema examples"
+⚡ **AI Generate**: "Generate PostgreSQL schema for F&B analytics (sales, menu items, customers)"
+🤖 **AI Debug**: "PostgreSQL error: relation does not exist: [paste error]"
+💡 **Ask AI**: "How do I optimize this slow query: [paste SQL]"
+
+#### Resources
+
+**Learning SQL**:
+- SQLBolt: Interactive SQL tutorial
+- PostgreSQL Tutorial
+- Use the Index Luke: SQL performance guide
+
+**ORMs**:
+- Prisma documentation (modern, type-safe)
+- Drizzle ORM (lightweight alternative)
 
 #### 🎯 Project 8: Data Layer Integration
 Integrate PostgreSQL with your API:
@@ -498,23 +756,41 @@ Add production features:
 
 #### Topics to Master
 - **Data Processing**
-  - ETL concepts
-  - Data transformation
-  - Aggregation and rollups
-  - Time-series data handling
+  - ETL concepts (Extract, Transform, Load)
+  - Data transformation (cleaning, aggregating)
+  - Aggregation and rollups (pre-calculating summaries)
+  - Time-series data handling (efficient storage, querying)
+  - Batch vs real-time processing
   
 - **Advanced Visualizations**
-  - Pivot tables
-  - Drill-down capabilities
-  - Custom metrics and KPIs
-  - Cohort analysis
-  - Funnel visualization
+  - Pivot tables (draggable fields)
+  - Drill-down capabilities (click to see details)
+  - Custom metrics and KPIs (user-defined calculations)
+  - Cohort analysis (user behavior over time)
+  - Funnel visualization (conversion tracking)
+  - Heatmaps and treemaps
   
 - **Export & Reporting**
-  - PDF generation (jsPDF, Puppeteer)
-  - Excel export (XLSX)
-  - Scheduled reports
-  - Email integration
+  - PDF generation (jsPDF, Puppeteer for headless browser)
+  - Excel export (xlsx library)
+  - Scheduled reports (cron jobs, background workers)
+  - Email integration (SendGrid, Nodemailer)
+
+🔍 **AI Explain**: "Explain ETL process with Node.js implementation examples"
+⚡ **AI Generate**: "Generate sample data transformation logic for BI aggregations"
+💡 **Ask AI**: "What's the best way to handle large datasets in browser (100k+ rows)?"
+
+#### Resources
+
+**Data Processing**:
+- Apache Arrow (efficient data handling)
+- DuckDB (in-process SQL for analytics)
+- Papa Parse (CSV parsing)
+
+**PDF/Excel**:
+- jsPDF documentation
+- SheetJS (xlsx) documentation
+- Puppeteer for advanced PDF generation
 
 #### 🎯 Project 15: Enterprise BI Features
 Add advanced capabilities:
