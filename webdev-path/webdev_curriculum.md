@@ -870,8 +870,40 @@ Integrate PostgreSQL with your API:
 - Proper indexing for performance
 
 🔍 **AI Explain**: "Explain database normalization with BI analytics schema examples"
-⚡ **AI Generate**: "Generate PostgreSQL schema for F&B analytics (sales, menu items, customers)"
-💡 **Ask AI**: "How do I optimize PostgreSQL queries for large datasets (millions of rows)?"
+⚡ **AI Generate**: "Create PostgreSQL schema for F&B dashboard with tables: restaurants, menu_items, orders, customers"
+🔍 **AI Explain**: "Explain indexing strategy for analytics queries on large datasets"
+💡 **Ask AI**: "SQL vs NoSQL for BI dashboard - pros/cons?"
+
+#### Resources
+
+- PostgreSQL documentation
+- Database design best practices
+- SQL query optimization guides
+- Prisma ORM documentation
+
+#### Common Pitfalls
+
+❌ **Database Mistakes**:
+- No indexes on frequently queried columns
+- N+1 query problems
+- Missing foreign key constraints
+- Poor schema design
+
+❌ **Query Issues**:
+- Not using connection pooling
+- Inefficient JOINs
+- Missing query optimization
+- No prepared statements (SQL injection risk)
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Design normalized database schemas
+- [ ] Write optimized SQL queries
+- [ ] Use ORMs effectively
+- [ ] Implement indexes appropriately
+- [ ] Handle database migrations
+- [ ] Debug database performance issues
 
 #### Resources
 
@@ -947,6 +979,41 @@ Integrate PostgreSQL with your API:
 4. **Security Audit**: Test app for common vulnerabilities
 5. **Rate Limiting**: Add login attempt limiting (5 tries, 15min lockout)
 
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create Express server with CRUD routes for F&B menu items"
+> - **🔍 AI Explain**: "Explain Node.js event loop and why it's good for BI dashboards"
+> - **🤖 AI Debug**: "My Express route returns 404. Code: [paste]. What's wrong?"
+
+#### Resources
+
+- Node.js official documentation
+- Express.js guide
+- Node.js best practices
+- REST API design principles
+
+#### Common Pitfalls
+
+❌ **Backend Mistakes**:
+- Not handling async/await properly
+- Missing error handling
+- No input validation
+- Blocking the event loop
+
+❌ **API Design Issues**:
+- Inconsistent route naming
+- No versioning strategy
+- Missing CORS configuration
+- Poor error responses
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build Express servers with RESTful routes
+- [ ] Handle async operations correctly
+- [ ] Implement proper error handling
+- [ ] Design clean API endpoints
+- [ ] Use middleware effectively
+- [ ] Debug Node.js applications
 💡 **Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
 ⚡ **AI Generate**: "Generate Express middleware for JWT authentication and role-based access"
 🔍 **AI Explain**: "Explain OAuth 2.0 flow with diagram for web app"
@@ -1175,9 +1242,40 @@ Add live features:
 4. **Integration Tests**: Test React components with API calls
 5. **E2E Tests**: Test complete user journey (signup → dashboard → logout)
 
-⚡ **AI Generate**: "Generate Jest test cases for user authentication service"
-🔍 **AI Explain**: "Explain difference between unit, integration, and E2E tests with examples"
-💡 **Ask AI**: "What's the 80/20 rule for testing? What should I prioritize?"
+⚡ **AI Generate**: "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
+🔍 **AI Explain**: "Explain when to use server-side vs client-side analytics calculations"
+💡 **Ask AI**: "Best practices for real-time analytics dashboards - data freshness vs performance?"
+
+#### Resources
+
+- D3.js documentation
+- Advanced charting libraries docs
+- Analytics architecture patterns
+- Real-time data processing guides
+
+#### Common Pitfalls
+
+❌ **Analytics Mistakes**:
+- Not aggregating on backend (too much client processing)
+- Missing data caching strategies
+- Poor query performance on large datasets
+- No data freshness indicators
+
+❌ **Visualization Issues**:
+- Overcomplicating visualizations
+- Not optimizing for mobile
+- Missing accessibility features
+- Poor color choices for data viz
+
+#### Assessment Checklist
+
+Before moving to Capstone, you should be able to:
+- [ ] Build custom D3.js visualizations
+- [ ] Implement advanced analytics features
+- [ ] Optimize for large datasets
+- [ ] Create real-time dashboards
+- [ ] Apply analytics best practices
+- [ ] Design performant data pipelines
 🤖 **AI Debug**: "React Testing Library test failing. Error: 'Unable to find element'. Code: [code]"
 
 #### Common Pitfalls
