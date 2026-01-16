@@ -577,16 +577,41 @@ Before moving to Phase 3, you should be able to:
 - Create a chart type selection guide for your own reference
 - Design a color palette for your future dashboard
 
-**Resources**:
-- "Storytelling with Data" by Cole Nussbaumer Knaflic (MUST READ)
-- "The Visual Display of Quantitative Information" by Edward Tufte
-- From Data to Viz (website - chart selection guide)
-
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "When should I use bar chart vs line chart vs scatter plot? Give decision criteria"
 > - **🤖 AI Review**: Share chart image: "Is this the right chart type for showing sales trends? What could be better?"
 > - **💡 Ask AI**: "Give me a colorblind-friendly color palette for business dashboards (5 colors with hex codes)"
 > - **💡 Ask AI**: "What are the most common data visualization mistakes and how to avoid them?"
+
+#### Resources
+
+- "Storytelling with Data" by Cole Nussbaumer Knaflic (MUST READ)
+- "The Visual Display of Quantitative Information" by Edward Tufte
+- From Data to Viz (website - chart selection guide)
+
+#### Common Pitfalls
+
+❌ **Visualization Mistakes**:
+- Wrong chart type for the data
+- Too many colors (visual chaos)
+- 3D charts (distort perception)
+- Pie charts with more than 5 categories
+
+❌ **Design Errors**:
+- Truncated y-axis (misleading)
+- Dual y-axes (confusing comparisons)  
+- No title or labels (unclear context)
+- Poor color accessibility
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Choose appropriate chart types for different data scenarios
+- [ ] Apply visual perception principles
+- [ ] Design clear, honest visualizations
+- [ ] Avoid common visualization mistakes
+- [ ] Make charts accessible to all users
+- [ ] Explain data visualization best practices
 
 ---
 
@@ -642,13 +667,42 @@ Before moving to Phase 3, you should be able to:
 
 **Resources**:
 - "Information Dashboard Design" by Stephen Few
-- Dashboard design galleries (Tableau Public, Dribbble)
 - Andy Kriebel's Makeover Monday
 
 > **🤖 AI Assistance**:
 > - **🤖 AI Review**: Share wireframe/mockup: "Review this dashboard layout for an F&B operator. Is the hierarchy clear?"
 > - **💡 Ask AI**: "What are the best practices for designing mobile-responsive dashboards?"
 > - **⚡ AI Generate**: "Generate 3 dashboard wireframe layout ideas for restaurant operations"
+
+#### Resources
+
+- Dashboard design pattern libraries
+- "Information Dashboard Design" by Stephen Few
+- Figma/Sketch dashboard templates
+
+#### Common Pitfalls
+
+❌ **Design Mistakes**:
+- Too many metrics (information overload)
+- Poor visual hierarchy (everything looks equal importance)
+- Not mobile-responsive
+- Ignoring user workflows
+
+❌ **Layout Issues**:
+- Poor use of whitespace
+- Inconsistent spacing and alignment
+- Important data buried below fold
+- No clear entry point for eyes
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Design effective dashboard wireframes
+- [ ] Apply visual hierarchy principles
+- [ ] Create user-centered layouts
+- [ ] Design for different screen sizes
+- [ ] Get and incorporate user feedback
+- [ ] Follow dashboard design best practices
 
 ---
 
@@ -722,9 +776,40 @@ Before moving to Phase 3, you should be able to:
 - YouTube tutorials for your chosen tool
 
 > **🤖 AI Assistance**:
-> - **💡 Ask AI**: "Compare Tableau vs Power BI vs Google Data Studio for small F&B business - which should I learn first?"
-> - **🤖 AI Debug**: "My dashboard is slow to load (5+ seconds). What are common performance issues and fixes?"
-> - **⚡ AI Generate**: "Create DAX formula for calculating Year-over-Year growth percentage"
+> - **💡 Ask AI**: "Compare Tableau vs Power BI vs Data Studio for small business BI needs"
+> - **⚡ AI Generate**: "Create step-by-step tutorial for building first Tableau dashboard"
+> - **🤖 AI Debug**: "My Power BI visual shows wrong totals. Dataset: [describe]. Measure: [DAX]. What's wrong?"
+
+#### Resources
+
+- Tableau Public gallery (inspiration)
+- Power BI community forums
+- Google Data Studio template gallery
+- Tool-specific YouTube channels
+
+#### Common Pitfalls
+
+❌ **Tool Selection Mistakes**:
+- Choosing based on hype not needs
+- Not considering total cost (licenses, training, maintenance)
+- Lock-in without evaluating alternatives
+- Over-engineering for simple needs
+
+❌ **Learning Curve Issues**:
+- Trying to master everything at once
+- Not following tutorials properly
+- Skipping fundamentals
+- Not practicing with real data
+
+#### Assessment Checklist
+
+Before moving to Phase 4, you should be able to:
+- [ ] Build dashboards in at least one BI tool
+- [ ] Connect to data sources
+- [ ] Create visualizations using the tool
+- [ ] Add interactivity (filters, drill-downs)
+- [ ] Share dashboards with stakeholders
+- [ ] Choose appropriate tools for different use cases
 
 ---
 
@@ -1172,6 +1257,250 @@ Before moving forward, you should be able to:
 > - **🔍 AI Explain**: "Explain market basket analysis for restaurants - how to find which items sell together"
 > - **⚡ AI Generate**: "Create Python code for simple sales forecasting using moving average"
 > - **💡 Ask AI**: "What factors should I consider when forecasting restaurant sales (seasonality, weather, events)?"
+
+---
+
+### Module 4.2: Data Modeling
+**Duration**: 1 week
+
+**Learning Objectives**:
+- Understand different data models (star, snowflake)
+- Design effective data models for BI
+- Identify fact and dimension tables
+- Apply normalization and denormalization principles
+
+**Topics**:
+- **Relational Databases Review**:
+  - Tables, columns, primary/foreign keys
+  - Relationships (one-to-one, one-to-many, many-to-many)
+- **Data Warehousing Concepts**:
+  - OLTP vs. OLAP
+  - Data marts
+- **Dimensional Modeling**:
+  - Star Schema: Fact tables, Dimension tables
+  - Snowflake Schema
+  - Conformed dimensions
+- **Fact Table Types**:
+  - Transactional fact tables
+  - Periodic snapshot fact tables
+  - Accumulating snapshot fact tables
+- **Dimension Table Types**:
+  - Slowly Changing Dimensions (SCD Type 1, 2, 3)
+  - Junk dimensions, role-playing dimensions
+- **Grain**:
+  - Defining the level of detail for fact tables
+- **Data Modeling Best Practices**:
+  - Naming conventions
+  - Documentation (ERDs)
+
+**Hands-on Project**:
+- Design a star schema for a given F&B business scenario
+- Create an Entity-Relationship Diagram (ERD)
+- Identify fact and dimension tables, define their grain
+- Implement a simple data model in a database (e.g., PostgreSQL)
+
+**Tools**: 
+- Your BI tool + potentially Python for modeling
+- Forecasting features in Tableau/Power BI
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain star schema vs snowflake schema with F&B restaurant example"
+> - **⚡ AI Generate**: "Design a data model for restaurant: tables needed, relationships, sample ERD"
+> - **💡 Ask AI**: "What are best practices for naming tables and columns in a data warehouse?"
+
+#### Resources
+
+- "The Data Warehouse Toolkit" by Kimball (Chapters 3-5)
+- Star schema design patterns
+- Database normalization guides
+
+#### Common Pitfalls
+
+❌ **Modeling Mistakes**:
+- Over-normalization (too many tables, slow queries)
+- Under-normalization (data duplication issues)
+- Poor naming conventions
+- Not documenting relationships
+
+❌ **Design Errors**:
+- Missing fact tables or dimension tables
+- Incorrect grain (level of detail)
+- Not handling slowly changing dimensions
+- Circular relationships
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Design star schema data models
+- [ ] Identify fact vs dimension tables
+- [ ] Define appropriate grain for facts
+- [ ] Create ERD diagrams
+- [ ] Understand normalization trade-offs
+- [ ] Apply data modeling best practices
+
+---
+
+### Module 4.3: Dashboard Implementation
+**Duration**: 2 weeks
+
+**Learning Objectives**:
+- Translate design mockups into functional dashboards
+- Implement interactivity and drill-down features
+- Optimize dashboard performance
+- Apply advanced visualization techniques
+
+**Topics**:
+- **Connecting to Data Sources**:
+  - Live connections vs. extracts/imports
+  - Blending multiple data sources
+- **Building Basic Visualizations**:
+  - Review of chart types and best practices
+  - Creating calculated fields and parameters
+- **Dashboard Layout and Design**:
+  - Containers, floating vs. tiled objects
+  - Responsive design for different devices
+- **Interactivity**:
+  - Filters (quick filters, action filters)
+  - Parameters for user control
+  - Drill-down and drill-through actions
+- **Advanced Visualizations**:
+  - Custom charts (e.g., Sankey, Chord diagrams if applicable)
+  - Small multiples, sparklines
+- **Performance Optimization**:
+  - Data source filters, context filters
+  - Efficient calculations
+  - Reducing marks and complexity
+- **Security and Sharing**:
+  - Row-level security
+  - Publishing and embedding dashboards
+
+**Hands-on Project**:
+- Implement a multi-tab F&B dashboard based on a provided design
+- Incorporate at least 5 interactive elements (filters, parameters, actions)
+- Optimize the dashboard for performance
+- Document the implementation choices and challenges
+
+**Tools**:
+- Your chosen BI platform (Tableau, Power BI, Google Data Studio, Metabase)
+- SQL client for data source verification
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Provide a step-by-step guide to create an interactive sales dashboard in Tableau/Power BI"
+> - **💡 Ask AI**: "What are common performance bottlenecks in BI dashboards and how to fix them?"
+> - **🔍 AI Explain**: "Explain the difference between live connection and data extract in Tableau/Power BI"
+
+#### Resources
+
+- Official documentation for your chosen BI tool
+- Online communities and forums (Tableau Public, Power BI Community)
+- "Information Dashboard Design" by Stephen Few (revisit)
+
+#### Common Pitfalls
+
+❌ **Implementation Mistakes**:
+- Poorly organized layouts (cluttered dashboards)
+- Inconsistent design elements (fonts, colors)
+- Lack of clear navigation or user guidance
+- Overuse of interactivity leading to confusion
+- Slow loading dashboards due to inefficient design
+
+❌ **Technical Errors**:
+- Incorrect data connections or joins
+- Errors in calculated fields or aggregations
+- Security misconfigurations
+- Broken drill-down actions
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build interactive dashboards in your chosen BI tool
+- [ ] Connect to various data sources
+- [ ] Create calculated fields and parameters
+- [ ] Implement drill-down and filtering
+- [ ] Optimize dashboard performance
+- [ ] Publish and share dashboards securely
+
+---
+
+### Module 4.4: Testing & Iteration
+**Duration**: 1 week
+
+**Learning Objectives**:
+- Develop a systematic approach to testing dashboards
+- Gather and incorporate user feedback effectively
+- Understand the iterative nature of BI development
+- Document changes and version control
+
+**Topics**:
+- **Importance of Testing**:
+  - Ensuring data accuracy and integrity
+  - Validating calculations and logic
+  - Checking user experience and functionality
+- **Types of Testing**:
+  - **Data Validation**: Comparing dashboard data to source data
+  - **Functional Testing**: Checking filters, drill-downs, actions
+  - **Performance Testing**: Load times, responsiveness
+  - **User Acceptance Testing (UAT)**: End-user feedback
+  - **Regression Testing**: Ensuring new changes don't break old features
+- **Feedback Collection**:
+  - Structured interviews, surveys
+  - Usability testing sessions
+  - A/B testing (for specific elements)
+- **Iteration and Refinement**:
+  - Prioritizing feedback
+  - Agile development principles in BI
+  - Version control for dashboards and data models
+- **Documentation of Changes**:
+  - Change logs
+  - User guides updates
+  - Technical documentation updates
+
+**Hands-on Project**:
+- Conduct a testing cycle for a previously built dashboard
+- Create a test plan and test cases
+- Gather feedback from at least two "mock" users
+- Implement a round of iterations based on feedback
+- Document the testing process and changes made
+
+**Tools**:
+- Spreadsheet for test cases and feedback tracking
+- Version control system (e.g., Git for code, or BI tool's versioning)
+- Communication tools for feedback (e.g., Slack, email)
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a test plan template for a new F&B sales dashboard"
+> - **💡 Ask AI**: "What are best practices for collecting and prioritizing user feedback for a BI dashboard?"
+> - **🔍 AI Explain**: "Explain the concept of User Acceptance Testing (UAT) in the context of BI dashboards"
+
+#### Resources
+
+- Software testing methodologies (e.g., Agile testing)
+- User experience (UX) design principles
+- Version control best practices
+
+#### Common Pitfalls
+
+❌ **Testing Mistakes**:
+- Skipping testing phases (especially UAT)
+- Not validating data against source systems
+- Testing only "happy paths" and ignoring edge cases
+- Not documenting test results or bugs
+
+❌ **Iteration Challenges**:
+- Ignoring or misinterpreting user feedback
+- Making changes without understanding the impact
+- Lack of version control leading to lost work or conflicts
+- Endless iteration without a clear scope or goal
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Create a comprehensive test plan for a dashboard
+- [ ] Perform data validation and functional testing
+- [ ] Collect and analyze user feedback
+- [ ] Prioritize and implement iterative changes
+- [ ] Document testing and iteration processes
+- [ ] Understand the importance of version control
 
 ---
 
