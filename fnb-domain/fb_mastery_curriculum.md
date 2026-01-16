@@ -107,6 +107,9 @@ Duration: [How long you observed]
 3. [What BI dashboard would be useful?]
 ```
 
+⚡ **AI Generate**: Ask AI to generate a detailed observation framework template for each F&B type
+🤖 **AI Review**: Share your observation logs with AI for completeness and insight quality feedback
+
 **✅ Phase 1 Completion Checklist**:
 - [ ] Read complete Indonesia F&B guide
 - [ ] Visited 3 different F&B types
@@ -175,6 +178,8 @@ BI Opportunity:
 - [ ] Modern restaurant (mall, POS system)
 - [ ] Cloud kitchen (delivery-only, app-driven)
 
+💡 **Ask AI**: "Help me create a data flow diagram for [business model] - what data touchpoints should I include?"
+
 **🔬 Interview Exercise** (3 hours):
 **Find and interview someone who works in F&B** (server, cook, owner):
 
@@ -200,6 +205,8 @@ Pain Points:
 11. What causes the most losses (waste, theft, etc.)?
 12. If you could change one thing, what would it be?
 ```
+
+💡 **Ask AI**: "What are the best interview questions to understand [specific F&B operation aspect]?" or "Help me prepare follow-up questions for F&B worker interview"
 
 **Document Interview**:
 - Create `fnb-domain/notes/interview_[name]_[date].md`
@@ -244,6 +251,8 @@ Why: Combined food + labor = baseline profitability
 
 [Continue for all metrics from guide...]
 ```
+
+🔍 **AI Explain**: "Explain the difference between gross margin and contribution margin in F&B context with examples"
 
 **📊 Practice Calculation** (4-5 hours):
 **Using Real/Simulated Data**:
@@ -323,6 +332,9 @@ Low Margin, High Popularity = PLOWHORSES 🐴 (can't remove, but optimize cost)
 Low Margin, Low Popularity = DOGS 🐕 (remove from menu!)
 ```
 
+⚡ **AI Generate**: "Generate realistic menu data for [restaurant type] with 20 items, including costs, prices, and popularity estimates"
+🔍 **AI Explain**: "Explain menu engineering matrix with Indonesian F&B examples"
+
 **✅ Phase 3 Completion Checklist**:
 - [ ] Created comprehensive metrics cheat sheet
 - [ ] Completed 5+ calculation exercises
@@ -353,6 +365,8 @@ Low Margin, Low Popularity = DOGS 🐕 (remove from menu!)
 | Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
 ```
 
+⚡ **AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
+
 **🔍 Pattern Exercise** (3-4 hours):
 **Identify Universal vs Regional**:
 
@@ -377,6 +391,8 @@ Low Margin, Low Popularity = DOGS 🐕 (remove from menu!)
 **Why This Matters for BI**:
 - Universal patterns = benchmark against
 - Regional patterns = must customize for
+
+💡 **Ask AI**: "What patterns should I look for when analyzing F&B data across different markets?"
 
 **✅ Phase 4 Completion Checklist**:
 - [ ] Compared 3+ regional guides
@@ -422,6 +438,8 @@ Build:
 Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
 ```
 
+🔍 **AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
+
 **Option B: Menu Engineering Tool**
 ```
 Build calculator that:
@@ -438,6 +456,8 @@ Build calculator that:
 Tools: Google Sheets with formulas + conditional formatting
 ```
 
+⚡ **AI Generate**: "Generate spreadsheet formulas for menu engineering calculator (food cost %, margin, categorization)"
+
 **Option C: Ramadan Revenue Planner (Indonesia-specific)**
 ```
 Build planner that:
@@ -453,6 +473,8 @@ Build planner that:
 
 Tools: Excel/Sheets with scenario modeling
 ```
+
+💡 **Ask AI**: "How should I forecast Ramadan impact on different F&B business models (warung vs chain)?"
 
 **📝 Documentation**:
 Create `fnb-domain/projects/capstone_[project_name]/`:
