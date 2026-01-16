@@ -455,24 +455,96 @@ Build a React app that displays:
 
 ### Module 2.2: State Management & Routing
 **Goal**: Handle complex application state and navigation
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **State Management**
-  - When to use local vs global state
-  - React Context API (advanced)
-  - Redux or Zustand basics
-  - State normalization
 
-- **Routing**
-  - React Router
-  - Dynamic routes and parameters
-  - Protected routes
-  - Navigation programmatically
+**Week 1: State Management**
+- **Local vs Global State**:
+  - When to use component state (useState)
+  - When to lift state up
+  - When to use global state
+- **React Context API** (Advanced):
+  - Creating context providers
+  - useContext hook
+  - Context composition patterns
+  - Performance considerations
+- **State Management Libraries**:
+  - **Zustand**: Simple, lightweight, hooks-based
+  - **Redux**: Industry standard, middleware ecosystem
+  - **Jotai**: Atomic state management
+  - Comparison and when to use each
+- **State Normalization**:
+  - Flattening nested data
+  - Entity adapter patterns
+  - Avoiding prop drilling
 
-- **Performance Optimization**
-  - React.memo and useMemo
-  - Code splitting and lazy loading
-  - Virtualization for large lists
+**Week 2: Routing**
+- **React Router**:
+  - BrowserRouter setup
+  - Route, Routes, Link components
+  - Dynamic routes with params
+  - Nested routes
+  - Programmatic navigation (useNavigate)
+- **Advanced Routing**:
+  - Protected/private routes
+  - Route guards and authentication
+  - Lazy loading routes (code splitting)
+  - 404 not found pages
+- **URL State**:
+  - Query parameters (useSearchParams)
+  - URL as state source
+  - Deep linking strategies
+
+#### Hands-on Exercises
+
+1. **Context Practice**: Build theme + user context with multiple consumers
+2. **Zustand Store**: Create global store for dashboard filters
+3. **Protected Routes**: Implement authentication routing
+4. **Nested Routes**: Build multi-level navigation (dashboard/reports/settings)
+5. **URL State**: Sync dashboard filters with URL params
+
+💡 **Ask AI**: "Zustand vs Redux vs Context API - which for medium-sized BI app?"
+⚡ **AI Generate**: "Create Zustand store structure for analytics dashboard state"
+🔍 **AI Explain**: "Explain React Router v6 differences from v5"
+
+#### Common Pitfalls
+
+❌ **State Mistakes**:
+- Putting everything in global state (use local state first!)
+- Context causing unnecessary re-renders
+- Not memoizing context values
+- Over-complicated state structure
+
+❌ **Routing Mistakes**:
+- Using <a> instead of <Link> (causes full page reload)
+- Not handling 404s
+- Forgetting to protect routes
+- Not lazy loading routes (large bundle)
+
+🤖 **AI Debug**: "Context re-renders all children even when value hasn't changed. Code: [code]"
+
+#### Resources
+
+**Documentation**:
+- React Router: https://reactrouter.com
+- Zustand: https://docs.pmnd.rs/zustand
+- Redux Toolkit: https://redux-toolkit.js.org
+
+**Learning**:
+- React Router tutorial (official)
+- Zustand crash course (YouTube)
+- Redux Toolkit tutorial
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Choose appropriate state management solution
+- [ ] Use Context API without performance issues
+- [ ] Set up React Router with nested routes
+- [ ] Implement protected routes
+- [ ] Sync state with URL parameters
+- [ ] Lazy load routes for code splitting
 
 #### 🎯 Project 4: Multi-Page Analytics App
 Expand your analytics viewer with:
@@ -489,26 +561,114 @@ Expand your analytics viewer with:
 
 ### Module 3.1: Advanced Styling
 **Goal**: Create stunning, professional UIs
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **Modern CSS Techniques**
-  - CSS-in-JS (styled-components or Emotion)
-  - CSS Modules
-  - Tailwind CSS (optional but powerful)
-  - Design tokens and theming
-  
-- **UI/UX Principles**
-  - Color theory and palettes
-  - Typography hierarchy
-  - Spacing and rhythm
-  - Micro-interactions
-  - Glassmorphism and modern effects
-  - Accessibility (WCAG guidelines)
 
-- **Component Libraries**
-  - Understanding when to use libraries
-  - Customizing Material-UI, Ant Design, or shadcn/ui
-  - Building your own design system
+**Week 1: Modern CSS Techniques**
+- **CSS-in-JS**:
+  - styled-components basics
+  - Emotion library
+  - Props-based styling
+  - Theme context
+- **CSS Modules**:
+  - Scoped styling
+  - Composition
+  - Global vs local styles
+- **Tailwind CSS** (Optional but powerful):
+  - Utility-first approach
+  - Custom configuration
+  - Component patterns with Tailwind
+  - JIT mode and optimization
+- **Design Tokens**:
+  - Color palettes
+  - Typography scales
+  - Spacing systems
+  - Theming architecture
+
+**Week 2: UI/UX Principles**
+- **Color Theory**:
+  - Color psychology in business
+  - Creating harmonious palettes
+  - Contrast ratios for accessibility (WCAG 2.1)
+  - Dark mode considerations
+- **Typography**:
+  - Font pairing (heading + body)
+  - Type scales and hierarchy
+  - Line height and spacing
+  - Web fonts (Google Fonts, performance)
+- **Modern Effects**:
+  - Glassmorphism
+  - Neumorphism (use sparingly!)
+  - Gradients and shadows
+  - Micro-interactions
+- **Accessibility**:
+  - WCAG guidelines
+  - Keyboard navigation
+  - Screen reader support
+  - Color contrast checking
+
+#### Hands-on Exercises
+
+1. **Styled Components**: Build reusable Button component with variants
+2. **Tailwind Dashboard**: Create dashboard page with Tailwind
+3. **Design Tokens**: Set up complete token system (colors, spacing, fonts)
+4. **Dark Mode**: Implement theme switcher with localStorage
+5. **Accessibility Audit**: Test app with screen reader and keyboard only
+
+💡 **Ask AI**: "Styled-components vs Tailwind vs CSS Modules - pros/cons for BI dashboard?"
+⚡ **AI Generate**: "Create design token system (colors, typography, spacing) for professional BI app"
+🔍 **AI Explain**: "Explain WCAG 2.1 color contrast requirements with examples"
+
+#### Common Pitfalls
+
+❌ **Styling Mistakes**:
+- Too many global styles (specificity hell)
+- Not following design system consistently
+- Poor performance (too many styled components)
+- Not optimizing Tailwind (large CSS bundle)
+
+❌ **Design Mistakes**:
+- Too many colors (stick to 5-7 max)
+- Inconsistent spacing
+- Poor typography hierarchy
+- Not testing dark mode
+
+❌ **Accessibility Mistakes**:
+- Low color contrast
+- Missing alt text
+- No keyboard navigation
+- Not testing with screen readers
+
+🤖 **AI Debug**: "Styled-components theme not updating on toggle. Code: [code]"
+
+#### Resources
+
+**Documentation**:
+- styled-components: https://styled-components.com
+- Tailwind CSS: https://tailwindcss.com
+- WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
+
+**Design Tools**:
+- Coolors (color palette generator)
+- ColorBrewer (accessible palettes)
+- Type Scale calculator
+- WebAIM Contrast Checker
+
+**Learning**:
+- Refactoring UI (book/course)
+- Every Layout (CSS layout patterns)
+- Design systems guides
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build components with styled-components or Tailwind
+- [ ] Create design token system
+- [ ] Implement dark/light themes
+- [ ] Choose accessible color palettes (WCAG AA+)
+- [ ] Build responsive layouts
+- [ ] Test for keyboard and screen reader accessibility
 
 #### 🎯 Project 5: Design System
 Create a comprehensive design system with:
@@ -864,17 +1024,95 @@ Add comprehensive security:
 
 ### Module 5.1: Real-time Features
 **Goal**: Add live updates to your analytics
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **WebSockets & Socket.io**
-  - Real-time bidirectional communication
-  - Event-driven architecture
-  - Broadcasting updates
-  - Room-based communication
-  
-- **Server-Sent Events (SSE)**
-  - One-way server-to-client updates
-  - Use cases vs WebSockets
+
+**Week 1: WebSockets & Socket.io**
+- **WebSocket Protocol**:
+  - What are WebSockets vs HTTP
+  - Persistent connections
+  - Full-duplex communication
+- **Socket.io Basics**:
+  - Server setup (Node.js)
+  - Client setup (React)
+  - Emitting and listening to events
+  - Rooms and namespaces
+- **Event-Driven Architecture**:
+  - Design patterns for real-time
+  - Event naming conventions
+  - Data payload structure
+- **Broadcasting**:
+  - Broadcast to all clients
+  - Broadcast to room
+  - Broadcast except sender
+
+**Week 2: Implementation & Alternatives**
+- **Server-Sent Events (SSE)**:
+  - One-way server-to-client
+  - Use cases (notifications, live data feeds)
+  - EventSource API
+  - When to use SSE vs WebSockets
+- **Real-time Data Patterns**:
+  - Optimistic updates
+  - Conflict resolution
+  - Throttling and debouncing updates
+  - Connection state management
+- **Error Handling**:
+  - Reconnection strategies
+  - Offline support
+  - Message queuing
+
+#### Hands-on Exercises
+
+1. **Chat Feature**: Build simple real-time chat with Socket.io
+2. **Live Dashboard**: Update
+
+ charts in real-time without refresh
+3. **Notifications**: Implement live notification system
+4. **Collaborative Editing**: Multiple users editing same data
+5. **Connection Management**: Handle disconnect/reconnect gracefully
+
+💡 **Ask AI**: "WebSockets vs Server-Sent Events vs Long Polling - which for BI dashboards?"
+⚡ **AI Generate**: "Create Socket.io event structure for real-time analytics dashboard"
+🔍 **AI Explain**: "Explain how WebSocket connection works with diagram"
+
+#### Common Pitfalls
+
+❌ **WebSocket Mistakes**:
+- Not handling disconnections properly
+- Sending too much data (overwhelming clients)
+- Not authenticating WebSocket connections
+- Memory leaks from not cleaning up listeners
+
+❌ **Performance Issues**:
+- Broadcasting to all users (use rooms!)
+- Sending entire datasets instead of incremental updates
+- Not throttling rapid updates
+
+🤖 **AI Debug**: "Socket.io client keeps disconnecting. Console shows: [error]"
+
+#### Resources
+
+**Documentation**:
+- Socket.io Docs: https://socket.io/docs/
+- MDN WebSockets Guide
+- EventSource API (MDN)
+
+**Learning**:
+- Socket.io tutorials (official)
+- Real-time Web Apps course
+- WebSocket protocol deep-dive
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Set up Socket.io server and client
+- [ ] Emit and listen to custom events
+- [ ] Broadcast to specific rooms
+- [ ] Handle connection/disconnection
+- [ ] Implement real-time dashboard updates
+- [ ] Choose between WebSockets and SSE appropriately
 
 #### 🎯 Project 10: Real-time Dashboard
 Add live features:
@@ -1015,22 +1253,117 @@ Add comprehensive tests:
 
 ### Module 5.3: Performance & Optimization
 **Goal**: Make your app lightning fast
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **Frontend Performance**
-  - Code splitting and lazy loading
-  - Image optimization
-  - Caching strategies
-  - Bundle size optimization
-  - Web Vitals (LCP, FID, CLS)
-  - Service Workers and PWA
-  
-- **Backend Performance**
-  - Database query optimization
-  - Caching (Redis)
-  - Load balancing concepts
-  - API response compression
+
+**Week 1: Frontend Performance**
+- **Code Splitting**:
+  - React.lazy and Suspense
+  - Route-based code splitting
+  - Component-based splitting
+  - Dynamic imports
+- **Image Optimization**:
+  - WebP format
+  - Lazy loading images
+  - Responsive images (srcset)
+  - Next-gen image formats
+- **Bundle Optimization**:
+  - Tree shaking
+  - Minification
+  - Compression (gzip, brotli)
+  - Analyzing bundle size
+- **Caching Strategies**:
+  - Browser caching
+  - Service workers
+  - Cache-first vs network-first
+  - Stale-while-revalidate
+- **Web Vitals**:
+  - LCP (Largest Contentful Paint)
+  - FID (First Input Delay)
+  - CLS (Cumulative Layout Shift)
+  - Measuring and improving
+
+**Week 2: Backend & Data Performance**
+- **Database Optimization**:
+  - Query optimization
+  - Indexing strategies
+  - Connection pooling
+  - N+1 query problem
+- **Caching (Redis)**:
+  - When to cache
+  - Cache invalidation
+  - TTL strategies
+  - Cache patterns
+- **API Performance**:
+  - Response compression
+  - Pagination strategies
+  - Data aggregation
   - Rate limiting and throttling
+- **Load Balancing**:
+  - Horizontal vs vertical scaling
+  - Load balancer concepts
+  - CDN for static assets
+
+#### Hands-on Exercises
+
+1. **Bundle Analysis**: Analyze and reduce bundle size by 30%
+2. **Image Optimization**: Convert images to WebP, implement lazy loading
+3. **Code Splitting**: Split app into chunks (< 200KB main bundle)
+4. **Lighthouse Audit**: Achieve 90+ score on all metrics
+5. **Redis Caching**: Add caching layer to API endpoints
+
+💡 **Ask AI**: "What's the best caching strategy for BI dashboard with hourly data updates?"
+⚡ **AI Generate**: "Create webpack config for optimal code splitting"
+🔍 **AI Explain**: "Explain critical rendering path and how to optimize it"
+
+#### Common Pitfalls
+
+❌ **Performance Mistakes**:
+- Not measuring before optimizing (premature optimization)
+- Optimizing the wrong things
+- Large bundle sizes (> 500KB)
+- Not using code splitting
+
+❌ **Caching Mistakes**:
+- Caching everything (use selectively)
+- Not invalidating cache properly
+- Caching user-specific data globally
+
+❌ **Image Mistakes**:
+- Not compressing images
+- Not using appropriate formats
+- Loading all images on page load
+
+🤖 **AI Debug**: "Lighthouse shows LCP of 4s. How to improve?"
+
+#### Resources
+
+**Tools**:
+- Lighthouse (built into Chrome DevTools)
+- Webpack Bundle Analyzer
+- Web Vitals extension
+- GTmetrix, PageSpeed Insights
+
+**Documentation**:
+- Web.dev Performance guides
+- React Performance docs
+- Redis documentation
+
+**Learning**:
+- "High Performance Browser Networking"
+- Web Performance courses (Frontend Masters)
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Analyze and optimize bundle size
+- [ ] Implement code splitting effectively
+- [ ] Optimize images for web
+- [ ] Achieve Lighthouse score 90+
+- [ ] Add caching layer (browser and server)
+- [ ] Measure and improve Core Web Vitals
+- [ ] Optimize database queries
 
 #### 🎯 Project 12: Optimization Pass
 Optimize your entire app:
@@ -1194,21 +1527,117 @@ Deploy your complete app:
 
 ### Module 6.2: Monitoring & Maintenance
 **Goal**: Keep your app healthy
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **Monitoring**
-  - Error tracking (Sentry)
-  - Analytics (Google Analytics, Mixpanel)
-  - Performance monitoring (New Relic, Datadog)
-  - Uptime monitoring
-  - Log aggregation
-  
-- **Best Practices**
-  - Documentation
-  - Code reviews
-  - Version control strategies (Git flow)
+
+**Week 1: Monitoring & Logging**
+- **Error Tracking**:
+  - **Sentry**: Setup and configuration
+  - Error boundaries in React
+  - Source maps for production
+  - Custom error context
+  - Alert rules and notifications
+- **Analytics**:
+  - Google Analytics 4
+  - Mixpanel for product analytics
+  - Custom event tracking
+  - User journey analysis
+  - Conversion funnels
+- **Performance Monitoring**:
+  - **New Relic** or **Datadog**
+  - APM (Application Performance Monitoring)
+  - Real User Monitoring (RUM)
+  - Server metrics (CPU, memory, disk)
+- **Logging**:
+  - Structured logging
+  - Log levels (error, warn, info, debug)
+  - Log aggregation (LogRocket, Papertrail)
+  - Log rotation and retention
+
+**Week 2: Maintenance & DevOps**
+- **Uptime Monitoring**:
+  - Health check endpoints
+  - Uptime monitoring services
+  - Status pages
+  - Incident response
+- **Documentation**:
+  - API documentation (Swagger/OpenAPI)
+  - Code documentation (JSDoc)
+  - README best practices
+  - Architecture diagrams
+- **Version Control**:
+  - Git flow strategies
   - Semantic versioning
-  - Backup strategies
+  - Changelog management
+  - Release notes
+- **Backup Strategies**:
+  - Database backups
+  - Automated backup schedules
+  - Disaster recovery plans
+  - Testing restore procedures
+
+#### Hands-on Exercises
+
+1. **Sentry Setup**: Integrate error tracking with custom context
+2. **Analytics**: Add GA4 with custom events for dashboard usage
+3. **Health Checks**: Create `/health` endpoint with system status
+4. **Documentation**: Write comprehensive API docs with Swagger
+5. **Backup System**: Setup automated daily database backups
+
+💡 **Ask AI**: "Sentry vs LogRocket vs Datadog - which for BI SaaS monitoring?"
+⚡ **AI Generate**: "Create health check endpoint that monitors database, API, and external services"
+🔍 **AI Explain**: "Explain difference between logging, monitoring, and observability"
+
+#### Common Pitfalls
+
+❌ **Monitoring Mistakes**:
+- Not setting up error tracking from day 1
+- Alert fatigue (too many alerts)
+- Not monitoring the right metrics
+- No uptime monitoring
+
+❌ **Documentation Mistakes**:
+- Out-of-date documentation
+- No architecture diagrams
+- Missing setup instructions
+- No troubleshooting guides
+
+❌ **Backup Mistakes**:
+- Not testing restores
+- Infrequent backups
+- Backups in same location as production
+
+🤖 **AI Debug**: "Sentry not capturing errors in production. Config: [config]"
+
+#### Resources
+
+**Tools**:
+- Sentry: https://sentry.io
+- Google Analytics 4
+- Swagger UI for API docs
+- Better Uptime or UptimeRobot
+
+**Documentation**:
+- Sentry documentation
+- GA4 setup guide
+- Swagger/OpenAPI specification
+
+**Learning**:
+- Observability Engineering (book)
+- Production-Ready Microservices
+- DevOps best practices
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Set up error tracking (Sentry)
+- [ ] Implement user analytics
+- [ ] Create health check endpoints
+- [ ] Monitor application performance
+- [ ] Set up automated backups
+- [ ] Write comprehensive documentation
+- [ ] Configure uptime monitoring
 
 #### 🎯 Project 14: Production Readiness
 Add production features:
@@ -1279,23 +1708,128 @@ Add advanced capabilities:
 
 ### Module 7.2: Data Integration
 **Goal**: Connect to various data sources
+**Duration**: 3 weeks
 
 #### Topics to Master
-- **API Integration**
-  - Third-party API connectors
-  - Webhook handling
-  - Data synchronization
-  
-- **File Upload & Processing**
-  - CSV/Excel parsing
-  - Data validation
-  - Large file handling
-  - Background job processing (Bull Queue)
-  
-- **Database Connections**
-  - Connect to external databases
-  - Data warehouse concepts
+
+**Week 1: API Integration**
+- **Third-party APIs**:
+  - REST API connectors
+  - Authentication (API keys, OAuth)
+  - Rate limiting handling
+  - Error handling and retries
+- **Webhooks**:
+  - Setting up webhook endpoints
+  - Webhook security (signatures)
+  - Event processing
+  - Idempotency
+- **Data Synchronization**:
+  - Real-time vs batch sync
+  - Conflict resolution
+  - Data deduplication
+  - Sync status tracking
+
+**Week 2: File Processing**
+- **CSV/Excel Upload**:
+  - Parsing libraries (PapaParse, XLSX)
+  - Validation and error reporting
+  - Progress tracking
+  - Large file handling (streaming)
+- **Data Validation**:
+  - Schema validation (Zod, Yup)
+  - Type checking
+  - Business rule validation
+  - Error reporting to users
+- **Background Jobs**:
+  - Bull Queue for Node.js
+  - Job scheduling
+  - Retry strategies
+  - Job monitoring
+
+**Week 3: Advanced Integration**
+- **Database Connections**:
+  - Connecting to external databases
   - Query builders
+  - Connection pooling
+  - Security (encrypted connections)
+- **Data Warehouse Concepts**:
+  - ETL vs ELT
+  - Star schema design
+  - Dimensional modeling
+  - Data partitioning
+- **Query Builders**:
+  - Dynamic query generation
+  - Parameterized queries
+  - Query optimization
+
+#### Hands-on Exercises
+
+1. **CSV Upload**: Build upload system with validation and progress
+2. **Google Sheets Integration**: Import data from Google Sheets API
+3. **REST API Connector**: Create configurable connector for any REST API
+4. **Webhook Handler**: Process incoming webhooks from external services
+5. **Background Jobs**: Process large files in background with Bull Queue
+
+💡 **Ask AI**: "How should I design a connector architecture for multiple data sources?"
+⚡ **AI Generate**: "Create CSV validation schema for F&B sales data (20 columns)"
+🔍 **AI Explain**: "Explain ETL vs ELT with BI platform examples"
+🤖 **AI Debug**: "CSV upload fails with large files (10MB+). Memory error. Code: [code]"
+
+#### Common Pitfalls
+
+❌ **Integration Mistakes**:
+- Not handling rate limits
+- Blocking main thread with large file processing
+- No retries for failed API calls
+- Storing API keys in code
+
+❌ **File Processing Mistakes**:
+- Loading entire file into memory
+- Poor validation error messages
+- No progress indication
+- Not handling malformed data
+
+❌ **Data Quality Issues**:
+- No data validation
+- Not handling duplicates
+- No data type conversion
+- Missing error handling
+
+🤖 **AI Debug**: "Google Sheets API quota exceeded. How to handle?"
+
+#### Resources
+
+**Libraries**:
+- PapaParse (CSV parsing)
+- XLSX (Excel files)
+- Bull Queue (background jobs)
+- Zod or Yup (validation)
+
+**APIs**:
+- Google Sheets API
+- Airtable API
+- Stripe WebhooksFirebase
+
+**Learning**:
+- API integration patterns
+- ETL best practices
+- Data quality management
+
+**Tools**:
+- Postman for API testing
+- Webhook.site for testing webhooks
+- Bull Board (queue dashboard)
+
+#### Assessment Checklist
+
+Before completing this phase, you should be able to:
+- [ ] Build CSV/Excel upload with validation
+- [ ] Integrate with third-party REST APIs
+- [ ] Handle webhooks securely
+- [ ] Process large files in background
+- [ ] Validate data with schemas
+- [ ] Connect to external databases
+- [ ] Implement retry and error handling
 
 #### 🎯 Project 16: Data Connectors
 Build connectors for:
