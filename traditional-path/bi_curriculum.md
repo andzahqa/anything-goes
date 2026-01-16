@@ -487,7 +487,8 @@ Before moving forward, you should be able to:
 - DB Browser for SQLite (GUI tool)
 - Online SQL playgrounds
 
-**Resources**:
+#### Resources
+
 - SQLZoo (interactive SQL tutorial)
 - Mode Analytics SQL tutorial
 - PostgreSQL documentation
@@ -587,7 +588,8 @@ Before moving forward, you should be able to:
 - Jupyter Notebooks
 - pandas, numpy, matplotlib, seaborn libraries
 
-**Resources**:
+#### Resources
+
 - Python for Data Analysis by Wes McKinney (the "pandas bible")
 - Kaggle Learn Python course (interactive and practical)
 - pandas documentation (official and comprehensive)
@@ -789,7 +791,8 @@ Before moving forward, you should be able to:
 - Pen and paper (wireframing)
 - Dashboard inspiration sites
 
-**Resources**:
+#### Resources
+
 - "Information Dashboard Design" by Stephen Few
 - Andy Kriebel's Makeover Monday
 - Dashboard design pattern libraries (e.g., from Tableau, Power BI)
