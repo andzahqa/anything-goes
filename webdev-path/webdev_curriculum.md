@@ -408,7 +408,13 @@ Enhance your dashboard to:
 
 #### Resources
 
-**Official**:
+- React official documentation (comprehensive and well-structured)
+- "React - The Complete Guide" by Maximilian Schwarzmüller (Udemy)
+- React.dev interactive tutorials
+- Kent C. Dodds' blog and courses (advanced React patterns)
+- Frontend Masters React courses
+- React Router official docs
+- Vite documentation (modern build tool)
 - React Docs (new beta): https://react.dev
 - React DevTools Chrome extension
 
