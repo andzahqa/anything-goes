@@ -1266,8 +1266,6 @@ Before moving forward, you should be able to:
 > - **🤖 AI Review**: "Review my F&B dashboard design. Does it answer the key operational questions?"
 > - **💡 Ask AI**: "What alerts/thresholds should I set for F&B KPI monitoring?"
 
-#### Resources
-
 - F&B dashboard templates (Tableau Public, Power BI gallery)
 - Case studies from BI vendors
 - Restaurant analytics platforms (Toast, Upserve) for inspiration
