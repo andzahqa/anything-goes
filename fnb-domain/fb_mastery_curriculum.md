@@ -38,7 +38,7 @@
    - Highlight sections you don't understand yet
    
    
-🔍 **AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"
+
 
 **Reading Strategy**:
 ```
@@ -70,7 +70,7 @@ Day 4 (2 hours): Business Management
    - Coffee shop (Kopi Kenangan or Starbucks)
    
    
-💡 **Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
+
 
 2. **Observe & Document**:
    - Service flow (greeting → order → food → payment)
@@ -122,7 +122,7 @@ Duration: [How long you observed]
   - Local Food Vlogs
 
 > **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain [concept] in F&B context with Indonesian examples"
+> - **🔍 AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"
 > - **💡 Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
 > - **⚡ AI Generate**: "Ask AI to generate a detailed observation framework template for each F&B type"
 > - **🤖 AI Review**: "Share your observation logs with AI for completeness and insight quality feedback"
@@ -426,13 +426,13 @@ Analyze:
   - Capstone Project Templates
 
 > **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain the difference between gross margin and contribution margin in F&B context"
+> - **🔍 AI Explain**: "Explain the difference between gross margin and contribution margin in F&B context with examples"
 > - **⚡ AI Generate**: "Ask AI to create 5 more realistic F&B scenarios with varying business models"
 > - **🤖 AI Debug**: "If your calculations don't match expected ranges, paste your work to AI for verification"
 > - **⚡ AI Generate**: "Generate realistic sample data for each model"
 > - **🤖 AI Review**: "Share your spreadsheet formulas with AI for optimization suggestions"
 > - **🔍 AI Explain**: "Explain the menu engineering matrix - how to classify menu items as Stars, Plow Horses, Puzzles, and Dogs"
-> - **⚡ AI Generate**: "Generate sample menu data (20 items) with popularity and profit margin"
+> - **⚡ AI Generate**: "Generate sample menu data (20 items) with popularity and profit margin for menu engineering practice"
 > - **💡 Ask AI**: "What are typical food cost % targets for different F&B types?"
 
 
@@ -544,8 +544,8 @@ Before moving to Phase 4, you should be able to:
   - Restaurant Analytics Case Studies
 
 > **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
-> - **💡 Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
+> - **
+> - **
 > - **⚡ AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
 > - **🤖 AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable?"
 
@@ -737,10 +737,10 @@ reflection.md - What you learned, what was hard, what you'd improve
   - Google Slides Templates
 
 > **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
+> - **
 > - **⚡ AI Generate**: "Generate spreadsheet formulas for menu engineering calculator"
 > - **💡 Ask AI**: "How should I forecast Ramadan impact on different F&B business models?"
-> - **⚡ AI Generate**: "Generate comprehensive sample F&B data for capstone project"
+> - **
 > - **🤖 AI Review**: "Review my F&B BI dashboard design. Does it answer key business questions?"
 > - **💡 Ask AI**: "What are must-have vs nice-to-have features for MVP?"
 
