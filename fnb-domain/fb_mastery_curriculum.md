@@ -38,6 +38,7 @@
    - Highlight sections you don't understand yet
    
    
+   🔍 **AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"🔍 **AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"
 
 **Reading Strategy**:
 ```
@@ -69,6 +70,7 @@ Day 4 (2 hours): Business Management
    - Coffee shop (Kopi Kenangan or Starbucks)
    
    
+   💡 **Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"💡 **Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
 
 2. **Observe & Document**:
    - Service flow (greeting → order → food → payment)
@@ -107,12 +109,8 @@ Duration: [How long you observed]
 3. [What BI dashboard would be useful?]
 ```
 
-
-
-**Tools**:
-- Camera/Phone (Photos)
-- Notebook/Notion (Logs)
-- Google Maps (Finding spots)
+⚡ **AI Generate**: Ask AI to generate a detailed observation framework template for each F&B type
+🤖 **AI Review**: Share your observation logs with AI for completeness and insight quality feedback
 
 #### Resources
 
@@ -345,7 +343,10 @@ Why: Combined food + labor = baseline profitability
 
 **📊 Practice Calculation** (4-5 hours):
 **Using Real/Simulated Data**:
+[Continue for all metrics from guide...]
+```
 
+🔍 **AI Explain**: "Explain the difference between gross margin and contribution margin in F&B context with examples"
 
 
 **Exercise 1: Warung Economics Calculation**

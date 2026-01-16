@@ -1550,7 +1550,9 @@ Add comprehensive tests:
 4. **Lighthouse Audit**: Achieve 90+ score on all metrics
 5. **Redis Caching**: Add caching layer to API endpoints
 
-
+💡 **Ask AI**: "What's the best caching strategy for BI dashboard with hourly data updates?"
+⚡ **AI Generate**: "Create webpack config for optimal code splitting"
+🔍 **AI Explain**: "Explain critical rendering path and how to optimize it"
 
 #### Common Pitfalls
 
@@ -1570,7 +1572,7 @@ Add comprehensive tests:
 - Not using appropriate formats
 - Loading all images on page load
 
-
+🤖 **AI Debug**: "Lighthouse shows LCP of 4s. How to improve?"
 
 #### Resources
 
@@ -1704,7 +1706,10 @@ Optimize your entire app:
 4. **Environment Config**: Set up dev, staging, production environments
 5. **Domain Setup**: Configure custom domain with SSL
 
-
+💡 **Ask AI**: "Compare Vercel vs Netlify vs Railway - which for BI dashboard?"
+⚡ **AI Generate**: "Create GitHub Actions workflow for: test → build → deploy to Vercel"
+🔍 **AI Explain**: "Explain blue-green deployment and canary releases"
+🤖 **AI Debug**: "Deployment succeeds but app shows blank page. Build logs: [logs]"
 
 #### Common Pitfalls
 
@@ -1725,7 +1730,7 @@ Optimize your entire app:
 - Secrets exposed in logs
 - No rollback strategy
 
-
+🤖 **AI Debug**: "GitHub Actions failing. Error: 'ENOENT: package.json not found'"
 
 #### Resources
 
@@ -1857,7 +1862,9 @@ Deploy your complete app:
 4. **Documentation**: Write comprehensive API docs with Swagger
 5. **Backup System**: Setup automated daily database backups
 
-
+💡 **Ask AI**: "Sentry vs LogRocket vs Datadog - which for BI SaaS monitoring?"
+⚡ **AI Generate**: "Create health check endpoint that monitors database, API, and external services"
+🔍 **AI Explain**: "Explain difference between logging, monitoring, and observability"
 
 #### Common Pitfalls
 
@@ -1878,7 +1885,7 @@ Deploy your complete app:
 - Infrequent backups
 - Backups in same location as production
 
-
+🤖 **AI Debug**: "Sentry not capturing errors in production. Config: [config]"
 
 #### Resources
 
@@ -1995,6 +2002,14 @@ Add advanced capabilities:
 - **Advanced Viz**:
   - D3.js Advanced Tutorials
 
+- Node.js Worker Threads documentation for parallel processing
+- Bull Queue library for background jobs
+- Apache Arrow for fast data processing
+- jsPDF and Puppeteer documentation for PDF generation
+- ExcelJS and xlsx library guides for Excel files
+- D3.js advanced tutorials and examples
+- Data processing and ETL best practices
+
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Generate sample data transformation logic for BI aggregations"
 > - **🔍 AI Explain**: "Explain ETL process with Node.js implementation examples"
@@ -2011,6 +2026,54 @@ Add advanced capabilities:
 ❌ **Architecture**:
 - Tight coupling between ingestion and processing
 - Missing scaling strategy for workers
+
+⚡ **AI Generate**: "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
+🔍 **AI Explain**: "Explain when to use server-side vs client-side analytics calculations"
+💡 **Ask AI**: "Best practices for real-time analytics dashboards - data freshness vs performance?"
+⚡ **AI Generate**: "Generate sample data transformation logic for BI aggregations"
+🔍 **AI Explain**: "Explain ETL process with Node.js implementation examples"
+💡 **Ask AI**: "What libraries should I use for PDF generation and Excel export in Node.js?"
+
+#### Resources
+
+- D3.js documentation and examples
+- Advanced charting library docs (Recharts, Victory, etc.)
+- Data processing best practices
+- ETL pipeline guides
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build custom D3.js visualizations
+- [ ] Implement ETL processes
+- [ ] Create advanced analytics features
+- [ ] Generate PDF and Excel exports
+- [ ] Build drag-and-drop dashboard builders
+- [ ] Design enterprise BI capabilities
+
+#### Common Pitfalls
+
+❌ **Analytics Mistakes**:
+- Not aggregating on backend (too much client processing)
+- Missing data caching strategies
+- Poor query performance on large datasets
+- No data freshness indicators
+
+❌ **Visualization Issues**:
+- Overcomplicating visualizations
+- Not optimizing for mobile
+- Missing accessibility features
+- Poor color choices for data viz
+
+#### Assessment Checklist
+
+Before moving to Capstone, you should be able to:
+- [ ] Build custom D3.js visualizations
+- [ ] Implement advanced analytics features
+- [ ] Optimize for large datasets
+- [ ] Create real-time dashboards
+- [ ] Apply analytics best practices
+- [ ] Design performant data pipelines
 
 #### Assessment Checklist
 
@@ -2088,7 +2151,10 @@ Before moving forward, you should be able to:
 4. **Webhook Handler**: Process incoming webhooks from external services
 5. **Background Jobs**: Process large files in background with Bull Queue
 
-
+💡 **Ask AI**: "How should I design a connector architecture for multiple data sources?"
+⚡ **AI Generate**: "Create CSV validation schema for F&B sales data (20 columns)"
+🔍 **AI Explain**: "Explain ETL vs ELT with BI platform examples"
+🤖 **AI Debug**: "CSV upload fails with large files (10MB+). Memory error. Code: [code]"
 
 #### Common Pitfalls
 
@@ -2110,7 +2176,7 @@ Before moving forward, you should be able to:
 - No data type conversion
 - Missing error handling
 
-
+🤖 **AI Debug**: "Google Sheets API quota exceeded. How to handle?"
 
 #### Resources
 
@@ -2152,8 +2218,6 @@ Before moving forward, you should be able to:
 - API integration patterns
 - ETL best practices
 - Data quality management
-
-
 
 #### Assessment Checklist
 
