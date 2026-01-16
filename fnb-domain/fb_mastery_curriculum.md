@@ -128,7 +128,7 @@ Duration: [How long you observed]
 > - **⚡ AI Generate**: "Ask AI to generate a detailed observation framework template for each F&B type"
 > - **🤖 AI Review**: "Share your observation logs with AI for completeness and insight quality feedback"
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Observation Mistakes**:
 - Only visiting during slow hours (miss peak operations)
@@ -142,7 +142,7 @@ Duration: [How long you observed]
 - Skipping the observation exercise (crucial for understanding)
 - Assuming all F&B businesses work the same way
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 2, you should be able to:
 - [ ] Explain the difference between warung, warteg, and kaki lima
@@ -275,7 +275,7 @@ Pain Points:
 > - **⚡ AI Generate**: "Create interview question list for F&B owners/managers/staff covering operations, pain points, and data needs"
 > - **🤖 AI Review**: "I interviewed [role]. Here are their answers: [summary]. What insights can I draw for BI opportunities?"
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Mapping Mistakes**:
 - Creating overly complex diagrams (keep it simple)
@@ -289,7 +289,7 @@ Pain Points:
 - Not listening actively (focused on next question)
 - Interrupting or judging their current processes
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 3, you should be able to:
 - [ ] Draw complete data flow maps for 3 different F&B models
@@ -440,7 +440,7 @@ Analyze:
 
 
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Metric Mistakes**:
 - Focusing only on revenue (ignoring costs)
@@ -454,7 +454,7 @@ Analyze:
 - Not accounting for waste and spoilage
 - Mixing up percentages (20% margin ≠ 20% markup)
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 4, you should be able to:
 - [ ] Calculate food cost %, labor cost %, and prime cost %
@@ -552,7 +552,7 @@ Before moving to Phase 4, you should be able to:
 > - **⚡ AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
 > - **🤖 AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable?"
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Analysis Mistakes**:
 - Not cleaning data first (garbage in, garbage out)
@@ -566,7 +566,7 @@ Before moving to Phase 4, you should be able to:
 - Too much detail (drowning in data)
 - Not validating insights with F&B operators
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 5, you should be able to:
 - [ ] Clean and prepare F&B transaction data
@@ -603,7 +603,7 @@ Before moving to Phase 5, you should be able to:
 - Regional F&B industry reports
 - Capstone project templates
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Capstone Mistakes**:
 - Scope too broad (can't finish)
@@ -749,7 +749,7 @@ reflection.md - What you learned, what was hard, what you'd improve
 > - **🤖 AI Review**: "Review my F&B BI dashboard design. Does it answer key business questions?"
 > - **💡 Ask AI**: "What are must-have vs nice-to-have features for MVP?"
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Dashboard Mistakes**:
 - Too many metrics (information overload)
