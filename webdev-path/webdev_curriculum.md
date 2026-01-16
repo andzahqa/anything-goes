@@ -1257,50 +1257,7 @@ Add live features:
 4. **Integration Tests**: Test React components with API calls
 5. **E2E Tests**: Test complete user journey (signup → dashboard → logout)
 
-⚡ **AI Generate**: "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
-🔍 **AI Explain**: "Explain when to use server-side vs client-side analytics calculations"
-💡 **Ask AI**: "Best practices for real-time analytics dashboards - data freshness vs performance?"
 
-#### Resources
-
-- D3.js documentation and examples
-- Advanced charting library docs (Recharts, Victory, etc.)
-- Data processing best practices
-- ETL pipeline guides
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
-- [ ] Build custom D3.js visualizations
-- [ ] Implement ETL processes
-- [ ] Create advanced analytics features
-- [ ] Generate PDF and Excel exports
-- [ ] Build drag-and-drop dashboard builders
-- [ ] Design enterprise BI capabilities
-
-#### Common Pitfalls
-
-❌ **Analytics Mistakes**:
-- Not aggregating on backend (too much client processing)
-- Missing data caching strategies
-- Poor query performance on large datasets
-- No data freshness indicators
-
-❌ **Visualization Issues**:
-- Overcomplicating visualizations
-- Not optimizing for mobile
-- Missing accessibility features
-- Poor color choices for data viz
-
-#### Assessment Checklist
-
-Before moving to Capstone, you should be able to:
-- [ ] Build custom D3.js visualizations
-- [ ] Implement advanced analytics features
-- [ ] Optimize for large datasets
-- [ ] Create real-time dashboards
-- [ ] Apply analytics best practices
-- [ ] Design performant data pipelines
 🤖 **AI Debug**: "React Testing Library test failing. Error: 'Unable to find element'. Code: [code]"
 
 #### Common Pitfalls
