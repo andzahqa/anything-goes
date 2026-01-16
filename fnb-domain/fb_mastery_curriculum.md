@@ -110,6 +110,37 @@ Duration: [How long you observed]
 ⚡ **AI Generate**: Ask AI to generate a detailed observation framework template for each F&B type
 🤖 **AI Review**: Share your observation logs with AI for completeness and insight quality feedback
 
+#### Resources
+
+- **Documentation**: Indonesia F&B Guide (`fb_business_processes_indonesia.md`)
+- **Books**: "Setting the Table" by Danny Meyer (restaurant hospitality)
+- **YouTube**: Day-in-the-life videos of restaurant staff
+- **Local**: Visit warungs, mall restaurants, coffee shops in your area
+
+#### Common Pitfalls
+
+❌ **Observation Mistakes**:
+- Only visiting during slow hours (miss peak operations)
+- Not asking permission before taking photos/notes
+- Making assumptions without verification
+- Only observing front-of-house (missing kitchen operations)
+
+❌ **Learning Mistakes**:
+- Reading without taking notes (information overload)
+- Not connecting theory to real observations
+- Skipping the observation exercise (crucial for understanding)
+- Assuming all F&B businesses work the same way
+
+#### Assessment Checklist
+
+Before moving to Phase 2, you should be able to:
+- [ ] Explain the difference between warung, warteg, and kaki lima
+- [ ] Describe FOH and BOH operations
+- [ ] List major F&B business models in Indonesia
+- [ ] Identify at least 10 data points generated in an F&B transaction
+- [ ] Explain how GoFood/Grab integration works
+- [ ] Compare traditional vs modern F&B operations
+
 **✅ Phase 1 Completion Checklist**:
 - [ ] Read complete Indonesia F&B guide
 - [ ] Visited 3 different F&B types
@@ -206,17 +237,50 @@ Pain Points:
 12. If you could change one thing, what would it be?
 ```
 
-💡 **Ask AI**: "What are the best interview questions to understand [specific F&B operation aspect]?" or "Help me prepare follow-up questions for F&B worker interview"
+💡 **Ask AI**: "What are good interview questions to understand F&B operations for someone building a BI dashboard?"
+⚡ **AI Generate**: "Create interview question list for F&B owners/managers/staff covering operations, pain points, and data needs"
+🤖 **AI Review**: "I interviewed [role]. Here are their answers: [summary]. What insights can I draw for BI opportunities?"
 
 **Document Interview**:
 - Create `fnb-domain/notes/interview_[name]_[date].md`
 - Highlight insights relevant to BI
 
+#### Resources
+
+- **Tools**: Draw.io or Lucidchart for data flow diagrams
+- **Observation**: Spend time in restaurant kitchens (with permission)
+- **Networking**: Join F&B Facebook groups in Indonesia
+- **Reading**: "The Lean Startup" (MVP thinking for tech solutions)
+
+#### Common Pitfalls
+
+❌ **Mapping Mistakes**:
+- Creating overly complex diagrams (keep it simple)
+- Missing critical touchpoints (payment, inventory checks)
+- Not identifying where data is lost or manual
+- Assuming all businesses use the same workflow
+
+❌ **Interview Mistakes**:
+- Not building rapport first (jump straight to questions)
+- Asking leading questions
+- Not listening actively (focused on next question)
+- Interrupting or judging their current processes
+
+#### Assessment Checklist
+
+Before moving to Phase 3, you should be able to:
+- [ ] Draw complete data flow maps for 3 different F&B models
+- [ ] Identify 15+ data touchpoints in restaurant operations
+- [ ] Explain the customer journey from entry to exit
+- [ ] Describe supply chain flow (supplier → kitchen → customer)
+- [ ] List common pain points F&B operators face
+- [ ] Identify where technology can add most value
+
 **✅ Phase 2 Completion Checklist**:
-- [ ] Created 3 data flow maps
-- [ ] Interviewed F&B worker/owner
-- [ ] Documented 5 pain points discovered
-- [ ] Listed 5 BI solutions for those pain points
+- [ ] Created data flow maps for 3 business models
+- [ ] Interviewed someone in F&B
+- [ ] Documented interview insights
+- [ ] Identified process improvement opportunities
 
 ---
 
@@ -332,15 +396,46 @@ Low Margin, High Popularity = PLOWHORSES 🐴 (can't remove, but optimize cost)
 Low Margin, Low Popularity = DOGS 🐕 (remove from menu!)
 ```
 
-⚡ **AI Generate**: "Generate realistic menu data for [restaurant type] with 20 items, including costs, prices, and popularity estimates"
-🔍 **AI Explain**: "Explain menu engineering matrix with Indonesian F&B examples"
+🔍 **AI Explain**: "Explain the menu engineering matrix - how to classify menu items as Stars, Plow Horses, Puzzles, and Dogs"
+⚡ **AI Generate**: "Generate sample menu data (20 items) with popularity and profit margin for menu engineering practice"
+💡 **Ask AI**: "What are typical food cost % targets for different F&B types (QSR vs fine dining)?"
+
+#### Resources
+
+- **Books**: "Restaurant Success by the Numbers" by Roger Fields
+- **Calculators**: Excel templates for F&B financial modeling
+- **Industry**: National Restaurant Association benchmarks
+- **Local**: BPS Indonesia data on F&B industry
+
+#### Common Pitfalls
+
+❌ **Metric Mistakes**:
+- Focusing only on revenue (ignoring costs)
+- Not understanding the difference between margin and markup
+- Comparing metrics across different F&B types (apples to oranges)
+- Ignoring regional cost differences (Jakarta vs Yogyakarta)
+
+❌ **Calculation Errors**:
+- Not including ALL costs in prime cost (forgetting benefits, taxes)
+- Using gross revenue instead of net for calculations
+- Not accounting for waste and spoilage
+- Mixing up percentages (20% margin ≠ 20% markup)
+
+#### Assessment Checklist
+
+Before moving to Phase 4, you should be able to:
+- [ ] Calculate food cost %, labor cost %, and prime cost %
+- [ ] Explain what RevPASH is and why it matters
+- [ ] Perform menu engineering analysis
+- [ ] Compare financial metrics across F&B types
+- [ ] Identify when a metric is "good" vs "concerning"
+- [ ] Build a financial model in Excel/Sheets
 
 **✅ Phase 3 Completion Checklist**:
-- [ ] Created comprehensive metrics cheat sheet
-- [ ] Completed 5+ calculation exercises
-- [ ] Built 2+ Excel/Sheets models
-- [ ] Analyzed real restaurant menu (20+ items)
-- [ ] Identified menu engineering opportunities
+- [ ] Built F&B financial calculator
+- [ ] Calculated metrics for 3 different businesses
+- [ ] Performed menu analysis on real/sample menu
+- [ ] Understood regional variations in costs based on observations
 
 ---
 
@@ -392,14 +487,47 @@ Low Margin, Low Popularity = DOGS 🐕 (remove from menu!)
 - Universal patterns = benchmark against
 - Regional patterns = must customize for
 
-💡 **Ask AI**: "What patterns should I look for when analyzing F&B data across different markets?"
+💡 **Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
+⚡ **AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
+🤖 **AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable? What am I missing?"
+
+#### Resources
+
+- **Data**: Kaggle F&B datasets for practice
+- **Analysis**: Google Sheets QUERY function tutorials
+- **Visualization**: Chart.js or Google Charts documentation
+- **Case Studies**: Restaurant analytics blog posts
+
+#### Common Pitfalls
+
+❌ **Analysis Mistakes**:
+- Not cleaning data first (garbage in, garbage out)
+- Looking at absolute numbers without percentages
+- Ignoring seasonal patterns (Ramadan, holidays)
+- Not segmenting data (all customers treated the same)
+
+❌ **Insight Mistakes**:
+- Finding correlations but assuming causation
+- Presenting analysis without actionable recommendations
+- Too much detail (drowning in data)
+- Not validating insights with F&B operators
+
+#### Assessment Checklist
+
+Before moving to Phase 5, you should be able to:
+- [ ] Clean and prepare F&B transaction data
+- [ ] Perform sales analysis by time, product, location
+- [ ] Identify bestsellers and underperformers
+- [ ] Calculate customer metrics (frequency, spend, lifetime value)
+- [ ] Create comparison reports (WoW, MoM, YoY)
+- [ ] Visualize data effectively
+- [ ] Generate actionable recommendations from data
 
 **✅ Phase 4 Completion Checklist**:
-- [ ] Compared 3+ regional guides
-- [ ] Created comparison matrix (10+ metrics)
-- [ ] Listed 10 universal patterns
-- [ ] Listed 10 regional patterns
-- [ ] Identified 5 BI customizations needed for Indonesia
+- [ ] Analyzed sample or real F&B dataset
+- [ ] Created 5 different analysis reports
+- [ ] Built charts and visualizations
+- [ ] Generated business recommendations from findings
 
 ---
 
@@ -486,15 +614,48 @@ analysis.md - Insights discovered, recommendations
 reflection.md - What you learned, what was hard, what you'd improve
 ```
 
-⚡ **AI Generate**: Ask AI to create realistic F&B transaction data (500-1000 rows) for your chosen business model
-🤖 **AI Review**: Share your complete project for feedback on dashboard design, insights quality, and business recommendations
+⚡ **AI Generate**: "Generate comprehensive sample F&B data for capstone project: transactions, menu, inventory, staff"
+🤖 **AI Review**: "Review my F&B BI dashboard design. Does it answer the key business questions? What's missing?"
+💡 **Ask AI**: "What are must-have vs nice-to-have features for an F&B dashboard for small restaurant owners?"
 
-**✅ Phase 5 Completion Checklist**:
-- [ ] Completed capstone project
-- [ ] Dashboard has 5+ meaningful metrics
-- [ ] Documented business context
-- [ ] Listed 3+ actionable insights
-- [ ] Reflected on learning journey
+#### Resources
+
+- **Design**: Canva or Figma for mockups
+- **Data**: Use your own generated or real anonymized data
+- **Inspiration**: Toast, Square, Upserve dashboard screenshots
+- **Presentation**: Google Slides or PowerPoint
+
+#### Common Pitfalls
+
+❌ **Dashboard Mistakes**:
+- Too many metrics (information overload)
+- No clear hierarchy (everything looks equally important)
+- Using technical language (jargon that owners don't understand)
+- Not mobile-friendly (owners check on phone)
+
+❌ **Project Mistakes**:
+- Scope creep (trying to build everything)
+- Not testing with actual F&B operators
+- Focusing on fancy features over core functionality
+- No clear problem being solved
+
+#### Final Assessment Checklist
+
+By the end of this curriculum, you should be able to:
+- [ ] **Explain F&B operations** at the level of an industry insider
+- [ ] **Identify data touchpoints** throughout F&B workflows
+- [ ] **Calculate and interpret** all major F&B metrics
+- [ ] **Analyze F&B data** to find actionable insights
+- [ ] **Design BI dashboards** specifically for F&B operators
+- [ ] **Communicate insights** to non-technical F&B owners
+- [ ] **Understand regional context** (Indonesia/SEA market)
+
+**✅ Capstone Completion**:
+- [ ] Designed complete F&B BI solution
+- [ ] Created documentation and user guide
+- [ ] Presented to F&B stakeholder or peer
+- [ ] Incorporated feedback and iterated
+- [ ] Ready to build actual BI dashboards for F&B businesses!
 
 ---
 
