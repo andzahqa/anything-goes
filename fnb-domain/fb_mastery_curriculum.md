@@ -255,9 +255,9 @@ Pain Points:
 - Highlight insights relevant to BI
 
 **Tools**:
-- Draw.io / Lucidchart (Data Flow)
-- Voice Recorder (Interview)
-- Notion/Obsidian (Notes)
+- **Diagramming**: Draw.io / Lucidchart (Data Flow Maps)
+- **Transcription**: Otter.ai / Voice Recorder (Interview capture)
+- **Notes**: Notion / Obsidian (Structured observation logs)
 
 #### Resources
 
@@ -405,10 +405,13 @@ Analyze:
 
 
 **Tools**:
-- Excel / Google Sheets
-- Financial Calculator
-- POS Reports
-- Menu Engineering Templates
+- **Documentation**: Camera (Menu prices, layout), Voice Recorder (Staff interviews - with permission)
+- **Logging**: Notion / Obsidian / Physical Notebook
+- **Discovery**: Google Maps (Review analysis), Zomato / PergiKuliner (Competitor research)
+- **Spreadsheet**: Excel / Google Sheets (Key functions: `SUMIFS`, `VLOOKUP`, Pivot Tables)
+- **Calculators**: Financial Calculator (Prime Cost, RevPASH)
+- **Reporting**: POS Reports (Toast, Square, Moka exports)
+- **Analysis**: Menu Engineering Matrix Template (Stars/Dogs quadrant)
 
 #### Resources
 
@@ -527,9 +530,9 @@ Before moving to Phase 4, you should be able to:
 🤖 **AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable? What am I missing?"
 
 **Tools**:
-- Google Sheets (Comparison Matrix)
-- Chart.js (Visualization)
-- Google Trends (Regional Interest)
+- **Analysis**: Google Sheets (Comparison Matrix)
+- **Visualization**: Chart.js / Recharts (for coding practice) or Excel Charts
+- **Market Research**: Google Trends (Regional Interest), Statista (Industry Benchmarks)
 
 #### Resources
 
@@ -722,9 +725,10 @@ reflection.md - What you learned, what was hard, what you'd improve
 
 
 **Tools**:
-- Canva / Figma (Mockups)
-- Excel / Google Sheets (Prototyping)
-- Power BI / Tableau (Optional)
+- **Design**: Canva / Figma (UI Mockups & Wireframes)
+- **Prototyping**: Excel / Google Sheets (Functional Logic)
+- **BI Platforms**: Power BI / Tableau / Apache Superset (Optional)
+- **Data Generation**: Mockaroo / Python Faker (Synthetic Datasets)
 
 #### Resources
 
