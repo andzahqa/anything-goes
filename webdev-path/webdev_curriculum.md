@@ -457,7 +457,16 @@ Enhance your dashboard to:
   - Reactiflux Discord
   - r/reactjs
 
-  
+- React official documentation (comprehensive and well-structured)
+- "React - The Complete Guide" by Maximilian Schwarzmüller (Udemy)
+- React.dev interactive tutorials
+- Kent C. Dodds' blog and courses (advanced React patterns)
+- Frontend Masters React courses
+- React Router official docs
+- Vite documentation (modern build tool)
+- React Docs (new beta): https://react.dev
+- React DevTools Chrome extension
+
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Create a React functional component for a ProductCard with props for name, price, image" or "Create React component structure for analytics dashboard"
@@ -558,8 +567,6 @@ Build a React app that displays:
 4. **Nested Routes**: Build multi-level navigation (dashboard/reports/settings)
 5. **URL State**: Sync dashboard filters with URL params
 
-
-
 #### Common Pitfalls
 
 ❌ **State Mistakes**:
@@ -574,9 +581,12 @@ Build a React app that displays:
 - Forgetting to protect routes
 - Not lazy loading routes (large bundle)
 
-
-
 #### Resources
+
+**Documentation**:
+- React Router: https://reactrouter.com
+- Zustand: https://docs.pmnd.rs/zustand
+- Redux Toolkit: https://redux-toolkit.js.org
 
 **Tools**:
 - Redux DevTools
@@ -601,6 +611,10 @@ Build a React app that displays:
 > - **⚡ AI Generate**: "Create a Redux slice for shopping cart state management"
 > - **🔍 AI Explain**: "Explain prop drilling and how Context API solves it"
 > - **🤖 AI Debug**: "Redux state not updating in component. Check my reducer and dispatch: [code]"
+💡 **Ask AI**: "Zustand vs Redux vs Context API - which for medium-sized BI app?"
+⚡ **AI Generate**: "Create Zustand store structure for analytics dashboard state"
+🔍 **AI Explain**: "Explain React Router v6 differences from v5"
+🤖 **AI Debug**: "Context re-renders all children even when value hasn't changed. Code: [code]"
 
 **Learning**:
 - React Router tutorial (official)
@@ -715,6 +729,11 @@ Expand your analytics viewer with:
 
 #### Resources
 
+**Documentation**:
+- styled-components: https://styled-components.com
+- Tailwind CSS: https://tailwindcss.com
+- WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
+
 **Tools**:
 - Styled-components / Emotion
 - Tailwind CSS (VS Code Extension)
@@ -724,9 +743,9 @@ Expand your analytics viewer with:
 #### Resources
 
 - **Documentation**:
-  - styled-components Docs
-  - Tailwind CSS Docs
-  - WCAG Guidelines
+  - styled-components: https://styled-components.com
+  - Tailwind CSS: https://tailwindcss.com
+  - WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
 - **Design Systems**:
   - Material UI (MUI)
   - Chakra UI

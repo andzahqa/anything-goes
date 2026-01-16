@@ -37,7 +37,7 @@
    - Take notes on unfamiliar concepts
    - Highlight sections you don't understand yet
    
-   🔍 **AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"
+   
 
 **Reading Strategy**:
 ```
@@ -68,7 +68,7 @@ Day 4 (2 hours): Business Management
    - Mall restaurant (modern)
    - Coffee shop (Kopi Kenangan or Starbucks)
    
-   💡 **Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
+   
 
 2. **Observe & Document**:
    - Service flow (greeting → order → food → payment)
@@ -107,15 +107,28 @@ Duration: [How long you observed]
 3. [What BI dashboard would be useful?]
 ```
 
-⚡ **AI Generate**: Ask AI to generate a detailed observation framework template for each F&B type
-🤖 **AI Review**: Share your observation logs with AI for completeness and insight quality feedback
+
+
+**Tools**:
+- Camera/Phone (Photos)
+- Notebook/Notion (Logs)
+- Google Maps (Finding spots)
 
 #### Resources
 
-- **Documentation**: Indonesia F&B Guide (`fb_business_processes_indonesia.md`)
-- **Books**: "Setting the Table" by Danny Meyer (restaurant hospitality)
-- **YouTube**: Day-in-the-life videos of restaurant staff
-- **Local**: Visit warungs, mall restaurants, coffee shops in your area
+- **Documentation**:
+  - Indonesia F&B Guide (`fb_business_processes_indonesia.md`)
+- **Books**:
+  - "Setting the Table" by Danny Meyer
+- **Media**:
+  - YouTube Restaurant Day-in-life
+  - Local Food Vlogs
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain [concept] in F&B context with Indonesian examples"
+> - **💡 Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
+> - **⚡ AI Generate**: "Ask AI to generate a detailed observation framework template for each F&B type"
+> - **🤖 AI Review**: "Share your observation logs with AI for completeness and insight quality feedback"
 
 #### Common Pitfalls
 
@@ -209,7 +222,7 @@ BI Opportunity:
 - [ ] Modern restaurant (mall, POS system)
 - [ ] Cloud kitchen (delivery-only, app-driven)
 
-💡 **Ask AI**: "Help me create a data flow diagram for [business model] - what data touchpoints should I include?"
+
 
 **🔬 Interview Exercise** (3 hours):
 **Find and interview someone who works in F&B** (server, cook, owner):
@@ -237,20 +250,32 @@ Pain Points:
 12. If you could change one thing, what would it be?
 ```
 
-💡 **Ask AI**: "What are good interview questions to understand F&B operations for someone building a BI dashboard?"
-⚡ **AI Generate**: "Create interview question list for F&B owners/managers/staff covering operations, pain points, and data needs"
-🤖 **AI Review**: "I interviewed [role]. Here are their answers: [summary]. What insights can I draw for BI opportunities?"
+
 
 **Document Interview**:
 - Create `fnb-domain/notes/interview_[name]_[date].md`
 - Highlight insights relevant to BI
 
+**Tools**:
+- Draw.io / Lucidchart (Data Flow)
+- Voice Recorder (Interview)
+- Notion/Obsidian (Notes)
+
 #### Resources
 
-- **Tools**: Draw.io or Lucidchart for data flow diagrams
-- **Observation**: Spend time in restaurant kitchens (with permission)
-- **Networking**: Join F&B Facebook groups in Indonesia
-- **Reading**: "The Lean Startup" (MVP thinking for tech solutions)
+- **Templates**:
+  - Data Flow Diagram Template
+  - Interview Question Bank
+- **Reading**:
+  - "The Lean Startup" (MVP thinking)
+- **Community**:
+  - F&B Facebook Groups Indonesia
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Help me create a data flow diagram for [business model] - what data touchpoints should I include?"
+> - **💡 Ask AI**: "What are good interview questions to understand F&B operations for someone building a BI dashboard?"
+> - **⚡ AI Generate**: "Create interview question list for F&B owners/managers/staff covering operations, pain points, and data needs"
+> - **🤖 AI Review**: "I interviewed [role]. Here are their answers: [summary]. What insights can I draw for BI opportunities?"
 
 #### Common Pitfalls
 
