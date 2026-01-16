@@ -1376,7 +1376,41 @@ Choose 2-3 dashboards from the gallery and build them completely.
 > - **💡 Ask AI**: "What KPIs should go on executive vs kitchen vs server dashboards?"
 > - **⚡ AI Generate**: "Generate realistic menu data with costs for 30 F&B items (burgers, pizza, salads, drinks)"
 > - **🤖 AI Review**: "Review my F&B dashboard layout: [describe all components]. What's missing?"
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create comprehensive F&B dashboard template with 5 key views (Executive, Sales, Kitchen, Labor, Customer)"
+> - **🤖 AI Review**: "Review my F&B dashboard structure for completeness"
+> - **💡 Ask AI**: "What interactive features are most valuable in F&B dashboards?"
 
+#### Resources
+
+- F&B dashboard templates (Tableau Public, Google Sheets gallery)
+- Restaurant analytics examples
+- F&B Business Processes guide
+- Dashboard design best practices
+
+#### Common Pitfalls
+
+❌ **F&B Dashboard Mistakes**:
+- Generic dashboards not F&B-tailored
+- Missing critical operational metrics
+- Too complex for operators
+- Not mobile-friendly
+
+❌ **Implementation Issues**:
+- Poor data integration
+- Slow refresh/performance
+- No user guidance
+- Missing benchmarks
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build complete F&B dashboard suites
+- [ ] Design for different F&B roles
+- [ ] Integrate real F&B data
+- [ ] Create operator-friendly interfaces
+- [ ] Apply F&B domain expertise
+- [ ] Deliver actionable insights
 **Resources**:
 - Sample F&B data: Kaggle, restaurant industry sites
 - POS system demo data (Toast, Square often provide)
@@ -1448,6 +1482,41 @@ Choose 2-3 dashboards from the gallery and build them completely.
 > - **💡 Ask AI**: "Explain market basket analysis for restaurants. How do I find item pairs that sell together?"
 > - **💡 Ask AI**: "Build break-even calculator: inputs (fixed costs, variable cost per customer, avg check), output (break-even covers)"
 
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create formula for simple moving average sales forecast in spreadsheets"
+> - **💡 Ask AI**: "How to implement ABC analysis for inventory in Google Sheets?"
+> - **🔍 AI Explain**: "Explain market basket analysis for menu optimization"
+
+#### Resources
+
+- Forecasting in spreadsheets tutorials
+- Market basket analysis guides
+- Advanced spreadsheet formulas
+- F&B analytics case studies
+
+#### Common Pitfalls
+
+❌ **Advanced Analytics Mistakes**:
+- Over-complicating with unnecessary complexity
+- Insufficient data for reliable forecasts
+- Not validating model outputs
+- Ignoring F&B seasonality
+
+❌ **Implementation Issues**:
+- Complex formulas too slow
+- No error handling
+- Results not actionable
+- Missing business context
+
+#### Assessment Checklist
+
+Before moving to Capstone, you should be able to:
+- [ ] Implement sales forecasting in spreadsheets
+- [ ] Conduct inventory ABC analysis
+- [ ] Build menu optimization models
+- [ ] Apply predictive analytics to F&B
+- [ ] Communicate advanced insights simply
+- [ ] Validate analytical models
 **Resources**:
 - Menu engineering guides (restaurant consultants' blogs)
 - Excel forecasting tutorials
