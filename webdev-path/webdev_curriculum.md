@@ -44,9 +44,6 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 - Event handling: click, submit, input, change events
 - ES6+ features: template literals, destructuring, spread/rest, arrow functions
 
-- ES6+ features: template literals, destructuring, spread/rest, arrow functions
-
-
 #### Hands-on Exercises
 
 **HTML Practice** (Day 1-2):
@@ -256,8 +253,7 @@ personal-dashboard/
 4. **Multiple APIs**: Fetch data from 3 different APIs and combine results
 5. **Module System**: Refactor a large JS file into multiple modules
 
-💡 **Ask AI**: "Explain the difference between Promise.all() and Promise.race() with examples"
-⚡ **AI Generate**: "Create async/await practice exercises with increasing difficulty"
+
 
 #### Common Pitfalls
 
@@ -272,7 +268,7 @@ personal-dashboard/
 - Hardcoding API keys in frontend code (security!)
 - Not handling rate limits
 
-🤖 **AI Debug**: "My fetch() is not working. Getting CORS error. Here's my code: [code]"
+
 
 #### Resources
 
@@ -402,9 +398,7 @@ Enhance your dashboard to:
 5. **Todo App**: Full CRUD operations with filtering
 6. **Theme Switcher**: Use Context API for app-wide theme
 
-⚡ **AI Generate**: "Create React component structure for analytics dashboard"
-🔍 **AI Explain**: "Explain React reconciliation and virtual DOM with examples"
-💡 **Ask AI**: "When should I use useMemo vs useCallback vs React.memo?"
+
 
 #### Common Pitfalls
 
@@ -424,7 +418,7 @@ Enhance your dashboard to:
 - Not memoizing expensive calculations
 - Passing inline objects/arrays as props
 
-🤖 **AI Debug**: "My useEffect runs infinitely. Dependencies: [data]. Code: [code]"
+
 
 #### Resources
 
@@ -545,9 +539,7 @@ Build a React app that displays:
 4. **Nested Routes**: Build multi-level navigation (dashboard/reports/settings)
 5. **URL State**: Sync dashboard filters with URL params
 
-💡 **Ask AI**: "Zustand vs Redux vs Context API - which for medium-sized BI app?"
-⚡ **AI Generate**: "Create Zustand store structure for analytics dashboard state"
-🔍 **AI Explain**: "Explain React Router v6 differences from v5"
+
 
 #### Common Pitfalls
 
@@ -563,7 +555,7 @@ Build a React app that displays:
 - Forgetting to protect routes
 - Not lazy loading routes (large bundle)
 
-🤖 **AI Debug**: "Context re-renders all children even when value hasn't changed. Code: [code]"
+
 
 #### Resources
 
