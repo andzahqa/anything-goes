@@ -1169,6 +1169,33 @@ Before moving forward, you should be able to:
 > - **⚡ AI Generate**: "Write DAX formula to calculate: Prior Year same month sales for comparison"
 > - **🔍 AI Explain**: "Explain the difference between calculated columns and measures in Power BI with examples"
 
+#### Resources
+
+- Advanced dashboard design tutorials for your BI tool
+- DAX/calculation language documentation (Power BI, Tableau LOD)
+- Dashboard performance optimization guides
+- Interactive dashboard pattern libraries
+- Advanced BI tool features documentation
+- Real-world advanced dashboard case studies
+
+#### Common Pitfalls
+
+❌ **Advanced Dashboard Mistakes**:
+- Overcomplicating with too many interactive features
+- Performance issues from inefficient calculations or data models
+- Confusing UX with unclear navigation between pages
+- Not testing with actual users before deployment
+- Missing mobile responsiveness considerations
+- Over-reliance on complex parameters confusing end users
+
+❌ **Technical Errors**:
+- Inefficient DAX/calculated fields causing slow performance
+- Circular dependencies in calculations
+- Breaking existing functionality when adding new features
+- Not optimizing data model before building dashboards
+- Ignoring cross-filtering impacts on performance
+- Missing error handling in dynamic calculations
+
 #### Assessment Checklist
 
 Before moving forward, you should be able to:
