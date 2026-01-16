@@ -387,33 +387,48 @@ Before moving forward, you should be able to:
 **Tools**: Excel Power Query, Google Sheets, introduction to SQL concepts
 
 **Resources**:
+- "Data Cleaning" by Ihab Ilyas and Xu Chu
+- OpenRefine tutorials (powerful data cleaning tool)
+- Kaggle's "Data Cleaning Challenge" courses
 - "Tidy Data" paper by Hadley Wickham
-- OpenRefine tutorials
-- Data cleaning checklists online
+- Excel/Google Sheets data validation documentation
+- Regular expressions (regex) tutorials for text cleaning
 
 #### Common Pitfalls
 
-❌ **Cleaning Mistakes**:
+❌ **Data Cleaning Mistakes**:
+- Not creating backups before cleaning (destructive changes)
+- Deleting "bad" data without understanding why it's bad
+- Automated cleaning without spot-checking results
 - Not documenting cleaning steps (can't reproduce)
-- Modifying original data (always keep raw copy)
-- Over-cleaning (removing valid outliers)
-- Not validating cleaning results
+- Mixing cleaning with analysis (keep separate)
+- Assuming all duplicates are errors (some may be valid)
 
-❌ **Quality Issues**:
-- Assuming data is clean (always verify)
-- Not handling missing data appropriately
-- Auto-filling without understanding why data is missing
-- Ignoring data types (numbers as text, etc.)
+❌ **Common Errors**:
+- Inconsistent null handling (blank vs "NULL" vs 0)
+- Wrong data types (dates as text, numbers as strings)
+- Not standardizing formats (dates, phone numbers, addresses)
+- Leading/trailing spaces breaking matches
+- Special characters causing encoding issues
+- Not validating after cleaning
+
+❌ **Process Mistakes**:
+- Cleaning in production data (always use copies)
+- No quality checks after transformation
+- Not keeping raw data untouched
+- No audit trail of changes made or outdated information
+- Not documenting data assumptions and limitations
 
 #### Assessment Checklist
 
 Before moving forward, you should be able to:
-- [ ] Identify common data quality issues
-- [ ] Clean messy data systematically
-- [ ] Handle missing data appropriately
-- [ ] Standardize formats and values
-- [ ] Validate cleaning results
-- [ ] Document cleaning processes for reproducibility
+- [ ] Identify common data quality issues (missing, duplicates, inconsistencies)
+- [ ] Apply systematic data cleaning techniques (e.g., imputation, standardization)
+- [ ] Handle various types of missing data (e.g., mean, median, mode, deletion)
+- [ ] Transform data into analysis-ready formats (e.g., wide to long, creating derived fields)
+- [ ] Document cleaning processes for reproducibility and auditability
+- [ ] Validate cleaning results against source data or business rules
+- [ ] Understand the importance of data backups and version control in cleaning
 
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "What are the best practices for handling missing values in sales data?"
@@ -471,6 +486,9 @@ Before moving forward, you should be able to:
 - Mode Analytics SQL tutorial
 - PostgreSQL documentation
 - W3Schools SQL reference
+- "SQL for Data Analysis" by Cathy O'Neil and Rachel Schutt (conceptual understanding)
+- LeetCode / HackerRank SQL problems (for practice)
+- "Practical SQL" by Anthony DeBarros (hands-on guide)
 
 #### Common Pitfalls
 
@@ -485,23 +503,29 @@ Before moving forward, you should be able to:
 - Mixing aggregate and non-aggregate columns
 - Not ordering results (ORDER BY) when needed
 - Complex nested queries when CTEs would be clearer
+- Incorrect use of DISTINCT (often overused)
+- Misunderstanding the order of SQL operations (FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY)
 
 ❌ **Performance Issues**:
 - No indexes on join columns
 - Not limiting results during development
 - Running expensive queries on production
 - Not using EXPLAIN to understand query plans
+- Suboptimal JOIN types for the specific data relationship
+- Excessive use of subqueries where JOINs or CTEs would be more efficient
 
 #### Assessment Checklist
 
 Before moving forward, you should be able to:
-- [ ] Write SELECT, WHERE, ORDER BY queries
-- [ ] Perform JOINs (INNER, LEFT, RIGHT, FULL)
-- [ ] Use aggregate functions with GROUP BY
-- [ ] Write subqueries and CTEs
-- [ ] Filter aggregated data with HAVING
-- [ ] Understand query performance basics
-- [ ] Debug common SQL errors
+- [ ] Write complex SELECT statements with WHERE, ORDER BY, and LIMIT clauses
+- [ ] Perform various types of JOINs (INNER, LEFT, RIGHT, FULL) correctly
+- [ ] Use aggregate functions (COUNT, SUM, AVG, MIN, MAX) with GROUP BY and HAVING
+- [ ] Write and understand subqueries and Common Table Expressions (CTEs)
+- [ ] Apply CASE statements for conditional logic within queries
+- [ ] Utilize SQL date/time and string manipulation functions
+- [ ] Understand basic query performance optimization concepts (e.g., indexing)
+- [ ] Debug common SQL syntax and logical errors
+- [ ] Design a simple relational database schema (tables, keys, relationships)
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain JOIN types (INNER, LEFT, RIGHT, FULL) with restaurant order/customer example"
@@ -558,10 +582,13 @@ Before moving forward, you should be able to:
 - pandas, numpy, matplotlib, seaborn libraries
 
 **Resources**:
-- Python for Data Analysis by Wes McKinney
-- Kaggle Learn Python course
-- pandas documentation
-- Real Python tutorials
+- Python for Data Analysis by Wes McKinney (the "pandas bible")
+- Kaggle Learn Python course (interactive and practical)
+- pandas documentation (official and comprehensive)
+- Real Python tutorials (in-depth articles and guides)
+- "Automate the Boring Stuff with Python" by Al Sweigart (for automation mindset)
+- Towards Data Science (blog with many Python data analysis examples)
+- Stack Overflow (for specific coding challenges and solutions)
 
 #### Common Pitfalls
 
@@ -570,29 +597,37 @@ Before moving forward, you should be able to:
 - Modifying data in place unintentionally
 - Not handling exceptions (code crashes)
 - Inefficient loops when vectorized operations exist
+- Misunderstanding mutable vs. immutable data types
+- Poor code readability and lack of comments
 
 ❌ **pandas Errors**:
 - Chained assignment warnings (SettingWithCopyWarning)
 - Not resetting index after operations
 - Memory issues with large datasets (not using chunks)
 - Mixing loc/iloc incorrectly
+- Misunderstanding `copy()` vs. view behavior
+- Inefficient data type conversions (e.g., object to datetime)
 
 ❌ **Data Analysis Issues**:
 - Not exploring data first (jumping to analysis)
 - Ignoring data types (numeric as object)
 - Not validating assumptions
 - Over-complicating when SQL would be simpler
+- Misinterpreting aggregation results (e.g., mean of categorical data)
+- Failing to handle edge cases or missing data gracefully
 
 #### Assessment Checklist
 
 Before moving to Phase 3, you should be able to:
-- [ ] Write basic Python scripts for data analysis
-- [ ] Use pandas for data manipulation
-- [ ] Read/write data from various formats
-- [ ] Clean and transform data with Python
-- [ ] Perform basic statistical analysis
-- [ ] Create simple visualizations with matplotlib/seaborn
-- [ ] Debug common Python errors
+- [ ] Write basic Python scripts for data loading, cleaning, and transformation
+- [ ] Effectively use pandas DataFrames for data manipulation and analysis
+- [ ] Read and write data from various formats (CSV, Excel, SQL databases)
+- [ ] Perform data cleaning tasks (missing values, duplicates, type conversion) using pandas
+- [ ] Conduct basic statistical analysis and aggregations with pandas
+- [ ] Create informative visualizations using matplotlib and seaborn
+- [ ] Debug common Python and pandas errors independently
+- [ ] Understand when Python is a suitable tool for a data analysis task versus other tools
+- [ ] Structure a simple data analysis pipeline in Python (e.g., using Jupyter Notebooks)
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Write Python code to: 1) Load restaurant_sales.csv, 2) Convert date to datetime, 3) Calculate daily total sales, 4) Plot trend. Use pandas and matplotlib"
