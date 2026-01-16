@@ -402,6 +402,13 @@ Low Margin, Low Popularity = DOGS 🐕 (remove from menu!)
 
 #### Resources
 
+- All previous curriculum materials (Traditional BI, Spreadsheet BI, Web Dev)
+- F&B Business Processes guides (all regional versions)
+- Capstone project templates and examples
+- Industry case studies and best practices
+- Portfolio presentation guides for F&B BI projects
+- Real F&B datasets for practice (Kaggle, industry sources)
+- Dashboard design inspiration galleries
 - **Books**: "Restaurant Success by the Numbers" by Roger Fields
 - **Calculators**: Excel templates for F&B financial modeling
 - **Industry**: National Restaurant Association benchmarks
