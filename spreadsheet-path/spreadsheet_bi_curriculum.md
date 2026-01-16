@@ -826,7 +826,7 @@ Before moving forward, you should be able to:
 - **Collaboration**: Multiple viewers/editors simultaneously
 - **Publish to Web**: Share public dashboard (read-only)
 - **Embed**: Embed in websites or internal tools
-- **Mobile-Friendly**: Works on phones/tablets
+- **Mobile-Friendly**: Works on phones/tables
 - **Checkboxes**: Native checkboxes (no form controls needed)
 - **Filters**: Built-in filter views (save filter states)
 
@@ -1213,6 +1213,37 @@ Before moving forward, you should be able to:
   2. Processing file (cleans and aggregates)
   3. Dashboard file (pretty & user-friendly)
 - Simulate a data update flowing through the system
+
+#### Resources
+
+- Multi-workbook architecture guides
+- External references documentation
+- Google Sheets IMPORTRANGE tutorials
+- Excel linking best practices
+
+#### Common Pitfalls
+
+❌ **Architecture Issues**:
+- Poor file organization
+- Too many dependencies
+- No documentation of connections
+- Circular references
+
+❌ **Technical Problems**:
+- Broken links when files move
+- Slow performance with many links
+- No error handling
+- Version control challenges
+
+#### Assessment Checklist
+
+Before moving to Phase 5, you should be able to:
+- [ ] Design multi-workbook architectures
+- [ ] Connect files effectively
+- [ ] Manage external references
+- [ ] Handle broken links
+- [ ] Document dependencies
+- [ ] Apply separation of concerns
 
 ---
 
