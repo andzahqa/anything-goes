@@ -57,9 +57,14 @@ graph LR
 - Define 10 key questions a restaurant owner would want answered
 - Sketch (paper/digital) what insights would be most valuable
 
-**Resources**:
-- Read: "The Data Warehouse Toolkit" by Kimball (Chapters 1-2)
-- Watch: Introduction to Business Intelligence (YouTube/Coursera)
+#### Resources
+
+- "Storytelling with Data" by Cole Nussbaumer Knaflic
+- "The Data Warehouse Toolkit" by Kimball (Chapters 1-2)
+- "Business Intelligence Guidebook" by Rick Sherman (Chapters 1-3)
+- Introduction to Business Intelligence courses (YouTube/Coursera/edX)
+- Gartner "What is Business Intelligence?" articles
+- The BI Survey for industry trends and tool comparisons
 
 #### Common Pitfalls
 
@@ -68,17 +73,6 @@ graph LR
 - Thinking BI is only for big companies
 - Not understanding stakeholder needs first
 - Building solutions looking for problems
-
-❌ **Getting Started Errors**:
-- Jumping into tools before understanding concepts
-- Skipping the "why" to focus on "how"
-- Article: "What is Business Intelligence?" by Gartner
-- Book: "Business Intelligence Guidebook" by Rick Sherman (Chapters 1-3)
-- Online Course: "Introduction to Data Science" (e.g., Coursera, edX) for foundational concepts
-- Blog: "The BI Survey" for industry trends and tool comparisons
-- Case Study: Analyze a public BI case study (e.g., how a retail chain uses BI)
-
-#### Common Pitfalls
 
 ❌ **Beginner Mistakes**:
 - Jumping into tools before understanding the business problem
