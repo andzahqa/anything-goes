@@ -489,7 +489,10 @@ Before moving to Phase 4, you should be able to:
 | Digital payment | 45% | 60% | 80% |
 | Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
 ```
+| Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
+```
 
+⚡ **AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
 
 
 **🔍 Pattern Exercise** (3-4 hours):
@@ -517,7 +520,11 @@ Before moving to Phase 4, you should be able to:
 - Universal patterns = benchmark against
 - Regional patterns = must customize for
 
+- Regional patterns = must customize for
 
+💡 **Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
+⚡ **AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
+🤖 **AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable? What am I missing?"
 
 **Tools**:
 - Google Sheets (Comparison Matrix)
@@ -647,7 +654,10 @@ Build:
    - Peak hours heatmap
    - Average spend trends
    - Payment method split
+Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
+```
 
+🔍 **AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
 4. Financial Overview
    - Monthly P&L
    - Prime cost tracking
@@ -693,7 +703,12 @@ Tools: Excel/Sheets with scenario modeling
 ```
 
 
+reflection.md - What you learned, what was hard, what you'd improve
+```
 
+⚡ **AI Generate**: "Generate comprehensive sample F&B data for capstone project: transactions, menu, inventory, staff"
+🤖 **AI Review**: "Review my F&B BI dashboard design. Does it answer the key business questions? What's missing?"
+💡 **Ask AI**: "What are must-have vs nice-to-have features for an F&B dashboard for small restaurant owners?"
 **📝 Documentation**:
 Create `fnb-domain/projects/capstone_[project_name]/`:
 ```
