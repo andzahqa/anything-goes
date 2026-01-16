@@ -617,7 +617,7 @@ Before moving to Phase 5, you should be able to:
 - Missing proof/validation
 - Poor visual communication
 
-#### Final Assessment
+**Final Assessment**:
 
 Capstone complete when you can demonstrate:
 - [ ] Comprehensive F&B domain mastery
@@ -763,7 +763,7 @@ reflection.md - What you learned, what was hard, what you'd improve
 - Focusing on fancy features over core functionality
 - No clear problem being solved
 
-#### Final Assessment Checklist
+**Final Assessment Checklist**:
 
 By the end of this curriculum, you should be able to:
 - [ ] **Explain F&B operations** at the level of an industry insider
