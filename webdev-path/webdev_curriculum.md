@@ -882,8 +882,12 @@ Integrate PostgreSQL with your API:
 
 #### Resources
 
-- PostgreSQL documentation
-- Database design best practices
+- PostgreSQL official documentation
+- MongoDB University (free courses)
+- Prisma documentation (modern ORM)
+- SQL Tutorial by SQLBolt (interactive)
+- Database design patterns and best practices
+- "Designing Data-Intensive Applications" by Martin Kleppmann
 - SQL query optimization guides
 - Prisma ORM documentation
 
@@ -993,6 +997,11 @@ Before moving forward, you should be able to:
 #### Resources
 
 - Node.js official documentation
+- Express.js official guide
+- "Node.js Design Patterns" by Mario Casciaro
+- The Net Ninja Node.js tutorial series
+- freeCodeCamp Backend Development certification
+- MDN Server-side web frameworks overview
 - Express.js guide
 - Node.js best practices
 - REST API design principles
