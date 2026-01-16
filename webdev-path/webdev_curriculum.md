@@ -760,6 +760,8 @@ Expand your analytics viewer with:
 > - **🔍 AI Explain**: "Explain CSS Grid areas vs Flexbox for dashboard layout"
 > - **💡 Ask AI**: "What are the pros and cons of CSS-in-JS vs Tailwind for large apps?"
 > - **🤖 AI Debug**: "Styled-components theme not updating on toggle. Code: [code]"
+⚡ **AI Generate**: "Generate a color palette for professional BI dashboard (10 colors with hex codes)"
+🤖 **AI Review**: Share component code for accessibility and best practices feedback
 
 **Design Tools**:
 - Coolors (color palette generator)
@@ -959,6 +961,7 @@ Build a Node.js API with endpoints for:
 > - **🔍 AI Explain**: "Explain Node.js event loop and why it's good for BI dashboards"
 > - **💡 Ask AI**: "What are REST API best practices for versioning and error responses?"
 > - **🤖 AI Debug**: "My Express route returns 404. Code: [paste]. What's wrong?"
+> - **🤖 AI Debug**: Paste API errors with request/response details for troubleshooting
 
 **Courses**:
 - freeCodeCamp: APIs and Microservices
@@ -1116,8 +1119,6 @@ Before moving forward, you should be able to:
 - Bcrypt (Hashing)
 - OAuth Providers (Google, GitHub Dev Consoles)
 
-#### Resources
-
 - **Documentation**:
   - Node.js Docs
   - Express.js Guide
@@ -1129,6 +1130,16 @@ Before moving forward, you should be able to:
 - **Concepts**:
   - JWT vs Sessions Breakdown
   - OAuth 2.0 Simplified
+
+- Node.js official documentation
+- Express.js official guide
+- "Node.js Design Patterns" by Mario Casciaro
+- The Net Ninja Node.js tutorial series
+- freeCodeCamp Backend Development certification
+- MDN Server-side web frameworks overview
+- Express.js guide
+- Node.js best practices
+- REST API design principles
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Generate Express middleware for JWT authentication and role-based access"

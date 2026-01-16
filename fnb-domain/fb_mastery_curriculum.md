@@ -341,12 +341,12 @@ Why: Combined food + labor = baseline profitability
 [Continue for all metrics from guide...]
 ```
 
-🔍 **AI Explain**: "Explain the difference between gross margin and contribution margin in F&B context with examples"
+
 
 **📊 Practice Calculation** (4-5 hours):
 **Using Real/Simulated Data**:
 
-⚡ **AI Generate**: Ask AI to create 5 more realistic F&B scenarios with varying business models (cloud kitchen, fine dining, etc.)
+
 
 **Exercise 1: Warung Economics Calculation**
 ```
@@ -371,7 +371,7 @@ Analyze:
 - What if delivery (25% commission) = 30% of orders?
 ```
 
-🤖 **AI Debug**: If your calculations don't match expected ranges, paste your work to AI for verification
+
 
 **Exercise 2: Modern Restaurant Analysis**
 ```
@@ -401,43 +401,40 @@ Analyze:
 - [ ] Menu item profitability matrix
 - [ ] Ramadan revenue planner (40-60% spike)
 
-⚡ **AI Generate**: Ask AI to generate realistic sample data for each model
-🤖 **AI Review**: Share your spreadsheet formulas with AI for optimization suggestions
 
-**🎯 Real Menu Analysis** (3-4 hours):
-**Collect Real Data**:
-1. Visit restaurant, photograph menu (with prices)
-2. Estimate ingredient costs (Google typical prices)
-3. Calculate:
-   - Food cost % per menu item
-   - Contribution margin per item
-   - Popularity (observe what people order)
 
-**Create Menu Engineering Matrix**:
-```
-High Margin, High Popularity = STARS ⭐ (promote!)
-High Margin, Low Popularity = PUZZLES ❓ (rename? reposition?)
-Low Margin, High Popularity = PLOWHORSES 🐴 (can't remove, but optimize cost)
-Low Margin, Low Popularity = DOGS 🐕 (remove from menu!)
-```
-
-🔍 **AI Explain**: "Explain the menu engineering matrix - how to classify menu items as Stars, Plow Horses, Puzzles, and Dogs"
-⚡ **AI Generate**: "Generate sample menu data (20 items) with popularity and profit margin for menu engineering practice"
-💡 **Ask AI**: "What are typical food cost % targets for different F&B types (QSR vs fine dining)?"
+**Tools**:
+- Excel / Google Sheets
+- Financial Calculator
+- POS Reports
+- Menu Engineering Templates
 
 #### Resources
 
-- All previous curriculum materials (Traditional BI, Spreadsheet BI, Web Dev)
-- F&B Business Processes guides (all regional versions)
-- Capstone project templates and examples
-- Industry case studies and best practices
-- Portfolio presentation guides for F&B BI projects
-- Real F&B datasets for practice (Kaggle, industry sources)
-- Dashboard design inspiration galleries
-- **Books**: "Restaurant Success by the Numbers" by Roger Fields
-- **Calculators**: Excel templates for F&B financial modeling
-- **Industry**: National Restaurant Association benchmarks
-- **Local**: BPS Indonesia data on F&B industry
+- **Books**:
+  - "Restaurant Success by the Numbers" by Roger Fields
+- **Data**:
+  - BPS Indonesia F&B Statistics
+  - National Restaurant Association Benchmarks
+  - Kaggle F&B Datasets
+- **Templates**:
+  - Financial Modeling Calculator
+  - Menu Engineering Matrix
+  - Capstone Project Templates
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain the difference between gross margin and contribution margin in F&B context"
+> - **⚡ AI Generate**: "Ask AI to create 5 more realistic F&B scenarios with varying business models"
+> - **🤖 AI Debug**: "If your calculations don't match expected ranges, paste your work to AI for verification"
+> - **⚡ AI Generate**: "Generate realistic sample data for each model"
+> - **🤖 AI Review**: "Share your spreadsheet formulas with AI for optimization suggestions"
+> - **🔍 AI Explain**: "Explain the menu engineering matrix - how to classify menu items as Stars, Plow Horses, Puzzles, and Dogs"
+> - **⚡ AI Generate**: "Generate sample menu data (20 items) with popularity and profit margin"
+> - **💡 Ask AI**: "What are typical food cost % targets for different F&B types?"
+
+
+
+
 
 #### Common Pitfalls
 
