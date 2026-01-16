@@ -552,8 +552,6 @@ Before moving to Module 5, you should be able to:
 - [ ] Built charts and visualizations
 - [ ] Generated business recommendations from findings
 
-
-
 ---
 
 ## Module 5: BI Application & Capstone (Week 6) - 8-10 hours
@@ -721,6 +719,10 @@ By the end of this curriculum, you should be able to:
 - [ ] **Integration of all curriculum learning**
 
 **✅ Capstone Completion**:
+- [ ] **Regional Analysis Report** (20-30 pages)
+- [ ] **BI Dashboard** with actionable F&B insights
+- [ ] **Presentation Deck** summarizing findings
+- [ ] **Action Plan** for F&B business improvement
 - [ ] Designed complete F&B BI solution
 - [ ] Created documentation and user guide
 - [ ] Presented to F&B stakeholder or peer
