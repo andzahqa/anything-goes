@@ -1166,8 +1166,11 @@ Before moving forward, you should be able to:
 **Tools**: Your chosen BI platform (Tableau/Power BI/etc.)
 
 > **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Write DAX formula to calculate: Prior Year same month sales for comparison"
-> - **🔍 AI Explain**: "Explain the difference between calculated columns and measures in Power BI with examples"
+> - **⚡ AI Generate**: "Write DAX formula to calculate: Prior Year same month sales for comparison" or "Create drill-through action setup for Power BI dashboard"
+> - **🔍 AI Explain**: "Explain the difference between calculated columns and measures in Power BI with examples" or "Explain time intelligence in BI: YTD, MTD, rolling averages with F&B examples"
+> - **💡 Ask AI**: "What are best practices for dashboard performance optimization in Tableau/Power BI?" or "How do I implement what-if analysis parameters in my dashboard?"
+> - **🤖 AI Debug**: "My dashboard is slow with 100k rows. How to optimize: [describe setup]?" or "This DAX measure returns wrong values: [paste formula]. Debug it"
+> - **🔧 AI Review**: "Review my dashboard navigation structure. Is it intuitive for restaurant managers?"
 
 #### Resources
 
