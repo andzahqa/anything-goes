@@ -310,7 +310,7 @@ Before moving to Phase 2, you should be able to:
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain standard deviation and why it matters for business analytics with F&B examples"
 > - **💡 Ask AI**: "When should I use median vs mean for restaurant sales analysis?"
-> - **⚡ AI Generate**: "Generate sample restaurant sales data (100 days) with seasonal patterns and outliers"
+> - **⚡ AI Generate**: "Give me 20 beginner-level VLOOKUP practice problems"
 
 #### Common Pitfalls
 
