@@ -72,18 +72,48 @@ graph LR
 ❌ **Getting Started Errors**:
 - Jumping into tools before understanding concepts
 - Skipping the "why" to focus on "how"
-- Not learning business domain first
-- Expecting immediate mastery
+- Article: "What is Business Intelligence?" by Gartner
+- Book: "Business Intelligence Guidebook" by Rick Sherman (Chapters 1-3)
+- Online Course: "Introduction to Data Science" (e.g., Coursera, edX) for foundational concepts
+- Blog: "The BI Survey" for industry trends and tool comparisons
+- Case Study: Analyze a public BI case study (e.g., how a retail chain uses BI)
+
+#### Common Pitfalls
+
+❌ **Beginner Mistakes**:
+- Jumping into tools before understanding the business problem
+- Creating dashboards nobody asked for or needs
+- Not talking to stakeholders early and often
+- Analysis paralysis (over-analyzing without delivering value)
+- Focusing on aesthetics over actionable insights
+- Building reports that don't answer business questions
+
+❌ **Data Mistakes**:
+- Trusting data blindly without validation or spot-checks
+- Not understanding data lineage (where data comes from)
+- Ignoring data quality issues and dirty data
+- Using wrong data sources or outdated information
+- Not documenting data assumptions and limitations
+
+❌ **Communication Mistakes**:
+- Using technical jargon with business stakeholders
+- Presenting too much detail without a clear narrative
+- Not tailoring insights to the audience
+- Failing to explain "so what" - the business impact
+- Over-complicating analysis (simple often better)
+- Not validating results with domain knowledge
 
 #### Assessment Checklist
 
 Before moving forward, you should be able to:
-- [ ] Explain what BI is and why it matters
-- [ ] Describe the BI value chain
-- [ ] Differentiate between descriptive, diagnostic, predictive analytics
-- [ ] Identify stakeholder needs
-- [ ] Define business questions that BI can answer
-- [ ] Understand the "everyman" user perspective
+- [ ] Explain what BI is and how it differs from data science/analytics
+- [ ] Identify stakeholder needs and translate them into BI requirements
+- [ ] Distinguish between metrics, KPIs, dimensions, and measures
+- [ ] Understand the complete BI workflow (data → analysis → insights → action)
+- [ ] Recognize good vs bad metrics (actionable, accessible, auditable)
+- [ ] Articulate the value of BI to business stakeholders
+- [ ] Identify when BI is the right solution vs other approaches
+- [ ] Understand ethical considerations in data analysis and reporting
 
 ---
 
