@@ -552,51 +552,7 @@ Before moving to Module 5, you should be able to:
 - [ ] Built charts and visualizations
 - [ ] Generated business recommendations from findings
 
-**Deliverable**:
-- Complete regional F&B analysis report (20-30 pages)
-- BI dashboard with F&B insights
-- Presentation summarizing findings
-- Action plan for F&B business improvement
 
-**Resources**:
-
-- "Restaurant Financial Basics" by Raymond Goodman
-- QuickBooks for Restaurants guide
-- F&B financial management courses
-- Industry P&L templates and benchmarks
-- Cost control and budgeting guides
-- National Restaurant Association financial benchmarks
-- Restaurant accounting best practices
-- All previous F&B Business Processes guides
-- BI curriculum materials  
-- Regional F&B industry reports
-- Capstone project templates
-
-**Common Pitfalls**:
-
-❌ **Capstone Mistakes**:
-- Scope too broad (can't finish)
-- Not applying F&B domain knowledge
-- Generic insights not actionable
-- Missing business context
-
-❌ **Presentation Issues**:
-- Too technical for F&B operators
-- No clear recommendations
-- Missing proof/validation
-- Poor visual communication
-
-**Final Assessment**:
-
-Capstone complete when you can demonstrate:
-- [ ] Comprehensive F&B domain mastery
-- [ ] Applied BI skills to real F&B scenario
-- [ ] Regional F&B business understanding
-- [ ] Actionable insights delivered
-- [ ] Professional presentation quality
-- [ ] Portfolio-ready work
-- [ ] Ability to consult F&B businesses
-- [ ] Integration of all curriculum learning
 
 ---
 
@@ -698,6 +654,18 @@ reflection.md - What you learned, what was hard, what you'd improve
   - Anonymized Real Data
 - **Presentation**:
   - Google Slides Templates
+- **Documentation & Guides**:
+  - "Restaurant Financial Basics" by Raymond Goodman
+  - QuickBooks for Restaurants guide
+  - F&B financial management courses
+  - Industry P&L templates and benchmarks
+  - Cost control and budgeting guides
+  - National Restaurant Association financial benchmarks
+  - Restaurant accounting best practices
+  - All previous F&B Business Processes guides
+  - BI curriculum materials  
+  - Regional F&B industry reports
+  - Capstone project templates
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
@@ -721,6 +689,18 @@ reflection.md - What you learned, what was hard, what you'd improve
 - Focusing on fancy features over core functionality
 - No clear problem being solved
 
+❌ **Capstone Mistakes**:
+- Scope too broad (can't finish)
+- Not applying F&B domain knowledge
+- Generic insights not actionable
+- Missing business context
+
+❌ **Presentation Issues**:
+- Too technical for F&B operators
+- No clear recommendations
+- Missing proof/validation
+- Poor visual communication
+
 **Final Assessment Checklist**:
 
 By the end of this curriculum, you should be able to:
@@ -731,6 +711,14 @@ By the end of this curriculum, you should be able to:
 - [ ] **Design BI dashboards** specifically for F&B operators
 - [ ] **Communicate insights** to non-technical F&B owners
 - [ ] **Understand regional context** (Indonesia/SEA market)
+- [ ] **Comprehensive F&B domain mastery**
+- [ ] **Applied BI skills to real F&B scenario**
+- [ ] **Regional F&B business understanding**
+- [ ] **Actionable insights delivered**
+- [ ] **Professional presentation quality**
+- [ ] **Portfolio-ready work**
+- [ ] **Ability to consult F&B businesses**
+- [ ] **Integration of all curriculum learning**
 
 **✅ Capstone Completion**:
 - [ ] Designed complete F&B BI solution
