@@ -640,9 +640,55 @@ Before moving to Phase 3, you should be able to:
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Write Python code to: 1) Load restaurant_sales.csv, 2) Convert date to datetime, 3) Calculate daily total sales, 4) Plot trend. Use pandas and matplotlib"
 > - **🤖 AI Debug**: "This pandas code throws KeyError: [paste code]. Why?"
-> - **💡 Ask AI**: "Show me 5 common pandas operations for analyzing sales data"
-> - **⚡ AI Generate**: "Write pandas code to group by category and calculate sum, mean, and count"
-> - **🔍 AI Explain**: "Explain pandas DataFrames in simple terms with restaurant data example"
+> - **🔍 AI Explain**: "Explain star schema vs snowflake schema with an F&B restaurant example"
+> - **⚡ AI Generate**: "Design a data model for a restaurant: what tables are needed, relationships, sample ERD"
+> - **💡 Ask AI**: "What's the difference between fact and dimension tables? Give F&B examples"
+
+#### Resources
+
+- "The Data Warehouse Toolkit" by Ralph Kimball (the dimensional modeling bible)
+- Star schema vs snowflake schema comparison guides
+- Database normalization tutorials (1NF, 2NF, 3NF)
+- ERD (Entity-Relationship Diagram) tools and best practices
+- Data modeling patterns and anti-patterns articles
+- SQL Server/PostgreSQL data modeling documentation
+
+#### Common Pitfalls
+
+❌ **Modeling Mistakes**:
+- Not understanding business requirements before modeling
+- Modeling only for current state (no future scalability)
+- Unclear grain definition (mixing detail levels in fact tables)
+- Missing or incorrect foreign key relationships
+- Not documenting model assumptions and business rules
+- Over-normalizing (slow queries) or under-normalizing (data inconsistency)
+
+❌ **Schema Design Errors**:
+- Fact tables without proper surrogate keys
+- Missing date/time dimensions (critical for time-based analysis)
+- Dimension tables without Slowly Changing Dimension (SCD) handling
+- Conformed dimensions not actually conformed across data marts
+- Poor naming conventions making schema hard to understand
+- Overuse of snowflaking creating unnecessary complexity
+
+❌ **Performance Issues**:
+- Missing indexes on foreign keys and frequently queried columns
+- Fact tables that are too wide (too many columns)
+- Not partitioning large tables appropriately
+- Materialized views not refreshed properly or efficiently
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Design star schema data models for business scenarios
+- [ ] Identify and define fact vs dimension tables correctly
+- [ ] Define appropriate grain for fact tables
+- [ ] Create comprehensive ERD diagrams
+- [ ] Understand normalization trade-offs for BI
+- [ ] Apply data modeling best practices and naming conventions
+- [ ] Explain slowly changing dimensions and when to use them
+- [ ] Model data for both current needs and future scalability
+- [ ] Document data models clearly for other developers
 
 ---
 
