@@ -27,7 +27,7 @@
 
 ---
 
-## Phase 1: Foundation (Week 1) - 10-12 hours
+## Module 1: Foundation (Week 1) - 10-12 hours
 
 ### Goal: Understand the F&B Landscape
 
@@ -140,7 +140,7 @@ Duration: [How long you observed]
 
 **Assessment Checklist**:
 
-Before moving to Phase 2, you should be able to:
+Before moving to Module 2, you should be able to:
 - [ ] Explain the difference between warung, warteg, and kaki lima
 - [ ] Describe FOH and BOH operations
 - [ ] List major F&B business models in Indonesia
@@ -148,7 +148,7 @@ Before moving to Phase 2, you should be able to:
 - [ ] Explain how GoFood/Grab integration works
 - [ ] Compare traditional vs modern F&B operations
 
-**✅ Phase 1 Completion Checklist**:
+**✅ Module 1 Completion Checklist**:
 - [ ] Read complete Indonesia F&B guide
 - [ ] Visited 3 different F&B types
 - [ ] Created observation logs for each
@@ -156,7 +156,7 @@ Before moving to Phase 2, you should be able to:
 
 ---
 
-## Phase 2: Deep Dive - Operations (Week 2) - 10-12 hours
+## Module 2: Deep Dive - Operations (Week 2) - 10-12 hours
 
 ### Goal: Understand Daily Workflows & Data Generation
 
@@ -283,7 +283,7 @@ Pain Points:
 
 **Assessment Checklist**:
 
-Before moving to Phase 3, you should be able to:
+Before moving to Module 3, you should be able to:
 - [ ] Draw complete data flow maps for 3 different F&B models
 - [ ] Identify 15+ data touchpoints in restaurant operations
 - [ ] Explain the customer journey from entry to exit
@@ -291,7 +291,7 @@ Before moving to Phase 3, you should be able to:
 - [ ] List common pain points F&B operators face
 - [ ] Identify where technology can add most value
 
-**✅ Phase 2 Completion Checklist**:
+**✅ Module 2 Completion Checklist**:
 - [ ] Created data flow maps for 3 business models
 - [ ] Interviewed someone in F&B
 - [ ] Documented interview insights
@@ -299,7 +299,7 @@ Before moving to Phase 3, you should be able to:
 
 ---
 
-## Phase 3: Financial & Metrics Mastery (Week 3-4) - 12-15 hours
+## Module 3: Financial & Metrics Mastery (Week 3-4) - 12-15 hours
 
 ### Goal: Understand the Numbers That Matter
 
@@ -334,7 +334,6 @@ Why: Combined food + labor = baseline profitability
 **📊 Practice Calculation** (4-5 hours):
 **Using Real/Simulated Data**:
 [Continue for all metrics from guide...]
-```
 
 **Exercise 1: Warung Economics Calculation**
 ```
@@ -435,7 +434,7 @@ Analyze:
 
 **Assessment Checklist**:
 
-Before moving to Phase 4, you should be able to:
+Before moving to Module 4, you should be able to:
 - [ ] Calculate food cost %, labor cost %, and prime cost %
 - [ ] Explain what RevPASH is and why it matters
 - [ ] Perform menu engineering analysis
@@ -443,7 +442,7 @@ Before moving to Phase 4, you should be able to:
 - [ ] Identify when a metric is "good" vs "concerning"
 - [ ] Build a financial model in Excel/Sheets
 
-**✅ Phase 3 Completion Checklist**:
+**✅ Module 3 Completion Checklist**:
 - [ ] Built F&B financial calculator
 - [ ] Calculated metrics for 3 different businesses
 - [ ] Performed menu analysis on real/sample menu
@@ -451,7 +450,7 @@ Before moving to Phase 4, you should be able to:
 
 ---
 
-## Phase 4: Regional Comparison & Patterns (Week 5) - 8-10 hours
+## Module 4: Regional Comparison & Patterns (Week 5) - 8-10 hours
 
 ### Goal: Understand Market Variations & Identify Patterns
 
@@ -469,8 +468,6 @@ Before moving to Phase 4, you should be able to:
 | Labor cost % | 25-32% | 28-35% | 35-40% |
 | Rent burden | 6-12% | 8-15% | 15-25%! |
 | Digital payment | 45% | 60% | 80% |
-| Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
-```
 | Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
 ```
 
@@ -540,7 +537,7 @@ Before moving to Phase 4, you should be able to:
 
 **Assessment Checklist**:
 
-Before moving to Phase 5, you should be able to:
+Before moving to Module 5, you should be able to:
 - [ ] Clean and prepare F&B transaction data
 - [ ] Perform sales analysis by time, product, location
 - [ ] Identify bestsellers and underperformers
@@ -549,7 +546,7 @@ Before moving to Phase 5, you should be able to:
 - [ ] Visualize data effectively
 - [ ] Generate actionable recommendations from data
 
-**✅ Phase 4 Completion Checklist**:
+**✅ Module 4 Completion Checklist**:
 - [ ] Analyzed sample or real F&B dataset
 - [ ] Created 5 different analysis reports
 - [ ] Built charts and visualizations
@@ -603,7 +600,7 @@ Capstone complete when you can demonstrate:
 
 ---
 
-## Phase 5: BI Application & Capstone (Week 6) - 8-10 hours
+## Module 5: BI Application & Capstone (Week 6) - 8-10 hours
 
 ### Goal: Apply Domain Knowledge to Build BI Solution
 
@@ -796,7 +793,7 @@ Once you master F&B, same approach for:
 
 ---
 
-**Start Your Journey**: Begin with Phase 1 this week! 🍽️📊
+**Start Your Journey**: Begin with Module 1 this week! 🍽️📊
 
 ---
 
