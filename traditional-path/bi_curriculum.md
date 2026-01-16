@@ -177,6 +177,11 @@ graph LR
 - Khan Academy Statistics
 - "Naked Statistics" by Charles Wheelan (book)
 
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain standard deviation and why it matters for business analytics with F&B examples"
+> - **💡 Ask AI**: "When should I use median vs mean for restaurant sales analysis?"
+> - **⚡ AI Generate**: "Generate sample restaurant sales data (100 days) with seasonal patterns and outliers"
+
 ---
 
 ### Module 2.2: Data Cleaning & Preparation
@@ -215,6 +220,11 @@ graph LR
 **Resources**:
 - Data Cleaning tutorials (Kaggle Learn)
 - Real-world messy datasets for practice
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What are the best practices for handling missing values in sales data?"
+> - **🤖 AI Debug**: "My data has inconsistent date formats (MM/DD/YYYY and DD-MM-YY). How do I standardize them?"
+> - **⚡ AI Generate**: "Create a checklist for data quality assessment"
 
 ---
 
@@ -444,6 +454,11 @@ graph LR
 - Dashboard design galleries (Tableau Public, Dribbble)
 - Andy Kriebel's Makeover Monday
 
+> **🤖 AI Assistance**:
+> - **🤖 AI Review**: Share wireframe/mockup: "Review this dashboard layout for an F&B operator. Is the hierarchy clear?"
+> - **💡 Ask AI**: "What are the best practices for designing mobile-responsive dashboards?"
+> - **⚡ AI Generate**: "Generate 3 dashboard wireframe layout ideas for restaurant operations"
+
 ---
 
 ### Module 3.3: BI Tools - Hands-on with Visualization Platforms
@@ -515,6 +530,11 @@ graph LR
 - Official tool documentation
 - YouTube tutorials for your chosen tool
 
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Compare Tableau vs Power BI vs Google Data Studio for small F&B business - which should I learn first?"
+> - **🤖 AI Debug**: "My dashboard is slow to load (5+ seconds). What are common performance issues and fixes?"
+> - **⚡ AI Generate**: "Create DAX formula for calculating Year-over-Year growth percentage"
+
 ---
 
 ## Phase 4: Business Intelligence & Advanced Dashboards (Weeks 12-15)
@@ -565,6 +585,10 @@ graph LR
 - "Storytelling with Data" by Cole Nussbaumer Knaflic
 - TED talks about data
 - Data journalism examples (The Pudding, FiveThirtyEight)
+
+> **🤖 AI Assistance**:
+> - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?"
+> - **💡 Ask AI**: "How do I present negative findings (declining sales) in a constructive way?"
 
 ---
 
@@ -617,6 +641,10 @@ graph LR
 
 **Tools**: Your chosen BI platform (Tableau/Power BI/etc.)
 
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Write DAX formula to calculate: Prior Year same month sales for comparison"
+> - **🔍 AI Explain**: "Explain the difference between calculated columns and measures in Power BI with examples"
+
 ---
 
 ### Module 4.3: Data Modeling for BI
@@ -664,6 +692,11 @@ graph LR
 **Resources**:
 - "The Data Warehouse Toolkit" by Ralph Kimball
 - Dimensional modeling patterns
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a star schema design for F&B analytics (fact and dimension tables)"
+> - **🔍 AI Explain**: "Explain slowly changing dimensions (SCD) with restaurant menu example (prices change over time)"
+> - **💡 Ask AI**: "When should I use snowflake schema vs star schema for BI?"
 
 ---
 
@@ -720,6 +753,10 @@ graph LR
 - "Restaurant Success by the Numbers" by Roger Fields
 - National Restaurant Association resources
 - F&B industry reports
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What are the key differences in metrics between QSR, fast casual, and fine dining?"
+> - **⚡ AI Generate**: "Create list of 30 questions an F&B dashboard should answer for different stakeholder roles"
 
 ---
 
@@ -863,6 +900,11 @@ graph LR
 - Case studies from BI vendors
 - Restaurant analytics platforms (Toast, Upserve, etc.) for inspiration
 
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Generate realistic F&B transaction dataset (1000 rows) with: date, item, category, price, quantity, payment method"
+> - **🤖 AI Review**: "Review my F&B dashboard design. Does it answer the key operational questions?"
+> - **💡 Ask AI**: "What alerts/thresholds should I set for F&B KPI monitoring?"
+
 ---
 
 ### Module 5.4: Advanced F&B Analytics
@@ -911,6 +953,11 @@ graph LR
 **Tools**: 
 - Your BI tool + potentially Python for modeling
 - Forecasting features in Tableau/Power BI
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain market basket analysis for restaurants - how to find which items sell together"
+> - **⚡ AI Generate**: "Create Python code for simple sales forecasting using moving average"
+> - **💡 Ask AI**: "What factors should I consider when forecasting restaurant sales (seasonality, weather, events)?"
 
 ---
 
@@ -966,6 +1013,12 @@ graph LR
 - [ ] Looks professional and modern
 - [ ] Performs well (loads quickly, responsive)
 - [ ] You're proud to show it in a portfolio or interview!
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create comprehensive sample F&B dataset with all tables needed for complete analytics (sales, inventory, staff, customers)"
+> - **🤖 AI Review**: "Review my complete capstone project. What's missing? What could be improved?"
+> - **💡 Ask AI**: "What are must-have features for an F&B dashboard targeting small restaurant owners?"
+> - **💡 Ask AI**: "How do I explain technical concepts (like YoY growth) to non-technical users in my dashboard?"
 
 ---
 
