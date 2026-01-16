@@ -211,8 +211,6 @@ BI Opportunity:
 - [ ] Modern restaurant (mall, POS system)
 - [ ] Cloud kitchen (delivery-only, app-driven)
 
-
-
 **🔬 Interview Exercise** (3 hours):
 **Find and interview someone who works in F&B** (server, cook, owner):
 
@@ -238,8 +236,6 @@ Pain Points:
 11. What causes the most losses (waste, theft, etc.)?
 12. If you could change one thing, what would it be?
 ```
-
-
 
 **Document Interview**:
 - Create `fnb-domain/notes/interview_[name]_[date].md`
