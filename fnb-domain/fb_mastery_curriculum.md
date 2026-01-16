@@ -493,6 +493,13 @@ Before moving to Phase 4, you should be able to:
 
 #### Resources
 
+- "Setting the Table" by Danny Meyer (hospitality philosophy)
+- "Kitchen Confidential" by Anthony Bourdain (industry insights)
+- National Restaurant Association resources and reports
+- ServSafe food safety certification materials
+- Restaurant industry publications (Restaurant Business, Nation's Restaurant News)
+- Local F&B regulations and health department guidelines
+- Culinary institute resources and online courses
 - **Data**: Kaggle F&B datasets for practice
 - **Analysis**: Google Sheets QUERY function tutorials
 - **Visualization**: Chart.js or Google Charts documentation
@@ -537,6 +544,13 @@ Before moving to Phase 5, you should be able to:
 
 #### Resources
 
+- "Restaurant Financial Basics" by Raymond Goodman
+- QuickBooks for Restaurants guide
+- F&B financial management courses
+- Industry P&L templates and benchmarks
+- Cost control and budgeting guides
+- National Restaurant Association financial benchmarks
+- Restaurant accounting best practices
 - All previous F&B Business Processes guides
 - BI curriculum materials  
 - Regional F&B industry reports
