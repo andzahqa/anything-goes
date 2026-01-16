@@ -44,8 +44,8 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 - Event handling: click, submit, input, change events
 - ES6+ features: template literals, destructuring, spread/rest, arrow functions
 
-🔍 **AI Explain**: For any JavaScript confusion, ask: "Explain [concept] with web dev examples and code snippets"
-💡 **Ask AI**: "What's the difference between map() and forEach()? When should I use each?"
+- ES6+ features: template literals, destructuring, spread/rest, arrow functions
+
 
 #### Hands-on Exercises
 
@@ -67,7 +67,31 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 4. API practice: Fetch data from JSONPlaceholder and display it
 5. Build a simple image gallery with prev/next navigation
 
-⚡ **AI Generate**: "Create 10 JavaScript array manipulation exercises with solutions"
+**Tools**:
+- VS Code (Editor)
+- Chrome DevTools (Debugging)
+- Git & GitHub (Version Control)
+- Postman (API Testing - for later)
+
+#### Resources
+
+- **Documentation**:
+  - MDN Web Docs (The Bible of Web Dev)
+  - HTML Living Standard
+  - CSS Tricks (Practical guides)
+- **Interactive**:
+  - freeCodeCamp (Responsive Web Design)
+  - Frontend Mentor (Projects)
+  - Flexbox Froggy & Grid Garden
+- **Video**:
+  - Traversy Media (Crash Courses)
+  - Kevin Powell (CSS King)
+  - The Net Ninja (Full Series)
+
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain [concept] with web dev examples and code snippets"
+> - **💡 Ask AI**: "What's the difference between map() and forEach()? When should I use each?"
+> - **🤖 AI Debug**: "I'm getting [error message] when doing [what you're trying to do]. Here's my code: [code]"
 
 #### Common Pitfalls
 
@@ -84,34 +108,10 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 - Not testing on different browsers
 
 ❌ **JavaScript Mistakes**:
-- Trying to manipulate DOM before it's loaded (use DOMContentLoaded)
+- Trying to manipulate DOM before it's loaded
 - Not handling errors in async code
 - Mutating arrays/objects unintentionally
-- Using == instead of === (type coercion issues)
-
-🤖 **AI Debug**: If you encounter errors, paste: "I'm getting [error message] when doing [what you're trying to do]. Here's my code: [code]"
-
-#### Resources
-
-**Documentation**:
-- MDN Web Docs: https://developer.mozilla.org (THE reference)
-- HTML Living Standard: https://html.spec.whatwg.org
-- CSS Tricks: https://css-tricks.com (practical guides)
-
-**Interactive Learning**:
-- freeCodeCamp: Responsive Web Design Certification
-- Frontend Mentor: Real-world practice projects
-- Flexbox Froggy: Learn Flexbox through games
-- Grid Garden: Learn CSS Grid through games
-
-**Video Courses**:
-- Traversy Media (YouTube): Web dev crash courses
-- The Net Ninja (YouTube): HTML/CSS/JS series
-- Kevin Powell (YouTube): CSS master
-
-**Books**:
-- "Eloquent JavaScript" by Marijn Haverbeke (free online)
-- "HTML & CSS" by Jon Duckett (beautiful, visual)
+- Using `==` instead of `===`
 
 #### Assessment Checklist
 

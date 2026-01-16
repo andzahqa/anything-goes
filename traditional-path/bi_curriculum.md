@@ -1082,13 +1082,6 @@ Before moving to Phase 4, you should be able to:
 - Screen recording software (for practice)
 - Storytelling frameworks and templates
 
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create a data story outline for declining restaurant sales: setup, conflict, resolution structure" or "Write presentation script explaining food cost increase to restaurant owner"
-> - **🔍 AI Explain**: "Explain the classic story structure (setup-conflict-resolution) applied to data presentations" or "Explain executive summary vs detailed analysis - when to use each"
-> - **💡 Ask AI**: "How do I present negative findings (declining sales) in a constructive way?" or "What storytelling techniques make data memorable for non-technical audiences?"
-> - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?" or "Review this dashboard narrative. Does it follow good storytelling principles?"
-> - **🔧 AI Debug**: "My stakeholders zone out during presentations. How to engage them better with data stories?"
-
 #### Resources
 - "Storytelling with Data" by Cole Nussbaumer Knaflic (essential reading)
 - "The Visual Display of Quantitative Information" by Edward Tufte (classic)
@@ -1099,6 +1092,13 @@ Before moving to Phase 4, you should be able to:
 - "Show Me the Numbers" by Stephen Few (practical guide to quantitative information)
 - TED talks about data (for inspiration on compelling presentations)
 - Data journalism examples (The Pudding, FiveThirtyEight - for narrative structure)
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a data story outline for declining restaurant sales: setup, conflict, resolution structure" or "Write presentation script explaining food cost increase to restaurant owner"
+> - **🔍 AI Explain**: "Explain the classic story structure (setup-conflict-resolution) applied to data presentations" or "Explain executive summary vs detailed analysis - when to use each"
+> - **💡 Ask AI**: "How do I present negative findings (declining sales) in a constructive way?" or "What storytelling techniques make data memorable for non-technical audiences?"
+> - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?" or "Review this dashboard narrative. Does it follow good storytelling principles?"
+> - **🔧 AI Debug**: "My stakeholders zone out during presentations. How to engage them better with data stories?"
 
 #### Common Pitfalls
 
