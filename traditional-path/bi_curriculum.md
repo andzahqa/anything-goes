@@ -1377,8 +1377,8 @@ Before moving to Capstone, you should be able to:
 
 ---
 
-### Module 4.2: Data Modeling
-**Duration**: 1 week
+### Module 4.5: Data Modeling
+**Duration**: 1.5 weeks
 
 **Learning Objectives**:
 - Understand different data models (star, snowflake)
