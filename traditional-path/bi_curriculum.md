@@ -611,7 +611,7 @@ Before moving forward, you should be able to:
 - Not resetting index after operations
 - Memory issues with large datasets (not using chunks)
 - Mixing loc/iloc incorrectly
-- Misunderstanding `copy()` vs. view behavior
+- Misunderstanding `copy()` vs view behavior
 - Inefficient data type conversions (e.g., object to datetime)
 
 ❌ **Data Analysis Issues**:
@@ -1553,6 +1553,7 @@ Before moving forward, you should be able to:
   - Menu item popularity (itemsold)
   - Menu item profitability (profit per item)
   - Menu engineering matrix (star/plow horse/puzzle/dog)
+  - Pricing analysis
   - Contribution margin by item
 
 **Hands-on Projects**:
@@ -1756,7 +1757,7 @@ Before moving forward, you should be able to:
   - Sales forecasting model
   - Market basket analysis
   - Inventory optimization recommendation engine
-- Build a dashboard showing the predictions/recommendations
+  - Build a dashboard showing the predictions/recommendations
 
 **Tools**: 
 - Your BI tool + potentially Python for modeling
