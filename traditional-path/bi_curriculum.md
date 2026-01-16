@@ -182,6 +182,29 @@ graph LR
 > - **💡 Ask AI**: "When should I use median vs mean for restaurant sales analysis?"
 > - **⚡ AI Generate**: "Generate sample restaurant sales data (100 days) with seasonal patterns and outliers"
 
+#### Common Pitfalls
+
+❌ **Statistical Mistakes**:
+- Using mean when median is more appropriate (with outliers)
+- Not understanding confidence intervals (over-interpreting results)
+- Correlation vs causation confusion
+- Small sample sizes leading to unreliable conclusions
+
+❌ **Analysis Errors**:
+- Not visualizing data before analyzing (miss patterns)
+- Ignoring data quality issues
+- Over-complicating analysis (simple often better)
+- Not validating results with domain knowledge
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Calculate and interpret mean, median, mode, standard deviation
+- [ ] Identify outliers and understand their impact
+- [ ] Perform correlation analysis
+- [ ] Choose appropriate statistical measures for different scenarios
+- [ ] Understand when statistical significance matters
+
 ---
 
 ### Module 2.2: Data Cleaning & Preparation
@@ -585,6 +608,29 @@ graph LR
 - "Storytelling with Data" by Cole Nussbaumer Knaflic
 - TED talks about data
 - Data journalism examples (The Pudding, FiveThirtyEight)
+
+#### Common Pitfalls
+
+❌ **Storytelling Mistakes**:
+- Showing all the data instead of the insight
+- No clear narrative arc (beginning, middle, end)
+- Too technical for the audience
+- Burying the lede (key insight not obvious)
+
+❌ **Presentation Errors**:
+- Reading directly from slides/dashboard
+- Not anticipating questions
+- Going over time limit
+- No call to action at the end
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Craft a compelling data narrative with clear beginning, middle, end
+- [ ] Identify the "so what" of your analysis
+- [ ] Present to different audience types (technical vs executive)
+- [ ] Handle questions and objections confidently
+- [ ] Use storytelling techniques to make data memorable
 
 > **🤖 AI Assistance**:
 > - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?"

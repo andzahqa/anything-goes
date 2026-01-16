@@ -153,6 +153,36 @@ graph LR
 > - **🔍 AI Explain**: "Explain pivot tables like I'm 10, then show me an F&B example"
 > - **⚡ AI Generate**: "Give me 20 beginner-level VLOOKUP practice problems"
 
+#### Common Pitfalls
+
+❌ **Formula Mistakes**:
+- Using VLOOKUP with unsorted data when approximate match is on
+- Forgetting to lock references with $ in formulas
+- Not handling errors (#N/A, #REF!, #DIV/0!)
+- Circular references in formulas
+
+❌ **Pivot Table Issues**:
+- Data not formatted as table (causes refresh issues)
+- Blank rows/columns in source data
+- Not refreshing pivot after data changes
+- Too many row/column fields (slow performance)
+
+❌ **Data Quality**:
+- Inconsistent date formats
+- Leading/trailing spaces in text
+- Numbers stored as text
+- Duplicate entries not identified
+
+#### Assessment Checklist
+
+Before moving to Phase 2, you should be able to:
+- [ ] Write complex formulas using SUMIFS, COUNTIFS, and nested IFs
+- [ ] Use VLOOKUP or INDEX/MATCH to join data from multiple tables
+- [ ] Create and customize pivot tables
+- [ ] Apply conditional formatting for visual insights
+- [ ] Clean messy data efficiently
+- [ ] Build a basic dashboard with charts and slicers
+
 ---
 
 ### Module 1.3: Data Thinking for F&B
@@ -253,6 +283,34 @@ graph LR
 > - **🤖 AI Debug**: "This Power Query M code gives error: [paste code]. What's wrong?"
 > - **💡 Ask AI**: "Walk me through merging two tables in Power Query: Sales (product_id, amount) and Products (product_id, name, cost)"
 
+#### Common Pitfalls
+
+❌ **Power Query Mistakes**:
+- Not promoting headers correctly (first row as data)
+- Changing source data location without updating query
+- Too many steps (slows refresh)
+- Not understanding query dependencies (breaking merge operations)
+
+❌ **Data Type Errors**:
+- Dates imported as text
+- Numbers with currency symbols not converting properly
+- Inconsistent decimal separators (1,000 vs 1.000)
+
+❌ **Performance Issues**:
+- Loading huge datasets directly into Excel (use filtering first)
+- Not folding query steps (forces local processing)
+- Refreshing all queries when only one needs update
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Import data from multiple file types (CSV, Excel, folders)
+- [ ] Clean and transform messy data with Power Query
+- [ ] Combine data from multiple sources (Append and Merge)
+- [ ] Set up automated refresh workflows
+- [ ] Understand M language basics
+- [ ] Debug common Power Query errors
+
 ---
 
 ### Module 2.2: Power Pivot & Data Modeling
@@ -333,6 +391,37 @@ graph LR
 > - **💡 Ask AI**: "Explain filter context vs row context in DAX like I'm new to this"
 > - **🤖 AI Debug**: "This DAX measure returns wrong value: [paste DAX]. Expected: X, Got: Y. Why?"
 > - **⚡ AI Generate**: "Give me 10 common DAX patterns for F&B analytics"
+
+#### Common Pitfalls
+
+❌ **DAX Mistakes**:
+- Using calculated columns when measures are more appropriate (slow performance)
+- Not understanding filter context (measures returning unexpected totals)
+- Overusing CALCULATE with too many filters (hard to maintain)
+- Circular dependency errors in measures
+
+❌ **Relationship Issues**:
+- Creating many-to-many relationships (causes ambiguity)
+- Missing relationships between fact and dimension tables
+- Wrong relationship directions (one-to-many backwards)
+- Inactive relationships not properly activated in DAX
+
+❌ **Performance Problems**:
+- Too many calculated columns (bloats model size)
+- Not using time intelligence properly (slow custom calculations)
+- Importing unnecessary columns
+- Not compressing strings with value encoding
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Design star schema data models
+- [ ] Create relationships between tables correctly
+- [ ] Write DAX measures for common calculations
+- [ ] Implement time intelligence (YoY, MoM, YTD)
+- [ ] Understand when to use calculated columns vs measures
+- [ ] Build pivot tables using Power Pivot data model
+- [ ] Handle millions of rows of data efficiently
 
 ---
 
@@ -609,6 +698,37 @@ function sendWeeklyReport() {
 - Ben Collins (Google Sheets expert) - benlcollins.com
 - Google Sheets function reference
 - Apps Script documentation
+
+#### Common Pitfalls
+
+❌ **QUERY Function Mistakes**:
+- SQL syntax errors in QUERY string (missing quotes, wrong keywords)
+- Not handling column headers properly (header parameter)
+- Trying to use unsupported SQL features (JOINs don't work in QUERY)
+- Column reference errors (Col1, Col2 vs A, B)
+
+❌ **Apps Script Issues**:
+- Not authorizing script permissions
+- Exceeding quotas (6-minute execution limit, email limits)
+- Not handling errors in scripts (crashes whole workflow)
+- Trigger not set up correctly (script runs but not when expected)
+
+❌ **Performance Problems**:
+- IMPORTRANGE pulling too much data
+- Too many volatile functions (RAND, NOW causing constant recalc)
+- Circular references in formulas
+- Not using ARRAYFORMULA (dragging formulas down = slow)
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Write complex QUERY formulas with multiple clauses
+- [ ] Use ARRAYFORMULA to apply formulas to ranges
+- [ ] Combine FILTER, SORT, and UNIQUE for dynamic analysis
+- [ ] Import data from other sheets with IMPORTRANGE
+- [ ] Write simple Apps Script functions
+- [ ] Set up automated triggers
+- [ ] Debug formula and script errors efficiently
 
 ---
 
