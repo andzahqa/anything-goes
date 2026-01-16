@@ -899,11 +899,11 @@ Before moving forward, you should be able to:
 
 **Recommended Focus**: **Power BI** or **Tableau** for career prospects, **Google Data Studio** for free/quick solutions, **Metabase** for open-source/customizable needs
 
-**Resources**:
-- Tableau Public gallery
-- Power BI community
-- Official tool documentation
-- YouTube tutorials for your chosen tool
+**Tools**: Your chosen BI platform (Tableau Public/Power BI/Google Data Studio/Metabase)
+
+#### Resources
+
+- Official tool documentation (Tableau/Power BI/Looker)ials for your chosen tool
 - Udemy/Coursera courses specific to your chosen BI tool
 - Tool-specific blogs and forums (e.g., Tableau Zen Masters, Power BI Community)
 - Data visualization challenges (e.g., Makeover Monday, Workout Wednesday)
