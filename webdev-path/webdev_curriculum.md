@@ -2177,12 +2177,39 @@ Build connectors for:
 
 ## 📚 Recommended Resources
 
-### Free Learning
-- **freeCodeCamp**: Comprehensive web dev courses
-- **The Odin Project**: Full-stack curriculum
-- **MDN Web Docs**: Best reference for web technologies
-- **JavaScript.info**: Deep dive into JavaScript
-- **React Docs**: Official React documentation
+### Phase 1: Web Development Fundamentals (HTML, CSS, JavaScript Basics)
+
+#### 1. Resources
+
+- **MDN Web Docs** (Mozilla Developer Network - the gold standard for web technologies)
+- **freeCodeCamp HTML/CSS curriculum** (interactive and comprehensive)
+- **The Odin Project** (Full-stack curriculum, excellent for structured learning)
+- **HTML5 specification** (W3C official documentation - for deep dives)
+- **CSS-Tricks** (practical CSS techniques, articles, and explanations)
+- **"HTML and CSS: Design and Build Websites"** by Jon Duckett (visual and beginner-friendly)
+- **A11Y Project** (accessibility best practices and guidelines)
+- **Can I Use** (browser compatibility checker for HTML/CSS/JS features)
+- **JavaScript.info**: Deep dive into JavaScript fundamentals
+
+#### 2. Common Pitfalls & How to Avoid Them
+
+- **Not understanding the box model**: CSS `box-sizing: border-box;` can save you headaches.
+- **Div soup**: Over-reliance on `div` elements without semantic HTML. Use `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>` etc.
+- **Inconsistent naming conventions**: Stick to BEM, SMACSS, or a similar methodology for CSS classes.
+- **Ignoring accessibility**: Always consider keyboard navigation, screen readers, and sufficient color contrast from the start.
+- **Browser compatibility issues**: Test early and often across different browsers (Chrome, Firefox, Safari, Edge).
+- **Copy-pasting without understanding**: Always try to understand *why* a piece of code works before using it.
+- **Not using version control (Git)**: Learn Git basics immediately to track changes and collaborate.
+
+#### 3. Assessments & Practice
+
+- **freeCodeCamp challenges**: Built-in coding challenges for HTML, CSS, and JavaScript.
+- **The Odin Project assignments**: Project-based learning with clear deliverables.
+- **Frontend Mentor**: Real-world design challenges to build with HTML/CSS/JS.
+- **CodePen/CodeSandbox**: Experiment with small snippets and share your work.
+- **LeetCode/HackerRank (Easy JS problems)**: Practice fundamental JavaScript algorithms.
+- **Build a personal portfolio website**: Apply all learned concepts to create your own online presence.
+- **Recreate popular website layouts**: Pick a simple website and try to replicate its structure and styling.
 
 ### Paid Courses (Worth It)
 - **Frontend Masters**: Advanced frontend topics
