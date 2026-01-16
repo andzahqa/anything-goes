@@ -1407,10 +1407,14 @@ Before moving forward, you should be able to:
 
 **Tools**: Your chosen BI platform + potential integrations
 
-**Resources**:
+#### Resources
+
 - F&B dashboard templates (Tableau Public, Power BI gallery)
-- Case studies from BI vendors
-- Restaurant analytics platforms (Toast, Upserve, etc.) for inspiration
+- Case studies from BI vendors (Toast Analytics, Avero, MarginEdge)
+- Restaurant analytics platforms for inspiration (Upserve, Square, TouchBistro)
+- Dashboard design patterns from "Information Dashboard Design" by Stephen Few
+- F&B-specific BI case studies and white papers
+- Industry forums and communities for dashboard sharing
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Generate realistic F&B transaction dataset (1000 rows) with: date, item, category, price, quantity, payment method"
