@@ -95,9 +95,13 @@ open fb_business_processes_indonesia.md
 
 **That's it!** F&B domain is primarily reading, observing, and thinking. The real-world observation (visiting restaurants) is the most important "tool."
 
+---
 
+## 🛠️ Path 1: Spreadsheet BI (After Completing F&B Domain)
 
-#### Option A: Google Sheets (Free, Cloud-Based)
+**Start this path only AFTER completing the 6-week F&B curriculum.**
+
+### Option A: Google Sheets (Free, Cloud-Based)
 **✅ No installation needed!**
 
 **Setup Steps**:
@@ -122,9 +126,10 @@ open fb_business_processes_indonesia.md
 - Supermetrics (import marketing data)
 - Data Connector
 
+
 ---
 
-#### Option B: Microsoft Excel
+### Option B: Microsoft Excel
 
 **Free Options**:
 1. **Excel for the Web** (Free, limited features):
@@ -141,15 +146,18 @@ open fb_business_processes_indonesia.md
    - Compatible with Excel files
    - Lacks Power Pivot/Query/DAX
 
-## 🛠️ Software Installation Guide
-
-### Path 1: Spreadsheet BI (After F&B Domain)
+**Paid Options**:
 1. **Microsoft 365 Personal** (~$70/year):
    - Full Excel with all Power tools
    - OneDrive cloud storage
    - **Best for serious learning**
 
 **Paid Options**:
+1. **Microsoft 365 Personal** (~$70/year):
+   - Full Excel with all Power tools
+   - OneDrive cloud storage
+   - **Best for serious learning**
+
 2. **One-time Purchase** (Excel 2021):
    - ~$160 one-time
    - No Power Query/Pivot on Mac version!
