@@ -6,6 +6,9 @@
 
 This curriculum is designed to be **project-driven** and **practical**. You'll learn by building, with each phase culminating in a tangible project that builds toward your final goal. Theory is important, but application is key.
 
+**AI-Assisted Learning**:
+> Throughout this curriculum, you'll see AI learning markers (💡 Ask AI, ⚡ AI Generate, 🔍 AI Explain, 🤖 AI Debug, 🤖 AI Review). Leverage AI to accelerate your learning, especially for generating boilerplate code, debugging errors, and understanding complex concepts. See `../ai-guided-learning_guide.md` for detailed strategies.
+
 ---
 
 ## Phase 1: Foundation (Weeks 1-4)
@@ -34,6 +37,8 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
   - DOM manipulation
   - Event handling
   - ES6+ features (arrow functions, destructuring, spread/rest)
+  
+🔍 **AI Explain**: For any JavaScript confusion, ask: "Explain [concept] with web dev examples and code snippets"
 
 #### 🎯 Project 1: Personal Dashboard
 Build a simple personal dashboard with:
@@ -42,6 +47,9 @@ Build a simple personal dashboard with:
 - Smooth animations and hover effects
 - Dark/light mode toggle
 - Clean, modern design
+
+⚡ **AI Generate**: Ask AI to create starter HTML/CSS structure for dashboard layout
+🤖 **AI Review**: Share your completed project for feedback on code quality and best practices
 
 **Time**: 2 weeks
 
@@ -72,6 +80,9 @@ Enhance your dashboard to:
 - Handle loading states and errors gracefully
 - Cache data intelligently
 - Display dynamic, real-time information
+
+💡 **Ask AI**: "What are the best free public APIs for dashboard data?" or "How do I handle API errors gracefully in JavaScript?"
+🤖 **AI Debug**: If API calls fail, paste error messages to AI with your fetch code
 
 **Time**: 2 weeks
 
@@ -106,6 +117,9 @@ Build a React app that displays:
 - Date range selectors
 - KPI cards with trend indicators
 - Reusable UI components
+
+⚡ **AI Generate**: Ask AI to generate sample analytics data (JSON format, 100+ rows)
+🔍 **AI Explain**: "Explain React hooks (useState, useEffect) with analytics dashboard examples"
 
 **Time**: 3 weeks
 
@@ -176,6 +190,9 @@ Create a comprehensive design system with:
 - Dark/light themes
 - Storybook or similar documentation
 
+⚡ **AI Generate**: "Generate a color palette for professional BI dashboard (10 colors with hex codes)"
+🤖 **AI Review**: Share component code for accessibility and best practices feedback
+
 **Time**: 2 weeks
 
 ---
@@ -204,6 +221,8 @@ Build a collection of:
 - Responsive and mobile-friendly
 - Customizable themes
 - Animation on data updates
+
+💡 **Ask AI**: "What chart type should I use for [data scenario]?" or "How do I optimize chart rendering for 10,000+ data points?"
 
 **Time**: 1 week
 
@@ -237,6 +256,9 @@ Build a Node.js API with endpoints for:
 - Data aggregation endpoints
 - File upload/download
 
+⚡ **AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
+🤖 **AI Debug**: Paste API errors with request/response details for troubleshooting
+
 **Time**: 3 weeks
 
 ---
@@ -265,6 +287,9 @@ Integrate PostgreSQL with your API:
 - Complex queries for dashboards
 - Data aggregation and reporting
 - Proper indexing for performance
+
+🔍 **AI Explain**: "Explain database normalization with BI analytics schema examples"
+⚡ **AI Generate**: "Generate PostgreSQL schema for F&B analytics (sales, menu items, customers)"
 
 **Time**: 2 weeks
 
@@ -324,6 +349,8 @@ Add live features:
 - Collaborative features (multiple users viewing same data)
 - Activity feeds
 
+💡 **Ask AI**: "WebSockets vs Server-Sent Events for real-time analytics - which to choose?"
+
 **Time**: 2 weeks
 
 ---
@@ -355,6 +382,9 @@ Add comprehensive tests:
 - API endpoint tests
 - E2E tests for critical flows
 - 70%+ code coverage
+
+🤖 **AI Generate**: "Generate Jest test cases for [component/function name]"
+🤖 **AI Debug**: Paste failing test output for debugging help
 
 **Time**: 2 weeks
 
@@ -455,6 +485,8 @@ Add production features:
 - Automated backups
 - Comprehensive documentation
 
+🤖 **AI Review**: "Review my deployment checklist and suggest what I'm missing for production"
+
 **Time**: 2 weeks
 
 ---
@@ -491,6 +523,9 @@ Add advanced capabilities:
 - Export to PDF/Excel
 - Scheduled email reports
 - Advanced filtering and drill-downs
+
+⚡ **AI Generate**: "Generate sample data transformation logic for BI aggregations"
+🔍 **AI Explain**: "Explain ETL process with Node.js implementation examples"
 
 **Time**: 3 weeks
 
@@ -586,6 +621,10 @@ Combine everything you've learned into a production-ready BI & analytics platfor
 - ✅ Complete documentation
 
 **Time**: 4 weeks
+
+⚡ **AI Generate**: Ask AI to create realistic mock data for your entire BI platform
+🤖 **AI Review**: Share your complete codebase architecture for professional feedback
+💡 **Ask AI**: "What features am I missing for production-ready BI platform?"
 
 ---
 
