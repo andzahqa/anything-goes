@@ -1087,10 +1087,6 @@ Before moving to Phase 4, you should be able to:
 - TED talks about data (for inspiration on compelling presentations)
 - Data journalism examples (The Pudding, FiveThirtyEight - for narrative structure)
 
-> **🤖 AI Assistance**:
-> - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?"
-> - **💡 Ask AI**: "How do I present negative findings (declining sales) in a constructive way?"
-
 #### Common Pitfalls
 
 ❌ **Storytelling Mistakes**:
