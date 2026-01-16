@@ -447,8 +447,6 @@ Enhance your dashboard to:
 - VS Code ES7+ React Snippets
 - CodeSandbox (Online React Playground)
 
-#### Resources
-
 - **Official**:
   - React Documentation (react.dev)
   - React Beta Docs (Interactive)
@@ -459,21 +457,14 @@ Enhance your dashboard to:
   - Reactiflux Discord
   - r/reactjs
 
+  
+
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Create a React functional component for a ProductCard with props for name, price, image" or "Create React component structure for analytics dashboard"
 > - **🔍 AI Explain**: "Explain React Virtual DOM and why it makes rendering fast" or "Explain React reconciliation and virtual DOM with examples"
 > - **💡 Ask AI**: "What is the useEffect dependency array and when should I use it?" or "When should I use useMemo vs useCallback vs React.memo?"
 > - **🤖 AI Debug**: "React component is re-rendering infinitely. Check useEffect usage: [code]" or "My useEffect runs infinitely. Dependencies: [data]. Code: [code]"
 
-- React official documentation (comprehensive and well-structured)
-- "React - The Complete Guide" by Maximilian Schwarzmüller (Udemy)
-- React.dev interactive tutorials
-- Kent C. Dodds' blog and courses (advanced React patterns)
-- Frontend Masters React courses
-- React Router official docs
-- Vite documentation (modern build tool)
-- React Docs (new beta): https://react.dev
-- React DevTools Chrome extension
 
 **Courses**:
 - freeCodeCamp: Front End Libraries (React section)
@@ -2065,10 +2056,7 @@ Before moving forward, you should be able to:
 4. **Webhook Handler**: Process incoming webhooks from external services
 5. **Background Jobs**: Process large files in background with Bull Queue
 
-💡 **Ask AI**: "How should I design a connector architecture for multiple data sources?"
-⚡ **AI Generate**: "Create CSV validation schema for F&B sales data (20 columns)"
-🔍 **AI Explain**: "Explain ETL vs ELT with BI platform examples"
-🤖 **AI Debug**: "CSV upload fails with large files (10MB+). Memory error. Code: [code]"
+
 
 #### Common Pitfalls
 
@@ -2090,15 +2078,38 @@ Before moving forward, you should be able to:
 - No data type conversion
 - Missing error handling
 
-🤖 **AI Debug**: "Google Sheets API quota exceeded. How to handle?"
+
 
 #### Resources
 
-**Libraries**:
-- PapaParse (CSV parsing)
-- XLSX (Excel files)
-- Bull Queue (background jobs)
-- Zod or Yup (validation)
+**Tools**:
+- Postman (API Testing)
+- Webhook.site (Webhook Testing)
+- Bull Board (Queue Dashboard)
+- Google Sheets API Playground
+
+#### Resources
+
+- **Libraries**:
+  - PapaParse (CSV Parsing)
+  - XLSX (Excel Files)
+  - BullMQ (Background Jobs)
+  - Zod / Yup (Validation)
+- **APIs**:
+  - Google Sheets API
+  - Airtable API
+  - Stripe Webhooks
+- **Learning**:
+  - API Integration Patterns
+  - ETL Best Practices
+  - Data Quality Management
+
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "How should I design a connector architecture for multiple data sources?"
+> - **⚡ AI Generate**: "Create CSV validation schema for F&B sales data (20 columns)"
+> - **🔍 AI Explain**: "Explain ETL vs ELT with BI platform examples"
+> - **🤖 AI Debug**: "CSV upload fails with large files (10MB+). Memory error. Code: [code]"
+> - **🤖 AI Debug**: "Google Sheets API quota exceeded. How to handle?"
 
 **APIs**:
 - Google Sheets API
@@ -2110,10 +2121,7 @@ Before moving forward, you should be able to:
 - ETL best practices
 - Data quality management
 
-**Tools**:
-- Postman for API testing
-- Webhook.site for testing webhooks
-- Bull Board (queue dashboard)
+
 
 #### Assessment Checklist
 
