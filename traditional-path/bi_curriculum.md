@@ -1256,6 +1256,37 @@ Before moving forward, you should be able to:
 > - **🤖 AI Review**: "Review my F&B dashboard design. Does it answer the key operational questions?"
 > - **💡 Ask AI**: "What alerts/thresholds should I set for F&B KPI monitoring?"
 
+#### Resources
+
+- F&B dashboard templates (Tableau Public, Power BI gallery)
+- Case studies from BI vendors
+- Restaurant analytics platforms (Toast, Upserve) for inspiration
+- F&B Business Processes guide
+
+#### Common Pitfalls
+
+❌ **F&B Analytics Mistakes**:
+- Generic dashboards not tailored to F&B
+- Missing operational context
+- Too technical for F&B operators
+- Not actionable insights
+
+❌ **Implementation Issues**:
+- Poor data integration from POS
+- Missing critical F&B metrics
+- Not updating in real-time
+- No mobile access
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Build F&B-specific analytics dashboards
+- [ ] Integrate multiple F&B data sources
+- [ ] Create role-specific dashboards (owner, chef, FOH manager)
+- [ ] Generate actionable F&B insights
+- [ ] Design for F&B operator usability
+- [ ] Apply F&B domain knowledge to analytics
+
 ---
 
 ### Module 5.4: Advanced F&B Analytics
@@ -1306,9 +1337,33 @@ Before moving forward, you should be able to:
 - Forecasting features in Tableau/Power BI
 
 > **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain market basket analysis for restaurants - how to find which items sell together"
+> - **🔍 AI Explain**: "Explain market basket analysis for restaurants - how to find which items sell together"  
 > - **⚡ AI Generate**: "Create Python code for simple sales forecasting using moving average"
 > - **💡 Ask AI**: "What factors should I consider when forecasting restaurant sales (seasonality, weather, events)?"
+
+#### Resources
+
+- Time series analysis tutorials
+- Market basket analysis guides
+- Forecasting best practices
+- F&B predictive analytics cases
+
+#### Common Pitfalls
+
+❌ **Forecasting Mistakes**:
+- Insufficient historical data
+- Ignoring seasonal patterns
+- Not validating models
+- Over-complicated approaches
+
+#### Assessment Checklist
+
+Before moving to Capstone, you should be able to:
+- [ ] Implement sales forecasting
+- [ ] Conduct market basket analysis
+- [ ] Build predictive models
+- [ ] Apply advanced analytics to F&B scenarios
+- [ ] Communicate model insights to non-technical stakeholders
 
 ---
 
