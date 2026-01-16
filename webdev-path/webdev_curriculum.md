@@ -527,20 +527,96 @@ Create a comprehensive design system with:
 
 ### Module 3.2: Data Visualization
 **Goal**: Master charts and graphs for BI applications
+**Duration**: 1 week
 
 #### Topics to Master
-- **Visualization Libraries**
-  - Chart.js basics
-  - Recharts for React
-  - D3.js fundamentals (if you want deep customization)
-  - Plotly for advanced visualizations
-  
-- **Best Practices**
-  - Choosing the right chart type
-  - Color coding and legends
-  - Responsive charts
-  - Interactive tooltips and drill-downs
-  - Performance with large datasets
+
+**Chart Libraries Comparison**:
+- **Chart.js**: Simple, lightweight, good for basic charts
+- **Recharts**: React-native, composable, great for React apps
+- **D3.js**: Powerful, fully customizable, steep learning curve
+- **Plotly**: Advanced charts, 3D, scientific visualization
+- **Apache ECharts**: Feature-rich, good performance
+
+**Best Practices**:
+- **Choosing the Right Chart**:
+  - Trends over time: Line charts
+  - Comparisons: Bar/column charts
+  - Proportions: Pie/donut (use sparingly!)
+  - Distributions: Histograms, box plots
+  - Relationships: Scatter plots
+  - Part-to-whole: Stacked bars, area charts
+- **Design Principles**:
+  - Color coding with purpose (not decoration)
+  - Clear, descriptive legends
+  - Responsive sizing for mobile
+  - Interactive tooltips for details
+  - Accessibility (screen readers, keyboard nav)
+- **Performance**:
+  - Virtualization for large datasets (1000+ points)
+  - Debouncing on resize/scroll
+  - Canvas vs SVG (Canvas for many elements)
+  - Data aggregation strategies
+
+#### Hands-on Exercises
+
+1. **Chart Gallery**: Build all basic chart types (line, bar, pie, scatter)
+2. **Interactive Dashboard**: Add zoom, pan, hover tooltips
+3. **Responsive Charts**: Make charts work on mobile, tablet, desktop
+4. **Performance Test**: Render chart with 10,000+ data points
+5. **Custom Chart**: Build a unique visualization (e.g., funnel, gauge)
+
+💡 **Ask AI**: "Which chart library should I use for React BI dashboards - Recharts vs D3.js?"
+⚡ **AI Generate**: "Create sample time-series data (1 year, daily) for sales dashboard"
+🔍 **AI Explain**: "Explain when to use Canvas vs SVG for data visualization"
+
+#### Common Pitfalls
+
+❌ **Chart Selection Mistakes**:
+- Using pie charts with too many categories (>5)
+- Line charts for categorical data
+- 3D charts (almost always misleading)
+- Dual-axis charts (confusing scales)
+
+❌ **Performance Issues**:
+- Rendering too many DOM elements (1000+ SVG nodes)
+- Not debouncing window resize events
+- Re-rendering entire chart on small data changes
+
+❌ **Accessibility**:
+- Charts without alt text or ARIA labels
+- Color-only encoding (colorblind users)
+- No keyboard navigation
+
+🤖 **AI Debug**: "My chart is slow with 10k points. Using Recharts. Code: [code]"
+
+#### Resources
+
+**Libraries**:
+- Recharts Docs: https://recharts.org
+- Chart.js Docs: https://www.chartjs.org
+- D3.js Gallery: https://observablehq.com/@d3/gallery
+- Plotly React: https://plotly.com/javascript/react/
+
+**Learning**:
+- "Data Visualization with D3.js" (Udemy)
+- Observable notebooks for D3 examples
+- Frontend Masters: Data Visualization course
+
+**Design Guidance**:
+- "Storytelling with Data" by Cole Nussbaumer Knaflic
+- Data Viz Catalogue: https://datavizcatalogue.com
+- ColorBrewer for accessible palettes
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Choose appropriate chart types for different data
+- [ ] Build responsive charts that work on all devices
+- [ ] Implement interactive features (tooltips, zoom, filters)
+- [ ] Optimize charts for large datasets
+- [ ] Make charts accessible (ARIA, keyboard nav)
+- [ ] Debug common charting issues
 
 #### 🎯 Project 6: Interactive Data Viz Library
 Build a collection of:
@@ -659,22 +735,118 @@ Integrate PostgreSQL with your API:
 
 ### Module 4.3: Authentication & Security
 **Goal**: Secure your application
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **Authentication & Authorization**
-  - JWT tokens
-  - Session management
-  - OAuth 2.0 basics
-  - Password hashing (bcrypt)
-  - Role-based access control (RBAC)
-  
-- **Security Best Practices**
-  - HTTPS and SSL/TLS
-  - Input sanitization and validation
-  - SQL injection prevention
-  - XSS and CSRF protection
-  - Security headers
-  - Rate limiting
+
+**Week 1: Authentication**
+- **JWT (JSON Web Tokens)**:
+  - Token structure (header, payload, signature)
+  - Access tokens vs refresh tokens
+  - Token expiration and renewal
+  - Storage (httpOnly cookies vs localStorage)
+- **Session Management**:
+  - Session vs token-based auth
+  - Session stores (Redis, database)
+  - Session expiration and cleanup
+- **OAuth 2.0 Basics**:
+  - OAuth flow overview
+  - Social login (Google, GitHub)
+  - OAuth providers integration
+- **Password Management**:
+  - Bcrypt hashing (never store plain passwords!)
+  - Salt rounds (10-12 recommended)
+  - Password strength requirements
+  - Password reset flows
+
+**Week 2: Security Best Practices**
+- **HTTPS and SSL/TLS**:
+  - Why HTTPS matters
+  - SSL certificate setup
+  - HSTS headers
+- **Input Validation**:
+  - Server-side validation (never trust client!)
+  - Sanitization vs validation
+  - Library: Joi, Yup, Zod
+- **Common Vulnerabilities**:
+  - **SQL Injection**: Use parameterized queries, ORMs
+  - **XSS (Cross-Site Scripting)**: Sanitize user input, CSP headers
+  - **CSRF (Cross-Site Request Forgery)**: CSRF tokens, SameSite cookies
+  - **Rate Limiting**: Prevent brute force attacks
+- **Security Headers**:
+  - Content-Security-Policy
+  - X-Frame-Options
+  - X-Content-Type-Options
+  - Helmet.js for Express
+
+#### Hands-on Exercises
+
+1. **JWT Auth System**: Build complete register/login with JWT
+2. **Password Reset**: Implement forgot password flow with email
+3. **OAuth Integration**: Add Google or GitHub login
+4. **Security Audit**: Test app for common vulnerabilities
+5. **Rate Limiting**: Add login attempt limiting (5 tries, 15min lockout)
+
+💡 **Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
+⚡ **AI Generate**: "Generate Express middleware for JWT authentication and role-based access"
+🔍 **AI Explain**: "Explain OAuth 2.0 flow with diagram for web app"
+🤖 **AI Debug**: "Getting CORS errors with JWT auth. Frontend React, backend Express. Code: [code]"
+
+#### Common Pitfalls
+
+❌ **Auth Mistakes**:
+- Storing JWT in localStorage (XSS vulnerable)
+- Not implementing token refresh (users logged out unexpectedly)
+- Weak password requirements
+- Not rate limiting authentication endpoints
+
+❌ **Security Mistakes**:
+- Trusting client-side validation only
+- Exposing sensitive data in error messages
+- Not using HTTPS in production
+- Hardcoding secrets in code (use environment variables!)
+
+❌ **Password Mistakes**:
+- Using MD5 or SHA for hashing (use bcrypt!)
+- Not using enough salt rounds
+- Allowing common passwords ("password123")
+
+🤖 **AI Debug**: "Bcrypt hash comparison always returns false. Code: [code]"
+
+#### Resources
+
+**Documentation**:
+- JWT.io: Token decoder and library list
+- OWASP Top 10: Security vulnerabilities
+- Mozilla Web Security Guidelines
+
+**Libraries**:
+- jsonwebtoken (Node.js JWT)
+- bcrypt or argon2 (password hashing)
+- Passport.js (authentication middleware)
+- Helmet.js (security headers)
+
+**Learning**:
+- OWASP Web Security Testing Guide
+- "Web Security Academy" by PortSwigger (free)
+- Auth0 Blog: Authentication best practices
+
+**Tools**:
+- OWASP ZAP (security testing)
+- Burp Suite (penetration testing)
+- Security headers checker: securityheaders.com
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Implement JWT authentication from scratch
+- [ ] Hash passwords securely with bcrypt
+- [ ] Build password reset flow with email
+- [ ] Prevent common vulnerabilities (SQL injection, XSS, CSRF)
+- [ ] Add rate limiting to prevent abuse
+- [ ] Set proper security headers
+- [ ] Explain OAuth 2.0 flow clearly
+- [ ] Audit application for security issues
 
 #### 🎯 Project 9: Secure Your App
 Add comprehensive security:
@@ -719,23 +891,112 @@ Add live features:
 
 ### Module 5.2: Testing
 **Goal**: Write reliable, maintainable code
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **Frontend Testing**
-  - Jest for unit tests
-  - React Testing Library
-  - Component testing
-  - Integration testing
-  
-- **Backend Testing**
-  - API testing with Jest/Supertest
-  - Database testing strategies
-  - Mocking and stubbing
-  
-- **E2E Testing**
-  - Playwright or Cypress
-  - User flow testing
+
+**Week 1: Frontend Testing**
+- **Unit Testing with Jest**:
+  - Writing test cases (describe, it, expect)
+  - Matchers (toBe, toEqual, toContain, etc.)
+  - Mocking functions and modules
+  - Test coverage reports
+- **React Testing Library**:
+  - Rendering components
+  - Querying elements (getBy, findBy, queryBy)
+  - User interactions (fireEvent, userEvent)
+  - Async testing (waitFor, findBy)
+  - Testing hooks and context
+- **Component Testing Strategies**:
+  - What to test (behavior, not implementation)
+  - Testing user interactions
+  - Testing edge cases and error states
+  - Snapshot testing (use sparingly)
+
+**Week 2: Backend & E2E Testing**
+- **API Testing**:
+  - Jest + Supertest for HTTP testing
+  - Testing CRUD endpoints
+  - Authentication testing
+  - Error response testing
+- **Database Testing**:
+  - Test database setup/teardown
+  - Seeding test data
+  - Transaction rollback strategies
+- **E2E Testing** (Playwright or Cypress):
+  - Full user flow testing
+  - Browser automation
+  - Visual regression testing
   - CI/CD integration
+
+#### Hands-on Exercises
+
+1. **Unit Tests**: Write tests for utility functions (date formatting, calculations)
+2. **Component Tests**: Test React components (form, table, chart)
+3. **API Tests**: Test all REST endpoints with Supertest
+4. **Integration Tests**: Test React components with API calls
+5. **E2E Tests**: Test complete user journey (signup → dashboard → logout)
+
+⚡ **AI Generate**: "Generate Jest test cases for user authentication service"
+🔍 **AI Explain**: "Explain difference between unit, integration, and E2E tests with examples"
+💡 **Ask AI**: "What's the 80/20 rule for testing? What should I prioritize?"
+🤖 **AI Debug**: "React Testing Library test failing. Error: 'Unable to find element'. Code: [code]"
+
+#### Common Pitfalls
+
+❌ **Testing Mistakes**:
+- Testing implementation details instead of behavior
+- Not testing error states and edge cases
+- Over-relying on snapshot tests
+- Writing tests after code (write tests first or alongside!)
+
+❌ **React Testing Mistakes**:
+- Using wrong query (getBy vs queryBy vs findBy)
+- Not waiting for async updates (use waitFor, findBy)
+- Testing internal component state directly
+- Not cleaning up after tests (memory leaks)
+
+❌ **E2E Mistakes**:
+- Tests that are too brittle (break on small UI changes)
+- Not waiting for elements properly (flaky tests)
+- Too many E2E tests (slow, expensive)
+
+🤖 **AI Debug**: "My tests pass locally but fail in CI. Why?"
+
+#### Resources
+
+**Documentation**:
+- Jest Docs: https://jestjs.io
+- React Testing Library: https://testing-library.com/react
+- Playwright Docs: https://playwright.dev
+- Cypress Docs: https://www.cypress.io
+
+**Learning**:
+- Testing JavaScript by Kent C. Dodds
+- Frontend Masters: Testing React Applications
+- Epic React Testing Workshop
+
+**Best Practices**:
+- Testing Trophy (integration tests > unit/E2E)
+- Common Testing Mistakes blog posts
+- Testing Library Guiding Principles
+
+**Tools**:
+- Jest coverage reports
+- Codecov or Coveralls (coverage tracking)
+- Testing Playground (query selector helper)
+
+#### Assessment Checklist
+
+Before moving forward, you should be able to:
+- [ ] Write unit tests for functions and modules
+- [ ] Test React components with Testing Library
+- [ ] Test user interactions (clicks, typing, form submission)
+- [ ] Test async behavior (API calls, loading states)
+- [ ] Write API tests with Supertest
+- [ ] Create E2E tests for critical user flows
+- [ ] Achieve 60%+ code coverage
+- [ ] Debug failing tests effectively
 
 #### 🎯 Project 11: Test Coverage
 Add comprehensive tests:
@@ -787,26 +1048,136 @@ Optimize your entire app:
 
 ### Module 6.1: Deployment
 **Goal**: Ship your app to production
+**Duration**: 2 weeks
 
 #### Topics to Master
-- **Frontend Deployment**
-  - Vercel, Netlify, or AWS S3
-  - Environment configuration
-  - Custom domains
-  - CDN and edge functions
-  
-- **Backend Deployment**
-  - DigitalOcean, AWS EC2, or Railway
-  - Docker containers
-  - Environment variables and secrets
-  - Database hosting (Supabase, AWS RDS)
-  - Reverse proxy (Nginx)
-  
-- **CI/CD**
-  - GitHub Actions or GitLab CI
-  - Automated testing
+
+**Week 1: Frontend & Backend Deployment**
+- **Frontend Deployment**:
+  - **Vercel** (Recommended for React/Next.js):
+    - Git integration (auto-deploy on push)
+    - Environment variables
+    - Custom domains
+    - Preview deployments
+  - **Netlify** (Alternative, great DX):
+    - Build settings
+    - Redirects and rewrites
+    - Edge functions
+  - **AWS S3 + CloudFront** (Scalable, more setup):
+    - Static hosting
+    - CDN distribution
+    - SSL certificates
+
+- **Backend Deployment**:
+  - **Railway** (Recommended, simple):
+    - Database + backend in one platform
+    - GitHub auto-deploy
+    - Environment variables
+  - **Render** (Free tier available):
+    - Docker support
+    - Persistent storage
+    - Background workers
+  - **DigitalOcean App Platform**:
+    - Managed databases
+    - Scaling options
+  - **AWS EC2** (Most control, more complex):
+    - Server setup and SSH
+    - Nginx reverse proxy
+    - PM2 for process management
+
+- **Database Hosting**:
+  - **Supabase** (PostgreSQL, generous free tier)
+  - **PlanetScale** (MySQL, serverless)
+  - **AWS RDS** (Production-grade, scaling)
+  - **MongoDB Atlas** (for NoSQL)
+
+**Week 2: CI/CD & DevOps**
+- **CI/CD with GitHub Actions**:
+  - Workflow YAML syntax
+  - Running tests on push/PR
   - Automated deployment
-  - Rollback strategies
+  - Secrets management
+- **Environment Configuration**:
+  - .env files and .env.example
+  - Environment-specific configs (dev, staging, prod)
+  - Secret management (never commit secrets!)
+- **Deployment Checklist**:
+  - Environment variables properly set
+  - Database migrations run
+  - Build succeeds without warnings
+  - Health check endpoint working
+  - HTTPS enabled
+  - Error monitoring connected
+
+#### Hands-on Exercises
+
+1. **Deploy Frontend**: Deploy React app to Vercel + custom domain
+2. **Deploy Backend**: Deploy Node API to Railway with PostgreSQL
+3. **CI/CD Setup**: Create GitHub Actions workflow (test → build → deploy)
+4. **Environment Config**: Set up dev, staging, production environments
+5. **Domain Setup**: Configure custom domain with SSL
+
+💡 **Ask AI**: "Compare Vercel vs Netlify vs Railway - which for BI dashboard?"
+⚡ **AI Generate**: "Create GitHub Actions workflow for: test → build → deploy to Vercel"
+🔍 **AI Explain**: "Explain blue-green deployment and canary releases"
+🤖 **AI Debug**: "Deployment succeeds but app shows blank page. Build logs: [logs]"
+
+#### Common Pitfalls
+
+❌ **Deployment Mistakes**:
+- Forgetting to set environment variables in production
+- Using development database in production
+- Not running build script before deploy (deploying source files)
+- Hardcoded localhost URLs in production
+
+❌ **Environment Mistakes**:
+- Committing .env files to Git (use .env.example!)
+- Same config for dev and prod
+- Not validating environment variables on startup
+
+❌ **CI/CD Mistakes**:
+- Not testing before deploying
+- Deployment breaking on warnings (too strict)
+- Secrets exposed in logs
+- No rollback strategy
+
+🤖 **AI Debug**: "GitHub Actions failing. Error: 'ENOENT: package.json not found'"
+
+#### Resources
+
+**Platforms**:
+- Vercel Docs: https://vercel.com/docs
+- Railway Docs: https://docs.railway.app
+- Render Guides: https://render.com/docs
+- Netlify Docs: https://docs.netlify.com
+
+**CI/CD**:
+- GitHub Actions Docs
+- GitLab CI/CD
+- CircleCI tutorials
+
+**Learning**:
+- "DevOps for Developers" course
+- Railway deployment tutorials (YouTube)
+- Fireship: Deployment guides
+
+**Tools**:
+- GitHub CLI (gh)
+- Vercel CLI
+- Docker (for containerization)
+- Let's Encrypt (free SSL)
+
+#### Assessment Checklist
+
+Before completing this phase, you should be able to:
+- [ ] Deploy frontend to Vercel/Netlify with custom domain
+- [ ] Deploy backend to cloud platform with database
+- [ ] Set up CI/CD pipeline with automated testing
+- [ ] Configure environment variables properly
+- [ ] Set up HTTPS with SSL certificate
+- [ ] Create deployment documentation
+- [ ] Monitor deployment status and logs
+- [ ] Rollback deployment if issues occur
 
 #### 🎯 Project 13: Full Deployment
 Deploy your complete app:
