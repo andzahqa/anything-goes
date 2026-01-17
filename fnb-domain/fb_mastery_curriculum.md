@@ -29,13 +29,23 @@
 
 ## Module 1: Foundation (Week 1) - 10-12 hours
 
-**Goal**: Understand the F&B Landscape
+**Learning Objectives**:
+- Navigate the full spectrum of Indonesia's F&B models (Warung to Fine Dining).
+- Distinguish between Front of House (FOH) and Back of House (BOH) operations.
+- Trace the supply chain from traditional markets to modern distribution.
 
-**📚 Reading** (6-8 hours):
+**Topics**:
+
 1. **Complete Indonesia F&B Guide** - `fb_business_processes_indonesia.md`
    - Start to finish (1,953 lines, comprehensive!)
    - Take notes on unfamiliar concepts
    - Highlight sections you don't understand yet
+
+**Key Concepts**:
+- **F&B Landscape**: Warung vs. Modern Trade, Chain vs. Independent.
+- **Operations**: Front of House (FOH), Back of House (BOH), Service Flow.
+- **Supply Chain**: Wet markets (Pasar) vs. Distributors.
+- **core Economics**: Average check, table turnover, daily sales cycles.
 
 **Reading Strategy**:
 ```
@@ -60,7 +70,8 @@ Day 4 (2 hours): Business Management
 - Financial Metrics
 ```
 
-**🔍 Observation Exercise** (3-4 hours):
+**Observation Exercise**:
+
 1. **Visit 3 Different F&B Types**:
    - Warung (local, cheap)
    - Mall restaurant (modern)
@@ -103,13 +114,13 @@ Duration: [How long you observed]
 3. [What BI dashboard would be useful?]
 ```
 
-**Tools**:
-- **Observation**: Smartphone Camera (Menu/Layout photos), Pocket Notebook (Discreet logging)
-- **Research**: Google Maps (Find high-traffic spots), PergiKuliner / Zomato (Competitor reviews)
-- **Knowledge Base**: Notion / Obsidian (Digital second brain), ChatGPT (Concept tutor)
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"
+> - **💡 Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
+> - **⚡ AI Generate**: "Ask AI to generate a detailed observation framework template for each F&B type"
+> - **🤖 AI Review**: "Share your observation logs with AI for completeness and insight quality feedback"
 
 **Resources**:
-
 - **Documentation**:
   - Indonesia F&B Guide (`fb_business_processes_indonesia.md`)
 - **Books**:
@@ -117,12 +128,10 @@ Duration: [How long you observed]
 - **Media**:
   - YouTube Restaurant Day-in-life
   - Local Food Vlogs
-
-> **🤖 AI Assistance**:
-> - **🔍 AI Explain**: For any unfamiliar F&B terms (FOH, BOH, prime cost, etc.), ask AI: "Explain [concept] in F&B context with Indonesian examples"
-> - **💡 Ask AI**: "What should I observe when visiting a [warung/mall restaurant/coffee shop] to understand their business operations?"
-> - **⚡ AI Generate**: "Ask AI to generate a detailed observation framework template for each F&B type"
-> - **🤖 AI Review**: "Share your observation logs with AI for completeness and insight quality feedback"
+- **Tools**:
+  - **Observation**: Smartphone Camera (Menu/Layout photos), Pocket Notebook (Discreet logging)
+  - **Research**: Google Maps (Find high-traffic spots), PergiKuliner / Zomato (Competitor reviews)
+  - **Knowledge Base**: Notion / Obsidian (Digital second brain), ChatGPT (Concept tutor)
 
 **Common Pitfalls**:
 
@@ -158,101 +167,61 @@ Before moving to Module 2, you should be able to:
 
 ## Module 2: Deep Dive - Operations (Week 2) - 10-12 hours
 
-**Goal**: Understand Daily Workflows & Data Generation
+**Learning Objectives**:
+- Map the complete customer journey from entry to exit.
+- Identify every digital and manual data touchpoint in daily operations.
+- Pinpoint common workflow bottlenecks where data can reveal insights.
 
-**📚 Reading** (4 hours):
-1. **Re-read with Focus**:
-   - FOH & BOH Operations section (detailed)
-   - Supply Chain section
-   - Operations & Workflows section
+**Topics**:
 
-2. **Additional Resources** (if available in `resources/` folder):
-   - Regional guides (compare Indonesia to other countries)
-   - Note differences and similarities
+**Day 1-2: Journey Mapping**:
+- **Re-read with Focus**:
+  - FOH & BOH Operations section (detailed).
+  - Supply Chain section.
+  - Operations & Workflows section.
+- **Mapping Concepts**:
+  - Customer Journey: Entry -> Seating -> Ordering -> Dining -> Payment -> Exit.
+  - Data Touchpoints: Identifying where data is created in the flow.
 
-**🎯 Mapping Exercise** (3 hours):
-Create **Data Flow Maps** for each business model:
+**Day 3-5: Bottlenecks & Flow**:
+- **Flow Analysis**:
+  - Inventory Flow: Receiving -> Storage -> Prep -> Cook -> Serve -> Waste.
+  - Supply Chain: Where does the food come from?
+- **Workflow Bottlenecks**: Peak hour stress, manual handoffs, communication gaps.
+- **Regional Comparison**: Compare Indonesia flow to other countries (if available).
 
-**Example: Warung Data Flow Map**
-```
-Customer Journey → Data Generated:
+**Key Concepts**:
+- **Data Touchpoints**: Order taking, kitchen display, payment, inventory log.
+- **Workflow Bottlenecks**: Peak hour stress, manual handoffs, communication gaps.
+- **Inventory Flow**: Receiving -> Storage -> Prep -> Cook -> Serve -> Waste.
+- **Customer Journey**: Entry -> Seating -> Ordering -> Dining -> Payment -> Exit.
 
-1. Customer enters
-   ↓ [No data - walk-in]
+**Hands-on Exercises**:
 
-2. Sits at table
-   ↓ [Table occupied - mental note]
+1. **Mapping Exercise** (3 hours):
+   Create **Data Flow Maps** for each business model.
 
-3. Orders: Nasi goreng + es teh
-   ↓ [Data: Order written on paper scrap]
+   **Example: Warung Data Flow Map**
+   ```
+   Customer Journey → Data Generated:
+   1. Customer enters ↓ [No data - walk-in]
+   2. Sits at table ↓ [Table occupied - mental note]
+   3. Orders: Nasi goreng + es teh ↓ [Data: Order written on paper scrap]
+   4. Owner shouts to kitchen ↓ [Data: Verbal communication, no system]
+   ...
+   ```
 
-4. Owner shouts to kitchen
-   ↓ [Data: Verbal communication, no system]
+2. **Interview Exercise** (3 hours):
+   **Find and interview someone who works in F&B** (server, cook, owner).
+   - Document insights relevant to BI.
 
-5. Food prepared (8 minutes)
-   ↓ [Data: None - no timer]
-
-6. Food served
-   ↓ [Data: None]
-
-7. Customer asks for bill
-   ↓ [Data: Mental calculation]
-   ↓ "Nasi goreng 15 ribu, es teh 3 ribu, total 18 ribu"
-
-8. Cash payment
-   ↓ [Data: Cash in drawer, maybe noted in notebook end of day]
-
-9. Customer leaves
-   ↓ [Data: Maybe tally mark?]
-
-BI Opportunity:
-- What data is MISSING that would help?
-- How could simple tech improve this?
-- What's the ROI of adding a basic POS?
-```
-
-**Create Maps For**:
-- [ ] Warung (traditional, minimal tech)
-- [ ] Modern restaurant (mall, POS system)
-- [ ] Cloud kitchen (delivery-only, app-driven)
-
-**🔬 Interview Exercise** (3 hours):
-**Find and interview someone who works in F&B** (server, cook, owner):
-
-Questions to ask:
-```
-Operations:
-1. What's the busiest time of day? Why?
-2. How do you know when to restock ingredients?
-3. What's the hardest part of daily operations?
-
-Technology:
-4. What technology do you use? (POS, apps, etc.)
-5. How do you track inventory?
-6. Do you use GoFood/Grab? What's the commission?
-
-Financials:
-7. What metrics does the owner track?
-8. How often do they review reports?
-9. What data do they wish they had?
-
-Pain Points:
-10. What wastes the most time daily?
-11. What causes the most losses (waste, theft, etc.)?
-12. If you could change one thing, what would it be?
-```
-
-**Document Interview**:
-- Create `fnb-domain/notes/interview_[name]_[date].md`
-- Highlight insights relevant to BI
-
-**Tools**:
-- **Diagramming**: Draw.io / Lucidchart (Data Flow Maps)
-- **Transcription**: Otter.ai / Voice Recorder (Interview capture)
-- **Notes**: Notion / Obsidian (Structured observation logs)
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Help me create a data flow diagram for [business model] - what data touchpoints should I include?"
+> - **💡 Ask AI**: "What are good interview questions to understand F&B operations for someone building a BI dashboard?"
+> - **⚡ AI Generate**: "Create interview question list for F&B owners/managers/staff covering operations, pain points, and data needs"
+> - **🤖 AI Review**: "I interviewed [role]. Here are their answers: [summary]. What insights can I draw for BI opportunities?"
 
 **Resources**:
-
 - **Templates**:
   - Data Flow Diagram Template
   - Interview Question Bank
@@ -260,12 +229,10 @@ Pain Points:
   - "The Lean Startup" (MVP thinking)
 - **Community**:
   - F&B Facebook Groups Indonesia
-
-> **🤖 AI Assistance**:
-> - **💡 Ask AI**: "Help me create a data flow diagram for [business model] - what data touchpoints should I include?"
-> - **💡 Ask AI**: "What are good interview questions to understand F&B operations for someone building a BI dashboard?"
-> - **⚡ AI Generate**: "Create interview question list for F&B owners/managers/staff covering operations, pain points, and data needs"
-> - **🤖 AI Review**: "I interviewed [role]. Here are their answers: [summary]. What insights can I draw for BI opportunities?"
+- **Tools**:
+  - **Diagramming**: Draw.io / Lucidchart (Data Flow Maps)
+  - **Transcription**: Otter.ai / Voice Recorder (Interview capture)
+  - **Notes**: Notion / Obsidian (Structured observation logs)
 
 **Common Pitfalls**:
 
@@ -301,112 +268,47 @@ Before moving to Module 3, you should be able to:
 
 ## Module 3: Financial & Metrics Mastery (Week 3-4) - 12-15 hours
 
-**Goal**: Understand the Numbers That Matter
+**Learning Objectives**:
+- Calculate the "Big 3" metrics: Food Cost, Labor Cost, and Prime Cost.
+- Analyze menu profitability using Engineering Matrices (Stars vs. Dogs).
+- Differentiate between Gross Profit, Net Profit, and Contribution Margin.
 
-**📚 Reading** (3 hours):
-1. **Focus Sections**:
-   - Financial Metrics (Indonesia guide)
-   - Business models economics (all 13 models!)
-   - Challenges & BI Solutions
+**Topics**:
 
-2. **Create Metrics Cheat Sheet**:
-```markdown
-# F&B Metrics Cheat Sheet
+**Week 3: Financial Foundations**:
+- **Focus Sections**:
+  - Financial Metrics (Indonesia guide).
+  - Business models economics (all 13 models!).
+  - Challenges & BI Solutions.
+- **Key Definitions**:
+  - **Prime Cost**: COGS (Food + Bev) + Total Labor (The #1 metric).
+  - **Profitability**: Gross Profit vs. Net Profit, Contribution Margin.
 
-## Food Cost %
-Formula: (COGS / Food Sales) × 100
-Target: 28-35% (Indonesia)
-Why: Too high = losing money, too low = quality concerns
+**Week 4: Applied Metrics**:
+- **Advanced Metrics**:
+  - **Efficiency**: RevPASH (Revenue Per Available Seat Hour), Table Turn Rate.
+  - **Menu Engineering**: Stars, Plow Horses, Puzzles, Dogs.
+- **Cost Control**: Waste tracking, portion control, theft prevention.
+- **Metric Cheat Sheet**: Create your own reference guide.
 
-## Labor Cost %
-Formula: (Labor / Sales) × 100
-Target: 25-32% (Indonesia chains), 15-20% (warung family labor)
-Why: Biggest expense after food, must optimize
+**Key Concepts**:
+- **Prime Cost**: COGS (Food + Bev) + Total Labor (The #1 metric).
+- **Profitability**: Gross Profit vs. Net Profit, Contribution Margin.
+- **Menu Engineering**: Stars, Plow Horses, Puzzles, Dogs.
+- **Efficiency Metrics**: RevPASH (Revenue Per Available Seat Hour), Table Turn Rate.
+- **Cost Control**: Waste tracking, portion control, theft prevention.
 
-## Prime Cost %
-Formula: (COGS + Labor) / Sales × 100
-Target: <65% (sustainable)
-Why: Combined food + labor = baseline profitability
+**Hands-on Exercises**:
 
-[Continue for all metrics from guide...]
-```
+1. **Practice Calculation** (4-5 hours):
+   - **Exercise 1: Warung Economics Calculation**
+   - **Exercise 2: Modern Restaurant Analysis**
 
-**📊 Practice Calculation** (4-5 hours):
-**Using Real/Simulated Data**:
-[Continue for all metrics from guide...]
-
-**Exercise 1: Warung Economics Calculation**
-```
-Given:
-- Daily customers: 120
-- Average spend: Rp 20,000
-- Daily ingredient cost: Rp 850,000
-- Rent: Rp 4,000,000/month
-- Labor: Owner + spouse (no wage, but value = Rp 8M/month)
-
-Calculate:
-1. Daily revenue
-2. Monthly revenue
-3. Food cost %
-4. Gross margin %
-5. Net profit (if owner takes Rp 8M salary)
-6. Is this sustainable?
-
-Analyze:
-- What if ingredients cost increases 15%?
-- What if lose 10% customers?
-- What if delivery (25% commission) = 30% of orders?
-```
-
-**Exercise 2: Modern Restaurant Analysis**
-```
-Given (from guide - KFC-type economics):
-- Monthly revenue: Rp 500M
-- Food cost: 30%
-- Rent: Rp 70M
-- Labor: 18%
-- Royalty: 6%
-
-Calculate:
-1. Food cost (Rp)
-2. Labor cost (Rp)
-3. Total costs (Rp and %)
-4. Net profit (Rp and %)
-5. Break-even revenue
-
-Analyze:
-- What happens if revenue drops 20% (slow month)?
-- How many customers needed daily at Rp 38k average?
-- What if labor cost increases 25% (new minimum wage)?
-```
-
-**Create Spreadsheet Models** (`fnb-domain/projects/`):
-- [ ] Warung profitability calculator
-- [ ] Restaurant break-even analyzer
-- [ ] Menu item profitability matrix
-- [ ] Ramadan revenue planner (40-60% spike)
-
-**Tools**:
-- **Documentation**: Camera (Menu prices, layout), Voice Recorder (Staff interviews - with permission)
-- **Logging**: Notion / Obsidian / Physical Notebook
-- **Discovery**: Google Maps (Review analysis), Zomato / PergiKuliner (Competitor research)
-- **Spreadsheet**: Excel / Google Sheets (Key functions: `SUMIFS`, `VLOOKUP`, Pivot Tables)
-- **Calculators**: Financial Calculator (Prime Cost, RevPASH)
-- **Reporting**: POS Reports (Toast, Square, Moka exports)
-- **Analysis**: Menu Engineering Matrix Template (Stars/Dogs quadrant)
-
-**Resources**:
-
-- **Books**:
-  - "Restaurant Success by the Numbers" by Roger Fields
-- **Data**:
-  - BPS Indonesia F&B Statistics
-  - National Restaurant Association Benchmarks
-  - Kaggle F&B Datasets
-- **Templates**:
-  - Financial Modeling Calculator
-  - Menu Engineering Matrix
-  - Capstone Project Templates
+2. **Create Spreadsheet Models** (`fnb-domain/projects/`):
+   - [ ] Warung profitability calculator
+   - [ ] Restaurant break-even analyzer
+   - [ ] Menu item profitability matrix
+   - [ ] Ramadan revenue planner (40-60% spike)
 
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain the difference between gross margin and contribution margin in F&B context with examples"
@@ -417,6 +319,26 @@ Analyze:
 > - **🔍 AI Explain**: "Explain the menu engineering matrix - how to classify menu items as Stars, Plow Horses, Puzzles, and Dogs"
 > - **⚡ AI Generate**: "Generate sample menu data (20 items) with popularity and profit margin for menu engineering practice"
 > - **💡 Ask AI**: "What are typical food cost % targets for different F&B types?"
+
+**Resources**:
+- **Books**:
+  - "Restaurant Success by the Numbers" by Roger Fields
+- **Data**:
+  - BPS Indonesia F&B Statistics
+  - National Restaurant Association Benchmarks
+  - Kaggle F&B Datasets
+- **Templates**:
+  - Financial Modeling Calculator
+  - Menu Engineering Matrix
+  - Capstone Project Templates
+- **Tools**:
+  - **Documentation**: Camera (Menu prices, layout), Voice Recorder (Staff interviews - with permission)
+  - **Logging**: Notion / Obsidian / Physical Notebook
+  - **Discovery**: Google Maps (Review analysis), Zomato / PergiKuliner (Competitor research)
+  - **Spreadsheet**: Excel / Google Sheets (Key functions: `SUMIFS`, `VLOOKUP`, Pivot Tables)
+  - **Calculators**: Financial Calculator (Prime Cost, RevPASH)
+  - **Reporting**: POS Reports (Toast, Square, Moka exports)
+  - **Analysis**: Menu Engineering Matrix Template (Stars/Dogs quadrant)
 
 **Common Pitfalls**:
 
@@ -452,59 +374,52 @@ Before moving to Module 4, you should be able to:
 
 ## Module 4: Regional Comparison & Patterns (Week 5) - 8-10 hours
 
-**Goal**: Understand Market Variations & Identify Patterns
+**Learning Objectives**:
+- Compare Indonesian F&B dynamics with regional neighbors (Thailand, Singapore).
+- Identify universal industry patterns vs. local cultural nuances (e.g., Ramadan).
+- Recognize how regional variables (labor, supply chain) impact BI baselines.
 
-**📚 Reading** (5-6 hours):
-1. **Compare Regional Guides** (in `resources/regional_guides/`):
-   - Pick 3 countries: Indonesia + 2 others (e.g., Thailand, Singapore)
-   - OR: Pick 3 USA cities (NYC, LA, Austin)
-   - Read with comparative lens
+**Topics**:
 
-2. **Create Comparison Matrix**:
-```markdown
-| Metric | Indonesia (Jakarta) | Thailand (Bangkok) | Singapore |
-|--------|---------------------|-------------------|-----------|
-| Avg meal cost | Rp 20k ($1.25) | 40-60 baht ($1.20-1.80) | $5-8 SGD |
-| Labor cost % | 25-32% | 28-35% | 35-40% |
-| Rent burden | 6-12% | 8-15% | 15-25%! |
-| Digital payment | 45% | 60% | 80% |
-| Key differentiator | Ramadan +50% | Street food dominant | Hawker centers |
-```
+**Day 1-2: Regional Analysis**:
+- **Comparative Study**:
+  - Pick 3 countries: Indonesia + 2 others (e.g., Thailand, Singapore) (in `resources/regional_guides/`).
+  - OR: Pick 3 USA cities (NYC, LA, Austin).
+  - **Action**: Read with a comparative lens.
+- **Comparison Matrix**:
+  - Compare Metric, Indonesia, Thailand, Singapore (Avg meal cost, Labor cost, Rent, Digital Pay, Differentiator).
 
-**🔍 Pattern Exercise** (3-4 hours):
-**Identify Universal vs Regional**:
+**Day 3-5: Pattern Recognition**:
+- **Universal Truths**: Prime cost targets, location importance, hospitality fundamentals.
+- **Regional Variables**:
+  - Labor regulations (UMR), Rent structures.
+  - Cultural Factors: Halal certification, Ramadan impact, "Nongkrong" culture.
+- **Technology Adoption**: QR menus, E-wallets (GoPay/OVO), Delivery platforms.
 
-**Universal Patterns** (applies everywhere):
-```
-- Food cost typically 28-35%
-- Labor cost 25-35% (varies by automation)
-- Prime cost target <65%
-- Lunch = 50-60% of daily revenue
-- Delivery commission 20-30%
-```
+**Key Concepts**:
+- **Regional Variables**: Labor regulations (UMR), Rent structures, Supply chain maturity.
+- **Cultural Factors**: Halal certification, Ramadan impact, "Nongkrong" culture.
+- **Technology Adoption**: QR menus, E-wallets (GoPay/OVO), Delivery platforms.
+- **Universal Truths**: Prime cost targets, location importance, hospitality fundamentals.
 
-**Regional Patterns** (Indonesia-specific):
-```
-- Pasar tradisional daily sourcing (vs weekly orders West)
-- Ramadan +40-60% revenue spike
-- Halal requirement (87% market)
-- GoPay/OVO dominance (vs credit cards West)
-- Family labor common (warung model)
-```
+**Hands-on Exercises**:
 
-**Why This Matters for BI**:
-- Universal patterns = benchmark against
-- Regional patterns = must customize for
+1. **Pattern Exercise** (3-4 hours):
+   **Identify Universal vs Regional**:
+   - Universal Patterns (Food cost, Labor cost, etc.)
+   - Regional Patterns (Pasar sourcing, Ramadan, Halal, GoPay)
 
-- Regional patterns = must customize for
+2. **Why This Matters for BI**:
+   - Universal patterns = benchmark against
+   - Regional patterns = must customize for
 
-**Tools**:
-- **Analysis**: Google Sheets (Comparison Matrix)
-- **Visualization**: Chart.js / Recharts (for coding practice) or Excel Charts
-- **Market Research**: Google Trends (Regional Interest), Statista (Industry Benchmarks)
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
+> - **💡 Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
+> - **⚡ AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
+> - **🤖 AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable?"
 
 **Resources**:
-
 - **Books**:
   - "Setting the Table" by Danny Meyer
   - "Kitchen Confidential" by Anthony Bourdain
@@ -514,12 +429,10 @@ Before moving to Module 4, you should be able to:
 - **Learning**:
   - Google Sheets QUERY Tutorials
   - Restaurant Analytics Case Studies
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create a comparison matrix template for 5 countries with 15 F&B business metrics"
-> - **💡 Ask AI**: "What patterns should I look for in F&B sales data to identify actionable insights?"
-> - **⚡ AI Generate**: "Generate realistic F&B transaction data (1000 rows) for analysis practice"
-> - **🤖 AI Review**: "I analyzed this F&B data and found: [findings]. Are these insights actionable?"
+- **Tools**:
+  - **Analysis**: Google Sheets (Comparison Matrix)
+  - **Visualization**: Chart.js / Recharts (for coding practice) or Excel Charts
+  - **Market Research**: Google Trends (Regional Interest), Statista (Industry Benchmarks)
 
 **Common Pitfalls**:
 
@@ -556,94 +469,49 @@ Before moving to Module 5, you should be able to:
 
 ## Module 5: BI Application & Capstone (Week 6) - 8-10 hours
 
-**Goal**: Apply Domain Knowledge to Build BI Solution
+**Learning Objectives**:
+- Synthesize all domain knowledge into a production-ready BI dashboard.
+- Translate raw F&B data into actionable business recommendations.
+- Design distinct views for different stakeholders (Owners vs. Kitchen Manager).
 
-**🎯 Capstone Project Options**:
+**Topics**:
+
+**Day 1-2: Solution Design**:
+- **BI Solution Architecture**:
+  - Dashboard hierarchy (Executive vs Operational).
+  - User persona targeting (Owner vs Kitchen Manager).
+- **Actionability Framework**:
+  - Moving from "What happened?" to "What should we do?".
+
+**Day 3-5: Capstone Execution**:
+- **Data Storytelling**: Visualizing F&B KPIs for non-technical owners.
+- **Implementation Strategy**: Data pipelines, refresh schedules, user adoption.
+- **Final Polish**: Ensuring the dashboard answers the core business questions.
+
+**Hands-on Project**: Capstone Project Options
 
 **Option A: Restaurant Dashboard (Full)**
-```
-Choose a business model (Warung, KFC-type, Cloud Kitchen)
-
-Build:
-1. Daily Operations Dashboard
-   - Revenue tracking (actual vs target)
-   - Food cost % monitoring
-   - Labor cost % monitoring
-   - Top selling items
-
-2. Inventory Dashboard (if applicable)
-   - Stock levels
-   - Reorder alerts
-   - Pasar price tracking (if warung)
-
-3. Customer Analytics
-   - Peak hours heatmap
-   - Average spend trends
-   - Payment method split
-Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
-```
-
-4. Financial Overview
-   - Monthly P&L
-   - Prime cost tracking
-   - Break-even analysis
-
-Tools: Excel/Google Sheets (start simple!) or Power BI/Tableau
-```
+- Build Daily Operations Dashboard, Inventory Dashboard, Customer Analytics, Financial Overview.
 
 **Option B: Menu Engineering Tool**
-```
-Build calculator that:
-1. Takes menu items + costs + prices
-2. Calculates:
-   - Food cost % per item
-   - Contribution margin
-   - Menu engineering category (Star/Puzzle/Plow/Dog)
-3. Recommends:
-   - Items to promote
-   - Items to remove
-   - Pricing adjustments
+- Build calculator for food cost, contribution margin, and category classification.
 
-Tools: Google Sheets with formulas + conditional formatting
-```
+**Option C: Ramadan Revenue Planner**
+- Build planner for forecasting Ramadan impact, inventory, staff, and cash flow.
 
-**Option C: Ramadan Revenue Planner (Indonesia-specific)**
-```
-Build planner that:
-1. Takes normal month baseline
-2. Forecasts Ramadan impact (+40-60%)
-3. Calculates:
-   - Ingredient order increase needed
-   - Extra staff hours required
-   - Peak hour capacity planning (buka puasa 6pm rush!)
-4. Provides:
-   - Daily inventory checklist
-   - Cash flow projection
+**Documentation**:
+- Create `fnb-domain/projects/capstone_[project_name]/`
+- README.md, data/, dashboard/, analysis.md, reflection.md
 
-Tools: Excel/Sheets with scenario modeling
-```
-
-reflection.md - What you learned, what was hard, what you'd improve
-```
-
-**📝 Documentation**:
-Create `fnb-domain/projects/capstone_[project_name]/`:
-```
-README.md - Project overview, business context
-data/ - Sample data used
-dashboard/ - Exported dashboard/screenshots
-analysis.md - Insights discovered, recommendations
-reflection.md - What you learned, what was hard, what you'd improve
-```
-
-**Tools**:
-- **Design**: Canva / Figma (UI Mockups & Wireframes)
-- **Prototyping**: Excel / Google Sheets (Functional Logic)
-- **BI Platforms**: Power BI / Tableau / Apache Superset (Optional)
-- **Data Generation**: Mockaroo / Python Faker (Synthetic Datasets)
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
+> - **⚡ AI Generate**: "Generate spreadsheet formulas for menu engineering calculator"
+> - **💡 Ask AI**: "How should I forecast Ramadan impact on different F&B business models?"
+> - **⚡ AI Generate**: "Generate comprehensive sample F&B data for capstone project"
+> - **🤖 AI Review**: "Review my F&B BI dashboard design. Does it answer key business questions?"
+> - **💡 Ask AI**: "What are must-have vs nice-to-have features for MVP?"
 
 **Resources**:
-
 - **Design**:
   - Canva / Figma
   - Dashboard Inspiration Galleries
@@ -664,14 +532,11 @@ reflection.md - What you learned, what was hard, what you'd improve
   - BI curriculum materials  
   - Regional F&B industry reports
   - Capstone project templates
-
-> **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain how to build a RevPASH (Revenue Per Available Seat Hour) dashboard for F&B"
-> - **⚡ AI Generate**: "Generate spreadsheet formulas for menu engineering calculator"
-> - **💡 Ask AI**: "How should I forecast Ramadan impact on different F&B business models?"
-> - **⚡ AI Generate**: "Generate comprehensive sample F&B data for capstone project"
-> - **🤖 AI Review**: "Review my F&B BI dashboard design. Does it answer key business questions?"
-> - **💡 Ask AI**: "What are must-have vs nice-to-have features for MVP?"
+- **Tools**:
+  - **Design**: Canva / Figma (UI Mockups & Wireframes)
+  - **Prototyping**: Excel / Google Sheets (Functional Logic)
+  - **BI Platforms**: Power BI / Tableau / Apache Superset (Optional)
+  - **Data Generation**: Mockaroo / Python Faker (Synthetic Datasets)
 
 **Common Pitfalls**:
 
@@ -699,7 +564,7 @@ reflection.md - What you learned, what was hard, what you'd improve
 - Missing proof/validation
 - Poor visual communication
 
-**Final Assessment Checklist**:
+**Assessment Checklist**:
 
 By the end of this curriculum, you should be able to:
 - [ ] **Explain F&B operations** at the level of an industry insider
@@ -763,8 +628,7 @@ Once you master F&B, same approach for:
 ---
 
 ## Resources
-
-**In This Repository**:
+- **In This Repository**:
 - `fb_business_processes_indonesia.md` - Complete guide (1,953 lines!)
 - `resources/regional_guides/` - 24 regional F&B guides for comparison
 - `datasets/` - Practice datasets (expand as you progress)

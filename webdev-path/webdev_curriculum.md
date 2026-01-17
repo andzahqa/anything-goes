@@ -14,9 +14,14 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 ## Phase 1: Foundation (Weeks 1-4)
 
 ### Module 1.1: The Web Fundamentals
-**Goal**: Understand how the web works and build your first pages
+**Duration**: 4 Weeks
+**Learning Objectives**:
+- Understand the client-server architecture of the web.
+- Structure content semantically using HTML5.
+- Style pages responsively with CSS Flexbox and Grid.
+- Implement basic interactivity using Vanilla JavaScript.
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: HTML5 Essentials**
 - Semantic HTML elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<footer>`)
@@ -44,7 +49,7 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 - Event handling: click, submit, input, change events
 - ES6+ features: template literals, destructuring, spread/rest, arrow functions
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 **HTML Practice** (Day 1-2):
 1. Build a semantic HTML page structure for a blog
@@ -70,49 +75,12 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 - Git & GitHub (Version Control)
 - Postman (API Testing - for later)
 
-#### Resources
-
-- **Documentation**:
-  - MDN Web Docs (The Bible of Web Dev)
-  - HTML Living Standard
-  - CSS Tricks (Practical guides)
-- **Interactive**:
-  - freeCodeCamp (Responsive Web Design)
-  - Frontend Mentor (Projects)
-  - Flexbox Froggy & Grid Garden
-- **Video**:
-  - Traversy Media (Crash Courses)
-  - Kevin Powell (CSS King)
-  - The Net Ninja (Full Series)
-
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain [concept] with web dev examples and code snippets"
 > - **💡 Ask AI**: "What's the difference between map() and forEach()? When should I use each?"
 > - **🤖 AI Debug**: "I'm getting [error message] when doing [what you're trying to do]. Here's my code: [code]"
 
-#### Common Pitfalls
-
-❌ **HTML Mistakes**:
-- Using `<div>` for everything instead of semantic elements
-- Forgetting alt text on images (accessibility!)
-- Not closing tags properly
-- Missing form labels
-
-❌ **CSS Mistakes**:
-- Not using mobile-first responsive design
-- Over-specific selectors (avoid deep nesting)
-- Forgetting box-sizing: border-box
-- Not testing on different browsers
-
-❌ **JavaScript Mistakes**:
-- Trying to manipulate DOM before it's loaded
-- Not handling errors in async code
-- Mutating arrays/objects unintentionally
-- Using == instead of === (type coercion issues)
-
-🤖 **AI Debug**: If you encounter errors, paste: "I'm getting [error message] when doing [what you're trying to do]. Here's my code: [code]"
-
-#### Resources
+**Resources**:
 
 **Documentation**:
 - MDN Web Docs: https://developer.mozilla.org (THE reference)
@@ -134,7 +102,29 @@ This curriculum is designed to be **project-driven** and **practical**. You'll l
 - "Eloquent JavaScript" by Marijn Haverbeke (free online)
 - "HTML & CSS" by Jon Duckett (beautiful, visual)
 
-#### Assessment Checklist
+**Common Pitfalls**:
+
+❌ **HTML Mistakes**:
+- Using `<div>` for everything instead of semantic elements
+- Forgetting alt text on images (accessibility!)
+- Not closing tags properly
+- Missing form labels
+
+❌ **CSS Mistakes**:
+- Not using mobile-first responsive design
+- Over-specific selectors (avoid deep nesting)
+- Forgetting box-sizing: border-box
+- Not testing on different browsers
+
+❌ **JavaScript Mistakes**:
+- Trying to manipulate DOM before it's loaded
+- Not handling errors in async code
+- Mutating arrays/objects unintentionally
+- Using == instead of === (type coercion issues)
+
+🤖 **AI Debug**: If you encounter errors, paste: "I'm getting [error message] when doing [what you're trying to do]. Here's my code: [code]"
+
+**Assessment Checklist**:
 
 Before moving to Module 1.2, you should be able to:
 - [ ] Write semantic HTML for any webpage structure
@@ -227,10 +217,14 @@ personal-dashboard/
 ---
 
 ### Module 1.2: JavaScript Deep Dive
-**Goal**: Master JavaScript for complex applications
+**Learning Objectives**:
+- Manage asynchronous operations using Promises and async/await.
+- Fetch and manipulate data from external REST APIs.
+- Debug complex JavaScript logic and error handling.
+- Modularize code using ES6 modules.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: Advanced JavaScript**
 - **Asynchronous JavaScript**:
@@ -269,7 +263,7 @@ personal-dashboard/
   - Common CORS errors
   - Proxy solutions for development
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Promises Practice**: Convert callback-based code to Promises
 2. **Async/Await**: Build a weather app that fetches from OpenWeather API
@@ -277,7 +271,35 @@ personal-dashboard/
 4. **Multiple APIs**: Fetch data from 3 different APIs and combine results
 5. **Module System**: Refactor a large JS file into multiple modules
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain closure in JavaScript with a counter example"
+> - **💡 Ask AI**: "What is the difference between synchronous and asynchronous code execution?" or "Explain the difference between Promise.all() and Promise.race() with examples"
+> - **⚡ AI Generate**: "Create a promise-based function to fetch data and handle errors" or "Create async/await practice exercises with increasing difficulty"
+> - **🤖 AI Debug**: "Debug this async/await function that isn't waiting for the promise: [code]" or "My fetch() is not working. Getting CORS error. Here's my code: [code]"
+
+**Resources**:
+
+- **Documentation**:
+  - MDN JavaScript Reference
+  - Modern JavaScript Primer
+  - JavaScript.info: Promises, async/await chapters
+  - MDN: Fetch API guide
+  - Public APIs list: https://github.com/public-apis/public-apis
+- **Books**:
+  - "You Don't Know JS Yet" (Kyle Simpson)
+  - "JavaScript: The Good Parts" (Review vs Modern JS)
+- **Tools**:
+  - RunJS (Quick playground)
+  - Chrome Snippets
+  - Node.js (for running scripts)
+- **Practice**:
+  - Exercism.io (JavaScript Track)
+  - JavaScript30 (Wes Bos)
+  - Codewars (Katas)
+  - FreeCodeCamp: JavaScript Algorithms and Data Structures
+  - LeetCode: Easy JavaScript problems
+
+**Common Pitfalls**:
 
 ❌ **Async Mistakes**:
 - Forgetting to await promises (returns Promise instead of value)
@@ -290,42 +312,7 @@ personal-dashboard/
 - Hardcoding API keys in frontend code (security!)
 - Not handling rate limits
 
-#### Resources
-
-**Tools**:
-- RunJS (Quick playground)
-- Chrome Snippets
-- Node.js (for running scripts)
-- MDN Web Docs
-
-#### Resources
-
-- **Documentation**:
-  - MDN JavaScript Reference
-  - Modern JavaScript Primer
-  - JavaScript.info: Promises, async/await chapters
-  - MDN: Fetch API guide
-  - Public APIs list: https://github.com/public-apis/public-apis
-- **Books**:
-  - "You Don't Know JS Yet" (Kyle Simpson)
-  - "JavaScript: The Good Parts" (Review vs Modern JS)
-- **Practice**:
-  - Exercism.io (JavaScript Track)
-  - JavaScript30 (Wes Bos)
-  - Codewars (Katas)
-
-> **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain closure in JavaScript with a counter example"
-> - **💡 Ask AI**: "What is the difference between synchronous and asynchronous code execution?" or "Explain the difference between Promise.all() and Promise.race() with examples"
-> - **⚡ AI Generate**: "Create a promise-based function to fetch data and handle errors" or "Create async/await practice exercises with increasing difficulty"
-> - **🤖 AI Debug**: "Debug this async/await function that isn't waiting for the promise: [code]" or "My fetch() is not working. Getting CORS error. Here's my code: [code]"
-
-**Practice**:
-- FreeCodeCamp: JavaScript Algorithms and Data Structures
-- Exercism.io: JavaScript track
-- LeetCode: Easy JavaScript problems
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 2, you should be able to:
 - [ ] Explain promises and async/await clearly
@@ -352,7 +339,11 @@ Enhance your dashboard to:
 ## Phase 2: Modern Frontend Development (Weeks 5-10)
 
 ### Module 2.1: React Fundamentals
-**Goal**: Build dynamic, component-based UIs
+**Learning Objectives**:
+- Construct reusable UI components using React function components.
+- Manage local component state with the `useState` hook.
+- Handle side effects and lifecycle events with `useEffect`.
+- Optimize rendering performance using standard hooks.
 **Duration**: 3 weeks
 
 #### Prerequisites
@@ -361,7 +352,7 @@ Enhance your dashboard to:
 - DOM manipulation experience
 - npm/node basics
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: React Basics**
 - **Components**:
@@ -412,7 +403,7 @@ Enhance your dashboard to:
   - Virtual DOM concepts
   - Avoiding unnecessary re-renders
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Counter App**: Build with multiple counters, reset functionality
 2. **Form Handling**: Create multi-step form with validation
@@ -421,7 +412,39 @@ Enhance your dashboard to:
 5. **Todo App**: Full CRUD operations with filtering
 6. **Theme Switcher**: Use Context API for app-wide theme
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a React functional component for a ProductCard with props for name, price, image" or "Create React component structure for analytics dashboard"
+> - **🔍 AI Explain**: "Explain React Virtual DOM and why it makes rendering fast" or "Explain React reconciliation and virtual DOM with examples"
+> - **💡 Ask AI**: "What is the useEffect dependency array and when should I use it?" or "When should I use useMemo vs useCallback vs React.memo?"
+> - **🤖 AI Debug**: "React component is re-rendering infinitely. Check useEffect usage: [code]" or "My useEffect runs infinitely. Dependencies: [data]. Code: [code]"
+
+**Resources**:
+
+- **Documentation**:
+  - React Official Documentation (react.dev)
+  - React Router Official Docs
+  - Vite Documentation
+- **Courses**:
+  - Epic React by Kent C. Dodds
+  - Scrimba React Course
+  - Frontend Masters: Complete Intro to React
+  - "React - The Complete Guide" by Maximilian Schwarzmüller
+  - freeCodeCamp: Front End Libraries (React section)
+- **Community**:
+  - Reactiflux Discord
+  - r/reactjs
+- **Tools**:
+  - Create React App / Vite
+  - React Developer Tools
+  - VS Code ES7+ React Snippets
+  - CodeSandbox
+- **Practice**:
+  - React Challenges: https://reactjschallenge.com
+  - Build your own [X] in React series
+- **Reading**:
+  - Kent C. Dodds blog: Epic React patterns
+
+**Common Pitfalls**:
 
 ❌ **State Mistakes**:
 - Mutating state directly (always create new objects/arrays)
@@ -439,56 +462,7 @@ Enhance your dashboard to:
 - Not memoizing expensive calculations
 - Passing inline objects/arrays as props
 
-#### Resources
-
-**Tools**:
-- Create React App / Vite
-- React Developer Tools (Chrome Extension)
-- VS Code ES7+ React Snippets
-- CodeSandbox (Online React Playground)
-
-- **Official**:
-  - React Documentation (react.dev)
-  - React Beta Docs (Interactive)
-- **Courses**:
-  - Epic React by Kent C. Dodds
-  - Scrimba React Course (Interactive)
-- **Community**:
-  - Reactiflux Discord
-  - r/reactjs
-
-- React official documentation (comprehensive and well-structured)
-- "React - The Complete Guide" by Maximilian Schwarzmüller (Udemy)
-- React.dev interactive tutorials
-- Kent C. Dodds' blog and courses (advanced React patterns)
-- Frontend Masters React courses
-- React Router official docs
-- Vite documentation (modern build tool)
-- React Docs (new beta): https://react.dev
-- React DevTools Chrome extension
-
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create a React functional component for a ProductCard with props for name, price, image" or "Create React component structure for analytics dashboard"
-> - **🔍 AI Explain**: "Explain React Virtual DOM and why it makes rendering fast" or "Explain React reconciliation and virtual DOM with examples"
-> - **💡 Ask AI**: "What is the useEffect dependency array and when should I use it?" or "When should I use useMemo vs useCallback vs React.memo?"
-> - **🤖 AI Debug**: "React component is re-rendering infinitely. Check useEffect usage: [code]" or "My useEffect runs infinitely. Dependencies: [data]. Code: [code]"
-
-
-**Courses**:
-- freeCodeCamp: Front End Libraries (React section)
-- Scrimba: Learn React for free
-- Frontend Masters: Complete Intro to React
-
-**Practice**:
-- React Challenges: https://reactjschallenge.com
-- Build your own [X] in React series
-
-**Reading**:
-- "React - The Complete Guide" by Maximilian Schwarzmüller
-- Kent C. Dodds blog: Epic React patterns
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Module 2.2, you should be able to:
 - [ ] Create functional components with JSX
@@ -517,10 +491,14 @@ Build a React app that displays:
 ---
 
 ### Module 2.2: State Management & Routing
-**Goal**: Handle complex application state and navigation
+**Learning Objectives**:
+- Implement client-side routing with React Router.
+- Manage global application state using Context API or Zustand.
+- Secure routes and handle authentication flows.
+- Sync UI state with URL parameters for shareability.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: State Management**
 - **Local vs Global State**:
@@ -559,7 +537,7 @@ Build a React app that displays:
   - URL as state source
   - Deep linking strategies
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Context Practice**: Build theme + user context with multiple consumers
 2. **Zustand Store**: Create global store for dashboard filters
@@ -567,7 +545,34 @@ Build a React app that displays:
 4. **Nested Routes**: Build multi-level navigation (dashboard/reports/settings)
 5. **URL State**: Sync dashboard filters with URL params
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Context API vs Redux - when to use which for a dashboard app?" or "Zustand vs Redux vs Context API - which for medium-sized BI app?"
+> - **⚡ AI Generate**: "Create a Redux slice for shopping cart state management" or "Create Zustand store structure for analytics dashboard state"
+> - **🔍 AI Explain**: "Explain prop drilling and how Context API solves it" or "Explain React Router v6 differences from v5"
+> - **🤖 AI Debug**: "Redux state not updating in component. Check my reducer and dispatch: [code]" or "My React app crashes on route change. Check my router setup: [code]" or "Context re-renders all children even when value hasn't changed. Code: [code]"
+
+**Resources**:
+
+- **State Management**:
+  - Redux Toolkit Docs
+  - Context API Guide
+  - Zustand Documentation
+- **Routing**:
+  - React Router Docs
+  - Protected Routes Patterns
+- **Patterns**:
+  - Advanced React Patterns
+- **Tools**:
+  - Redux DevTools
+  - React Router DOM
+  - Context API (Built-in)
+  - Zustand (Alternative state manager)
+- **Learning**:
+  - React Router tutorial (official)
+  - Zustand crash course (YouTube)
+  - Redux Toolkit tutorial
+
+**Common Pitfalls**:
 
 ❌ **State Mistakes**:
 - Putting everything in global state (use local state first!)
@@ -581,49 +586,7 @@ Build a React app that displays:
 - Forgetting to protect routes
 - Not lazy loading routes (large bundle)
 
-#### Resources
-
-**Documentation**:
-- React Router: https://reactrouter.com
-- Zustand: https://docs.pmnd.rs/zustand
-- Redux Toolkit: https://redux-toolkit.js.org
-
-**Tools**:
-- Redux DevTools
-- React Router DOM
-- Context API (Built-in)
-- Zustand (Alternative state manager)
-
-#### Resources
-
-- **State Management**:
-  - Redux Toolkit Docs
-  - Context API Guide
-  - Zustand Documentation
-- **Routing**:
-  - React Router Docs
-  - Protected Routes Patterns
-- **Patterns**:
-  - Advanced React Patterns
-
-> **🤖 AI Assistance**:
-> - **💡 Ask AI**: "Context API vs Redux - when to use which for a dashboard app?"
-> - **⚡ AI Generate**: "Create a Redux slice for shopping cart state management"
-> - **🔍 AI Explain**: "Explain prop drilling and how Context API solves it"
-> - **🤖 AI Debug**: "Redux state not updating in component. Check my reducer and dispatch: [code]"
-💡 **Ask AI**: "Zustand vs Redux vs Context API - which for medium-sized BI app?"
-⚡ **AI Generate**: "Create Zustand store structure for analytics dashboard state"
-🔍 **AI Explain**: "Explain React Router v6 differences from v5"
-🤖 **AI Debug**: "Context re-renders all children even when value hasn't changed. Code: [code]"
-
-**Learning**:
-- React Router tutorial (official)
-- Zustand crash course (YouTube)
-- Redux Toolkit tutorial
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
+**Assessment Checklist**:
 - [ ] Choose appropriate state management solution
 - [ ] Use Context API without performance issues
 - [ ] Set up React Router with nested routes
@@ -645,10 +608,14 @@ Expand your analytics viewer with:
 ## Phase 3: Styling & Design Systems (Weeks 11-13)
 
 ### Module 3.1: Advanced Styling
-**Goal**: Create stunning, professional UIs
+**Learning Objectives**:
+- Implement modular styling using CSS-in-JS or Utility classes.
+- Apply UI/UX principles for consistent color and typography.
+- Ensure accessibility compliance (WCAG) for all users.
+- Build a cohesive Design System with reusable tokens.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: Modern CSS Techniques**
 - **CSS-in-JS**:
@@ -693,7 +660,7 @@ Expand your analytics viewer with:
   - Screen reader support
   - Color contrast checking
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Styled Components**: Build reusable Button component with variants
 2. **Tailwind Dashboard**: Create dashboard page with Tailwind
@@ -701,11 +668,39 @@ Expand your analytics viewer with:
 4. **Dark Mode**: Implement theme switcher with localStorage
 5. **Accessibility Audit**: Test app with screen reader and keyboard only
 
-💡 **Ask AI**: "Styled-components vs Tailwind vs CSS Modules - pros/cons for BI dashboard?"
-⚡ **AI Generate**: "Create design token system (colors, typography, spacing) for professional BI app"
-🔍 **AI Explain**: "Explain WCAG 2.1 color contrast requirements with examples"
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Styled-components vs Tailwind vs CSS Modules - pros/cons for BI dashboard?"
+> - **⚡ AI Generate**: "Create design token system (colors, typography, spacing) for professional BI app" or "Generate a color palette for professional BI dashboard (10 colors with hex codes)"
+> - **🔍 AI Explain**: "Explain WCAG 2.1 color contrast requirements with examples" or "Explain CSS Grid areas vs Flexbox for dashboard layout"
+> - **💡 Ask AI**: "What are the pros and cons of CSS-in-JS vs Tailwind for large apps?"
+> - **🤖 AI Debug**: "Styled-components theme not updating on toggle. Code: [code]"
+> - **🤖 AI Review**: Share component code for accessibility and best practices feedback
 
-#### Common Pitfalls
+**Resources**:
+
+- **Documentation**:
+  - styled-components: https://styled-components.com
+  - Tailwind CSS: https://tailwindcss.com
+  - WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
+- **Design Systems**:
+  - Material UI (MUI)
+  - Chakra UI
+  - Ant Design
+- **Tools**:
+  - Styled-components / Emotion
+  - Tailwind CSS (VS Code Extension)
+  - Color Contrast Analyzers
+  - Storybook
+  - Coolors (Palette Generator)
+  - ColorBrewer (Accessible Palettes)
+  - Type Scale Calculator
+  - WebAIM Contrast Checker
+- **Learning**:
+  - Refactoring UI (book/course)
+  - Every Layout (CSS layout patterns)
+  - Design systems guides
+
+**Common Pitfalls**:
 
 ❌ **Styling Mistakes**:
 - Too many global styles (specificity hell)
@@ -725,58 +720,7 @@ Expand your analytics viewer with:
 - No keyboard navigation
 - Not testing with screen readers
 
-🤖 **AI Debug**: "Styled-components theme not updating on toggle. Code: [code]"
-
-#### Resources
-
-**Documentation**:
-- styled-components: https://styled-components.com
-- Tailwind CSS: https://tailwindcss.com
-- WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
-
-**Tools**:
-- Styled-components / Emotion
-- Tailwind CSS (VS Code Extension)
-- Color Contrast Analyzers
-- Storybook (Component Documentation)
-
-#### Resources
-
-- **Documentation**:
-  - styled-components: https://styled-components.com
-  - Tailwind CSS: https://tailwindcss.com
-  - WCAG Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
-- **Design Systems**:
-  - Material UI (MUI)
-  - Chakra UI
-  - Ant Design
-- **Tools**:
-  - Coolors (Palette Generator)
-  - ColorBrewer (Accessible Palettes)
-  - Type Scale Calculator
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Generate a color palette for professional BI dashboard (10 colors with hex codes)"
-> - **🔍 AI Explain**: "Explain CSS Grid areas vs Flexbox for dashboard layout"
-> - **💡 Ask AI**: "What are the pros and cons of CSS-in-JS vs Tailwind for large apps?"
-> - **🤖 AI Debug**: "Styled-components theme not updating on toggle. Code: [code]"
-⚡ **AI Generate**: "Generate a color palette for professional BI dashboard (10 colors with hex codes)"
-🤖 **AI Review**: Share component code for accessibility and best practices feedback
-
-**Design Tools**:
-- Coolors (color palette generator)
-- ColorBrewer (accessible palettes)
-- Type Scale calculator
-- WebAIM Contrast Checker
-
-**Learning**:
-- Refactoring UI (book/course)
-- Every Layout (CSS layout patterns)
-- Design systems guides
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
+**Assessment Checklist**:
 - [ ] Build components with styled-components or Tailwind
 - [ ] Create design token system
 - [ ] Implement dark/light themes
@@ -799,10 +743,14 @@ Create a comprehensive design system with:
 ---
 
 ### Module 3.2: Data Visualization
-**Goal**: Master charts and graphs for BI applications
+**Learning Objectives**:
+- Select the appropriate visualization type for specific data sets.
+- Implement interactive charts using libraries like Recharts or Chart.js.
+- Optimize chart rendering performance for large datasets.
+- Design responsive visualizations for mobile and desktop.
 **Duration**: 1 week
 
-#### Topics to Master
+**Topics**:
 
 **Chart Libraries Comparison**:
 - **Chart.js**: Simple, lightweight, good for basic charts
@@ -831,7 +779,7 @@ Create a comprehensive design system with:
   - Canvas vs SVG (Canvas for many elements)
   - Data aggregation strategies
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Chart Gallery**: Build all basic chart types (line, bar, pie, scatter)
 2. **Interactive Dashboard**: Add zoom, pan, hover tooltips
@@ -839,11 +787,29 @@ Create a comprehensive design system with:
 4. **Performance Test**: Render chart with 10,000+ data points
 5. **Custom Chart**: Build a unique visualization (e.g., funnel, gauge)
 
-💡 **Ask AI**: "Which chart library should I use for React BI dashboards - Recharts vs D3.js?"
-⚡ **AI Generate**: "Create sample time-series data (1 year, daily) for sales dashboard" or "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
-🔍 **AI Explain**: "Explain when to use Canvas vs SVG for data visualization"
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Which chart library should I use for React BI dashboards - Recharts vs D3.js?"
+> - **⚡ AI Generate**: "Create sample time-series data (1 year, daily) for sales dashboard" or "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
+> - **🔍 AI Explain**: "Explain when to use Canvas vs SVG for data visualization"
+> - **🤖 AI Debug**: "My chart is slow with 10k points. Using Recharts. Code: [code]"
 
-#### Common Pitfalls
+**Resources**:
+
+- **Libraries**:
+  - Recharts Docs: https://recharts.org
+  - Chart.js Docs: https://www.chartjs.org
+  - D3.js Gallery: https://observablehq.com/@d3/gallery
+  - Plotly React: https://plotly.com/javascript/react/
+- **Learning**:
+  - "Data Visualization with D3.js" (Udemy)
+  - Observable notebooks for D3 examples
+  - Frontend Masters: Data Visualization course
+- **Design Guidance**:
+  - "Storytelling with Data" by Cole Nussbaumer Knaflic
+  - Data Viz Catalogue: https://datavizcatalogue.com
+  - ColorBrewer for accessible palettes
+
+**Common Pitfalls**:
 
 ❌ **Chart Selection Mistakes**:
 - Using pie charts with too many categories (>5)
@@ -861,29 +827,7 @@ Create a comprehensive design system with:
 - Color-only encoding (colorblind users)
 - No keyboard navigation
 
-🤖 **AI Debug**: "My chart is slow with 10k points. Using Recharts. Code: [code]"
-
-#### Resources
-
-**Libraries**:
-- Recharts Docs: https://recharts.org
-- Chart.js Docs: https://www.chartjs.org
-- D3.js Gallery: https://observablehq.com/@d3/gallery
-- Plotly React: https://plotly.com/javascript/react/
-
-**Learning**:
-- "Data Visualization with D3.js" (Udemy)
-- Observable notebooks for D3 examples
-- Frontend Masters: Data Visualization course
-
-**Design Guidance**:
-- "Storytelling with Data" by Cole Nussbaumer Knaflic
-- Data Viz Catalogue: https://datavizcatalogue.com
-- ColorBrewer for accessible palettes
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
+**Assessment Checklist**:
 - [ ] Choose appropriate chart types for different data
 - [ ] Build responsive charts that work on all devices
 - [ ] Implement interactive features (tooltips, zoom, filters)
@@ -908,9 +852,14 @@ Build a collection of:
 ## Phase 4: Backend Development (Weeks 14-20)
 
 ### Module 4.1: Node.js & Express
-**Goal**: Build RESTful APIs for your frontend
+**Duration**: 3 weeks
+**Learning Objectives**:
+- Architect scalable RESTful APIs using Node.js and Express.
+- Implement middleware for request handling and validation.
+- Manage asynchronous data flows and error handling on the server.
+- Adhere to REST API design principles and best practices.
 
-#### Topics to Master
+**Topics**:
 - **Node.js Fundamentals**
   - Event loop and asynchronous programming
   - NPM and package management
@@ -925,7 +874,7 @@ Build a collection of:
   - Input validation
   - RESTful API design principles
 
-#### 🎯 Project 7: Analytics API
+**Hands-on Project**: Project 7 - Analytics API
 Build a Node.js API with endpoints for:
 - User authentication
 - Data retrieval with filtering/pagination
@@ -933,16 +882,14 @@ Build a Node.js API with endpoints for:
 - Data aggregation endpoints
 - File upload/download
 
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
+> - **🔍 AI Explain**: "Explain Node.js event loop and why it's good for BI dashboards"
+> - **💡 Ask AI**: "What are REST API best practices for versioning and error responses?"
+> - **🤖 AI Debug**: "My Express route returns 404. Code: [paste]. What's wrong?"
+> - **🤖 AI Debug**: Paste API errors with request/response details for troubleshooting
 
-
-#### Resources
-
-**Tools**:
-- Postman / Thunder Client (API Testing)
-- Nodemon (Dev Server)
-- Node.js Built-in Debugger
-
-#### Resources
+**Resources**:
 
 - **Documentation**:
   - Node.js Official Docs
@@ -955,31 +902,46 @@ Build a Node.js API with endpoints for:
   - freeCodeCamp APIs & Microservices
   - The Net Ninja Node.js Series
   - Traversy Media REST API
+- **Tools**:
+  - Postman / Thunder Client (API Testing)
+  - Nodemon (Dev Server)
+  - Node.js Built-in Debugger
 
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Generate Express.js boilerplate with routing structure for analytics API"
-> - **🔍 AI Explain**: "Explain Node.js event loop and why it's good for BI dashboards"
-> - **💡 Ask AI**: "What are REST API best practices for versioning and error responses?"
-> - **🤖 AI Debug**: "My Express route returns 404. Code: [paste]. What's wrong?"
-> - **🤖 AI Debug**: Paste API errors with request/response details for troubleshooting
+**Common Pitfalls**:
 
-**Courses**:
-- freeCodeCamp: APIs and Microservices
-- The Net Ninja: Node.js Crash Course
-- Traversy Media: RESTful API From Scratch
+❌ **Backend Mistakes**:
+- Not handling async/await properly
+- Missing error handling
+- No input validation
+- Blocking the event loop
 
-**Tools**:
-- Postman or Thunder Client for API testing
-- Nodemon for auto-restart during development
+❌ **API Design Issues**:
+- Inconsistent route naming
+- No versioning strategy
+- Missing CORS configuration
+- Poor error responses
 
-**Time**: 3 weeks
+**Assessment Checklist**:
+
+Before moving forward, you should be able to:
+- [ ] Build Express servers with RESTful routes
+- [ ] Handle async operations correctly
+- [ ] Implement proper error handling
+- [ ] Design clean API endpoints
+- [ ] Use middleware effectively
+- [ ] Debug Node.js applications
 
 ---
 
 ### Module 4.2: Databases
-**Goal**: Store and query data efficiently
+**Duration**: 2 weeks
+**Learning Objectives**:
+- Design normalized relational database schemas (PostgreSQL).
+- Execute efficient SQL queries for data retrieval and aggregation.
+- Integrate databases with applications using ORMs like Prisma.
+- Compare and contrast SQL vs NoSQL for different use cases.
 
-#### Topics to Master
+**Topics**:
 - **SQL Databases (PostgreSQL)**
   - Database design and normalization
   - SQL queries (SELECT, JOIN, GROUP BY, etc.)
@@ -993,7 +955,7 @@ Build a Node.js API with endpoints for:
   - Aggregation pipeline
   - When to use SQL vs NoSQL
 
-#### 🎯 Project 8: Data Layer Integration
+**Hands-on Project**: Project 8 - Data Layer Integration
 Integrate PostgreSQL with your API:
 - User management system
 - Store analytical data (sales, metrics, etc.)
@@ -1001,13 +963,13 @@ Integrate PostgreSQL with your API:
 - Data aggregation and reporting
 - Proper indexing for performance
 
-**Tools**:
-- PostgreSQL & MongoDB (Databases)
-- Prisma (ORM)
-- pgAdmin / DBeaver / MongoDB Compass (GUIs)
-- Postman (Testing)
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain database normalization with BI analytics schema examples"
+> - **⚡ AI Generate**: "Create PostgreSQL schema for F&B dashboard with tables: restaurants, menu_items, orders, customers"
+> - **🔍 AI Explain**: "Explain indexing strategy for analytics queries on large datasets"
+> - **💡 Ask AI**: "SQL vs NoSQL for BI dashboard - pros/cons?"
 
-#### Resources
+**Resources**:
 
 - **Documentation**:
   - PostgreSQL Official Docs
@@ -1020,14 +982,13 @@ Integrate PostgreSQL with your API:
 - **Best Practices**:
   - Database Design Patterns
   - SQL Performance Tuning Guide
+- **Tools**:
+  - PostgreSQL & MongoDB (Databases)
+  - Prisma (ORM)
+  - pgAdmin / DBeaver / MongoDB Compass (GUIs)
+  - Postman (Testing)
 
-> **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain database normalization with BI analytics schema examples"
-> - **⚡ AI Generate**: "Create PostgreSQL schema for F&B dashboard with tables: restaurants, menu_items, orders, customers"
-> - **🔍 AI Explain**: "Explain indexing strategy for analytics queries on large datasets"
-> - **💡 Ask AI**: "SQL vs NoSQL for BI dashboard - pros/cons?"
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Database Mistakes**:
 - No indexes on frequently queried columns
@@ -1041,7 +1002,7 @@ Integrate PostgreSQL with your API:
 - Missing query optimization
 - No prepared statements (SQL injection risk)
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Design normalized database schemas
@@ -1054,10 +1015,14 @@ Before moving forward, you should be able to:
 ---
 
 ### Module 4.3: Authentication & Security
-**Goal**: Secure your application
+**Learning Objectives**:
+- Implement secure user authentication using JWT and bcrypt.
+- Protect APIs against common vulnerabilities (OWASP Top 10).
+- Manage user sessions and role-based access control.
+- Apply security headers and best practices to Express apps.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: Authentication**
 - **JWT (JSON Web Tokens)**:
@@ -1099,7 +1064,7 @@ Before moving forward, you should be able to:
   - X-Content-Type-Options
   - Helmet.js for Express
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **JWT Auth System**: Build complete register/login with JWT
 2. **Password Reset**: Implement forgot password flow with email
@@ -1107,71 +1072,44 @@ Before moving forward, you should be able to:
 4. **Security Audit**: Test app for common vulnerabilities
 5. **Rate Limiting**: Add login attempt limiting (5 tries, 15min lockout)
 
+**Hands-on Project**: Project 9 - Secure Your App
+Add comprehensive security:
+- User registration and login
+- JWT-based authentication
+- Protected API routes
+- Role-based permissions (admin vs user)
+- Security middleware
+
 > **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create Express server with CRUD routes for F&B menu items"
-> - **🔍 AI Explain**: "Explain Node.js event loop and why it's good for BI dashboards"
-> - **🤖 AI Debug**: "My Express route returns 404. Code: [paste]. What's wrong?"
+> - **⚡ AI Generate**: "Create Express server with CRUD routes for F&B menu items" or "Generate Express middleware for JWT authentication and role-based access"
+> - **🔍 AI Explain**: "Explain Node.js event loop and why it's good for BI dashboards" or "Explain OAuth 2.0 flow with diagram for web app"
+> - **🤖 AI Debug**: "My Express route returns 404. Code: [paste]. What's wrong?" or "Getting CORS errors with JWT auth. Frontend React, backend Express. Code: [code]" or "Bcrypt hash comparison always returns false. Code: [code]"
+> - **💡 Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
 
-#### Resources
-
-**Tools**:
-- JWT.io (Token Debugger)
-- Bcrypt (Hashing)
-- OAuth Providers (Google, GitHub Dev Consoles)
+**Resources**:
 
 - **Documentation**:
-  - Node.js Docs
-  - Express.js Guide
+  - JWT.io: Token decoder
+  - Node.js Docs / Express.js Guide
+  - OWASP Top 10 / MDN Security
   - Passport.js (Optional)
-- **Security**:
-  - OWASP Top 10
-  - Helmet.js Docs
-  - MDN Security Guidelines
-- **Concepts**:
-  - JWT vs Sessions Breakdown
-  - OAuth 2.0 Simplified
+- **Libraries**:
+  - jsonwebtoken (Node.js JWT)
+  - bcrypt or argon2 (password hashing)
+  - Passport.js (authentication middleware)
+  - Helmet.js (security headers)
+- **Tools**:
+  - JWT.io (Debugger)
+  - OWASP ZAP (security testing)
+  - Burp Suite (penetration testing)
+  - Security headers checker
+- **Learning**:
+  - OWASP Web Security Testing Guide
+  - "Web Security Academy" by PortSwigger (free)
+  - Auth0 Blog: Authentication best practices
+  - "Node.js Design Patterns" by Mario Casciaro
 
-- Node.js official documentation
-- Express.js official guide
-- "Node.js Design Patterns" by Mario Casciaro
-- The Net Ninja Node.js tutorial series
-- freeCodeCamp Backend Development certification
-- MDN Server-side web frameworks overview
-- Express.js guide
-- Node.js best practices
-- REST API design principles
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Generate Express middleware for JWT authentication and role-based access"
-> - **🔍 AI Explain**: "Explain OAuth 2.0 flow with diagram for web app"
-> - **💡 Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
-> - **🤖 AI Debug**: "Getting CORS errors with JWT auth. Frontend React, backend Express. Code: [code]"
-
-#### Common Pitfalls
-
-❌ **Backend Mistakes**:
-- Not handling async/await properly
-- Missing error handling
-- No input validation
-- Blocking the event loop
-
-❌ **API Design Issues**:
-- Inconsistent route naming
-- No versioning strategy
-- Missing CORS configuration
-- Poor error responses
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
-- [ ] Build Express servers with RESTful routes
-- [ ] Handle async operations correctly
-- [ ] Implement proper error handling
-- [ ] Design clean API endpoints
-- [ ] Use middleware effectively
-- [ ] Debug Node.js applications
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Auth Mistakes**:
 - Storing JWT in localStorage (XSS vulnerable)
@@ -1190,36 +1128,7 @@ Before moving forward, you should be able to:
 - Not using enough salt rounds
 - Allowing common passwords ("password123")
 
-🤖 **AI Debug**: "Bcrypt hash comparison always returns false. Code: [code]"
-💡 **Ask AI**: "JWT in localStorage vs httpOnly cookies - which is more secure and why?"
-⚡ **AI Generate**: "Generate Express middleware for JWT authentication and role-based access"
-🔍 **AI Explain**: "Explain OAuth 2.0 flow with diagram for web app"
-🤖 **AI Debug**: "Getting CORS errors with JWT auth. Frontend React, backend Express. Code: [code]"
-
-#### Resources
-
-**Documentation**:
-- JWT.io: Token decoder and library list
-- OWASP Top 10: Security vulnerabilities
-- Mozilla Web Security Guidelines
-
-**Libraries**:
-- jsonwebtoken (Node.js JWT)
-- bcrypt or argon2 (password hashing)
-- Passport.js (authentication middleware)
-- Helmet.js (security headers)
-
-**Learning**:
-- OWASP Web Security Testing Guide
-- "Web Security Academy" by PortSwigger (free)
-- Auth0 Blog: Authentication best practices
-
-**Tools**:
-- OWASP ZAP (security testing)
-- Burp Suite (penetration testing)
-- Security headers checker: securityheaders.com
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Implement JWT authentication from scratch
@@ -1231,25 +1140,19 @@ Before moving forward, you should be able to:
 - [ ] Explain OAuth 2.0 flow clearly
 - [ ] Audit application for security issues
 
-#### 🎯 Project 9: Secure Your App
-Add comprehensive security:
-- User registration and login
-- JWT-based authentication
-- Protected API routes
-- Role-based permissions (admin vs user)
-- Security middleware
-
-**Time**: 2 weeks
-
 ---
 
 ## Phase 5: Advanced Topics (Weeks 21-26)
 
 ### Module 5.1: Real-time Features
-**Goal**: Add live updates to your analytics
+**Learning Objectives**:
+- Implement real-time bidirectional communication with WebSockets.
+- Architect event-driven data updates for live dashboards.
+- Manage connection states and broadcasting strategies.
+- Compare WebSockets vs Server-Sent Events (SSE).
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: WebSockets & Socket.io**
 - **WebSocket Protocol**:
@@ -1286,21 +1189,48 @@ Add comprehensive security:
   - Offline support
   - Message queuing
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Chat Feature**: Build simple real-time chat with Socket.io
-2. **Live Dashboard**: Update
-
- charts in real-time without refresh
+2. **Live Dashboard**: Update charts in real-time without refresh
 3. **Notifications**: Implement live notification system
 4. **Collaborative Editing**: Multiple users editing same data
 5. **Connection Management**: Handle disconnect/reconnect gracefully
 
-💡 **Ask AI**: "WebSockets vs Server-Sent Events vs Long Polling - which for BI dashboards?"
-⚡ **AI Generate**: "Create Socket.io event structure for real-time analytics dashboard"
-🔍 **AI Explain**: "Explain how WebSocket connection works with diagram"
+**Hands-on Project**: Project 10 - Real-time Dashboard
+Add live features:
+- Real-time data updates without refresh
+- Live notifications
+- Collaborative features (multiple users viewing same data)
+- Activity feeds
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "WebSockets vs Server-Sent Events vs Long Polling - which for BI dashboards?" or "WebSockets vs Server-Sent Events for real-time analytics - which to choose?"
+> - **⚡ AI Generate**: "Create Socket.io event structure for real-time analytics dashboard"
+> - **🔍 AI Explain**: "Explain how WebSocket connection works with diagram"
+> - **🤖 AI Debug**: "Socket.io client keeps disconnecting. Console shows: [error]"
+
+**Resources**:
+
+- **Documentation**:
+  - Socket.io Docs
+  - MDN WebSockets
+  - EventSource API (MDN)
+- **Tutorials**:
+  - Real-time Web Apps Course
+  - Socket.io Official Tutorial
+- **Patterns**:
+  - WebSocket Protocol Deep-dive
+  - Real-time Architecture Patterns
+- **Tools**:
+  - Socket.io Client/Server
+  - Postman (WebSocket Testing)
+  - Chrome Network Tab (WS Inspection)
+- **Learning**:
+  - Socket.io tutorials (official)
+  - Real-time Web Apps course
+
+**Common Pitfalls**:
 
 ❌ **WebSocket Mistakes**:
 - Not handling disconnections properly
@@ -1313,38 +1243,7 @@ Add comprehensive security:
 - Sending entire datasets instead of incremental updates
 - Not throttling rapid updates
 
-🤖 **AI Debug**: "Socket.io client keeps disconnecting. Console shows: [error]"
-
-#### Resources
-
-**Tools**:
-- Socket.io Client/Server
-- Postman (WebSocket Testing)
-- Chrome Network Tab (WS Inspection)
-
-- **Documentation**:
-  - Socket.io Docs
-  - MDN WebSockets
-  - EventSource API (MDN)
-- **Tutorials**:
-  - Real-time Web Apps Course
-  - Socket.io Official Tutorial
-- **Patterns**:
-  - WebSocket Protocol Deep-dive
-  - Real-time Architecture Patterns
-
-> **🤖 AI Assistance**:
-> - **💡 Ask AI**: "WebSockets vs Server-Sent Events vs Long Polling - which for BI dashboards?"
-> - **⚡ AI Generate**: "Create Socket.io event structure for real-time analytics dashboard"
-> - **🔍 AI Explain**: "Explain how WebSocket connection works with diagram"
-> - **🤖 AI Debug**: "Socket.io client keeps disconnecting. Console shows: [error]"
-
-**Learning**:
-- Socket.io tutorials (official)
-- Real-time Web Apps course
-- WebSocket protocol deep-dive
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Set up Socket.io server and client
@@ -1354,24 +1253,17 @@ Before moving forward, you should be able to:
 - [ ] Implement real-time dashboard updates
 - [ ] Choose between WebSockets and SSE appropriately
 
-#### 🎯 Project 10: Real-time Dashboard
-Add live features:
-- Real-time data updates without refresh
-- Live notifications
-- Collaborative features (multiple users viewing same data)
-- Activity feeds
-
-💡 **Ask AI**: "WebSockets vs Server-Sent Events for real-time analytics - which to choose?"
-
-**Time**: 2 weeks
-
 ---
 
 ### Module 5.2: Testing
-**Goal**: Write reliable, maintainable code
+**Learning Objectives**:
+- Write comprehensive unit and integration tests with Jest.
+- Implement React Testing Library for component testing.
+- Ensure API reliability with backend and E2E testing chains.
+- Achieve high test coverage for critical application flows.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: Frontend Testing**
 - **Unit Testing with Jest**:
@@ -1407,7 +1299,7 @@ Add live features:
   - Visual regression testing
   - CI/CD integration
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Unit Tests**: Write tests for utility functions (date formatting, calculations)
 2. **Component Tests**: Test React components (form, table, chart)
@@ -1415,9 +1307,39 @@ Add live features:
 4. **Integration Tests**: Test React components with API calls
 5. **E2E Tests**: Test complete user journey (signup → dashboard → logout)
 
-🤖 **AI Debug**: "React Testing Library test failing. Error: 'Unable to find element'. Code: [code]"
+**Hands-on Project**: Project 11 - Test Coverage
+Add comprehensive tests:
+- Unit tests for utility functions
+- Component tests for React
+- API endpoint tests
+- E2E tests for critical flows
+- 70%+ code coverage
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **AI Debug**: "React Testing Library test failing. Error: 'Unable to find element'. Code: [code]" or "My tests pass locally but fail in CI. Why?" or "Paste failing test output for debugging help"
+> - **AI Generate**: "Generate Jest test cases for [component/function name]"
+
+**Resources**:
+
+- **Documentation**:
+  - Jest Docs: https://jestjs.io
+  - React Testing Library: https://testing-library.com/react
+  - Playwright Docs: https://playwright.dev
+  - Cypress Docs: https://www.cypress.io
+- **Learning**:
+  - Testing JavaScript by Kent C. Dodds
+  - Frontend Masters: Testing React Applications
+  - Epic React Testing Workshop
+- **Best Practices**:
+  - Testing Trophy (integration tests > unit/E2E)
+  - Common Testing Mistakes blog posts
+  - Testing Library Guiding Principles
+- **Tools**:
+  - Jest coverage reports
+  - Codecov or Coveralls (coverage tracking)
+  - Testing Playground (query selector helper)
+
+**Common Pitfalls**:
 
 ❌ **Testing Mistakes**:
 - Testing implementation details instead of behavior
@@ -1436,32 +1358,7 @@ Add live features:
 - Not waiting for elements properly (flaky tests)
 - Too many E2E tests (slow, expensive)
 
-🤖 **AI Debug**: "My tests pass locally but fail in CI. Why?"
-
-#### Resources
-
-**Documentation**:
-- Jest Docs: https://jestjs.io
-- React Testing Library: https://testing-library.com/react
-- Playwright Docs: https://playwright.dev
-- Cypress Docs: https://www.cypress.io
-
-**Learning**:
-- Testing JavaScript by Kent C. Dodds
-- Frontend Masters: Testing React Applications
-- Epic React Testing Workshop
-
-**Best Practices**:
-- Testing Trophy (integration tests > unit/E2E)
-- Common Testing Mistakes blog posts
-- Testing Library Guiding Principles
-
-**Tools**:
-- Jest coverage reports
-- Codecov or Coveralls (coverage tracking)
-- Testing Playground (query selector helper)
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Write unit tests for functions and modules
@@ -1473,26 +1370,15 @@ Before moving forward, you should be able to:
 - [ ] Achieve 60%+ code coverage
 - [ ] Debug failing tests effectively
 
-#### 🎯 Project 11: Test Coverage
-Add comprehensive tests:
-- Unit tests for utility functions
-- Component tests for React
-- API endpoint tests
-- E2E tests for critical flows
-- 70%+ code coverage
-
-🤖 **AI Generate**: "Generate Jest test cases for [component/function name]"
-🤖 **AI Debug**: Paste failing test output for debugging help
-
-**Time**: 2 weeks
-
----
-
 ### Module 5.3: Performance & Optimization
-**Goal**: Make your app lightning fast
+**Learning Objectives**:
+- Optimize bundle size through code splitting and tree shaking.
+- Implement effective caching strategies (Browser & Server).
+- Analyze and improve Core Web Vitals metrics.
+- Improve database query performance and indexing.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: Frontend Performance**
 - **Code Splitting**:
@@ -1542,7 +1428,7 @@ Add comprehensive tests:
   - Load balancer concepts
   - CDN for static assets
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Bundle Analysis**: Analyze and reduce bundle size by 30%
 2. **Image Optimization**: Convert images to WebP, implement lazy loading
@@ -1550,11 +1436,38 @@ Add comprehensive tests:
 4. **Lighthouse Audit**: Achieve 90+ score on all metrics
 5. **Redis Caching**: Add caching layer to API endpoints
 
-💡 **Ask AI**: "What's the best caching strategy for BI dashboard with hourly data updates?"
-⚡ **AI Generate**: "Create webpack config for optimal code splitting"
-🔍 **AI Explain**: "Explain critical rendering path and how to optimize it"
+**Hands-on Project**: Project 12 - Optimization Pass
+Optimize your entire app:
+- Reduce bundle size by 50%+
+- Implement caching layer
+- Optimize database queries
+- Achieve Lighthouse score 90+
+- Add offline capabilities
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What's the best caching strategy for BI dashboard with hourly data updates?"
+> - **⚡ AI Generate**: "Create webpack config for optimal code splitting"
+> - **🔍 AI Explain**: "Explain critical rendering path and how to optimize it"
+> - **🤖 AI Debug**: "Lighthouse shows LCP of 4s. How to improve?"
+
+**Resources**:
+
+- **Documentation**:
+  - Web.dev Performance Guides
+  - React Performance Docs
+  - Redis Documentation
+- **Tools**:
+  - Lighthouse (Chrome DevTools)
+  - Webpack Bundle Analyzer
+  - React Profiler
+  - GTmetrix / PageSpeed Insights
+  - Web Vitals Extension
+  - PurgeCSS
+- **Learning**:
+  - "High Performance Browser Networking"
+  - Frontend Masters Performance Course
+
+**Common Pitfalls**:
 
 ❌ **Performance Mistakes**:
 - Not measuring before optimizing (premature optimization)
@@ -1572,45 +1485,7 @@ Add comprehensive tests:
 - Not using appropriate formats
 - Loading all images on page load
 
-🤖 **AI Debug**: "Lighthouse shows LCP of 4s. How to improve?"
-
-#### Resources
-
-**Tools**:
-- Lighthouse (Chrome DevTools)
-- Webpack Bundle Analyzer
-- React Profiler
-- GTmetrix / PageSpeed Insights
-
-#### Resources
-
-- **Documentation**:
-  - Web.dev Performance Guides
-  - React Performance Docs
-  - Redis Documentation
-- **Tools**:
-  - Web Vitals Extension
-  - PurgeCSS
-- **Learning**:
-  - "High Performance Browser Networking"
-  - Frontend Masters Performance Course
-
-> **🤖 AI Assistance**:
-> - **💡 Ask AI**: "What's the best caching strategy for BI dashboard with hourly data updates?"
-> - **⚡ AI Generate**: "Create webpack config for optimal code splitting"
-> - **🔍 AI Explain**: "Explain critical rendering path and how to optimize it"
-> - **🤖 AI Debug**: "Lighthouse shows LCP of 4s. How to improve?"
-
-**Documentation**:
-- Web.dev Performance guides
-- React Performance docs
-- Redis documentation
-
-**Learning**:
-- "High Performance Browser Networking"
-- Web Performance courses (Frontend Masters)
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Analyze and optimize bundle size
@@ -1621,25 +1496,19 @@ Before moving forward, you should be able to:
 - [ ] Measure and improve Core Web Vitals
 - [ ] Optimize database queries
 
-#### 🎯 Project 12: Optimization Pass
-Optimize your entire app:
-- Reduce bundle size by 50%+
-- Implement caching layer
-- Optimize database queries
-- Achieve Lighthouse score 90+
-- Add offline capabilities
-
-**Time**: 2 weeks
-
 ---
 
 ## Phase 6: Deployment & DevOps (Weeks 27-30)
 
 ### Module 6.1: Deployment
-**Goal**: Ship your app to production
+**Learning Objectives**:
+- Deploy full-stack applications to cloud platforms (Vercel/Railway).
+- Configure CI/CD pipelines for automated testing and deployment.
+- Manage production environments and secrets securely.
+- Set up custom domains and SSL certificates.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: Frontend & Backend Deployment**
 - **Frontend Deployment**:
@@ -1698,7 +1567,7 @@ Optimize your entire app:
   - HTTPS enabled
   - Error monitoring connected
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Deploy Frontend**: Deploy React app to Vercel + custom domain
 2. **Deploy Backend**: Deploy Node API to Railway with PostgreSQL
@@ -1706,12 +1575,45 @@ Optimize your entire app:
 4. **Environment Config**: Set up dev, staging, production environments
 5. **Domain Setup**: Configure custom domain with SSL
 
-💡 **Ask AI**: "Compare Vercel vs Netlify vs Railway - which for BI dashboard?"
-⚡ **AI Generate**: "Create GitHub Actions workflow for: test → build → deploy to Vercel"
-🔍 **AI Explain**: "Explain blue-green deployment and canary releases"
-🤖 **AI Debug**: "Deployment succeeds but app shows blank page. Build logs: [logs]"
+**Hands-on Project**: Project 13 - Full Deployment
+Deploy your complete app:
+- Frontend on Vercel/Netlify
+- Backend on cloud platform
+- Database on managed service
+- Set up CI/CD pipeline
+- Custom domain with HTTPS
+- Monitoring and logging
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Compare Vercel vs Netlify vs Railway - which for BI dashboard?"
+> - **⚡ AI Generate**: "Create GitHub Actions workflow for: test → build → deploy to Vercel"
+> - **🔍 AI Explain**: "Explain blue-green deployment and canary releases"
+> - **🤖 AI Debug**: "Deployment succeeds but app shows blank page. Build logs: [logs]" or "GitHub Actions failing. Error: 'ENOENT: package.json not found'"
+
+**Resources**:
+
+- **Platforms**:
+  - Vercel Docs
+  - Railway Docs
+  - Render Guides
+  - Netlify Docs
+- **CI/CD**:
+  - GitHub Actions Documentation
+  - GitLab CI/CD
+  - CircleCI Tutorials
+- **Tools**:
+  - GitHub Actions (CI/CD)
+  - Vercel CLI / Netlify CLI
+  - Docker
+  - Railway / Render / DigitalOcean
+  - GitHub CLI (gh)
+  - Let's Encrypt (free SSL)
+- **Learning**:
+  - "DevOps for Developers"
+  - Railway deployment tutorials (YouTube)
+  - Deployment Guides (Fireship)
+
+**Common Pitfalls**:
 
 ❌ **Deployment Mistakes**:
 - Forgetting to set environment variables in production
@@ -1730,54 +1632,7 @@ Optimize your entire app:
 - Secrets exposed in logs
 - No rollback strategy
 
-🤖 **AI Debug**: "GitHub Actions failing. Error: 'ENOENT: package.json not found'"
-
-#### Resources
-
-**Tools**:
-- GitHub Actions (CI/CD)
-- Vercel CLI / Netlify CLI
-- Docker
-- Railway / Render / DigitalOcean
-
-#### Resources
-
-- **Platforms**:
-  - Vercel Docs
-  - Railway Docs
-  - Render Guides
-  - Netlify Docs
-- **CI/CD**:
-  - GitHub Actions Documentation
-  - GitLab CI/CD
-  - CircleCI Tutorials
-- **Learning**:
-  - "DevOps for Developers"
-  - Deployment Guides (Fireship)
-
-> **🤖 AI Assistance**:
-> - **💡 Ask AI**: "Compare Vercel vs Netlify vs Railway - which for BI dashboard?"
-> - **⚡ AI Generate**: "Create GitHub Actions workflow for: test → build → deploy to Vercel"
-> - **🔍 AI Explain**: "Explain blue-green deployment and canary releases"
-> - **🤖 AI Debug**: "GitHub Actions failing. Error: 'ENOENT: package.json not found'"
-
-**CI/CD**:
-- GitHub Actions Docs
-- GitLab CI/CD
-- CircleCI tutorials
-
-**Learning**:
-- "DevOps for Developers" course
-- Railway deployment tutorials (YouTube)
-- Fireship: Deployment guides
-
-**Tools**:
-- GitHub CLI (gh)
-- Vercel CLI
-- Docker (for containerization)
-- Let's Encrypt (free SSL)
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before completing this phase, you should be able to:
 - [ ] Deploy frontend to Vercel/Netlify with custom domain
@@ -1789,24 +1644,17 @@ Before completing this phase, you should be able to:
 - [ ] Monitor deployment status and logs
 - [ ] Rollback deployment if issues occur
 
-#### 🎯 Project 13: Full Deployment
-Deploy your complete app:
-- Frontend on Vercel/Netlify
-- Backend on cloud platform
-- Database on managed service
-- Set up CI/CD pipeline
-- Custom domain with HTTPS
-- Monitoring and logging
-
-**Time**: 2 weeks
-
 ---
 
 ### Module 6.2: Monitoring & Maintenance
-**Goal**: Keep your app healthy
+**Learning Objectives**:
+- Implement comprehensive error tracking and logging (Sentry).
+- Monitor application uptime and performance metrics.
+- Establish operational maintenance and backup routines.
+- Create effective technical documentation.
 **Duration**: 2 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: Monitoring & Logging**
 - **Error Tracking**:
@@ -1854,7 +1702,7 @@ Deploy your complete app:
   - Disaster recovery plans
   - Testing restore procedures
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **Sentry Setup**: Integrate error tracking with custom context
 2. **Analytics**: Add GA4 with custom events for dashboard usage
@@ -1862,11 +1710,40 @@ Deploy your complete app:
 4. **Documentation**: Write comprehensive API docs with Swagger
 5. **Backup System**: Setup automated daily database backups
 
-💡 **Ask AI**: "Sentry vs LogRocket vs Datadog - which for BI SaaS monitoring?"
-⚡ **AI Generate**: "Create health check endpoint that monitors database, API, and external services"
-🔍 **AI Explain**: "Explain difference between logging, monitoring, and observability"
+**Hands-on Project**: Project 14 - Production Readiness
+Add production features:
+- Error tracking and alerting
+- User analytics
+- Performance dashboards
+- Automated backups
+- Comprehensive documentation
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Sentry vs LogRocket vs Datadog - which for BI SaaS monitoring?"
+> - **⚡ AI Generate**: "Create health check endpoint that monitors database, API, and external services"
+> - **🔍 AI Explain**: "Explain difference between logging, monitoring, and observability"
+> - **🤖 AI Debug**: "Sentry not capturing errors in production. Config: [config]"
+> - **🤖 AI Review**: "Review my deployment checklist and suggest what I'm missing for production"
+
+**Resources**:
+
+- **Tools**:
+  - Sentry (Error Tracking)
+  - Google Analytics 4 / Mixpanel
+  - UptimeRobot
+  - Swagger UI (Documentation)
+- **Documentation**:
+  - Sentry Docs
+  - GA4 Setup Guide
+  - OpenAPI Specification
+- **Monitoring**:
+  - Datadog / New Relic (Advanced)
+- **Learning**:
+  - "Observability Engineering"
+  - Production-Ready Microservices
+  - DevOps Best Practices
+
+**Common Pitfalls**:
 
 ❌ **Monitoring Mistakes**:
 - Not setting up error tracking from day 1
@@ -1885,46 +1762,7 @@ Deploy your complete app:
 - Infrequent backups
 - Backups in same location as production
 
-🤖 **AI Debug**: "Sentry not capturing errors in production. Config: [config]"
-
-#### Resources
-
-**Tools**:
-- Sentry (Error Tracking)
-- Google Analytics 4 / Mixpanel
-- UptimeRobot
-- Swagger UI (Documentation)
-
-#### Resources
-
-- **Documentation**:
-  - Sentry Docs
-  - GA4 Setup Guide
-  - OpenAPI Specification
-- **Learning**:
-  - "Observability Engineering"
-  - Production-Ready Microservices
-  - DevOps Best Practices
-- **Monitoring**:
-  - Datadog / New Relic (Advanced)
-
-> **🤖 AI Assistance**:
-> - **💡 Ask AI**: "Sentry vs LogRocket vs Datadog - which for BI SaaS monitoring?"
-> - **⚡ AI Generate**: "Create health check endpoint that monitors database, API, and external services"
-> - **🔍 AI Explain**: "Explain difference between logging, monitoring, and observability"
-> - **🤖 AI Debug**: "Sentry not capturing errors in production. Config: [config]"
-
-**Documentation**:
-- Sentry documentation
-- GA4 setup guide
-- Swagger/OpenAPI specification
-
-**Learning**:
-- Observability Engineering (book)
-- Production-Ready Microservices
-- DevOps best practices
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Set up error tracking (Sentry)
@@ -1935,26 +1773,19 @@ Before moving forward, you should be able to:
 - [ ] Write comprehensive documentation
 - [ ] Configure uptime monitoring
 
-#### 🎯 Project 14: Production Readiness
-Add production features:
-- Error tracking and alerting
-- User analytics
-- Performance dashboards
-- Automated backups
-- Comprehensive documentation
-
-🤖 **AI Review**: "Review my deployment checklist and suggest what I'm missing for production"
-
-**Time**: 2 weeks
-
 ---
 
 ## Phase 7: BI-Specific Features (Weeks 31-36)
 
 ### Module 7.1: Advanced Analytics
-**Goal**: Build professional BI capabilities
+**Learning Objectives**:
+- Develop advanced data processing and ETL pipelines.
+- Implement report generation features (PDF/Excel exports).
+- Build complex, interactive analytical dashboards.
+- Handle time-series data and aggregations effectively.
+**Duration**: 3 weeks
 
-#### Topics to Master
+**Topics**:
 - **Data Processing**
   - ETL concepts
   - Data transformation
@@ -1974,7 +1805,7 @@ Add production features:
   - Scheduled reports
   - Email integration
 
-#### 🎯 Project 15: Enterprise BI Features
+**Hands-on Project**: Project 15 - Enterprise BI Features
 Add advanced capabilities:
 - Custom report builder
 - Drag-and-drop dashboard creator
@@ -1982,14 +1813,12 @@ Add advanced capabilities:
 - Scheduled email reports
 - Advanced filtering and drill-downs
 
-**Tools**:
-- Node.js Worker Threads
-- BullMQ (Background Jobs)
-- Puppeteer (PDF Generation)
-- ExcelJS (Excel Export)
-- Apache Arrow (Data Processing)
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Generate sample data transformation logic for BI aggregations" or "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
+> - **🔍 AI Explain**: "Explain ETL process with Node.js implementation examples" or "Explain when to use server-side vs client-side analytics calculations"
+> - **💡 Ask AI**: "What libraries should I use for PDF generation and Excel export in Node.js?" or "Best practices for real-time analytics dashboards - data freshness vs performance?"
 
-#### Resources
+**Resources**:
 
 - **ETL & Data Processing**:
   - Node.js Worker Threads docs
@@ -2001,21 +1830,15 @@ Add advanced capabilities:
   - Nodemailer
 - **Advanced Viz**:
   - D3.js Advanced Tutorials
+  - Advanced charting library docs (Recharts, Victory)
+- **Tools**:
+  - Node.js Worker Threads
+  - BullMQ (Background Jobs)
+  - Puppeteer (PDF Generation)
+  - ExcelJS (Excel Export)
+  - Apache Arrow (Data Processing)
 
-- Node.js Worker Threads documentation for parallel processing
-- Bull Queue library for background jobs
-- Apache Arrow for fast data processing
-- jsPDF and Puppeteer documentation for PDF generation
-- ExcelJS and xlsx library guides for Excel files
-- D3.js advanced tutorials and examples
-- Data processing and ETL best practices
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Generate sample data transformation logic for BI aggregations"
-> - **🔍 AI Explain**: "Explain ETL process with Node.js implementation examples"
-> - **💡 Ask AI**: "What libraries should I use for PDF generation and Excel export in Node.js?"
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **ETL Mistakes**:
 - Processing heavy data on main thread (blocks event loop)
@@ -2026,32 +1849,6 @@ Add advanced capabilities:
 ❌ **Architecture**:
 - Tight coupling between ingestion and processing
 - Missing scaling strategy for workers
-
-⚡ **AI Generate**: "Create D3.js custom chart for restaurant sales trends with interactive tooltips"
-🔍 **AI Explain**: "Explain when to use server-side vs client-side analytics calculations"
-💡 **Ask AI**: "Best practices for real-time analytics dashboards - data freshness vs performance?"
-⚡ **AI Generate**: "Generate sample data transformation logic for BI aggregations"
-🔍 **AI Explain**: "Explain ETL process with Node.js implementation examples"
-💡 **Ask AI**: "What libraries should I use for PDF generation and Excel export in Node.js?"
-
-#### Resources
-
-- D3.js documentation and examples
-- Advanced charting library docs (Recharts, Victory, etc.)
-- Data processing best practices
-- ETL pipeline guides
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
-- [ ] Build custom D3.js visualizations
-- [ ] Implement ETL processes
-- [ ] Create advanced analytics features
-- [ ] Generate PDF and Excel exports
-- [ ] Build drag-and-drop dashboard builders
-- [ ] Design enterprise BI capabilities
-
-#### Common Pitfalls
 
 ❌ **Analytics Mistakes**:
 - Not aggregating on backend (too much client processing)
@@ -2065,7 +1862,7 @@ Before moving forward, you should be able to:
 - Missing accessibility features
 - Poor color choices for data viz
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Capstone, you should be able to:
 - [ ] Build custom D3.js visualizations
@@ -2074,12 +1871,7 @@ Before moving to Capstone, you should be able to:
 - [ ] Create real-time dashboards
 - [ ] Apply analytics best practices
 - [ ] Design performant data pipelines
-
-#### Assessment Checklist
-
-Before moving forward, you should be able to:
 - [ ] Implement ETL data processing pipelines
-- [ ] Build custom D3.js visualizations  
 - [ ] Generate PDF and Excel exports
 - [ ] Create advanced BI analytics features
 - [ ] Design scalable data architectures
@@ -2088,10 +1880,14 @@ Before moving forward, you should be able to:
 ---
 
 ### Module 7.2: Data Integration
-**Goal**: Connect to various data sources
+**Learning Objectives**:
+- Build robust connectors for third-party APIs and services.
+- Process and validate bulk data uploads (CSV/Excel).
+- Architect background processing for large data integration tasks.
+- Implement secure webhook handling and event processing.
 **Duration**: 3 weeks
 
-#### Topics to Master
+**Topics**:
 
 **Week 1: API Integration**
 - **Third-party APIs**:
@@ -2143,7 +1939,7 @@ Before moving forward, you should be able to:
   - Parameterized queries
   - Query optimization
 
-#### Hands-on Exercises
+**Hands-on Exercises**:
 
 1. **CSV Upload**: Build upload system with validation and progress
 2. **Google Sheets Integration**: Import data from Google Sheets API
@@ -2151,12 +1947,43 @@ Before moving forward, you should be able to:
 4. **Webhook Handler**: Process incoming webhooks from external services
 5. **Background Jobs**: Process large files in background with Bull Queue
 
-💡 **Ask AI**: "How should I design a connector architecture for multiple data sources?"
-⚡ **AI Generate**: "Create CSV validation schema for F&B sales data (20 columns)"
-🔍 **AI Explain**: "Explain ETL vs ELT with BI platform examples"
-🤖 **AI Debug**: "CSV upload fails with large files (10MB+). Memory error. Code: [code]"
+**Hands-on Project**: Project 16 - Data Connectors
+Build connectors for:
+- CSV/Excel file upload
+- Google Sheets integration
+- REST API data source
+- Automated data refresh
+- Data validation and cleansing
 
-#### Common Pitfalls
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "How should I design a connector architecture for multiple data sources?"
+> - **⚡ AI Generate**: "Create CSV validation schema for F&B sales data (20 columns)"
+> - **🔍 AI Explain**: "Explain ETL vs ELT with BI platform examples"
+> - **🤖 AI Debug**: "CSV upload fails with large files (10MB+). Memory error. Code: [code]" or "Google Sheets API quota exceeded. How to handle?"
+
+**Resources**:
+
+- **Tools**:
+  - Postman (API Testing)
+  - Webhook.site (Webhook Testing)
+  - Bull Board (Queue Dashboard)
+  - Google Sheets API Playground
+- **Libraries**:
+  - PapaParse (CSV Parsing)
+  - XLSX (Excel Files)
+  - BullMQ (Background Jobs)
+  - Zod / Yup (Validation)
+- **APIs**:
+  - Google Sheets API
+  - Airtable API
+  - Stripe Webhooks
+- **Learning**:
+  - API Integration Patterns
+  - ETL Best Practices
+  - Data Quality Management
+  - Firebase
+
+**Common Pitfalls**:
 
 ❌ **Integration Mistakes**:
 - Not handling rate limits
@@ -2176,50 +2003,7 @@ Before moving forward, you should be able to:
 - No data type conversion
 - Missing error handling
 
-🤖 **AI Debug**: "Google Sheets API quota exceeded. How to handle?"
-
-#### Resources
-
-**Tools**:
-- Postman (API Testing)
-- Webhook.site (Webhook Testing)
-- Bull Board (Queue Dashboard)
-- Google Sheets API Playground
-
-#### Resources
-
-- **Libraries**:
-  - PapaParse (CSV Parsing)
-  - XLSX (Excel Files)
-  - BullMQ (Background Jobs)
-  - Zod / Yup (Validation)
-- **APIs**:
-  - Google Sheets API
-  - Airtable API
-  - Stripe Webhooks
-- **Learning**:
-  - API Integration Patterns
-  - ETL Best Practices
-  - Data Quality Management
-
-> **🤖 AI Assistance**:
-> - **💡 Ask AI**: "How should I design a connector architecture for multiple data sources?"
-> - **⚡ AI Generate**: "Create CSV validation schema for F&B sales data (20 columns)"
-> - **🔍 AI Explain**: "Explain ETL vs ELT with BI platform examples"
-> - **🤖 AI Debug**: "CSV upload fails with large files (10MB+). Memory error. Code: [code]"
-> - **🤖 AI Debug**: "Google Sheets API quota exceeded. How to handle?"
-
-**APIs**:
-- Google Sheets API
-- Airtable API
-- Stripe WebhooksFirebase
-
-**Learning**:
-- API integration patterns
-- ETL best practices
-- Data quality management
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before completing this phase, you should be able to:
 - [ ] Build CSV/Excel upload with validation
@@ -2229,16 +2013,6 @@ Before completing this phase, you should be able to:
 - [ ] Validate data with schemas
 - [ ] Connect to external databases
 - [ ] Implement retry and error handling
-
-#### 🎯 Project 16: Data Connectors
-Build connectors for:
-- CSV/Excel file upload
-- Google Sheets integration
-- REST API data source
-- Automated data refresh
-- Data validation and cleansing
-
-**Time**: 3 weeks
 
 ---
 
@@ -2318,6 +2092,17 @@ Build connectors for:
    - Usage analytics (who's using what)
 
 #### Technical Requirements
+
+- ✅ Modern, beautiful UI with premium design
+- ✅ Fully responsive (mobile, tablet, desktop)
+- ✅ Dark/light themes
+- ✅ Accessibility compliant
+- ✅ Fast performance (Lighthouse 90+)
+- ✅ Comprehensive testing
+- ✅ Deployed to production
+- ✅ CI/CD pipeline
+- ✅ Monitoring and error tracking
+- ✅ Complete documentation
 
 **Frontend**:
 - React 18+ with TypeScript (preferred) or JavaScript
@@ -2399,7 +2184,7 @@ Build connectors for:
 
 #### Success Criteria
 
-- [ ] **Functiona**l: All core features work without errors
+- [ ] **Functional**: All core features work without errors
 - [ ] **User-friendly**: Non-technical person can navigate easily
 - [ ] **Responsive**: Works on mobile, tablet, desktop
 - [ ] **Fast**: Dashboards load in <2 seconds
@@ -2408,11 +2193,6 @@ Build connectors for:
 - [ ] **Deployed**: Live on internet with custom domain
 - [ ] **Documented**: Clear README, setup instructions, architecture docs
 - [ ] **Portfolio-ready**: You'd be proud to show this in an interview
-
-⚡ **AI Generate**: "Create comprehensive sample F&B dataset with all tables for complete BI platform"
-🤖 **AI Review**: "Review my capstone project architecture. What's missing or could be improved?"
-💡 **Ask AI**: "What are the must-have features for MVP vs nice-to-have for v2?"
-💡 **Ask AI**: "How should I structure my database schema for multi-tenant BI platform?"
 
 #### Bonus Features (If Time Permits)
 
@@ -2436,23 +2216,15 @@ Build connectors for:
   - Branding (logo, colors)
   - White-label option
 
-#### Technical Requirements
-- ✅ Modern, beautiful UI with premium design
-- ✅ Fully responsive (mobile, tablet, desktop)
-- ✅ Dark/light themes
-- ✅ Accessibility compliant
-- ✅ Fast performance (Lighthouse 90+)
-- ✅ Comprehensive testing
-- ✅ Deployed to production
-- ✅ CI/CD pipeline
-- ✅ Monitoring and error tracking
-- ✅ Complete documentation
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create comprehensive sample F&B dataset with all tables for complete BI platform"
+> - **🤖 AI Review**: "Review my capstone project architecture. What's missing or could be improved?"
+> - **💡 Ask AI**: "What are the must-have features for MVP vs nice-to-have for v2?"
+> - **💡 Ask AI**: "How should I structure my database schema for multi-tenant BI platform?"
+> - **⚡ AI Generate**: "Create realistic mock data for your entire BI platform"
+> - **🤖 AI Review**: "Share your complete codebase architecture for professional feedback"
+> - **💡 Ask AI**: "What features am I missing for production-ready BI platform?"
 
-**Time**: 4 weeks
-
-⚡ **AI Generate**: Ask AI to create realistic mock data for your entire BI platform
-🤖 **AI Review**: Share your complete codebase architecture for professional feedback
-💡 **Ask AI**: "What features am I missing for production-ready BI platform?"
 
 ---
 

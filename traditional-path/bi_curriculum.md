@@ -46,8 +46,11 @@ graph LR
 - Identify stakeholder needs and how BI serves them
 
 **Topics**:
+**Day 1: Core Concepts**:
 - The BI value chain
 - Types of analytics: Descriptive, Diagnostic, Predictive, Prescriptive
+
+**Day 2-3: Business Context**:
 - Understanding business questions and KPIs
 - The role of dashboards in decision-making
 - Introduction to the "everyman" user: designing for non-technical audiences
@@ -57,39 +60,41 @@ graph LR
 - Define 10 key questions a restaurant owner would want answered
 - Sketch (paper/digital) what insights would be most valuable
 
-#### Resources
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Explain the difference between 'Business Intelligence' and 'Data Analytics' with a restaurant example."
+> - **⚡ AI Generate**: "Create a list of 10 questions a coffee shop owner would ask about their daily sales data."
+> - **🔍 AI Explain**: "What is the 'BI Value Chain' and how does it apply to a small business?"
 
-- "Storytelling with Data" by Cole Nussbaumer Knaflic
-- "The Data Warehouse Toolkit" by Kimball (Chapters 1-2)
-- "Business Intelligence Guidebook" by Rick Sherman (Chapters 1-3)
-- Introduction to Business Intelligence courses (YouTube/Coursera/edX)
-- Gartner "What is Business Intelligence?" articles
-- The BI Survey for industry trends and tool comparisons
+**Resources**:
+- **Books**:
+  - "Storytelling with Data" by Cole Nussbaumer Knaflic
+  - "The Data Warehouse Toolkit" by Kimball (Chapters 1-2)
+  - "Business Intelligence Guidebook" by Rick Sherman (Chapters 1-3)
+- **Courses**:
+  - Introduction to Business Intelligence (YouTube/Coursera/edX)
+  - "Introduction to Data Science" (Online Course)
+- **Articles & Reports**:
+  - Gartner "What is Business Intelligence?"
+  - The BI Survey for industry trends and tool comparisons
+  - Public BI Case Studies
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
-❌ **BI Understanding Mistakes**:
+❌ **Beginner Mindset Mistakes**:
 - Confusing BI with just reporting (BI is broader)
 - Thinking BI is only for big companies
-- Not understanding stakeholder needs first
 - Building solutions looking for problems
-
-❌ **Getting Started Errors**:
-- Jumping into tools before understanding concepts
-- Skipping the "why" to focus on "how"
-- Article: "What is Business Intelligence?" by Gartner
-- Book: "Business Intelligence Guidebook" by Rick Sherman (Chapters 1-3)
-- Online Course: "Introduction to Data Science" (e.g., Coursera, edX) for foundational concepts
-- Blog: "The BI Survey" for industry trends and tool comparisons
-- Case Study: Analyze a public BI case study (e.g., how a retail chain uses BI)
-
-❌ **Beginner Mistakes**:
-- Jumping into tools before understanding the business problem
 - Creating dashboards nobody asked for or needs
-- Not talking to stakeholders early and often
 - Analysis paralysis (over-analyzing without delivering value)
 - Focusing on aesthetics over actionable insights
 - Building reports that don't answer business questions
+
+❌ **Getting Started Errors**:
+- Not understanding stakeholder needs first
+- Not talking to stakeholders early and often
+- Jumping into tools before understanding concepts
+- Skipping the "why" to focus on "how"
+- Jumping into tools before understanding the business problem
 
 ❌ **Data Mistakes**:
 - Trusting data blindly without validation or spot-checks
@@ -106,7 +111,7 @@ graph LR
 - Over-complicating analysis (simple often better)
 - Not validating results with domain knowledge
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Explain what BI is and how it differs from data science/analytics
@@ -158,23 +163,26 @@ Before moving forward, you should be able to:
 - Restaurant transaction logs (simulated)
 - Kaggle datasets for spreadsheet practice
 
+> **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain VLOOKUP step-by-step with a restaurant menu price lookup example"
 > - **💡 Ask AI**: "What's the difference between VLOOKUP and INDEX/MATCH? When should I use each?"
 > - **⚡ AI Generate**: "Create practice data: Products table (id, name, price) and Sales table (product_id, quantity) for VLOOKUP practice"
 > - **🔍 AI Explain**: "Explain pivot tables like I'm 10, then show me an F&B example"
 > - **⚡ AI Generate**: "Give me 20 beginner-level VLOOKUP practice problems"
 
-#### Resources
+**Resources**:
+- **Documentation**:
+  - Excel official documentation (Microsoft Learn)
+  - Google Sheets function reference
+  - ExcelJet keyboard shortcuts and formulas guide
+- **Tutorials**:
+  - freeCodeCamp spreadsheet tutorials
+  - Chandoo.org (Excel tips and tricks)
+  - YouTube: ExcelIsFun channel
+- **Books**:
+  - "Excel 2022 Bible" by Michael Alexander
 
-- Excel official documentation (Microsoft Learn)
-- Google Sheets function reference
-- freeCodeCamp spreadsheet tutorials
-- Chandoo.org (Excel tips and tricks)
-- ExcelJet keyboard shortcuts and formulas guide
-- "Excel 2022 Bible" by Michael Alexander
-- YouTube: ExcelIsFun channel for video tutorials
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Spreadsheet Mistakes**:
 - Not using Excel Tables (makes formulas harder and data less structured)
@@ -200,7 +208,7 @@ Before moving forward, you should be able to:
 - Not using proper headers or structured data
 - Mixing different grain levels (daily vs monthly) in one table
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Use all essential Excel/Sheets functions proficiently (SUM, IF, VLOOKUP, etc.)
@@ -225,12 +233,15 @@ Before moving forward, you should be able to:
 - Understand data granularity and aggregation
 
 **Topics**:
+**Day 1-2: The Analytics Mindset**:
 - The analytics mindset: curiosity + skepticism
 - Common business metrics:
   - Revenue metrics: Total revenue, revenue growth, revenue per customer
   - Profitability: Gross margin, net margin, operating margin
   - Customer metrics: CAC, LTV, churn rate, retention rate
   - Operational metrics: Inventory turnover, labor cost %, efficiency ratios
+
+**Day 3-4: F&B Specifics**:
 - Metrics specific to F&B (preview):
   - Table turnover rate
   - Average check size
@@ -251,22 +262,23 @@ Before moving forward, you should be able to:
 > - **⚡ AI Generate**: "Create examples of 5 interactive dashboard features for F&B analytics"
 > - **🤖 AI Review**: "Review my dashboard design. Does it follow best practices?"
 
-#### Resources
+**Resources**:
+- **Books**:
+  - "Lean Analytics" by Alistair Croll
+  - "Measure What Matters" by John Doerr (for OKRs and KPIs)
+- **Guides & Articles**:
+  - Advanced dashboard design tutorials
+  - Harvard Business Review articles on analytics
+  - F&B Business Processes guide
+  - Industry-specific KPI guides
+- **Documentation**:
+  - Dynamic named ranges Excel documentation
+  - BI tool-specific advanced features documentation
+  - Dashboard interactivity best practices guides
+- **Context**:
+  - Real-world dashboard case studies
 
-- Advanced dashboard design tutorials and courses
-- Dynamic named ranges Excel documentation
-- Dashboard interactivity best practices guides
-- BI tool-specific advanced features documentation
-- Performance optimization techniques for dashboards
-- Real-world dashboard case studies
-- "Lean Analytics" by Alistair Croll
-- Industry-specific KPI guides
-- F&B Business Processes guide (for F&B context)
-- "Measure What Matters" by John Doerr (for OKRs and KPIs)
-- Harvard Business Review articles on analytics and metrics
-- Online courses on business analysis and KPI definition (e.g., LinkedIn Learning)
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Metric Mistakes**:
 - Tracking too many metrics (analysis paralysis)
@@ -292,7 +304,7 @@ Before moving forward, you should be able to:
 - Missing mobile responsiveness
 - Over-reliance on complex parameters confusing end users
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 2, you should be able to:
 - [ ] Think analytically about business problems
@@ -319,10 +331,13 @@ Before moving to Phase 2, you should be able to:
 - Understand correlation vs. causation
 
 **Topics**:
+**Week 1: Descriptive Statistics**:
 - Measures of central tendency: mean, median, mode
 - Measures of dispersion: range, variance, standard deviation, percentiles
 - Distributions: normal, skewed, bimodal
 - Understanding outliers and when they matter
+
+**Week 2: Patterns & Relationships**:
 - Time series basics: trends, seasonality, cycles
 - Correlation and its limitations
 - Statistical significance (conceptual understanding)
@@ -336,27 +351,25 @@ Before moving to Phase 2, you should be able to:
   
 **Tools**: Excel/Google Sheets, introduction to Google Data Studio
 
-#### Resources
-
-- "Statistics for Business and Economics" by Paul Newbold
-- Khan Academy Statistics and Probability course (free)
-- StatQuest YouTube channel (intuitive explanations)
-- "Naked Statistics" by Charles Wheelan (accessible introduction)
-- Excel/Google Sheets statistical functions documentation
-- Online statistics courses (Coursera, edX)
-- "Naked Statistics" by Charles Wheelan (accessible statistics introduction)
-- Khan Academy Statistics and Probability course (free, comprehensive)
-- "Statistics Done Wrong" by Alex Reinhart (common statistical mistakes)
-- "How to Lie with Statistics" by Darrell Huff (classic on misuse)
-- Seeing Theory (interactive statistics visualizations)
-- StatQuest YouTube channel (statistics explained simply)
-
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain standard deviation and why it matters for business analytics with F&B examples"
 > - **💡 Ask AI**: "When should I use median vs mean for restaurant sales analysis?"
 > - **⚡ AI Generate**: "Generate sample restaurant sales data (100 days) with seasonal patterns and outliers"
 
-#### Common Pitfalls
+**Resources**:
+- **Books**:
+  - "Statistics for Business and Economics" by Paul Newbold
+  - "Naked Statistics" by Charles Wheelan
+  - "Statistics Done Wrong" by Alex Reinhart
+  - "How to Lie with Statistics" by Darrell Huff
+- **Courses & Tutorials**:
+  - Khan Academy Statistics and Probability (free)
+  - StatQuest YouTube channel (intuitive explanations)
+- **Tools**:
+  - Seeing Theory (interactive statistics visualizations)
+  - Excel/Google Sheets statistical functions documentation
+
+**Common Pitfalls**:
 
 ❌ **Statistical Misunderstandings**:
 - Confusing correlation with causation (classic mistake)
@@ -380,7 +393,7 @@ Before moving to Phase 2, you should be able to:
 - Using wrong chart types for the data
 - 3D charts that distort perceptions
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Calculate and interpret mean, median, mode, standard deviation
@@ -401,6 +414,7 @@ Before moving forward, you should be able to:
 - Document your data pipeline
 
 **Topics**:
+**Day 1-2: Cleaning Strategy**:
 - The data cleaning workflow
 - Identifying data quality issues:
   - Missing values
@@ -408,6 +422,8 @@ Before moving forward, you should be able to:
   - Inconsistent formatting
   - Incorrect data types
   - Outliers and errors
+
+**Day 3-5: Transformation Techniques**:
 - Techniques for handling missing data
 - Data normalization and standardization
 - Reshaping data: wide vs. long format
@@ -424,20 +440,23 @@ Before moving forward, you should be able to:
 
 **Tools**: Excel Power Query, Google Sheets, introduction to SQL concepts
 
-#### Resources
-- "Data Cleaning" by Ihab Ilyas and Xu Chu
-- OpenRefine tutorials (powerful data cleaning tool)
-- Kaggle's "Data Cleaning Challenge" courses
-- "Tidy Data" paper by Hadley Wickham
-- Excel/Google Sheets data validation documentation
-- Regular expressions (regex) tutorials for text cleaning
-
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "What are the best practices for handling missing values in sales data?"
 > - **🤖 AI Debug**: "My data has inconsistent date formats (MM/DD/YYYY and DD-MM-YY). How do I standardize them?"
 > - **⚡ AI Generate**: "Create a checklist for data quality assessment"
 
-#### Common Pitfalls
+**Resources**:
+- **Tools & Guides**:
+  - OpenRefine tutorials
+  - Excel/Google Sheets data validation documentation
+  - Regular expressions (regex) tutorials
+- **Reading**:
+  - "Data Cleaning" by Ihab Ilyas and Xu Chu
+  - "Tidy Data" paper by Hadley Wickham
+- **Practice**:
+  - Kaggle's "Data Cleaning Challenge" courses
+
+**Common Pitfalls**:
 
 ❌ **Data Cleaning Mistakes**:
 - Not creating backups before cleaning (destructive changes)
@@ -462,7 +481,7 @@ Before moving forward, you should be able to:
 - No audit trail of changes made or outdated information
 - Not documenting data assumptions and limitations
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Identify common data quality issues (missing, duplicates, inconsistencies)
@@ -513,23 +532,34 @@ Before moving forward, you should be able to:
    - Calculate month-over-month growth rates
 3. Build a data extract that could feed a dashboard
 
+> **🤖 AI Assistance**:
+> - **🔍 AI Explain**: "Explain JOIN types (INNER, LEFT, RIGHT, FULL) with restaurant order/customer example"
+> - **⚡ AI Generate**: "Write SQL query: Get each server's total sales for last month, sorted highest first. Tables: sales(id, date, server_id, total), servers(id, name)"
+> - **💡 Ask AI**: "Show me 5 examples of GROUP BY with HAVING clause"
+> - **🤖 AI Debug**: "This SQL gives syntax error: [paste query]. What's wrong?"
+> - **⚡ AI Generate**: "Create sample restaurant database schema with sales, products, servers, customers tables"
+> - **💡 Ask AI**: "Explain what this SQL query does line by line: [paste complex query]"
+
 **Tools**: 
 - SQLite (lightweight, easy to start)
 - PostgreSQL (industry standard)
 - DB Browser for SQLite (GUI tool)
 - Online SQL playgrounds
 
-#### Resources
+**Resources**:
+- **Interactive Tutorials**:
+  - SQLZoo (interactive SQL tutorial)
+  - Mode Analytics SQL tutorial
+  - W3Schools SQL reference
+- **Books**:
+  - "Practical SQL" by Anthony DeBarros (hands-on guide)
+  - "SQL for Data Analysis" by Cathy O'Neil and Rachel Schutt
+- **Documentation**:
+  - PostgreSQL documentation
+- **Practice**:
+  - LeetCode / HackerRank SQL problems
 
-- SQLZoo (interactive SQL tutorial)
-- Mode Analytics SQL tutorial
-- PostgreSQL documentation
-- W3Schools SQL reference
-- "SQL for Data Analysis" by Cathy O'Neil and Rachel Schutt (conceptual understanding)
-- LeetCode / HackerRank SQL problems (for practice)
-- "Practical SQL" by Anthony DeBarros (hands-on guide)
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **SQL Mistakes**:
 - Not using WHERE to filter (slow queries on large datasets)
@@ -553,7 +583,7 @@ Before moving forward, you should be able to:
 - Suboptimal JOIN types for the specific data relationship
 - Excessive use of subqueries where JOINs or CTEs would be more efficient
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Write complex SELECT statements with WHERE, ORDER BY, and LIMIT clauses
@@ -566,13 +596,7 @@ Before moving forward, you should be able to:
 - [ ] Debug common SQL syntax and logical errors
 - [ ] Design a simple relational database schema (tables, keys, relationships)
 
-> **🤖 AI Assistance**:
-> - **🔍 AI Explain**: "Explain JOIN types (INNER, LEFT, RIGHT, FULL) with restaurant order/customer example"
-> - **⚡ AI Generate**: "Write SQL query: Get each server's total sales for last month, sorted highest first. Tables: sales(id, date, server_id, total), servers(id, name)"
-> - **💡 Ask AI**: "Show me 5 examples of GROUP BY with HAVING clause"
-> - **🤖 AI Debug**: "This SQL gives syntax error: [paste query]. What's wrong?"
-> - **⚡ AI Generate**: "Create sample restaurant database schema with sales, products, servers, customers tables"
-> - **💡 Ask AI**: "Explain what this SQL query does line by line: [paste complex query]"
+
 
 ---
 
@@ -616,21 +640,31 @@ Before moving forward, you should be able to:
   - Outputs a clean dataset for visualization
   - Generates a simple report
 
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Write Python code to: 1) Load restaurant_sales.csv, 2) Convert date to datetime, 3) Calculate daily total sales, 4) Plot trend. Use pandas and matplotlib"
+> - **🤖 AI Debug**: "This pandas code throws KeyError: [paste code]. Why?"
+> - **💡 Ask AI**: "Show me 5 common pandas operations for analyzing sales data" or "What's the difference between fact and dimension tables? Give F&B examples"
+> - **⚡ AI Generate**: "Write pandas code to group by category and calculate sum, mean, and count" or "Design a data model for a restaurant: what tables are needed, relationships, sample ERD"
+> - **🔍 AI Explain**: "Explain pandas DataFrames in simple terms with restaurant data example" or "Explain star schema vs snowflake schema with an F&B restaurant example"
+
 **Tools**: 
 - Jupyter Notebooks
 - pandas, numpy, matplotlib, seaborn libraries
 
-#### Resources
+**Resources**:
+- **Books**:
+  - "Python for Data Analysis" by Wes McKinney
+  - "Automate the Boring Stuff with Python" by Al Sweigart
+- **Courses**:
+  - Kaggle Learn Python course
+  - Real Python tutorials
+- **Documentation**:
+  - pandas documentation
+- **Community**:
+  - Towards Data Science blog
+  - Stack Overflow
 
-- Python for Data Analysis by Wes McKinney (the "pandas bible")
-- Kaggle Learn Python course (interactive and practical)
-- pandas documentation (official and comprehensive)
-- Real Python tutorials (in-depth articles and guides)
-- "Automate the Boring Stuff with Python" by Al Sweigart (for automation mindset)
-- Towards Data Science (blog with many Python data analysis examples)
-- Stack Overflow (for specific coding challenges and solutions)
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Python Beginner Mistakes**:
 - Not using virtual environments (dependency conflicts)
@@ -656,7 +690,7 @@ Before moving forward, you should be able to:
 - Misinterpreting aggregation results (e.g., mean of categorical data)
 - Failing to handle edge cases or missing data gracefully
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 3, you should be able to:
 - [ ] Write basic Python scripts for data loading, cleaning, and transformation
@@ -669,23 +703,40 @@ Before moving to Phase 3, you should be able to:
 - [ ] Understand when Python is a suitable tool for a data analysis task versus other tools
 - [ ] Structure a simple data analysis pipeline in Python (e.g., using Jupyter Notebooks)
 
+
+
+### Module 2.5: Data Modeling Fundamentals
+**Learning Objectives**:
+- Differentiate between Star Schema and Snowflake Schema architectures.
+- Apply First, Second, and Third Normal Forms (1NF, 2NF, 3NF) correctly.
+- Design Fact and Dimension tables that balance performance with modularity.
+
+**Topics**:
+**Day 1-2: Concepts**:
+- Star Schema vs Snowflake Schema
+- Fact vs Dimension Tables
+
+**Day 3-5: Design Principles**:
+- Normalization (1NF, 2NF, 3NF)
+- Dimensional Modeling patterns
+
 > **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Write Python code to: 1) Load restaurant_sales.csv, 2) Convert date to datetime, 3) Calculate daily total sales, 4) Plot trend. Use pandas and matplotlib"
-> - **🤖 AI Debug**: "This pandas code throws KeyError: [paste code]. Why?"
-> - **💡 Ask AI**: "Show me 5 common pandas operations for analyzing sales data" or "What's the difference between fact and dimension tables? Give F&B examples"
-> - **⚡ AI Generate**: "Write pandas code to group by category and calculate sum, mean, and count" or "Design a data model for a restaurant: what tables are needed, relationships, sample ERD"
-> - **🔍 AI Explain**: "Explain pandas DataFrames in simple terms with restaurant data example" or "Explain star schema vs snowflake schema with an F&B restaurant example"
+> - **🔍 AI Explain**: "Explain the difference between Star Schema and Snowflake Schema using a pizza delivery example."
+> - **⚡ AI Generate**: "Create a Star Schema design for a restaurant: Fact table (Sales) and Dimensions (Time, Menu Item, Staff, Branch)."
+> - **💡 Ask AI**: "Why is 3rd Normal Form (3NF) often considered 'too strict' for data warehousing?"
 
-#### Resources
+**Resources**:
+- **Books**:
+  - "The Data Warehouse Toolkit" by Ralph Kimball
+- **Guides**:
+  - Star schema vs snowflake schema comparison
+  - Database normalization tutorials (1NF, 2NF, 3NF)
+  - Data modeling patterns and anti-patterns articles
+- **Tools & Docs**:
+  - ERD tools and best practices
+  - SQL Server/PostgreSQL data modeling documentation
 
-- "The Data Warehouse Toolkit" by Ralph Kimball (the dimensional modeling bible)
-- Star schema vs snowflake schema comparison guides
-- Database normalization tutorials (1NF, 2NF, 3NF)
-- ERD (Entity-Relationship Diagram) tools and best practices
-- Data modeling patterns and anti-patterns articles
-- SQL Server/PostgreSQL data modeling documentation
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Modeling Mistakes**:
 - Not understanding business requirements before modeling
@@ -709,7 +760,7 @@ Before moving to Phase 3, you should be able to:
 - Not partitioning large tables appropriately
 - Materialized views not refreshed properly or efficiently
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Design star schema data models for business scenarios
@@ -736,29 +787,32 @@ Before moving forward, you should be able to:
 - Avoid common visualization mistakes
 
 **Topics**:
+**Day 1-2: Perception Science**:
 - **The Purpose of Visualization**: exploration vs. explanation
 - **Visual Perception**:
   - Preattentive attributes (color, size, position)
   - Gestalt principles (proximity, similarity, enclosure)
   - How we compare: position, length, angle, area, color
-- **Chart Types & When to Use Them**:
+
+**Day 3-4: Choosing Charts**:
+- **Chart Types**:
   - Comparison: bar charts, column charts
   - Distribution: histograms, box plots
   - Composition: pie charts (used sparingly!), stacked bars, treemaps
   - Relationship: scatter plots, bubble charts
   - Trends over time: line charts, area charts
   - Part-to-whole: waterfall charts, funnel charts
+
+**Day 5: Design & Ethics**:
 - **Color Theory**:
   - Color psychology in business
   - Accessibility (colorblind-friendly palettes)
   - Using color meaningfully (not decoratively)
   - Sequential vs. diverging vs. categorical palettes
-- **Common Mistakes to Avoid**:
+- **Common Mistakes**:
   - Misleading axes
   - Chartjunk and clutter
   - 3D charts (almost always bad)
-  - Using pie charts for many categories
-  - Poor color choices
 
 **Hands-on Project**:
 - **Visualization Makeover**: Take 5 poorly designed charts and redesign them
@@ -771,7 +825,7 @@ Before moving forward, you should be able to:
 > - **💡 Ask AI**: "Give me a colorblind-friendly color palette for business dashboards (5 colors with hex codes)"
 > - **💡 Ask AI**: "What are the most common data visualization mistakes and how to avoid them?"
 
-#### Resources
+**Resources**:
 
 - "Storytelling with Data" by Cole Nussbaumer Knaflic (MUST READ)
 - "The Visual Display of Quantitative Information" by Edward Tufte
@@ -782,7 +836,7 @@ Before moving forward, you should be able to:
 - PolicyViz blog and podcast (practical data viz advice)
 - "Show Me the Numbers" by Stephen Few (practical guide to quantitative information)
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Chart Selection Mistakes**:
 - Using pie charts for more than 5 categories (hard to compare)
@@ -807,7 +861,7 @@ Before moving forward, you should be able to:
 - Not accounting for color blindness (~8% of men)
 - Animations and transitions that distract rather than clarify
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Choose appropriate chart types for different data scenarios
@@ -829,12 +883,13 @@ Before moving forward, you should be able to:
 - Create wireframes and mockups
 
 **Topics**:
+**Week 1: Dashboard Foundations**:
 - **Dashboard Types**:
   - Strategic (executive) dashboards: high-level KPIs, trends
   - Analytical dashboards: deep-dive exploration
   - Operational dashboards: real-time monitoring
   - Tactical dashboards: department-specific metrics
-- **Design Principles for Dashboards**:
+- **Design Principles**:
   - The 5-second rule: can you grasp the main insight in 5 seconds?
   - Information hierarchy: most important info gets prime real estate
   - White space is your friend
@@ -845,6 +900,8 @@ Before moving forward, you should be able to:
   - Grid systems for alignment
   - Grouping related metrics
   - Effective use of space
+
+**Week 2: User-Centric Design**:
 - **Interactivity Design**:
   - When to use filters
   - Drill-down patterns
@@ -869,21 +926,24 @@ Before moving forward, you should be able to:
 - Pen and paper (wireframing)
 - Dashboard inspiration sites
 
-#### Resources
-
-- "Information Dashboard Design" by Stephen Few
-- Andy Kriebel's Makeover Monday
-- Dashboard design pattern libraries (e.g., from Tableau, Power BI)
-- Figma/Sketch dashboard templates (for practical application)
-- Nielsen Norman Group (NN/g) articles on dashboard usability
-- Dribbble, Behance (for design inspiration)
+**Resources**:
+- **Books**:
+  - "Information Dashboard Design" by Stephen Few
+- **Inspiration**:
+  - Andy Kriebel's Makeover Monday
+  - Dribbble, Behance (for design inspiration)
+  - Dashboard design pattern libraries
+- **Templates**:
+  - Figma/Sketch dashboard templates
+- **Articles**:
+  - Nielsen Norman Group (NN/g) dashboard usability articles
 
 > **🤖 AI Assistance**:
 > - **🤖 AI Review**: Share wireframe/mockup: "Review this dashboard layout for an F&B operator. Is the hierarchy clear?"
 > - **💡 Ask AI**: "What data sources are critical for F&B BI that operators often overlook?" or "What are the best practices for designing mobile-responsive dashboards?"
 > - **⚡ AI Generate**: "Create a data source inventory template for an F&B business" or "Generate 3 dashboard wireframe layout ideas for restaurant operations"
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Design Mistakes**:
 - Too many metrics (information overload, cognitive strain)
@@ -909,7 +969,7 @@ Before moving forward, you should be able to:
 - Treating all revenue streams the same (dine-in vs delivery vs catering)
 - Ignoring local market factors and regulatory considerations
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Design effective dashboard wireframes and mockups
@@ -987,23 +1047,24 @@ Before moving forward, you should be able to:
 
 **Tools**: Your chosen BI platform (Tableau Public/Power BI/Google Data Studio/Metabase)
 
-#### Resources
-
-- Official tool documentation (Tableau/Power BI/Looker)ials for your chosen tool
-- Udemy/Coursera courses specific to your chosen BI tool
-- Tool-specific blogs and forums (e.g., Tableau Zen Masters, Power BI Community)
-- Data visualization challenges (e.g., Makeover Monday, Workout Wednesday)
-- Tableau Public gallery
-- Power BI community
-- Official tool documentation
-- YouTube tutorials for your chosen tool
+**Resources**:
+- **Documentation**:
+  - Official tool documentation (Tableau/Power BI/Looker)
+- **Courses**:
+  - Udemy/Coursera courses specific to your chosen BI tool
+  - YouTube tutorials
+- **Community**:
+  - Tool-specific blogs and forums (Zen Masters, Power BI Community)
+  - Tableau Public gallery
+- **Practice**:
+  - Data visualization challenges (Makeover Monday, Workout Wednesday)
 
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "Compare Tableau vs Power BI vs Data Studio for small business BI needs"
 > - **⚡ AI Generate**: "Create step-by-step tutorial for building first Tableau dashboard"
 > - **🤖 AI Debug**: "My Power BI visual shows wrong totals. Dataset: [describe]. Measure: [DAX]. What's wrong?"
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Tool Selection Mistakes**:
 - Choosing based on hype not needs (e.g., picking a complex tool for simple reporting)
@@ -1019,7 +1080,7 @@ Before moving forward, you should be able to:
 - Not practicing with real data and diverse use cases
 - Relying solely on drag-and-drop without understanding underlying logic
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 4, you should be able to:
 - [ ] Build interactive dashboards in at least one major BI tool (e.g., Tableau, Power BI)
@@ -1044,6 +1105,7 @@ Before moving to Phase 4, you should be able to:
 - Create action-oriented recommendations
 
 **Topics**:
+**Day 1-2: Narrative Structure**:
 - **The Data Story Arc**:
   - Setting: context and background
   - Rising action: the problem or question
@@ -1054,6 +1116,8 @@ Before moving to Phase 4, you should be able to:
   - Support with evidence
   - Anticipate questions
   - Call to action
+
+**Day 3-5: Delivery & Design**:
 - **Audience Adaptation**:
   - Executives: concise, strategic, business impact
   - Managers: actionable, operational, detailed
@@ -1082,16 +1146,20 @@ Before moving to Phase 4, you should be able to:
 - Screen recording software (for practice)
 - Storytelling frameworks and templates
 
-#### Resources
-- "Storytelling with Data" by Cole Nussbaumer Knaflic (essential reading)
-- "The Visual Display of Quantitative Information" by Edward Tufte (classic)
-- "Good Charts" by Scott Berinato (Harvard Business Review Press)
-- Data Viz Project (catalog of visualization types)
-- ColorBrewer (color palette tool for data visualization)
-- PolicyViz blog and podcast (practical data viz advice)
-- "Show Me the Numbers" by Stephen Few (practical guide to quantitative information)
-- TED talks about data (for inspiration on compelling presentations)
-- Data journalism examples (The Pudding, FiveThirtyEight - for narrative structure)
+**Resources**:
+- **Books**:
+  - "Storytelling with Data" by Cole Nussbaumer Knaflic (essential)
+  - "The Visual Display of Quantitative Information" by Edward Tufte
+  - "Good Charts" by Scott Berinato
+  - "Show Me the Numbers" by Stephen Few
+- **Inspiration**:
+  - TED talks about data
+  - Data journalism examples (The Pudding, FiveThirtyEight)
+- **Tools**:
+  - Data Viz Project (catalog)
+  - ColorBrewer (palettes)
+- **Blogs**:
+  - PolicyViz blog and podcast
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Create a data story outline for declining restaurant sales: setup, conflict, resolution structure" or "Write presentation script explaining food cost increase to restaurant owner"
@@ -1100,7 +1168,7 @@ Before moving to Phase 4, you should be able to:
 > - **🤖 AI Review**: "Review my data presentation outline. Is the story clear and compelling?" or "Review this dashboard narrative. Does it follow good storytelling principles?"
 > - **🔧 AI Debug**: "My stakeholders zone out during presentations. How to engage them better with data stories?"
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Storytelling Mistakes**:
 - Showing all the data instead of the insight (information overload)
@@ -1114,7 +1182,7 @@ Before moving to Phase 4, you should be able to:
 - Going over time limit
 - No call to action at the end
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Craft a compelling data narrative with clear beginning, middle, end
@@ -1135,7 +1203,8 @@ Before moving forward, you should be able to:
 - Build reusable templates
 
 **Topics**:
-- **Advanced Interactivity**:
+**Week 1: Advanced Interactivity**:
+- **Interactivity Patterns**:
   - Drill-down/drill-through patterns
   - Cross-filtering across visuals
   - Dynamic titles and text
@@ -1146,6 +1215,8 @@ Before moving forward, you should be able to:
   - Date range selectors
   - Dynamic measure selection
   - Dynamic benchmarking
+
+**Week 2: Advanced Logic & Optimization**:
 - **Calculated Fields & DAX/Formulas**:
   - Time intelligence: YTD, MTD, prior period
   - Ratio and percentage calculations
@@ -1181,16 +1252,18 @@ Before moving forward, you should be able to:
 > - **🤖 AI Debug**: "My dashboard is slow with 100k rows. How to optimize: [describe setup]?" or "This DAX measure returns wrong values: [paste formula]. Debug it"
 > - **🔧 AI Review**: "Review my dashboard navigation structure. Is it intuitive for restaurant managers?"
 
-#### Resources
+**Resources**:
+- **Documentation**:
+  - DAX/calculation language documentation (Power BI, Tableau LOD)
+  - Advanced BI tool features documentation
+- **Guides**:
+  - Advanced dashboard design tutorials
+  - Dashboard performance optimization guides
+- **Inspiration**:
+  - Interactive dashboard pattern libraries
+  - Real-world advanced dashboard case studies
 
-- Advanced dashboard design tutorials for your BI tool
-- DAX/calculation language documentation (Power BI, Tableau LOD)
-- Dashboard performance optimization guides
-- Interactive dashboard pattern libraries
-- Advanced BI tool features documentation
-- Real-world advanced dashboard case studies
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Advanced Dashboard Mistakes**:
 - Overcomplicating with too many interactive features
@@ -1208,7 +1281,7 @@ Before moving forward, you should be able to:
 - Ignoring cross-filtering impacts on performance
 - Missing error handling in dynamic calculations
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Implement advanced dashboard interactivity
@@ -1220,153 +1293,80 @@ Before moving forward, you should be able to:
 
 ---
 
-### Module 4.3: Data Modeling for BI
+### Module 4.3: Data Modeling & Warehousing
 **Duration**: 1.5 weeks
 
 **Learning Objectives**:
-- Understand dimensional modeling
-- Design star and snowflake schemas
-- Build efficient data models
-- Understand ETL concepts
+- Understand dimensional modeling (Star/Snowflake)
+- Design efficient data models for F&B
+- Understand ETL concepts & Data Warehousing
+- Master Slowly Changing Dimensions (SCD)
 
 **Topics**:
-- **Dimensional Modeling Concepts**:
-  - Fact tables vs. dimension tables
-  - Grain of a fact table
-  - Star schema design
-  - Snowflake schema design
-  - Slowly changing dimensions (SCD)
-- **Building a Data Model**:
-  - Identifying facts and dimensions
-  - Creating relationships
+**Week 1: Dimensional Modeling**:
+- **Modeling Concepts**:
+  - Fact vs Dimension tables
+  - Star schema vs Snowflake schema
+  - Grain definition
   - Surrogate keys
-  - Date dimensions
+
+**Week 2: Advanced Architectures**:
+- **Advanced Modeling**:
+  - Slowly Changing Dimensions (SCD Type 1, 2, 3)
   - Role-playing dimensions
-- **Data Warehousing Basics**:
-  - OLTP vs. OLAP
-  - ETL (Extract, Transform, Load) concepts
-  - Data refresh strategies
-  - Historical data tracking
-- **Best Practices**:
-  - Naming conventions
-  - Documentation
-  - Data lineage
-  - Testing and validation
+  - Date dimensions
+  - Conformed dimensions
+- **Warehousing Basics**:
+  - OLTP vs OLAP
+  - ETL (Extract, Transform, Load)
+  - Data Refresh strategies
 
 **Hands-on Project**:
-- **Design a Data Model for F&B**:
+- **Design a Star Schema for F&B**:
   - Create a dimensional model for a restaurant
-  - Identify fact tables (Sales, Inventory, etc.)
-  - Design dimension tables (Products, Customers, Time, Location, etc.)
-  - Implement in your BI tool
-  - Load sample data
-  - Build a dashboard on top of it
-
-**Resources**:
-- "The Data Warehouse Toolkit" by Ralph Kimball
-- Dimensional modeling patterns
+  - Identify Facts (Sales, Inventory) and Dimensions (Menu, Staff, Time)
+  - Create an Entity-Relationship Diagram (ERD)
+  - Implement the model in your BI tool
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Create a star schema design for F&B analytics (fact and dimension tables)"
-> - **🔍 AI Explain**: "Explain slowly changing dimensions (SCD) with restaurant menu example (prices change over time)"
-> - **💡 Ask AI**: "When should I use snowflake schema vs star schema for BI?"
-
----
-
-### Module 4.4: Data Modeling
-**Duration**: 1.5 weeks
-
-**Learning Objectives**:
-- Understand different data models (star, snowflake)
-- Design effective data models for BI
-- Identify fact and dimension tables
-- Apply normalization and denormalization principles
-
-**Topics**:
-- **Relational Databases Review**:
-  - Tables, columns, primary/foreign keys
-  - Relationships (one-to-one, one-to-many, many-to-many)
-- **Data Warehousing Concepts**:
-  - OLTP vs. OLAP
-  - Data marts
-- **Dimensional Modeling**:
-  - Star Schema: Fact tables, Dimension tables
-  - Snowflake Schema
-  - Conformed dimensions
-- **Fact Table Types**:
-  - Transactional fact tables
-  - Periodic snapshot fact tables
-  - Accumulating snapshot fact tables
-- **Dimension Table Types**:
-  - Slowly Changing Dimensions (SCD Type 1, 2, 3)
-  - Junk dimensions, role-playing dimensions
-- **Grain**:
-  - Defining the level of detail for fact tables
-- **Data Modeling Best Practices**:
-  - Naming conventions
-  - Documentation (ERDs)
-
-**Hands-on Project**:
-- Design a star schema for a given F&B business scenario
-- Create an Entity-Relationship Diagram (ERD)
-- Identify fact and dimension tables, define their grain
-- Implement a simple data model in a database (e.g., PostgreSQL)
-
-**Tools**: 
-- Your BI tool + potentially Python for modeling
-- Forecasting features in Tableau/Power BI
-
-> **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain star schema vs snowflake schema with F&B restaurant example"
-> - **⚡ AI Generate**: "Design a data model for restaurant: tables needed, relationships, sample ERD"
-> - **💡 Ask AI**: "What are best practices for naming tables and columns in a data warehouse?"
+> - **💡 Ask AI**: "When should I use SCD Type 2 for menu prices?"
 
-#### Resources
+**Resources**:
+- **Books**:
+  - "The Data Warehouse Toolkit" by Ralph Kimball
+- **Guides**:
+  - Star schema vs snowflake schema guides
+  - Database normalization tutorials
+- **Tools**:
+  - ERD tools and best practices
 
-- "The Data Warehouse Toolkit" by Ralph Kimball (the bible of dimensional modeling)
-- Star schema vs snowflake schema guides and comparisons
-- Database normalization tutorials (1NF, 2NF, 3NF)
-- SQL Server/PostgreSQL data modeling best practices
-- ERD (Entity-Relationship Diagram) tools and tutorials
-- Data modeling patterns and anti-patterns articles
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Modeling Mistakes**:
-- Not understanding business requirements before modeling
-- Modeling for current state only (not future scalability)
-- Too normalized (slow queries) or too denormalized (data inconsistency)
-- Unclear grain definition (mixing detail levels)
-- Missing or incorrect foreign key relationships
-- Not documenting model assumptions and business rules
+- Mixing grain levels in fact tables
+- Missing surrogate keys
+- Not handling price changes (SCD)
+- Missing Date dimension
+- Fact tables too wide (denormalized)
 
-❌ **Schema Design Errors**:
-- Fact tables without proper surrogate keys
-- Dimension tables without slowly changing dimension (SCD) handling
-- Missing date/time dimensions (critical for analytics)
-- Conformed dimensions not actually conformed across data marts
-- Overuse of snowflaking (unnecessary complexity)
-- Poor naming conventions making tables hard to understand
+❌ **Performance**:
+- Missing indexes on join keys
+- Circular dependencies
 
-❌ **Performance Issues**:
-- Missing indexes on foreign keys and frequently queried columns
-- Fact tables that are too wide (too many columns)
-- Not partitioning large tables appropriately
-- Materialized views not refreshed properly
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
-- [ ] Design star schema data models
-- [ ] Identify fact vs dimension tables
-- [ ] Define appropriate grain for facts
-- [ ] Create ERD diagrams
-- [ ] Understand normalization trade-offs
-- [ ] Apply data modeling best practices
+- [ ] Design comprehensive star schemas
+- [ ] Differentiate Fact and Dimension tables
+- [ ] Implement Slowly Changing Dimensions
+- [ ] Create detailed ERDs
+- [ ] Explain OLTP vs OLAP differences
 
 ---
 
-### Module 4.5: Dashboard Implementation
+### Module 4.4: Dashboard Implementation
 **Duration**: 2 weeks
 
 **Learning Objectives**:
@@ -1376,6 +1376,7 @@ Before moving forward, you should be able to:
 - Apply advanced visualization techniques
 
 **Topics**:
+**Week 1: Build & Layout**:
 - **Connecting to Data Sources**:
   - Live connections vs. extracts/imports
   - Blending multiple data sources
@@ -1385,6 +1386,8 @@ Before moving forward, you should be able to:
 - **Dashboard Layout and Design**:
   - Containers, floating vs. tiled objects
   - Responsive design for different devices
+
+**Week 2: Refine & Deploy**:
 - **Interactivity**:
   - Filters (quick filters, action filters)
   - Parameters for user control
@@ -1415,13 +1418,15 @@ Before moving forward, you should be able to:
 > - **💡 Ask AI**: "What are common performance bottlenecks in BI dashboards and how to fix them?"
 > - **🔍 AI Explain**: "Explain the difference between live connection and data extract in Tableau/Power BI"
 
-#### Resources
+**Resources**:
+- **Documentation**:
+  - Official documentation for your chosen BI tool
+- **Books**:
+  - "Information Dashboard Design" by Stephen Few
+- **Community**:
+  - Online communities and forums (Tableau Public, Power BI Community)
 
-- Official documentation for your chosen BI tool
-- Online communities and forums (Tableau Public, Power BI Community)
-- "Information Dashboard Design" by Stephen Few (revisit)
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Implementation Mistakes**:
 - Poorly organized layouts (cluttered dashboards)
@@ -1436,7 +1441,7 @@ Before moving forward, you should be able to:
 - Security misconfigurations
 - Broken drill-down actions
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Build interactive dashboards in your chosen BI tool
@@ -1448,7 +1453,7 @@ Before moving forward, you should be able to:
 
 ---
 
-### Module 4.6: Testing & Iteration
+### Module 4.5: Testing & Iteration
 **Duration**: 1 week
 
 **Learning Objectives**:
@@ -1458,6 +1463,7 @@ Before moving forward, you should be able to:
 - Document changes and version control
 
 **Topics**:
+**Day 1-2: Quality Assurance**:
 - **Importance of Testing**:
   - Ensuring data accuracy and integrity
   - Validating calculations and logic
@@ -1468,6 +1474,8 @@ Before moving forward, you should be able to:
   - **Performance Testing**: Load times, responsiveness
   - **User Acceptance Testing (UAT)**: End-user feedback
   - **Regression Testing**: Ensuring new changes don't break old features
+
+**Day 3-5: Iteration & Handover**:
 - **Feedback Collection**:
   - Structured interviews, surveys
   - Usability testing sessions
@@ -1498,13 +1506,14 @@ Before moving forward, you should be able to:
 > - **💡 Ask AI**: "What are best practices for collecting and prioritizing user feedback for a BI dashboard?"
 > - **🔍 AI Explain**: "Explain the concept of User Acceptance Testing (UAT) in the context of BI dashboards"
 
-#### Resources
+**Resources**:
+- **Methodologies**:
+  - Software testing methodologies (Agile testing)
+  - User experience (UX) design principles
+- **Guides**:
+  - Version control best practices
 
-- Software testing methodologies (e.g., Agile testing)
-- User experience (UX) design principles
-- Version control best practices
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Testing Mistakes**:
 - Skipping testing phases (especially UAT)
@@ -1518,7 +1527,7 @@ Before moving forward, you should be able to:
 - Lack of version control leading to lost work or conflicts
 - Endless iteration without a clear scope or goal
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Create a comprehensive test plan for a dashboard
@@ -1542,6 +1551,7 @@ Before moving forward, you should be able to:
 - Understand regulatory and compliance aspects
 
 **Topics**:
+**Day 1-2: Industry Operations**:
 - **F&B Business Models**:
   - Quick Service (QSR)
   - Fast Casual
@@ -1554,6 +1564,8 @@ Before moving forward, you should be able to:
   - Back of house: prep, cooking, inventory
   - Supply chain: ordering, receiving, storage
   - Staff management: scheduling, performance
+
+**Day 3-5: Data Landscape**:
 - **Key Stakeholders & Their Needs**:
   - Owner/GM: profitability, growth
   - Chef: food cost, waste, menu performance
@@ -1583,15 +1595,18 @@ Before moving forward, you should be able to:
 > - **💡 Ask AI**: "What are the key differences in metrics between QSR, fast casual, and fine dining?"
 > - **⚡ AI Generate**: "Create list of 30 questions an F&B dashboard should answer for different stakeholder roles"
 
-#### Resources
-
-- F&B Business Processes guide (in this repository)
-- National Restaurant Association industry reports and benchmarks
-- "Restaurant Financial Basics" by Raymond Goodman
-- "Setting the Table" by Danny Meyer (hospitality philosophy)
-- Toast, Square, Upserve restaurant analytics platform case studies
-- Reddit r/restaurateur for real-world operator insights
-- Local market F&B industry associations and chambers of commercells
+**Resources**:
+- **Reports & Benchmarks**:
+  - National Restaurant Association industry reports
+  - Local market F&B industry associations
+- **Books**:
+  - "Restaurant Financial Basics" by Raymond Goodman
+  - "Setting the Table" by Danny Meyer
+- **Guides & Case Studies**:
+  - F&B Business Processes guide (in this repository)
+  - Toast, Square, Upserve analytic case studies
+- **Community**:
+  - Reddit r/restaurateur for operator insights
 
 ❌ **F&B Understanding Mistakes**:
 - Not understanding kitchen vs front-of-house operations and workflows
@@ -1616,7 +1631,7 @@ Before moving forward, you should be able to:
 - Inadequate tracking of waste and spoilageg margins
 - Not accounting for waste and shrinkage
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Explain different F&B business models
@@ -1638,6 +1653,7 @@ Before moving forward, you should be able to:
 - Build a comprehensive F&B KPI framework
 
 **Topics**:
+**Day 1-2: Core Financials**:
 - **Revenue Metrics**:
   - Total sales (by time period, location, channel)
   - Average check / ticket size
@@ -1647,45 +1663,32 @@ Before moving forward, you should be able to:
   - Dine-in vs. takeout vs. delivery split
 - **Cost Metrics**:
   - **Food Cost %**: (COGS / Food Revenue) × 100
-    - Target: 28-35% typically
-    - By item, category, overall
-  - **Beverage Cost %**: similar to food cost
-    - Target: 18-24% for beer/wine, 15-20% for liquor
-  - **Prime Cost**: (COGS + Labor) × 100 / Revenue
-    - Target: under 60%
+  - **Primes Cost**: (COGS + Labor) × 100 / Revenue
   - **Labor Cost %**: (Total Labor / Revenue) × 100
-    - Target: 25-35% depending on service model
-  - **Occupancy/Rent %**: typically 6-10%
 - **Profitability Metrics**:
   - Gross profit margin
   - Operating profit margin
   - Net profit margin
   - EBITDA
   - Break-even point
+
+**Day 3-5: Operational Optimization**:
 - **Operational Efficiency**:
-  - Table turnover rate: sittings per table per shift
+  - Table turnover rate
   - Seat occupancy rate
   - Average wait time
   - Order fulfillment time
-  - Service time (from order to delivery)
-  - Staff productivity (revenue per labor hour)
-- **Inventory Metrics**:
-  - Inventory turnover ratio: COGS / Average Inventory
+- **Inventory & Customer**:
+  - Inventory turnover ratio
   - Days of inventory on hand
   - Waste percentage
-  - Theft/variance
-- **Customer Metrics**:
   - Customer acquisition cost (CAC)
   - Customer lifetime value (CLV)
   - Repeat customer rate
-  - Average frequency
   - Net Promoter Score (NPS)
-  - Review ratings (Yelp, Google, etc.)
 - **Menu Analytics**:
-  - Menu item popularity (itemsold)
-  - Menu item profitability (profit per item)
+  - Menu item popularity vs profitability
   - Menu engineering matrix (star/plow horse/puzzle/dog)
-  - Pricing analysis
   - Contribution margin by item
 
 **Hands-on Projects**:
@@ -1700,17 +1703,20 @@ Before moving forward, you should be able to:
 > - **⚡ AI Generate**: "Create formula templates for calculating all major F&B KPIs (food cost %, RevPASH, table turnover, etc.)"
 > - **💡 Ask AI**: "Explain menu engineering matrix - how to classify items as Stars, Plow Horses, Puzzles, and Dogs"
 
-#### Resources
+**Resources**:
+- **Books**:
+  - "Restaurant Financial Basics" by Raymond Goodman
+- **Reports & Benchmarks**:
+  - National Restaurant Association benchmarks
+  - F&B KPI benchmark databases
+- **Guides**:
+  - Toast/Square/Upserve analytics case studies
+  - "Restaurant Profit and Loss Statements" guides
+- **Industry Insight**:
+  - ModernRestaurantManagement.com
+  - Local F&B industry associations
 
-- "Restaurant Financial Basics" by Raymond Goodman
-- National Restaurant Association benchmarks and industry standards
-- Toast/Square/Upserve analytics platform documentation and case studies
-- "Restaurant Profit and Loss Statements" guides
-- F&B KPI benchmark databases and industry reports
-- ModernRestaurantManagement.com for industry insights
-- Local F&B industry associations for regional benchmarks
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Metric Calculation Errors**:
 - Wrong formulas for F&B-specific metrics (e.g., Prime Cost calculation errors)
@@ -1734,7 +1740,7 @@ Before moving forward, you should be able to:
 - Missing service channel breakdown (dine-in vs delivery performance)
 - Not tracking cohort behavior and customer lifetime value
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Calculate all major F&B KPIs accurately
@@ -1757,7 +1763,7 @@ Before moving forward, you should be able to:
 
 **Topics**:
 
-**Week 1 - Analytics Use Cases**:
+**Week 1: Analytics Use Cases**:
 - **Sales Analysis**:
   - Sales trends (daily, weekly, monthly, seasonal)
   - Day-part analysis (breakfast, lunch, dinner)
@@ -1773,23 +1779,18 @@ Before moving forward, you should be able to:
   - Peak hour identification
   - Service speed analysis
   - Capacity planning
+
+**Week 2: Building Solutions**:
 - **Financial Analysis**:
   - Prime cost tracking and alerts
   - Variance analysis (actual vs. budget)
   - Cash flow monitoring
   - Profitability by location/channel
-- **Customer Analysis**:
-  - Customer segmentation
-  - Behavior patterns
-  - Loyalty program effectiveness
-  - Feedback analysis
-
-**Week 2 - Dashboard Building**:
-- **Executive Dashboard**: High-level KPIs for owner/GM
-- **Operations Dashboard**: Real-time operational metrics
-- **Kitchen/Chef Dashboard**: Food cost, waste, menu performance
-- **Marketing Dashboard**: Customer behavior and promotions
-- **Financial Dashboard**: Detailed P&L and financial health
+- **Dashboard Construction**:
+  - **Executive Dashboard**: High-level KPIs for owner/GM
+  - **Operations Dashboard**: Real-time operational metrics
+  - **Kitchen/Chef Dashboard**: Food cost, waste, menu performance
+  - **Marketing Dashboard**: Customer behavior and promotions
 
 **Hands-on Project**:
 - **Build a Complete F&B Analytics Solution**:
@@ -1803,7 +1804,7 @@ Before moving forward, you should be able to:
 
 **Tools**: Your chosen BI platform + potential integrations
 
-#### Resources
+**Resources**:
 
 - F&B dashboard templates (Tableau Public, Power BI gallery)
 - Case studies from BI vendors (Toast Analytics, Avero, MarginEdge)
@@ -1817,12 +1818,17 @@ Before moving forward, you should be able to:
 > - **🤖 AI Review**: "Review my F&B dashboard design. Does it answer the key operational questions?"
 > - **💡 Ask AI**: "What alerts/thresholds should I set for F&B KPI monitoring?"
 
-- F&B dashboard templates (Tableau Public, Power BI gallery)
-- Case studies from BI vendors
-- Restaurant analytics platforms (Toast, Upserve) for inspiration
-- F&B Business Processes guide
+**Resources**:
+- **Templates & Patterns**:
+  - F&B dashboard templates (Tableau/Power BI)
+  - Dashboard design patterns from Stephen Few
+- **Case Studies**:
+  - BI vendor case studies (Toast, Avero, MarginEdge)
+  - F&B-specific BI white papers
+- **Guides**:
+  - F&B Business Processes guide
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **F&B Analytics Mistakes**:
 - Generic dashboards not tailored to F&B
@@ -1836,7 +1842,7 @@ Before moving forward, you should be able to:
 - Not updating in real-time
 - No mobile access
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Build F&B-specific analytics dashboards
@@ -1858,6 +1864,7 @@ Before moving forward, you should be able to:
 - Optimize inventory and pricing
 
 **Topics**:
+**Day 1-2: Predictive Basics**:
 - **Demand Forecasting**:
   - Time series forecasting for sales
   - Seasonality adjustment
@@ -1868,6 +1875,8 @@ Before moving forward, you should be able to:
   - Reorder point optimization
   - ABC analysis (high/medium/low value items)
   - Waste reduction strategies
+
+**Day 3-5: Advanced Strategy**:
 - **Pricing Optimization**:
   - Price elasticity analysis
   - Dynamic pricing opportunities
@@ -1876,13 +1885,9 @@ Before moving forward, you should be able to:
   - Item affinity (what sells together)
   - Upsell opportunities
   - Menu bundling recommendations
-- **Predictive Maintenance**:
-  - Equipment failure prediction
-  - Maintenance scheduling optimization
-- **Staff Analytics**:
-  - Performance scoring
-  - Optimal scheduling
-  - Turnover prediction
+- **Advanced Operations**:
+  - Predictive Maintenance (Equipment)
+  - Staff Analytics (Turnover, Performance)
 
 **Hands-on Project**:
 - Choose 2-3 advanced topics and implement:
@@ -1900,7 +1905,7 @@ Before moving forward, you should be able to:
 - Not validating models
 - Over-complicated approaches
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Capstone, you should be able to:
 - [ ] Implement sales forecasting

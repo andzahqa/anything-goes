@@ -62,22 +62,43 @@ graph LR
 ### Module 1.1: Data & BI Fundamentals
 **Duration**: 3 days
 
-**Same as original curriculum Module 1.1** - Understanding BI concepts, KPIs, stakeholder needs
+**Learning Objectives**:
+- Define Business Intelligence (BI) and its critical role in modern F&B operations.
+- Map the value chain from raw POS data to actionable dashboard insights.
+- Recognize why spreadsheets are often the optimal "everyman" BI tool for SMBs.
 
-**Reading**: Review [BI Curriculum Module 1.1](./bi_curriculum.md#module-11-understanding-data--business-intelligence)
+**Topics**:
+**Day 1: The BI Concept**:
+- **The BI Value Chain**: From raw data (POS exports) to insights (Dashboards).
+- **Types of Analytics**: Descriptive (What happened?), Diagnostic (Why?), Predictive (What will happen?), Prescriptive (What to do?).
+- **Spreadsheets as BI**: Why Excel/Sheets are the world's most popular BI tools.
+
+**Day 2-3: Context & Application**:
+- **KPIs for F&B**: Understanding metrics like RevPASH, COGS, and Prime Cost.
+- **The "Everyman" User**: Designing for restaurant owners, not just data scientists.
+
+**Reading**: Review [BI Curriculum Module 1.1](./bi_curriculum.md#module-11-understanding-data--business-intelligence) for deep theory.
+
+**Hands-on Project**:
+- **BI Audit**: Look at a sample restaurant's current reporting (or imagine one).
+- **Identify Gaps**: What questions can't they answer right now?
+- **Sketch a Solution**: Draw a simple dashboard concept on paper that would solve a specific problem.
 
 > **🤖 AI Assistance**:
 > - **💡 Ask AI**: "Explain the difference between data analysis, data analytics, and business intelligence in simple terms"
 > - **💡 Ask AI**: "Give me 5 real-world examples of how BI helps F&B businesses"
 > - **🔍 AI Explain**: Have AI explain KPIs with F&B-specific examples: "Explain what KPIs are and give 5 examples for restaurants"
 
-#### Resources
-
-- "Business Intelligence For Dummies" by Swain, Alexander, and Alexander
-- Investopedia: Business Intelligence, Data Analytics definitions
-- Harvard Business Review articles on data-driven decision making
-- Online courses on BI fundamentals (e.g., Coursera, edX)
-- Industry reports on BI trends in hospitality
+**Resources**:
+- **Books**:
+  - "Business Intelligence For Dummies" by Swain, Alexander, and Alexander
+- **Articles & Reports**:
+  - Harvard Business Review articles on data-driven decision making
+  - Industry reports on BI trends in hospitality
+- **Reference**:
+  - Investopedia: Business Intelligence, Data Analytics definitions
+- **Courses**:
+  - Online courses on BI fundamentals (Coursera, edX)
 
 ---
 
@@ -110,16 +131,6 @@ graph LR
 - Conditional formatting (color scales, data bars, icon sets, rules)
 - Find & Replace (including wildcards and regex in Sheets)
 
-**Hands-on Project**: Sales data cleanup and basic analysis
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create a practice CSV with 100 sales transactions (date, product, category, amount, payment_method)"
-> - **💡 Ask AI**: "Show me 5 examples of using SUMIFS with different conditions"
-> - **💡 Ask AI**: "Explain absolute vs relative cell references like I'm new to spreadsheets"
-> - **🤖 AI Debug**: When formulas error, paste: "Why does this formula return #N/A? Formula: [paste]. Data: [describe]"
-
----
-
 #### Week 2: Intermediate Skills
 
 **Lookup Functions** (CRITICAL for BI):
@@ -149,28 +160,36 @@ graph LR
 - Flash Fill (Excel)
 - Handling blanks and errors: `IFERROR()`, `IFNA()`, `ISBLANK()`
 
-**Hands-on Projects**:
+**Hands-on Project**:
 1. Build a sales analysis: revenue by product, by region, by month
 2. Customer analysis: repeat customers, average order value
 3. Create your first interactive pivot table dashboard
+4. Sales data cleanup and basic analysis
 
 > **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Create a practice CSV with 100 sales transactions (date, product, category, amount, payment_method)"
+> - **💡 Ask AI**: "Show me 5 examples of using SUMIFS with different conditions"
+> - **💡 Ask AI**: "Explain absolute vs relative cell references like I'm new to spreadsheets"
+> - **🤖 AI Debug**: "When formulas error, paste: 'Why does this formula return #N/A? Formula: [paste]. Data: [describe]'"
 > - **🔍 AI Explain**: "Explain VLOOKUP step-by-step with a restaurant menu price lookup example"
 > - **💡 Ask AI**: "What's the difference between VLOOKUP and INDEX/MATCH? When should I use each?"
 > - **⚡ AI Generate**: "Create practice data: Products table (id, name, price) and Sales table (product_id, quantity) for VLOOKUP practice"
 > - **🔍 AI Explain**: "Explain pivot tables like I'm 10, then show me an F&B example"
 > - **⚡ AI Generate**: "Give me 20 beginner-level VLOOKUP practice problems"
 
-#### Resources
+**Resources**:
+- **Documentation**:
+  - Excel/Google Sheets official documentation
+- **Tutorials**:
+  - Chandoo.org spreadsheet tutorials
+  - freeCodeCamp spreadsheet courses
+  - YouTube: ExcelIsFun and Learn Google Sheets channels
+- **Reference**:
+  - ExcelJet formulas and shortcuts guide
+- **Practice**:
+  - Kaggle spreadsheet exercises
 
-- Excel/Google Sheets official documentation
-- Chandoo.org spreadsheet tutorials
-- ExcelJet formulas and shortcuts guide
-- freeCodeCamp spreadsheet courses
-- YouTube: ExcelIsFun and Learn Google Sheets channels
-- Practice datasets: Kaggle spreadsheet exercises
-
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Formula Mistakes**:
 - Using VLOOKUP with unsorted data when approximate match is on
@@ -190,7 +209,7 @@ graph LR
 - Numbers stored as text
 - Duplicate entries not identified
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 2, you should be able to:
 - [ ] Write complex formulas using SUMIFS, COUNTIFS, and nested IFs
@@ -205,9 +224,28 @@ Before moving to Phase 2, you should be able to:
 ### Module 1.3: Data Thinking for F&B
 **Duration**: 4 days
 
-**Same as original curriculum Module 1.3** - Business metrics, F&B KPIs, analytical thinking
+**Learning Objectives**:
+- Adopt the "Data Thinking" mindset to move from observation to action.
+- Master the three pillar processes: Supply Chain, Production, and Service.
+- Internalize the definition and target benchmarks for Prime Cost (COGS + Labor).
 
-**Reading**: Review [BI Curriculum Module 1.3](./bi_curriculum.md#module-13-data-thinking--business-metrics) and [F&B Business Processes](./fb_business_processes.md)
+**Topics**:
+**Day 1-2: The Mindset**:
+- **Data Thinking Framework**:
+  - Asking the right questions ("Why is food cost up?")
+  - Moving from "What happened" to "What to do about it"
+  - Correlation vs. Causation
+- **Key F&B Business Processes**:
+  - Supply Chain (Ordering -> Receiving -> Inventory)
+  - Production (Prep -> Cooking -> Waste)
+  - Service (Ordering -> Serving -> Payment)
+
+**Day 3-4: The Metrics**:
+- **Core F&B Metrics (The Big 3)**:
+  - **Prime Cost**: COGS + Labor (Target: 55-60%)
+  - **RevPASH**: Revenue Per Available Seat Hour (Efficiency)
+  - **Contribution Margin**: Profit per item (Menu Engineering)
+- **Review**: [BI Curriculum Module 1.3](./bi_curriculum.md#module-13-data-thinking--business-metrics) for deep dive.
 
 **Hands-on Project**: Create a KPI calculator in a spreadsheet:
 - Input fields for sales, costs, labor hours
@@ -220,7 +258,20 @@ Before moving to Phase 2, you should be able to:
 > - **⚡ AI Generate**: "Create formulas for a complete F&B KPI calculator (food cost %, labor cost %, prime cost %, RevPASH)"
 > - **🤖 AI Review**: "I think these are the top 5 KPIs for a restaurant: [list]. Am I missing critical ones?"
 
-#### Common Pitfalls
+**Resources**:
+- **Guides**:
+  - F&B Business Processes guide (`fb_business_processes.md`)
+- **Books**:
+  - "Restaurant Financial Basics" by Raymond S. Schmidgall
+  - "The Goal" by Eliyahu M. Goldratt
+- **Industry Insight**:
+  - National Restaurant Association benchmarks
+  - Restaurant Business Online, Nation's Restaurant News
+  - Local F&B Associations
+- **Tools**:
+  - KPI dashboard templates
+
+**Common Pitfalls**:
 
 ❌ **KPI Mistakes**:
 - Tracking too many metrics (analysis paralysis)
@@ -247,17 +298,7 @@ Before moving to Phase 2, you should be able to:
 - Ignoring qualitative insights from stakeholders
 - Presenting data without a clear recommendation or call to action
 
-#### Resources
-
-- **Reading**: F&B Business Processes guide (`fb_business_processes.md`)
-- **Industry**: National Restaurant Association benchmarks
-- **Tools**: KPI dashboard templates
-- **Books**: "Restaurant Financial Basics" by Raymond S. Schmidgall
-- **"The Goal" by Eliyahu M. Goldratt**: A novel illustrating critical thinking in business.
-- **F&B Industry Publications**: Restaurant Business Online, Nation's Restaurant News.
-- **Local F&B Associations**: Often provide regional benchmarks and best practices.
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 2, you should be able to:
 - [ ] Define and calculate 10+ F&B KPIs (e.g., food cost %, labor cost %, prime cost %, RevPASH, average check, table turnover)
@@ -288,7 +329,7 @@ Before moving to Phase 2, you should be able to:
 
 **Access**: Data tab → Get Data (Excel 2016+) or Power Query tab (2013)
 
-#### Topics:
+**Topics**:
 
 **Week 1 - Basics**:
 - **Importing Data**:
@@ -338,16 +379,6 @@ Before moving to Phase 2, you should be able to:
 - Create a pivot table on the query result
 - **Simulate daily data update** - see it refresh automatically
 
-#### Resources
-
-- Microsoft Power Query documentation (comprehensive official guide)
-- Ken Puls and Miguel Escobar's "M is for (Data) Monkey" (Power Query M language)
-- ExcelIsFun YouTube channel (Power Query tutorials)
-- Power Query formula reference and examples
-- Data transformation best practices guides
-- ETL concepts for analysts articles channel
-- MyOnlineTrainingHub tutorials
-
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain what Power Query does and why it's better than manual data cleaning"
 > - **💡 Ask AI**: "What's the difference between Append and Merge in Power Query? Give F&B examples"
@@ -355,7 +386,20 @@ Before moving to Phase 2, you should be able to:
 > - **🤖 AI Debug**: "This Power Query M code gives error: [paste code]. What's wrong?"
 > - **💡 Ask AI**: "Walk me through merging two tables in Power Query: Sales (product_id, amount) and Products (product_id, name, cost)"
 
-#### Common Pitfalls
+**Resources**:
+- **Documentation**:
+  - Microsoft Power Query documentation
+- **Books**:
+  - "M is for (Data) Monkey" by Ken Puls and Miguel Escobar
+- **Tutorials**:
+  - ExcelIsFun Power Query tutorials
+  - MyOnlineTrainingHub tutorials
+- **Guides**:
+  - Data transformation best practices guides
+  - ETL concepts for analysts articles
+  - Power Query formula reference
+
+**Common Pitfalls**:
 
 ❌ **Power Query Mistakes**:
 - Not promoting headers correctly (first row as data)
@@ -373,7 +417,7 @@ Before moving to Phase 2, you should be able to:
 - Not folding query steps (forces local processing)
 - Refreshing all queries when only one needs update
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Import data from multiple file types (CSV, Excel, folders)
@@ -399,7 +443,7 @@ Before moving forward, you should be able to:
 
 **Requirements**: Excel 2013+ (Windows), not available on Mac
 
-#### Topics:
+**Topics**:
 
 **Week 1 - Data Modeling**:
 - **Importing Data into Data Model**:
@@ -451,24 +495,25 @@ Before moving forward, you should be able to:
 - Build 10 DAX measures (sales, food cost %, YoY growth, etc.)
 - Create pivot tables using the model
 
-#### Resources
-
-- SQLBI.com (DAX patterns and best practices)
-- "The Definitive Guide to DAX" by Marco Russo & Alberto Ferrari
-- PowerPivotPro blog (practical DAX examples)
-- DAX Formatter tool (for formatting complex formulas)
-- Microsoft DAX function reference
-- DAX Studio (free tool for testing and optimizing DAX)
-
 > **🤖 AI Assistance**:
 > - **🔍 AI Explain**: "Explain DAX CALCULATE function in simple terms with an F&B example"
-> - **💡 Ask AI**: "What's the difference between calculated column and measure in DAX? When do I use each?"
-> - **⚡ AI Generate**: "Write DAX measures for: YoY sales growth, food cost %, and MTD revenue"
-> - **💡 Ask AI**: "Explain filter context vs row context in DAX like I'm new to this"
-> - **🤖 AI Debug**: "This DAX measure returns wrong value: [paste DAX]. Expected: X, Got: Y. Why?"
-> - **⚡ AI Generate**: "Give me 10 common DAX patterns for F&B analytics"
+> - **💡 Ask AI**: "What's the difference between calculated column and measure in DAX? When do I use each?" or "Explain filter context vs row context in DAX like I'm new to this"
+> - **⚡ AI Generate**: "Write DAX measures for: YoY sales growth, food cost %, and MTD revenue" or "Give me 10 common DAX patterns for F&B analytics"
+> - **🤖 AI Debug**: "This DAX measure returns wrong value: [paste DAX]. Expected: X, Got: Y. Why?" 
 
-#### Common Pitfalls
+**Resources**:
+- **Documentation**:
+  - Microsoft DAX function reference
+- **Books**:
+  - "The Definitive Guide to DAX" by Marco Russo & Alberto Ferrari
+- **Communities & Blogs**:
+  - SQLBI.com (DAX patterns)
+  - PowerPivotPro blog
+- **Tools**:
+  - DAX Studio
+  - DAX Formatter tool
+
+**Common Pitfalls**:
 
 ❌ **DAX Mistakes**:
 - Using calculated columns when measures are more appropriate (slow performance)
@@ -488,7 +533,7 @@ Before moving forward, you should be able to:
 - Importing unnecessary columns
 - Not compressing strings with value encoding
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Design star schema data models
@@ -506,59 +551,63 @@ Before moving forward, you should be able to:
 
 **Beyond Basic Charts**: Creating dashboard-worthy visuals in Excel
 
-#### Topics:
+**Learning Objectives**:
+- Select the most effective chart type for specific data scenarios (e.g., Waterfall for P&L).
+- Master dynamic chart techniques using Named Ranges and localized filtering.
+- Apply conditional formatting as a visualization layer to enhance data readability.
 
-**Chart Types**:
-- Column/Bar charts (with data labels, colors)
-- Line charts (multiple series, trendlines)
-- Combo charts (column + line)
-- Area charts (stacked for composition)
-- Scatter plots (for correlation)
-- Waterfall charts (great for P&L visualization!)
-- Funnel charts
-- Treemaps and Sunburst (hierarchy visualization)
-- **Sparklines**: Mini charts in cells
+**Topics**:
 
-**Advanced Techniques**:
-- **Dynamic Charts**: Charts that update based on selections
-  - Using named ranges with `OFFSET()` or `INDEX()`
-  - Chart data from filtered lists
-- **Conditional Formatting as Visualization**:
-  - Data bars in cells
-  - Color scales
-  - Icon sets (up/down arrows, traffic lights)
-- **Custom Chart Formatting**:
-  - Removing chartjunk
-  - Custom colors (brand colors)
-  - Clean axis labels
-  - Annotations and callouts
-  - Professional styling
+**Day 1-3: Chart Selection & Design**:
+- **Chart Types**:
+  - Column/Bar charts (with data labels, colors)
+  - Line charts (multiple series, trendlines)
+  - Combo charts (column + line)
+  - Area charts (stacked for composition)
+  - Scatter plots (for correlation)
+  - Waterfall charts (great for P&L visualization!)
+  - Funnel charts
+  - Treemaps and Sunburst (hierarchy visualization)
+  - **Sparklines**: Mini charts in cells
 
-**Interactivity**:
-- **Slicers**: Visual filters for pivot tables
-- **Form Controls**: Buttons, dropdowns, scroll bars
-  - Link to cells
-  - Drive calculations and charts
-- **Timeline** (Excel 2013+): Date range selector
+**Day 4-5: Dynamic Features**:
+- **Advanced Techniques**:
+  - **Dynamic Charts**: Charts that update based on selections
+  - **Conditional Formatting as Visualization**: Data bars, Color scales, Icon sets
+  - **Custom Chart Formatting**: Removing chartjunk, Branding, Annotations
+- **Interactivity**:
+  - **Slicers**: Visual filters for pivot tables
+  - **Form Controls**: Buttons, dropdowns, scroll bars
+  - **Timeline** (Excel 2013+): Date range selector
 
 **Hands-on Project**:
 - Create 5 different chart types from your F&B data
 - Make one fully interactive chart (dropdown changes what's displayed)
 - Design a chart following visualization best practices
 
-#### Resources
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What is a waterfall chart and why is it useful for P&L analysis?"
+> - **⚡ AI Generate**: "Create a sample dataset for a restaurant P&L waterfall chart (Revenue, COGS, Labor, Rent, Net Profit)"
+> - **🤖 AI Debug**: "My conditional formatting icon set isn't showing correct values. Here is my rule: [describe rule]"
+> - **🔍 AI Explain**: "Explain how to create a dynamic chart in Excel using Named Ranges"
 
-- Excel charting best practices guides
-- "Good Charts" by Scott Berinato
-- Excel Dashboard School tutorials
-- ColorBrewer for accessible color palettes
-- Data visualization galleries (Tableau Public, Excel dashboards)
-- Chandoo.org advanced charting techniques
-- Jon Peltier's Chart Blog
-- Chandoo.org charting tutorials
-- Peltier Tech Charts for Excel (add-in)
+**Resources**:
 
-#### Common Pitfalls
+**Resources**:
+- **Books**:
+  - "Good Charts" by Scott Berinato
+- **Guides & Tutorials**:
+  - Excel charting best practices guides
+  - Excel Dashboard School tutorials
+  - Chandoo.org advanced charting techniques
+- **Tools**:
+  - ColorBrewer (color palettes)
+  - Peltier Tech Charts (add-in)
+- **galleries**:
+  - Tableau Public, Excel dashboards
+  - Jon Peltier's Chart Blog
+
+**Common Pitfalls**:
 
 ❌ **Chart Mistakes**:
 - Using 3D charts (harder to read accurately)
@@ -572,7 +621,7 @@ Before moving forward, you should be able to:
 - Inconsistent formatting across charts
 - Not removing default gridlines and borders
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Create 5+ different chart types effectively
@@ -589,57 +638,36 @@ Before moving forward, you should be able to:
 
 **Creating Professional Dashboards in Excel**
 
-#### Topics:
+**Learning Objectives**:
+- Design clean, grid-based dashboard layouts optimized for user experience.
+- Implement interactivity using Slicers, Timelines, and Form Controls.
+- Protect dashboard structures to prevent user errors while maintaining refresh capabilities.
 
-**Dashboard Design Principles**:
-- Review: [Dashboard Design from main curriculum](./bi_curriculum.md#module-32-dashboard-design-principles)
-- Excel-specific considerations:
-  - Sheet as canvas
-  - Grid-based layout
-  - Print vs. screen design
+**Topics**:
 
-**Layout Techniques**:
-- **Sheet Setup**:
-  - Zoom level (85% often works well)
-  - Gridlines off (View → Gridlines uncheck)
-  - Headers/row numbers off for cleaner look
-- **Positioning**:
-  - Using cells as grid (merge cells for containers)
-  - Shapes for backgrounds and containers
-  - Aligning charts and controls (Alt+drag to snap to grid)
-- **Color Schemes**:
-  - Custom color palette
-  - Consistent use across dashboard
-  - Theme colors for maintainability
+**Week 1: Layout & Design**:
+- **Dashboard Design Principles**:
+  - Review: [Dashboard Design from main curriculum](./bi_curriculum.md#module-32-dashboard-design-principles)
+  - Excel-specific considerations: Sheet as canvas, Grid-based layout
+- **Layout Techniques**:
+  - **Sheet Setup**: Zoom level, Gridlines off
+  - **Positioning**: Using cells as grid, Alignment
+  - **Color Schemes**: Custom palette, consistency
+- **Components**:
+  - **KPI Cards**: Large numbers, Conditional formatting
+  - **Charts** & **Tables**
+  - **Headers/Titles**
 
-**Components**:
-- **KPI Cards**: Large numbers with context
-  - Using large fonts
-  - Conditional formatting for up/down
-  - Sparklines for trends
-- **Charts**: Right chart for the insight
-- **Tables**: For detailed data
-- **Filters/Slicers**: User controls
-- **Headers/Titles**: Context and branding
-
-**Interactivity**:
-- **Slicers**: Connect to all pivot tables
-- **Timelines**: Date filtering
-- **Form Controls**: 
-  - Dropdown to select metric
-  - Option buttons for views
-  - Scroll bar for date range
-- **Hyperlinks**: Navigate between dashboard pages
-
-**Data Refresh**:
-- Manual: Right-click pivot → Refresh
-- **Automatic**: File → Options → Data → Refresh on open
-- **VBA**: Auto-refresh on schedule (advanced)
-
-**Protection**:
-- Lock dashboard cells (users can't accidentally break it)
-- Unlock only filter cells
-- Protect sheet (Review → Protect Sheet)
+**Week 2: Functionality & Security**:
+- **Interactivity**:
+  - **Slicers**: Connect to all pivot tables
+  - **Timelines**: Date filtering
+  - **Form Controls**: Dropdowns, Option buttons
+  - **Hyperlinks**: Navigation
+- **Data Refresh**:
+  - Manual vs Automatic vs VBA
+- **Protection**:
+  - Lock dashboard cells, Unlock filters, Protect sheet
 
 **Hands-on Project**:
 - **Build Your First Excel Dashboard**:
@@ -649,12 +677,22 @@ Before moving forward, you should be able to:
   - Data refreshes with one click
   - Protected (can't be broken by user)
 
-**Resources**:
-- Chandoo.org Excel Dashboards course
-- Dashboard design templates (search "Excel dashboard templates")
-- "Dashboarding and Reporting with Power Pivot and Excel" by Kasper de Jonge
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "Give me 5 layout ideas for a restaurant executive dashboard on a single screen"
+> - **⚡ AI Generate**: "Create a checklist for Excel dashboard usability testing"
+> - **🤖 AI Debug**: "My Slicer isn't filtering all my pivot tables. How do I fix this connection?"
+> - **🔍 AI Explain**: "Explain the best practices for arranging KPI cards vs charts on a dashboard"
 
-#### Common Pitfalls
+**Resources**:
+**Resources**:
+- **Courses**:
+  - Chandoo.org Excel Dashboards course
+- **Books**:
+  - "Dashboarding and Reporting with Power Pivot and Excel" by Kasper de Jonge
+- **Templates**:
+  - Excel dashboard templates
+
+**Common Pitfalls**:
 
 ❌ **Dashboard Design Mistakes**:
 - Cramming too much information (cognitive overload)
@@ -668,7 +706,7 @@ Before moving forward, you should be able to:
 - Not protecting the dashboard structure
 - Refresh button not obvious to users
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Design professional dashboard layouts
@@ -696,6 +734,13 @@ Before moving forward, you should be able to:
 - Access anywhere (mobile, tablet, web)
 - Apps Script for automation
 - Built-in integrations (Google Analytics, Forms, etc.)
+
+**Learning Objectives**:
+- Master the `QUERY()` function to perform SQL-like analysis directly in Sheets.
+- Utilize massive array operations with `ARRAYFORMULA()` and `FILTER()`.
+- Connect disparate data sources using `IMPORTRANGE()` for centralized reporting.
+
+**Topics**:
 
 #### Week 1: Advanced Functions
 
@@ -822,14 +867,17 @@ function sendWeeklyReport() {
 > - **⚡ AI Generate**: "Write QUERY formula: Get all items where category='Food' and price>10, sorted by price descending"
 > - **🤖 AI Debug**: "My QUERY formula has syntax error: [paste formula]. What's wrong?"
 
-#### Resources
+**Resources**:
 
-- Ben Collins (Google Sheets expert) - benlcollins.com
-- Google Sheets function reference
-- Apps Script documentation
-- Google Workspace Learning Center
+**Resources**:
+- **Experts**:
+  - Ben Collins (benlcollins.com)
+- **Documentation**:
+  - Google Sheets function reference
+  - Apps Script documentation
+  - Google Workspace Learning Center
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Google Sheets Mistakes**:
 - IMPORTRANGE permission errors
@@ -843,7 +891,7 @@ function sendWeeklyReport() {
 - Poor permission management
 - Missing version control
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Use QUERY function for data analysis
@@ -860,38 +908,31 @@ Before moving forward, you should be able to:
 
 **Building Dashboards in Google Sheets**
 
-**Similarities to Excel**:
-- Grid-based layout
-- Charts and tables
-- Conditional formatting
-- Data validation for filters
+**Learning Objectives**:
+- Adapt dashboard design principles for web-based, mobile-friendly interfaces.
+- Implement dynamic interactivity using data validation and `FILTER()` view logic.
+- Manage sharing permissions to securely distribute live dashboards to stakeholders.
 
-**Differences**:
-- **Collaboration**: Multiple viewers/editors simultaneously
-- **Publish to Web**: Share public dashboard (read-only)
-- **Embed**: Embed in websites or internal tools
-- **Mobile-Friendly**: Works on phones/tables
-- **Checkboxes**: Native checkboxes (no form controls needed)
-- **Filters**: Built-in filter views (save filter states)
+**Topics**:
 
-**Dashboard Components**:
-- **KPI Cards**: Using merged cells, large fonts, conditional formatting
-- **Charts**: Google Charts (similar to Excel but with some differences)
-- **Tables**: Formatted ranges or QUERY() results
-- **Slicers**: Available for pivot tables
-- **Dropdowns**: Data validation lists linked to formulas
+**Day 1-2: Layout & Concepts**:
+- **Similarities to Excel**: Grid-based layout, Charts, Conditional formatting.
+- **Differences**: Collaboration, Web Publishing, Embeds, Mobile-Friendly, Native Checkboxes.
+- **Dashboard Components**:
+  - **KPI Cards**: Using merged cells, large fonts.
+  - **Charts**: Google Charts specific features.
+  - **Tables**: Formatted ranges or QUERY() results.
+  - **Slicers**: Interactive visual filters for pivot tables.
 
-**Interactivity Techniques**:
-- **Data Validation Dropdowns** linked to `FILTER()` formulas
-- **Checkboxes** for show/hide sections
-- **Protected Ranges**: Lock dashboard structure, allow filter inputs
-- **Filter Views**: Different users can have different views
-
-**Sharing & Permissions**:
-- **Viewer**: Can see, can't edit (perfect for stakeholders)
-- **Commenter**: Can suggest but not change
-- **Editor**: Full access
-- **Link Sharing**: Anyone with link, restricted, public
+**Day 3-5: Interaction & Sharing**:
+- **Interactivity Techniques**:
+  - **Data Validation Dropdowns** linked to `FILTER()` formulas.
+  - **Checkboxes** for show/hide sections.
+  - **Filter Views**: Different users can have different views.
+- **Sharing & Permissions**:
+  - **Viewer**: Read-only (stakeholders).
+  - **Editor**: Full access (builders).
+  - **Protected Ranges**: Lock dashboard structure but allow filter inputs.
 
 **Hands-on Project**:
 - **Build a Google Sheets Dashboard**:
@@ -901,12 +942,21 @@ Before moving forward, you should be able to:
   - Share with "view-only" link (simulate stakeholder access)
   - Test on mobile device
 
-**Resources**:
-- Google Sheets dashboard templates
-- Ben Collins dashboard tutorials
-- Template Gallery in Google Sheets
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Write a Google Sheets FILTER formula to show rows where Column A matches cell B1 (dropdown value)"
+> - **💡 Ask AI**: "How do I optimize a Google Sheets dashboard for mobile viewing?"
+> - **🤖 AI Debug**: "My dropdown validation list isn't updating with new items. How can I make it dynamic?"
+> - **🔍 AI Explain**: "Explain how Google Sheets permissions work for dashboards shared with different stakeholders"
 
-#### Common Pitfalls
+**Resources**:
+**Resources**:
+- **Templates**:
+  - Google Sheets dashboard templates
+  - Template Gallery in Google Sheets
+- **Tutorials**:
+  - Ben Collins dashboard tutorials
+
+**Common Pitfalls**:
 
 ❌ **Google Sheets Specific**:
 - Not optimizing for mobile (stakeholders view on phone)
@@ -920,7 +970,7 @@ Before moving forward, you should be able to:
 - Not using protected ranges
 - Unclear ownership/maintenance
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Build Google Sheets dashboards with QUERY and FILTER
@@ -937,69 +987,29 @@ Before moving forward, you should be able to:
 
 **Making Your Spreadsheet BI System Work Like a Real BI Tool**
 
-#### Data Pipeline Automation
+**Learning Objectives**:
+- Architect automated data pipelines using Apps Script or Power Automate.
+- Implement robust multi-user workflows connecting data entry to master dashboards.
+- Design fail-safe error handling and notification systems for automated refreshes.
 
-**Option 1: Manual but Structured**
-- Weekly CSV export from POS
-- Upload to Google Drive folder
-- Sheets imports with `IMPORTDATA()` from Drive link
-- Refresh dashboard
+**Topics**:
 
-**Option 2: Semi-Automated (Recommended for Most)**
-- **Google Apps Script scheduled trigger**:
-  - Fetch data from email attachments
-  - Import from cloud storage
-  - Refresh pivot tables/queries
-  - Send email when done
-- **Excel Power Query scheduled refresh**:
-  - Power Automate (formerly Flow) triggers refresh
-  - OneDrive/SharePoint for data files
+**Day 1-2: Pipeline Architecture**:
+- **Architecture Options**:
+  - **Manual**: Weekly CSV export from POS -> Import to Drive.
+  - **Semi-Automated**: Apps Script triggers (fetch from Gmail) or Power Query (folder watch).
+  - **Fully Automated**: API (Zapier/Make) -> Cloud storage -> Sheets.
+- **Connecting to Data Sources**:
+  - CSV/Excel Files, Google Forms, APIs, `IMPORTRANGE()`.
 
-**Option 3: Fully Automated (Advanced)**
-- POS exports to cloud storage automatically (many POS systems can do this)
-- Zapier/Make.com/n8n connects POS → Sheets
-- Apps Script processes incoming data
-- Dashboard updates in real-time
-
-**Connecting to Data Sources**:
-- **CSV/Excel Files**: Import from Drive/OneDrive
-- **Google Forms**: Automatic feed
-- **APIs**: Apps Script to fetch data (Yelp reviews, weather, etc.)
-- **Databases**: Apps Script JDBC connection (advanced)
-- **Other Sheets**: `IMPORTRANGE()`
-
-**Scheduled Tasks with Apps Script**:
-```javascript
-// Set up in Apps Script → Triggers
-function dailyRefresh() {
-  // Refresh all data connections
-  SpreadsheetApp.flush();
-  
-  // Recalculate formulas
-  var sheet = SpreadsheetApp.getActiveSpreadsheet();
-  sheet.getSheetByName("Data").getDataRange().setValue(""); // Force recalc
-  
-  // Send notification
-  MailApp.sendEmail("you@email.com", "Dashboard Updated", "Daily refresh complete");
-}
-
-// Set trigger: dailyRefresh(), Time-driven, Day timer, 6-7am
-```
-
-**Multi-User Workflows**:
-- Viewer dashboard (stakeholders)
-- Editor data entry sheet (staff input)
-- Admin master sheet (you maintain)
-- All connected via `IMPORTRANGE()`
-
-**Version Control**:
-- Google Sheets: Built-in version history
-- Excel: OneDrive version history or manual versioning
-
-**Backup Strategy**:
-- Export important sheets monthly (Google Takeout or manual)
-- Keep template copies
-- Document your formulas and logic
+**Day 3-5: Implementation**:
+- **Automation Logic**:
+  - **Google Apps Script**: Scheduled triggers for refresh/email.
+  - **Error Handling**: Notifications when updates fail.
+- **Multi-User Workflows**:
+  - Viewer dashboard (stakeholders) vs Editor inputs.
+  - **Version Control**: Built-in history handling.
+  - **Backup Strategy**: Monthly exports/templates.
 
 **Hands-on Project**:
 - Set up a mini automated pipeline:
@@ -1009,12 +1019,21 @@ function dailyRefresh() {
   - Write an Apps Script that emails you when a KPI threshold is hit
   - Schedule a weekly "refresh" script
 
-**Resources**:
-- Apps Script tutorials
-- Zapier University
-- Power Automate documentation
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Write a detailed Google Apps Script to email a daily sales summary from Sheet 'Dashboard' to 'manager@email.com'"
+> - **🤖 AI Debug**: "I'm getting 'You do not have permission to call ImportRange' error. How do I authorize it inside a formula?"
+> - **💡 Ask AI**: "Design a data pipeline architecture for a multi-location restaurant using Google Sheets"
+> - **🔍 AI Explain**: "Explain the pros and cons of using Apps Script vs Zapier for F&B data automation"
 
-#### Common Pitfalls
+**Resources**:
+**Resources**:
+- **Documentation**:
+  - Power Automate documentation
+- **Tutorials**:
+  - Apps Script tutorials
+  - Zapier University
+
+**Common Pitfalls**:
 
 ❌ **Automation Mistakes**:
 - Over-engineering (complex solution for simple problem)
@@ -1028,7 +1047,7 @@ function dailyRefresh() {
 - Data format mismatches
 - No fallback when automation fails
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Set up automated data imports
@@ -1045,24 +1064,27 @@ Before moving forward, you should be able to:
 ### Module 4.1: Data Storytelling with Spreadsheets
 **Duration**: 1 week
 
-**Same core concepts as original curriculum Module 4.1**, adapted for spreadsheets
+**Learning Objectives**:
+- Construct a narrative arc (Situation, Complication, Resolution) using data.
+- Tailor data presentations for distinct audiences (Owners vs. Staff).
+- Master "progressive disclosure" techniques to avoid overwhelming stakeholders.
 
-**Spreadsheet-Specific Storytelling**:
-- **Multiple Sheets as Story Chapters**:
-  - Sheet 1: Executive Summary
-  - Sheet 2: Sales Deep Dive
-  - Sheet 3: Cost Analysis
-  - Sheet 4: Recommendations
-- **Navigation**: Hyperlinks between sheets, table of contents
-- **Progressive Disclosure**: Start broad, drill down
-- **Annotations**: Text boxes, callouts on charts
-- **Narrative Formatting**: Use colors, fonts, spacing to guide the eye
+**Topics**:
+**Day 1-2: Narrative Structure**:
+- **The Data Story Arc**: Setting, Conflict, Climax, Resolution (Recommendation).
+- **Structuring the Narrative**: "So What?", "What Now?", and anticipating questions.
+- **Audience Adaptation**: Tailoring for Owners vs. GMs vs. Staff.
+- **Visual Storytelling**: Using color, annotations, and layout to guide the eye.
 
-**Presenting from Spreadsheets**:
-- Full-screen mode (View → Full Screen)
-- Hide gridlines and headers
-- Print to PDF for distribution
-- Publish to web for live sharing
+**Day 3-5: Spreadsheet Presentation**:
+- **Techniques**:
+  - **Chaptalization**: Executive Summary -> Deep Dive -> Recommendations sheets.
+  - **Navigation**: Hyperlinks, Table of Contents.
+  - **Progressive Disclosure**: Start broad, drill down.
+  - **Annotations**: Text boxes, callouts.
+- **Delivery**:
+  - Full-screen mode (View → Full Screen).
+  - Print to PDF vs Publish to Web.
 
 **Hands-on Project**:
 - Take your dashboard and create a 5-minute data story
@@ -1070,22 +1092,30 @@ Before moving forward, you should be able to:
 - Present to someone and get feedback
 
 > **🤖 AI Assistance**:
-> - **💡 Ask AI**: "I have this data: [describe]. What story could I tell with it?"
-> - **🤖 AI Review**: "Review my data story flow: [describe sequence]. Is it compelling?"
-> - **💡 Ask AI**: "How do I structure a dashboard presentation for non-technical restaurant owners?"
+> - **💡 Ask AI**: "I have this data: [describe]. What story could I tell with it?" or "How do I structure a dashboard presentation for non-technical restaurant owners?" or "What makes a spreadsheet BI dashboard portfolio-worthy vs just functional?"
+> - **🤖 AI Review**: "Review my data story flow: [describe sequence]. Is it compelling?" or "Review my capstone project scope. Is it achievable in 4 weeks and impressive for portfolio?"
 > - **⚡ AI Generate**: "Create realistic F&B dataset for capstone: 3 months transactions, 50 menu items, 3 locations"
-> - **🤖 AI Review**: "Review my capstone project scope. Is it achievable in 4 weeks and impressive for portfolio?"
-> - **💡 Ask AI**: "What makes a spreadsheet BI dashboard portfolio-worthy vs just functional?"
 > - **🤖 AI Debug**: "My dashboard is slow with 10k rows. Optimization strategies?"
 
-#### Resources
+**Resources**:
 
-- Capstone project templates
-- F&B dashboard inspiration
-- Portfolio presentation guides
-- Real F&B datasets (Kaggle, industry sites)
+**Resources**:
+- **Books**:
+  - "Storytelling with Data" by Cole Nussbaumer Knaflic
+  - "Resonate" by Nancy Duarte
+  - "Made to Stick" by Chip and Dan Heath
+  - "Presentation Zen" by Garr Reynolds
+- **Inspiration**:
+  - F&B dashboard inspiration
+  - Data journalism examples (FiveThirtyEight, The Pudding)
+  - TED Talks on data communication
+- **Tools & Templates**:
+  - Capstone project templates
+  - Real F&B datasets (Kaggle)
+- **Guides**:
+  - Portfolio presentation guides
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Capstone Mistakes**:
 - Scope too large (can't finish)
@@ -1093,13 +1123,21 @@ Before moving forward, you should be able to:
 - Over-engineering for spreadsheets
 - Missing documentation
 
-❌ **Presentation Issues**:
+❌ **Presentation & Storytelling Issues**:
 - Too technical for audience
 - No business impact shown
 - Poor visual design
 - Not demonstrating skills learned
+- No clear narrative (just showing data)
+- Too much detail (drowning in numbers)
+- Burying the insight (not obvious)
+- Technical jargon for non-technical audience
+- Reading directly from the dashboard
+- Not tailoring to audience
+- No call to action
+- Defensive when questioned
 
-#### Final Assessment
+#### Final Assessment Criteria
 
 Capstone project complete when you can demonstrate:
 - [ ] Professional-quality spreadsheet BI dashboard
@@ -1111,28 +1149,7 @@ Capstone project complete when you can demonstrate:
 - [ ] Ability to explain design decisions
 - [ ] Real business value delivered
 
-#### Resources
-
-- "Storytelling with Data" by Cole Nussbaumer Knaflic (essential)
-- "Resonate" by Nancy Duarte (presentation structure)
-- Data journalism examples (FiveThirtyEight, The Pudding)
-- TED Talks on effective data communication
-- "Made to Stick" by Chip and Dan Heath (memorable messages)
-- Presentation Zen (design principles)
-
-❌ **Storytelling Mistakes**:
-- No clear narrative (just showing data)
-- Too much detail (drowning in numbers)
-- Burying the insight (not obvious)
-- Technical jargon for non-technical audience
-
-❌ **Presentation Errors**:
-- Reading directly from the dashboard
-- Not tailoring to audience
-- No call to action
-- Defensive when questioned
-
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Craft compelling data narratives
@@ -1149,53 +1166,33 @@ Before moving forward, you should be able to:
 
 **Taking Your Dashboards to the Next Level**
 
-#### Advanced Interactivity
+**Learning Objectives**:
+- Create dynamic Named Ranges and advanced lookup systems for flexible reporting.
+- Implement sophisticated visual components like Sparklines, Heatmaps, and localized progress bars.
+- Optimize spreadsheet performance by reducing volatile functions and efficient formula structuring.
 
-**Excel**:
-- **Dynamic Named Ranges**: Expand automatically
-  ```
-  =OFFSET(Data!$A$1,0,0,COUNTA(Data!$A:$A),5)
-  ```
-- **INDEX-MATCH-MATCH**: 2D lookups for dynamic charts
-- **INDIRECT()**: Reference cell values as cell addresses
-- **Combo Boxes & List Boxes**: Form controls for user input
-- **VBA Buttons**: Run macros (e.g., refresh all, change view)
+**Topics**:
 
-**Google Sheets**:
-- **Nested QUERY()**: Complex analysis
-- **FILTER() + SORT() + UNIQUE()**: Chained functions
-- **Checkboxes**: Show/hide sections
-  ```
-  =IF(A1=TRUE, [show this data], "")
-  ```
-- **Apps Script Custom Menus**: Dashboard → Refresh Data menu item
+**Week 1: Advanced Logic & Ranges**:
+- **Excel Power Features**:
+  - **Dynamic Named Ranges**: `OFFSET()`, `INDEX()`
+  - **Advanced Lookups**: `INDEX-MATCH-MATCH`, `INDIRECT`
+  - **Controls**: Combo Boxes, List Boxes, VBA Buttons
+- **Google Sheets Power Features**:
+  - **Nested QUERY()** & **FILTER()** chains
+  - **Checkboxes** logic
+  - **Apps Script Custom Menus**
 
-**Visual Enhancements**:
-- **Sparklines**: Trends next to numbers
-  - Excel: Insert → Sparklines
-  - Google Sheets: `=SPARKLINE(data)`
-- **KPI Cards with Icons**:
-  - Shapes + text
-  - Conditional formatting for colors
-  - Unicode symbols (▲▼●◆) or emoji
-- **Progress Bars**: Conditional formatting data bars or formulas
-  ```
-  =REPT("█", A1/100*10)  // Simple text-based bar
-  ```
-- **Heatmaps**: Color scales on table data
-
-**Performance Optimization**:
-- **Reduce Volatile Functions**: `INDIRECT()`, `OFFSET()`, `NOW()` recalculate constantly
-- **Break Mega-Formulas**: Intermediate calculations in helper columns
-- **Use Tables** (Excel): Structured references are faster
-- **Limit Conditional Formatting**: Too many rules slow things down
-- **Calculate on Manual** (Excel): Formulas → Calculation Options → Manual (then F9 to refresh)
-
-**Mobile Optimization**:
-- Vertical layout (phone screens)
-- Larger fonts
-- Simpler visuals
-- Test on actual mobile device
+**Week 2: Visuals & Optimization**:
+- **Visual Enhancements**:
+  - **Sparklines**: Excel & Google Sheets syntax
+  - **KPI Cards**: Shapes, Icons, Heatmaps
+  - **Progress Bars**: `REPT()` formulas
+- **Performance**:
+  - Reducing volatile functions (`INDIRECT`, `NOW`)
+  - Using Helper columns vs Mega-formulas
+  - Calculation Options (Manual)
+- **Mobile Optimization**: Vertical layouts, Font sizing.
 
 **Hands-on Projects**:
 1. Add advanced interactivity to your dashboard:
@@ -1207,21 +1204,25 @@ Before moving forward, you should be able to:
 
 > **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Create formula for dynamic chart that switches metrics based on dropdown value"
-> - **💡 Ask AI**: "My dashboard is slow with 50k rows. What optimization strategies work best?"
-> - **💡 Ask AI**: "How do I create drill-down functionality in Excel/Google Sheets?"
+> - **💡 Ask AI**: "My dashboard is slow with 50k rows. What optimization strategies work best?" or "How do I create drill-down functionality in Excel/Google Sheets?"
 > - **🤖 AI Review**: "Review my dashboard for performance issues: [describe setup]"
 
-#### Resources
+**Resources**:
 
-- Advanced Excel dashboard tutorials and courses
-- Dynamic named ranges documentation and guides
-- Excel advanced charting techniques
-- Dashboard interactivity best practices
-- Form controls and VBA basics for dashboards
-- Excel dashboard templates for inspiration
-- Performance optimization best practices
+**Resources**:
+- **Tutorials & Courses**:
+  - Advanced Excel dashboard tutorials
+- **Documentation**:
+  - Dynamic named ranges documentation
+  - Dashboard interactivity best practices
+  - Performance optimization best practices
+- **Guides**:
+  - Excel advanced charting techniques
+  - Form controls and VBA basics
+- **Templates**:
+  - Excel dashboard templates
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Complexity Issues**:
 - Over-complicating with too many features
@@ -1235,7 +1236,7 @@ Before moving forward, you should be able to:
 - Not mobile-friendly
 - Breaking with data updates
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Create advanced interactive dashboards
@@ -1252,49 +1253,30 @@ Before moving forward, you should be able to:
 
 **Scaling Beyond a Single File**
 
-**Architecture**:
-```
-1. Raw Data Workbook(s)
-   ↓
-2. ETL/Cleaning Workbook (Power Query or Apps Script)
-   ↓
-3. Analysis Workbook (Power Pivot or QUERY())
-   ↓
-4. Dashboard Workbook (for end users)
-```
+**Learning Objectives**:
+- Design scalable multi-workbook architectures separating Data, Logic, and Presentation layers.
+- Manage external references and connections to minimize breakage and maximize speed.
+- Implement best practices for version control and system maintenance in a decentralized environment.
 
-**Or in Google Sheets**:
-```
-1. Data Entry/Import Sheet (editors)
-   ↓ =IMPORTRANGE()
-2. Processing Sheet (formulas, QUERY, hidden from users)
-   ↓ =IMPORTRANGE()
-3. Dashboard Sheet (view-only for stakeholders)
-```
+**Topics**:
 
-**Benefits**:
-- **Separation of Concerns**: Data vs. analysis vs. presentation
-- **Security**: Stakeholders only see dashboards, not raw data
-- **Performance**: Smaller files load faster
-- **Collaboration**: Different people manage different parts
-- **Maintenance**: Update data without breaking dashboard
+**Day 1-2: Architecture Strategy**:
+- **System Design**:
+  - Raw Data -> ETL/Cleaning -> Analysis -> Dashboard.
+  - Separation of Concerns: Data (Storage) vs Logic (Formulas) vs Presentation (UI).
+- **Cross-Workbook Connections**:
+  - Excel: External references (`=[Book]Sheet!Cell`) vs Power Query.
+  - Google Sheets: `IMPORTRANGE()` best practices.
 
-**Connecting Workbooks**:
-- **Excel**: External references `='[OtherWorkbook.xlsx]Sheet1'!A1`
-  - Both files must be open, or use Power Query
-- **Google Sheets**: `=IMPORTRANGE("URL", "Sheet!Range")`
-  - Always live connection
-
-**Challenges**:
-- Broken links if files move
-- Circular references
-- Complexity management
-
-**Best Practices**:
-- Document the flow (diagram)
-- Version control / naming conventions
-- Regular testing
-- Error handling (`IFERROR()`)
+**Day 3-5: Implementation & Stability**:
+- **Best Practices**:
+  - Documentation of data flow.
+  - Naming conventions.
+  - Error handling (`IFERROR` on links).
+- **Challenges**:
+  - Managing broken links.
+  - Circular references.
+  - Performance latency testing.
 
 **Hands-on Project**:
 - Create a 3-file system:
@@ -1303,18 +1285,29 @@ Before moving forward, you should be able to:
   3. Dashboard file (pretty & user-friendly)
 - Simulate a data update flowing through the system
 
-#### Resources
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What are the risks of linking Excel workbooks across a network drive?"
+> - **🤖 AI Debug**: "My external links return #REF! when I move the source file. How do I fix or prevent this?"
+> - **⚡ AI Generate**: "Create a folder structure and naming convention for a multi-file BI system"
+> - **🔍 AI Explain**: "Explain the 'Data vs Logic vs Presentation' separation of concerns in spreadsheet modeling"
 
-- Excel dashboard design templates and examples
-- "Information Dashboard Design" by Stephen Few
-- Excel Dynamic Dashboard course materials
-- Dashboard layout pattern libraries
-- User experience (UX) design principles for dashboards
-- Excel Dashboard best practices articles and case studies
-- Google Sheets IMPORTRANGE tutorials
-- Excel linking best practices
+**Resources**:
 
-#### Common Pitfalls
+**Resources**:
+- **Books**:
+  - "Information Dashboard Design" by Stephen Few
+- **Templates**:
+  - Excel dashboard design templates
+  - Dashboard layout pattern libraries
+- **Guides**:
+  - User experience (UX) design principles
+  - Excel Dashboard best practices
+  - Google Sheets IMPORTRANGE tutorials
+  - Excel linking best practices
+- **Courses**:
+  - Excel Dynamic Dashboard course materials
+
+**Common Pitfalls**:
 
 ❌ **Architecture Issues**:
 - Poor file organization
@@ -1328,7 +1321,7 @@ Before moving forward, you should be able to:
 - No error handling
 - Version control challenges
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Phase 5, you should be able to:
 - [ ] Design multi-workbook architectures
@@ -1342,72 +1335,108 @@ Before moving to Phase 5, you should be able to:
 
 ## Phase 5: F&B Analytics in Spreadsheets (Weeks 14-17)
 
-### Module 5.1-5.2: F&B Business & Metrics
-**Duration**: 2 weeks
+### Module 5.1: F&B Industry Deep Dive (Applied Modeling)
+**Duration**: 1 week
 
-**Same content as original curriculum Modules 5.1-5.2**:
-- [F&B Industry Deep Dive](./bi_curriculum.md#module-51-fb-industry-deep-dive)
-- [F&B Specific Metrics & KPIs](./bi_curriculum.md#module-52-fb-specific-metrics--kpis)
+**Learning Objectives**:
+- **Translate** operational differences (QSR vs Fine Dining) into distinct data table structures.
+- **Model** the "Front of House" vs "Back of House" data flow using spreadsheet lineage.
+- **Map** revenue streams to specific spreadsheet column schemas.
 
-**Additional: Building F&B Calculators in Spreadsheets**
+**Topics**:
+**Day 1-2: Data Modeling**:
+- **Data Modeling**: Structuring tables for different business models (e.g., standardizing `order_type` for Ghosts Kitchens).
+- **Flow Logic**: tracing data lineage from POS export → Clean Data → Reporting Table.
+- **Schema Design**: Designing the master "Transactions" table to handle Dine-in, Takeout, and Delivery rows.
 
-**Hands-on Project**: Create a comprehensive F&B Metrics Calculator:
-- **Input Section**:
-  - Sales (food, beverage, by daypart)
-  - COGS (food cost, beverage cost)
-  - Inventory (beginning, ending)
-  - Labor (hours, wages, by role)
-  - Other costs (rent, utilities, etc.  - Covers/seats/hours data
-- **Calculated Metrics** (auto-update):
-  - Food Cost %
-  - Beverage Cost %
-  - Prime Cost %
-  - Labor Cost %
-  - Average Check
-  - RevPASH
-  - Table Turnover
-  - Gross Profit %, Net Profit %
-  - All key F&B KPIs
-- **Visual Indicators**:
-  - Green/yellow/red based on benchmarks
-  - Sparklines for trends
-  - Comparison to budget/targets
+**Day 3-5: Applied Schema Design**:
+- **Schema Builder Project**:
+  - Create the "perfect" blank data entry template.
+  - Handle Modifier normalization (e.g. "No Sugar" columns).
+  - Map physical flow to digital schema.
 
-**Make it Reusable**: Template that any restaurant can use
+**Reading**: *Prerequisite Theory*: [F&B Mastery Module 1](../fnb-domain/fb_mastery_curriculum.md#module-1-foundation-week-1) (Business Models).
 
-#### Resources
+**Hands-on Project**:
+- **Schema Builder**: create the "perfect" blank data entry template for:
+  - A high-volume Coffeeshop (speed focus).
+  - A Fine Dining Restaurant (detail/check-average focus).
+- **Flow Diagram**: Draw how data moves from a receipt to your "Daily Sales" sheet.
 
-- F&B Business Processes guide (comprehensive context)
-- Restaurant KPI benchmarks and industry standards
-- F&B dashboard templates (Google Sheets, Excel galleries)
-- Restaurant analytics platform case studies
-- National Restaurant Association resources
-- ModernRestaurantManagement.com for insightstaurant Association resources
-- F&B calculator templates
+> **🤖 AI Assistance**:
+> - **💡 Ask AI**: "What columns do I need in a raw data table to track both 'Dine-in' and 'Third-party Delivery' orders effectively?"
+> - **⚡ AI Generate**: "Create a CSV header row for a restaurant transaction table that covers all revenue streams"
+> - **🔍 AI Explain**: "Explain how to normalize 'Modifier' data (like 'No Sugar') in a flat spreadsheet table"
 
-#### Common Pitfalls
+**Resources**:
+**Resources**:
+- **Guides**:
+  - F&B Business Processes guide (`fb_business_processes.md`)
+  - Database Normalization for Spreadsheets guides
 
-❌ **F&B Metrics Mistakes**:
-- Wrong calculation formulas
-- Not including all costs
-- Ignoring industry benchmarks
-- Missing F&B-specific KPIs
+**Common Pitfalls**:
+❌ **Modeling Mistakes**:
+- Creating "Reports" manually instead of building a raw data "Table" first.
+- Mixing data grain (e.g., daily totals mixed with per-receipt rows).
 
-❌ **Implementation Issues**:
-- Not accounting for waste
-- Missing delivery/takeout splits
-- No benchmarks for context
-- Calculator not user-friendly
-
-#### Assessment Checklist
-
+**Assessment Checklist**:
 Before moving forward, you should be able to:
-- [ ] Understand F&B business operations
-- [ ] Calculate all major F&B KPIs correctly
-- [ ] Apply industry benchmarks
-- [ ] Build F&B metrics calculators
-- [ ] Interpret F&B metrics in context
-- [ ] Design for F&B operator use
+- [ ] Design a data schema that fits different F&B models.
+- [ ] Explain why "Flat Data" is better than "Formatted Reports" for input.
+- [ ] Map a physical operational flow to a digital data flow.
+
+---
+
+### Module 5.2: F&B Specific Metrics & KPIs (Calculator Build)
+**Duration**: 1 week
+
+**Learning Objectives**:
+- **Construct** complex formulas for composite F&B metrics (e.g., Prime Cost).
+- **Build** dynamic calculators that adjust for variables (like Tax & Gratuity settings).
+- **Implement** conditional logic to flag "off-track" metrics automatically.
+
+**Topics**:
+**Day 1-2: Formula Logic**:
+- **Complex Formulas**: using `SUMIFS`, `GETPIVOTDATA`, and `LET` for readable KPI logic.
+- **Cost Modeling**: Building a "Recipe Costing" template that feeds into Food Cost %.
+
+**Day 3-5: User Experience**:
+- **Calculator UX**: Designing input cells vs protected calculation cells.
+- **Benchmarking Logic**: Writing formulas that compare `Actual` vs `Target` dynamically.
+
+**Reading**: *Prerequisite Theory*: [F&B Mastery Module 3](../fnb-domain/fb_mastery_curriculum.md#module-3-financial--metrics-mastery-week-3-4) (Financial Metrics).
+
+**Hands-on Project**:
+- **Build a "Prime Cost" Dashboard Element**:
+  - Inputs: Weekly Sales, Purchases, Labor Logs.
+  - Logic: Formula to sum Cost categories and divide by Net Sales.
+  - Viz: Dynamic conditional formatting (Green if <60%, Red if >60%).
+
+**Make it Reusable**: Use "Named Ranges" (e.g., `Range_Sales`) so formulas read like English (`=SUM(Range_Cost)/SUM(Range_Sales)`).
+
+> **🤖 AI Assistance**:
+> - **⚡ AI Generate**: "Write an Excel formula to calculate RevPASH given separate ranges for 'Revenue' and 'OpenHours'"
+> - **🤖 AI Debug**: "My Food Cost % formula is including tax. How do I subtract tax from the 'Gross Sales' column inside the SUMIF?"
+> - **� Ask AI**: "How do I create a toggle switch in Excel to swap between 'Daily' and 'Weekly' views?"
+
+**Resources**:
+**Resources**:
+- **Guides**:
+  - F&B Mastery Module 3 (Metric Definitions)
+  - Spreadsheet UX design patterns
+- **Documentation**:
+  - Excel "LET" function documentation
+
+**Common Pitfalls**:
+❌ **Logic Errors**:
+- Hardcoding tax rates (put them in a "Settings" cell!).
+- Calculating based on Gross Sales instead of Net Sales (Pre-Tax).
+
+**Assessment Checklist**:
+Before moving forward, you should be able to:
+- [ ] Write robust formulas for multi-variable KPIs.
+- [ ] Use Named Ranges to make complex models readable.
+- [ ] Build a tool that separates "Inputs" from "Calculations".
 
 ---
 
@@ -1416,48 +1445,31 @@ Before moving forward, you should be able to:
 
 **Building Real F&B Dashboards**
 
-#### Dashboard Gallery (Build These):
+**Learning Objectives**:
+- Build role-specific dashboards tailored for Executives, Kitchen Staff, and Servers.
+- Integrate diverse data streams (Sales, Labor, Inventory) into cohesive operational views.
+- Design highly interactive interfaces that allow rapid filtering by time, location, or menu category.
 
-**1. Executive Dashboard**
-- **Audience**: Owner, GM
-- **Contents**:
-  - Revenue (today, WTD, MTD, YTD) with variance to prior
-  - Prime Cost % with target line
-  - Net Profit % trend (sparkline)
-  - Top 5 items sold
-  - Sales by channel (dine-in, takeout, delivery)
-  - Labor hours vs. budget
-- **Interactivity**: Date range selector
-- **Refresh**: Daily
+**Topics**:
 
-**2. Sales Analysis Dashboard**
-- **Audience**: Management, marketing
-- **Contents**:
-  - Sales trend (last 30 days)
-  - Sales by daypart (breakfast, lunch, dinner, late night)
-  - Sales by day of week (pattern identification)
-  - Top items (quantities & revenue)
-  - Category mix (food vs. beverage, appetizers vs. entrees)
-  - Server performance (sales per server)
-- **Interactivity**: Date range, server filter, category filter
-- **Refresh**: Daily or real-time
+**Week 1: Strategic & Sales Dashboards**:
+- **1. Executive Dashboard (Owner/GM)**:
+  - Revenue (WTD, MTD, YTD) vs Variance.
+  - Prime Cost % & Net Profit %.
+  - Top 5 items & Labor budget.
+- **2. Sales Analysis Dashboard (Mgmt)**:
+  - Trends (30-day, Day-part, Day-of-week).
+  - Product Mix (Food vs Bev).
+  - Server Performance logic.
 
-**3. Kitchen/Chef Dashboard**
-- **Audience**: Chef, kitchen management
-- **Contents**:
-  - Food Cost % (current vs. target)
-  - Waste $ and % (by category)
-  - Recipe profitability (contribution margin)
-  - Inventory turnover
-  - Variance: Theoretical vs. Actual usage
-  - Top waste items (action list)
-  - Menu engineering matrix (popularity vs. profitability)
-- **Interactivity**: Date range, category filter
-- **Refresh**: Weekly (after inventory count)
-
-**4. Labor Dashboard**
-- **Audience**: GM, scheduling manager
-- **Contents**:
+**Week 2: Operational Dashboards**:
+- **3. Kitchen/Chef Dashboard**:
+  - Food Cost % (Actual vs Target).
+  - Waste Tracking & Recipe Profitability.
+  - Inventory Turn & Menu Engineering Matrix.
+- **4. Labor Dashboard**:
+  - Labor % vs Budget.
+  - OT Warning & Sales per Labor Hour.
   - Labor Cost % (current vs. target)
   - Sales per Labor Hour
   - Scheduled vs. actual hours
@@ -1502,23 +1514,26 @@ Choose 2-3 dashboards from the gallery and build them completely.
 > - **💡 Ask AI**: "What KPIs should go on executive vs kitchen vs server dashboards?"
 > - **⚡ AI Generate**: "Generate realistic menu data with costs for 30 F&B items (burgers, pizza, salads, drinks)"
 > - **🤖 AI Review**: "Review my F&B dashboard layout: [describe all components]. What's missing?"
-> **🤖 AI Assistance**:
 > - **⚡ AI Generate**: "Create comprehensive F&B dashboard template with 5 key views (Executive, Sales, Kitchen, Labor, Customer)"
 > - **🤖 AI Review**: "Review my F&B dashboard structure for completeness"
 > - **💡 Ask AI**: "What interactive features are most valuable in F&B dashboards?"
 
-#### Resources
+**Resources**:
 
-- F&B dashboard templates (Tableau Public, Google Sheets gallery)
-- Restaurant analytics platforms examples and case studies
-- F&B-specific BI best practices articles
-- Industry benchmarking reports and white papers
-- Dashboard design for F&B operators guides
-- Real F&B analytics case studiestaurant analytics examples
-- F&B Business Processes guide
-- Dashboard design best practices
+**Resources**:
+- **Templates**:
+  - F&B dashboard templates (Tableau Public, Google Sheets)
+- **Case Studies**:
+  - Restaurant analytics platforms (Toast, Square)
+  - Real F&B analytics case studies
+- **Guides**:
+  - F&B-specific BI best practices
+  - Dashboard design for F&B operators
+  - F&B Business Processes guide
+- **Data**:
+  - Sample F&B data (Kaggle)
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **F&B Dashboard Mistakes**:
 - Generic dashboards not F&B-tailored
@@ -1532,7 +1547,7 @@ Choose 2-3 dashboards from the gallery and build them completely.
 - No user guidance
 - Missing benchmarks
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving forward, you should be able to:
 - [ ] Build complete F&B dashboard suites
@@ -1541,9 +1556,6 @@ Before moving forward, you should be able to:
 - [ ] Create operator-friendly interfaces
 - [ ] Apply F&B domain expertise
 - [ ] Deliver actionable insights
-**Resources**:
-- Sample F&B data: Kaggle, restaurant industry sites
-- POS system demo data (Toast, Square often provide)
 
 ---
 
@@ -1552,7 +1564,12 @@ Before moving forward, you should be able to:
 
 **Sophisticated Analysis in Spreadsheets**
 
-#### Techniques:
+**Learning Objectives**:
+- Construct advanced analytical models including Menu Engineering Matrices and Market Basket Analysis.
+- Implement predictive techniques like Sales Forecasting using moving averages and seasonality.
+- Perform Break-Even and What-If scenario analysis to guide financial decision-making.
+
+**Topics**:
 
 **1. Menu Engineering Matrix**
 - **Concept**: Classify items by popularity AND profitability
@@ -1606,25 +1623,26 @@ Before moving forward, you should be able to:
 4. Build a break-even calculator with scenario analysis
 
 > **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create formulas for menu engineering matrix (popularity vs profitability quadrants)"
-> - **💡 Ask AI**: "How do I calculate 7-day moving average for sales forecasting in spreadsheets?"
-> - **⚡ AI Generate**: "Write formula for sales forecast using historical average with seasonal adjustment"
-> - **💡 Ask AI**: "Explain market basket analysis for restaurants. How do I find item pairs that sell together?"
-> - **💡 Ask AI**: "Build break-even calculator: inputs (fixed costs, variable cost per customer, avg check), output (break-even covers)"
-
-> **🤖 AI Assistance**:
-> - **⚡ AI Generate**: "Create formula for simple moving average sales forecast in spreadsheets"
-> - **💡 Ask AI**: "How to implement ABC analysis for inventory in Google Sheets?"
+> - **⚡ AI Generate**: "Create formulas for menu engineering matrix (popularity vs profitability quadrants)" or "Create formula for simple moving average sales forecast in spreadsheets" or "Write formula for sales forecast using historical average with seasonal adjustment"
+> - **💡 Ask AI**: "How do I calculate 7-day moving average for sales forecasting in spreadsheets?" or "Explain market basket analysis for restaurants. How do I find item pairs that sell together?" or "Build break-even calculator: inputs (fixed costs, variable cost per customer, avg check), output (break-even covers)" or "How to implement ABC analysis for inventory in Google Sheets?"
 > - **🔍 AI Explain**: "Explain market basket analysis for menu optimization"
 
-#### Resources
+**Resources**:
 
-- Forecasting in spreadsheets tutorials
-- Market basket analysis guides
-- Advanced spreadsheet formulas
-- F&B analytics case studies
+**Resources**:
+- **Tutorials**:
+  - Forecasting in spreadsheets tutorials
+  - Excel forecasting tutorials
+- **Guides**:
+  - Market basket analysis guides
+  - Advanced spreadsheet formulas
+  - Menu engineering guides
+- **Case Studies**:
+  - F&B analytics case studies
+- **Books**:
+  - "Restaurant Financial Basics" by Raymond Goodman
 
-#### Common Pitfalls
+**Common Pitfalls**:
 
 ❌ **Advanced Analytics Mistakes**:
 - Over-complicating with unnecessary complexity
@@ -1638,7 +1656,7 @@ Before moving forward, you should be able to:
 - Results not actionable
 - Missing business context
 
-#### Assessment Checklist
+**Assessment Checklist**:
 
 Before moving to Capstone, you should be able to:
 - [ ] Implement sales forecasting in spreadsheets
@@ -1647,10 +1665,6 @@ Before moving to Capstone, you should be able to:
 - [ ] Apply predictive analytics to F&B
 - [ ] Communicate advanced insights simply
 - [ ] Validate analytical models
-**Resources**:
-- Menu engineering guides (restaurant consultants' blogs)
-- Excel forecasting tutorials
-- "Restaurant Financial Basics" by Raymond Goodman
 
 ---
 
@@ -1658,7 +1672,10 @@ Before moving to Capstone, you should be able to:
 
 ### The Ultimate Project: Complete F&B BI System in Spreadsheets
 
-**Goal**: Build a production-ready, beautifully working, easy-to-use BI dashboard system for an F&B business using ONLY spreadsheets (and minor automation tools if needed).
+**Learning Objectives**:
+- Architect a robust multi-file BI system (Data, Processing, Dashboard layers).
+- Synthesize 20+ KPIs into a cohesive, user-friendly visualization suite.
+- Deliver a portfolio-ready asset that answers real-world business questions.
 
 **Project Specifications**:
 
@@ -1843,26 +1860,24 @@ Before moving to Capstone, you should be able to:
 
 ## Additional Resources
 
-### Excel-Specific:
-- **Chandoo.org**: Excel dashboards and BI
-- **ExcelJet**: Quick reference
-- **Mr. Excel**: Forums and tips
-- **Power Pivot Pro**: Advanced Excel BI
-
-### Google Sheets-Specific:
-- **Ben Collins** (benlcollins.com): Sheets expert
-- **Sheets Help**: Official documentation
-- **Better Sheets**: Community and templates
-
-### General:
-- **r/excel** and **r/googlesheets**: Reddit communities
-- **YouTube**: Search "[Excel/Sheets] + [feature]" for video tutorials
-- **Template Galleries**: Pre-built dashboards to learn from
-
-### Books:
-- "Excel Dashboards and Reports" by Michael Alexander
-- "Dashboarding and Reporting with Power Pivot and Excel" by Kasper de Jonge
-- "Google Sheets for Marketers" by Nico Prins
+**Resources**:
+- **Communities**:
+  - **Reddit**: r/excel, r/googlesheets
+  - **YouTube**: ExcelIsFun, Learn Google Sheets
+- **Reference**:
+  - **ExcelJet**: Quick reference
+  - **Google Sheets Help**: Official documentation
+- **Books**:
+  - "Excel Dashboards and Reports" by Michael Alexander
+  - "Dashboarding and Reporting with Power Pivot and Excel" by Kasper de Jonge
+  - "Google Sheets for Marketers" by Nico Prins
+- **Templates**:
+  - **Better Sheets**: Community and templates (Google Sheets)
+- **Experts**:
+  - **Chandoo.org**: Excel dashboards
+  - **Ben Collins**: Google Sheets
+  - **Mr. Excel**: Forums
+  - **Power Pivot Pro**: Advanced BI
 
 ---
 
